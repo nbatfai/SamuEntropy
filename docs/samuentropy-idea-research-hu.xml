@@ -1,0 +1,27 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-hu">
+    <title>Kutatási terv</title>
+    <partintro>
+        <para>Ebben a részben kísérletet teszünk az <emphasis>Entrópia Samu</emphasis> kutatási tervének összeállítására.
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Bevezetés</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Bevezetés</title>
+            <para>
+                Több alkalommal tűnt már úgy, hogy elérhető a mesterséges intelligencia létrehozása, de a siker csak nem jött el. 
+                A jelenlegi várakozásokat a Google DeepMind eredményei hízlalták fel. Samu is részben ennek inspirálására és ebbe az irányba
+                tett törekvés, de lehet hasztalan. Ezért most nem is a Samus irányainkra koncentrálunk, hanem egy egészen más perspektívából
+                közelítünk a kérdéshez: megálmodunk egy olyan esport játékot, amelynek célja mesterségesen intelligens faj létrehozása, ahol
+                a faj egyelőre legyen csak egy intuitív megjelölés, jelentsen a későbbiekben bármit. 
+            </para>
+        </section>
+    </chapter>
+</part>    

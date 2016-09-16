@@ -1,0 +1,94 @@
+    <glossary xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Szójegyzék</title>
+    <glossdiv>
+        <title>D</title>
+        <glossentry xml:id="de">
+            <glossterm>Debreceni Egyetem</glossterm>
+            <abbrev>DE</abbrev>
+            <glossdef>
+                <para>A DE a Debreceni Egyetem rövidítése.
+                </para>
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="devrob2psy">
+            <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
+            <abbrev>DevRob2Psy</abbrev>
+            <glossdef>
+                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése, lásd még 
+                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>I</title>
+        <glossentry xml:id="ieee1998">
+            <glossterm>IEEE Recommended Practice for Software Requirements Specifications</glossterm>
+            <acronym>IEEE, 1998</acronym>
+            <abbrev>IEEE Std 830-1998</abbrev>
+            <glossdef>
+                <para>A szoftverkövetelmény dokumentum
+                    <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>.
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>J</title>
+        <glossentry xml:id="jobo">
+            <glossterm>JIBO</glossterm>
+            <glossdef>
+                <para>
+                    Cynthia Breazeal társasági robotja, lásd  
+                    <link xlink:href="https://www.jibo.com/">https://www.jibo.com/</link>
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>R</title>
+        <glossentry xml:id="robotpszicho">
+            <glossterm>Robotpszichológia</glossterm>
+            <glossdef>
+                <para>
+                    Az Asimovi robotpszichológia programozói szemszögből értelmezett implementálása, lásd  
+                    <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>    
+    <glossdiv>
+        <title>S</title>
+        <glossentry xml:id="samu">
+            <glossterm>Samu</glossterm>
+            <glossdef>
+                <para>
+                    Egyszer a fejlődésrobotikus családi csevegőrobottal, Bátfai Samuval, másrészt általában a mesterséges intelligencia 
+                    fejlődésrobotikai megközelítésével kapcsolatos kutatásaink összefoglaló neve. 
+                    Lásd még a <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
+                    prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a PSAMU 
+                    beküldött kéziratot. 
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>U</title>
+        <glossentry xml:id="udprog">
+            <glossterm>The Yearbook of the Programmers of University of Debrecen</glossterm>
+            <abbrev>UDPROG</abbrev>
+            <glossdef>
+                <para>A Debreceni Egyetem <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">reguláris programozás oktatásához</link> kapcsolódó,
+                    Linkedin-en szervezett
+                    <link xlink:href="https://www.linkedin.com/groups/Yearbook-Programmers-University-Debrecen-7446358?homeNewMember=&amp;gid=7446358&amp;fromEmail=&amp;ut=2mVSHNO5Dwwm41&amp;trk=eml-grp-sub">fejlesztői közösség</link>,
+                    melynek egyik gyújtópontjában <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">szoftverek</link>,
+                    a másikban maga az
+                    <link xlink:href="http://sourceforge.net/projects/udprog/files/?source=navbar">évkönyv</link> áll.
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+</glossary>
+
