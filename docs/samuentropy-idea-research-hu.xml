@@ -5,6 +5,13 @@
     <partintro>
         <para>Ebben a részben kísérletet teszünk az <emphasis>Entrópia Samu</emphasis> kutatási tervének összeállítására.
         </para>
+        <para>
+            Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet ebben a kutatásunkban még tovább próbálunk fokozni azzal, 
+            hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
+            Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
+            feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, lásd: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+        </para>
+            
     </partintro>
     <chapter>
         <info>
@@ -23,5 +30,86 @@
                 a faj egyelőre legyen csak egy intuitív megjelölés, jelentsen a későbbiekben bármit. 
             </para>
         </section>
+        <section>
+            <title>Entrópia Samu</title>
+            <para>
+                Ebben a pontban tehát meg kell álmodunk egy játékot! Ezt egy eldobható gyors prototípus formájában tesszük meg, hogy 
+                szerezzünk némi tapasztalatot. 
+            </para>
+            <para>
+                Hol játszódik a játék? A Földön. Mikor? Napjainkban.
+            </para>
+            <section>
+                <title>A család</title>
+                <para>
+                    A játék szervezésének alapja a család. Család alatt azt a közösséget értjük, amely gondoz egy Samu ágenst. Család (pontosabban
+                    a fejlesztendő játékbeli családot fenntartó) lehet egy
+                    a szó soros értelmében vett család, egy baráti társaság vagy egy egyetemi kurzus közössége, de akár egyetlen humán játékos is.   
+                </para>
+                <para>
+                    Architektúrális értelemben a családot az agynak (az ágens agyának) tekinthetjük (ami például egy PC-n vagy laptopon futó program) 
+                    amelyhez érzékelő és mozgató részek csatlakozhatnak (melyekre mint mobilos érzékszervekre vagy izmokra gondolhatunk). 
+                </para>
+                <para>
+                    Funkcionális értelemben az agy végzi a számításigényesebb tevékenységeket, még a tipikusan mobil eszközön futó programok az érzékelést
+                    és a mozgatást végzik. Konkrétan egy humán játékos mobil kamerája lehet az agy szeme, GPS helymeghatározása egy újabb érzékszerve. Samu mozgása
+                    pedig azon keresztül valósul meg, hogy a mobil tulajdonosa viszi a mobilt. Gondoljunk arra, hogy ha az agy kíváncs, mi történik valahol, akkor a 
+                    játékos a mobilja GPS-ének segítségével odamegy és kamerájával fotót készít a helyszínről, lásd majd a Matyi, a vadász használati esetet.  
+                </para>
+                
+            </section>            
+            <section>
+                <title>Használati esetek</title>
+                <para>
+                </para>
+                <section>
+                    <title>Samu, az ágens</title>
+                    <para>
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta, az építő</title>
+                    <para>
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi, a tanító</title>
+                    <para>
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi, a vadász</title>
+                    <para>
+                        geocaching<indexterm>
+                            <primary>geocaching</primary>
+                        </indexterm>
+                    </para>
+                </section>
+            </section>
+        </section>
+        <section>
+            <title>Oktatási és kutatási terv</title>
+            <para>                
+            </para>
+            <section>
+                <title>Gyors prototípusozás</title>
+                <para>
+                
+                </para>
+            </section>                    
+            <section>
+                <title>Szakfordítói jellegű feladatok</title>
+                <para>
+                
+                </para>
+            </section>                    
+        </section>        
+        <section>
+            <title>Köszönetnyilvánítás</title>
+            <para>
+                Köszönöm gyermekeimnek Bátfai Mátyás Bendegúznak, Bátfai Nándor Benjáminnak és Bátfai Margaréta Niobénak 
+                a remek agyviharokért amelyből kialakult Entrópia Samu koncepciója.
+            </para>
+        </section>        
     </chapter>
 </part>    

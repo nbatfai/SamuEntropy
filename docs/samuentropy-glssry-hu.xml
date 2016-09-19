@@ -16,9 +16,12 @@
             <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
-                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése, lásd még 
-                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
+                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése, a csoport a  
+                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link> címen található.
+                    Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
+                    Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is.
                 </para>
+                <glossseealso otherterm="udprog">UDPROG</glossseealso> 
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -30,14 +33,15 @@
             <abbrev>IEEE Std 830-1998</abbrev>
             <glossdef>
                 <para>A szoftverkövetelmény dokumentum
-                    <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>.
+                    <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>. Entrópia Samu szoftverkövetelmény
+                    doksiját ennek a szabványnak megfelelően készítjük majd el.
                 </para>
             </glossdef>
         </glossentry>
     </glossdiv>
     <glossdiv>
         <title>J</title>
-        <glossentry xml:id="jobo">
+        <glossentry xml:id="jibo">
             <glossterm>JIBO</glossterm>
             <glossdef>
                 <para>
@@ -53,7 +57,7 @@
             <glossterm>Robotpszichológia</glossterm>
             <glossdef>
                 <para>
-                    Az Asimovi robotpszichológia programozói szemszögből értelmezett implementálása, lásd  
+                    Az <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimovi robotpszichológia</link> programozói szemszögből értelmezett implementálása, lásd  
                     <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
                 </para>
             </glossdef>

@@ -7,7 +7,7 @@
             (például esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem, és informatika) jellegét.
             Majd az 5letet két irányban bontjuk ki, egy várhatóban, amelyre mindenki természetesen gondolna, illetve egy kevésbé
             magától értetődőben, ahol már nem (csak) a játék a fejlesztendő esport célja, hanem a mesterséges intelligencia kutatás
-            sodorvonalába való bekapcsolódás, ahol az esport már nem csupán MI-t használ, hanem megpróbálja megteremteni annak egy 
+            sodorvonalába való bekapcsolódás, ahol az esport már nem csupán használja az MI-t, hanem megpróbálja megteremteni annak egy 
             új minőségét. 
         </para>
     </partintro>
@@ -33,7 +33,11 @@
             <section>
                 <title>Az 5let felvetése</title>
                 <para>
-                    Az 5let munkacíme ez volt: &#x201E;<emphasis>Aki mer, az nyer</emphasis>&#x201D; e-Budapest 2024, alcíme: 
+                    Az 5let munkacíme ez volt: &#x201E;<emphasis>Aki mer, az nyer</emphasis>&#x201D; e-Budapest 
+                    2024<indexterm>
+                        <primary>e-Budapest 2024</primary>
+                        <see>Budapest 2024</see>
+                    </indexterm>, alcíme: 
                     <emphasis>esport kutatási projekt javaslat, avagy &#x201E;az esport napjaink sakk-tömegsportja&#x201D;?</emphasis>
                 </para>
                 
@@ -65,7 +69,9 @@
                             </footnote>) 
                             játék megvizsgálása, hogy alkalmasak lennének-e egy ráépülő “mozgalom” és esport viadal kialakításához és fenntartásához. A további részcélokat már egy konkrét ilyen példa mentén vesszük sorra, ennek megfelelően előzetesen essen a választásunk 
                             a 0 A. D.<footnote>
-                                <para>A 0 A. D. egy nyílt forráskódú, valós idejű stratégiai játék, 
+                                <para>A 0 A. D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> egy nyílt forráskódú, valós idejű stratégiai játék, 
                                     <link xlink:href="https://play0ad.com/">https://play0ad.com/</link>, 
                                     <link xlink:href="https://github.com/0ad/0ad/">https://github.com/0ad/0ad/</link>.</para>
                             </footnote> nyílt forráskódú, korhű történelmi RTS játékra. 
@@ -95,18 +101,20 @@
                     </section>
                     <section>
                         <title>Promóció és közösségépítés</title>
-                        <para>Adott esetben a bevezetendő torna kapcsán legígéretesebb játék lehetne a Budapest 2024 egy 
+                        <para>Adott esetben a bevezetendő torna kapcsán legígéretesebb játék lehetne a Budapest 2024<indexterm>
+                        <primary>Budapest 2024</primary>
+                    </indexterm> egy 
                                 &#x201E;nem hivatalos&#x201D;<footnote>
                                 <para>A nem hivatalos titulus azt szeretné érzékeltetni, hogy a bevezetendő játék még nem lenne olimpiai sport :), de
                                     nyilván egy lehetséges lépés lenne ebbe az irányba. Azt mindenesetre megjegyezhetjük, hogy az esportnak
                                     olimpiai sportként való elfogadtatásával – Rió kapcsán például – napi szinten olvashatunk híreket (lásd például a
-                                    “League of Legends” játékot).</para>
+                                    “League of Legends”<indexterm><primary>League of Legends</primary></indexterm> játékot).</para>
                             </footnote> játéka is.
                         </para>
                     </section>
                     <section>
                         <title>Mesterséges intelligencia</title>
-                        <para>Az aktuális Google DeepMind Ataris<footnote>
+                        <para>Az aktuális Google DeepMind<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> Ataris<footnote>
                                 <para>
                                     <link xlink:href="https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf">https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf</link>
                                 </para>
@@ -123,7 +131,9 @@
             <section>
                 <title>Egy várható megvalósítás</title>
                 <para>
-                    A bevezetésben használt 0 A. D. játékra vagy hasonlóra épített vertikális kutatási irány egy várható (sztenderd) megvalósítási irány, amelyben jó eséllyel valóra tudnánk váltani az említett esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem és informatikai célokat, de – vagy éppen ezért – a következő tárgyalásban egy másik, egy kevésbé előre megjósolható és még ambiciózusabb megoldási irányt vázolunk fel.
+                    A bevezetésben használt 0 A. D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> játékra vagy hasonlóra épített vertikális kutatási irány egy várható (sztenderd) megvalósítási irány, amelyben jó eséllyel valóra tudnánk váltani az említett esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem és informatikai célokat, de – vagy éppen ezért – a következő tárgyalásban egy másik, egy kevésbé előre megjósolható ám még ambiciózusabb megoldási irányt vázolunk fel.
                 </para>
             </section>
 
@@ -136,10 +146,11 @@
                 <title>Egy váratlan megvalósítás</title>
                 <para>
                     A játékfejlesztés (és általában a szoftverfejlesztés) Szent Grálja a &#x201E;Killer App&#x201D;<footnote>
-                        <para>A &#x201E;killer app&#x201D; fogalom érzékeltetésére például a Doom az volt a PC-s játékok világában 
+                        <para>A &#x201E;killer app&#x201D;<indexterm><primary>Killer app</primary></indexterm> fogalom érzékeltetésére például a 
+                        Doom<indexterm><primary>Doom</primary></indexterm> az volt a PC-s játékok világában 
                             vagy jóideje a Facebook az a közösségi portáloknál.</para>
                     </footnote>-ok keresése. Ezeknek az app-oknak a ritkaság az alaptermészete, 
-                    killer app-ot csinálni várható megvalósítással lehetetlen. Persze közel ugyanez egy nem várható megvalósítási irányra is igaz lenne, mert a killer app-okat nem csinálják, hanem egy adott app válhat azzá, HA.
+                    killer app-ot<indexterm><primary>Killer app</primary></indexterm> csinálni várható megvalósítással lehetetlen. Persze közel ugyanez egy nem várható megvalósítási irányra is igaz lenne, mert a killer app-okat nem csinálják, hanem egy adott app válhat azzá, HA.
                 </para>
                 <para>
                     Ez esetben viszont – legalábbis a kutatásban – bátran megpróbálhatjuk &#x201E;megváltani a világot&#x201D;. Ehhez először nézzük meg, hogy miért szeretünk játszani, majd azt, hogy egy fejlődésrobotikai esport játékkal ki tudnánk-e fejleszteni mesterséges intelligenciát? Tehát itt már nem a gépi játékos vezérlését vagy a játékmenet vezérlését értjük mesterséges intelligencia alatt, hanem egy intelligens új életforma megteremtését, ez persze most egy teljesen intuitív cél, tehát a teremtendő létforma jelentsen most még bármit.                              </para>
@@ -155,19 +166,25 @@
                     </para>
                     <para>
                         Ezt a tézist szubjektív élményeimmel és a gyermekeimmel történt beszélgetések alapján tudom csupán megerősíteni, 
-                        vagy még inkább csak illusztrálni. Például a 0 A.D. adta üres világot mindinkább megszervezni 
+                        vagy még inkább csak illusztrálni. Például a 0 A. D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> adta üres világot mindinkább megszervezni 
                         (beépíteni) személyes tapasztalatom szerint ez egy nagyon jó játékélményt adó elfoglaltság.
                         Ennek egy pillanatfelvételét látjuk a következő ábrán. 
                     </para>                            
                     <figure>
-                        <title>Pillanatkép a 0 A.D. játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.</title>
+                        <title>Pillanatkép a 0 A .D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.</title>
                         <mediaobject>
                             <imageobject>
                                 <imagedata fileref="img/0adchina.png" scale="55"/>
                             </imageobject>
                             <textobject>
                                 <phrase>
-                                    Pillanatkép a 0 A.D. játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.
+                                    Pillanatkép a 0 A.D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.
                                 </phrase>
                             </textobject>
                         </mediaobject>
@@ -183,7 +200,9 @@
                     <para>                                    
                         Sőt gyermekeimnél volt olyan életkor, amikor csatázni nem is, csak építeni (a növekvő Town Hall szint adta
                         új építményeket elhelyezni és a játékbeli szereplőket &#x201E;kimaxolni&#x201E; akartak. Ebben az időben 
-                        éppen ezt az élményt adta a <trademark class="registered">Minecraft</trademark> játék<footnote>
+                        éppen ezt az élményt adta a <trademark class="registered">Minecraft</trademark><indexterm>
+                                        <primary>Minecraft</primary>
+                                    </indexterm> játék<footnote>
                             <para>
                                 <link xlink:href="https://minecraft.net/">https://minecraft.net/</link>
                             </para>
@@ -193,13 +212,17 @@
                     </para>
                     <para>                                                
                         További látványos példaként említjük a szervezettség növelésére 
-                        a <trademark class="registered">Clash of Clans</trademark> című játékot<footnote>
+                        a <trademark class="registered">Clash of Clans</trademark><indexterm>
+                                        <primary>Clash of Clans</primary>
+                                    </indexterm> című játékot<footnote>
                             <para>
                                 <link xlink:href="http://supercell.com/en/games/clashofclans/">http://supercell.com/en/games/clashofclans/</link>
                             </para>
                         </footnote>, ahol a játékélmény hasonló. 
                         S ha a kedves olvasó játssza is esetleg ezt a játékot, akkor maga is megnézheti 
-                        (rákeresve például a &#x201E;Bátfai clan&#x201E; nevű klánra) hogy  
+                        (rákeresve például a &#x201E;Bátfai clan&#x201D;<indexterm><primary>Clash of Clans</primary>
+                        <secondary>Bátfai clan</secondary>
+                        </indexterm> nevű klánra) hogy  
                         a &#x201E;th&#x201D;-k<footnote>
                             <para>Ez a Town Hall szintjének rövidítése.</para>
                         </footnote> változása jól mutatja a játék világa falvainak növekvő komplexitását, 
@@ -279,10 +302,18 @@
                             <para>                                                                                
                                 Ha a játékban a Samu látó (halló) megvalósítása használna több rejtett réteges neurális architektúrát, 
                                 akkor arra egy vizuális nyelv<footnote>
-                                    <para>Gondolatébresztőnek lásd páldául a korábbi LEGO Mindstorms-hoz az MIT média laborja által fejlesztett nyelvet, Fred G. Martin, The Art of LEGO Design, The Robotics Practitioner: The Journal for Robot Builders, 1(2), 1995. http://www.kipr.org/sites/default/files/artoflego.pdf.</para>
+                                    <para>Gondolatébresztőnek lásd páldául a korábbi 
+                                        <productname class="trade">LEGO</productname> <trademark class="registered">Mindstorms</trademark>-hoz<indexterm><primary>LEGO</primary><secondary>Mindstorms</secondary></indexterm> az 
+                                        MIT média laborja<indexterm><primary>MIT</primary><secondary>média labor</secondary></indexterm>
+                                        által fejlesztett nyelvet, Fred G. Martin, The Art of LEGO Design, The Robotics Practitioner: The Journal for Robot Builders, 1(2), 1995. http://www.kipr.org/sites/default/files/artoflego.pdf.</para>
                                 </footnote>
-                                megadható, amellyel a játékosok hangolhatják az architektúrát. Ha például ez a neurális architektúra megvalósítás a Google DeepMind 
-                                TensorFlow<footnote>
+                                megadható, amellyel a játékosok hangolhatják az architektúrát. Ha például ez a neurális architektúra megvalósítás a Google DeepMind<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> 
+                                TensorFlow<indexterm>
+                                    <primary>DeepMind</primary>
+                                    <secondary>TensorFlow</secondary>
+                                    <see>Google</see>
+                                </indexterm>
+                                <footnote>
                                     <para>
                                         <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link>
                                     </para>
@@ -312,7 +343,9 @@
             <section>
                 <title>Összefoglalás</title>
                 <para>
-                    Kiindulásul az aktuális Budapest 2024 sportdiplomáciai erőfeszítésekre is hajazva vázoltunk egy esport kutatási tervet, amelyet alap- és alkalmazott kutatási irányokba álmodtunk tovább. Miközben az alapkutatási irányban egy hard-core mesterséges intelligencia kutatási fókuszt is helyeztünk.  
+                    Kiindulásul az aktuális Budapest 2024<indexterm>
+                        <primary>Budapest 2024</primary>
+                    </indexterm> sportdiplomáciai erőfeszítésekre is hajazva vázoltunk egy esport kutatási tervet, amelyet alap- és alkalmazott kutatási irányokba álmodtunk tovább. Miközben az alapkutatási irányban egy hard-core mesterséges intelligencia kutatási fókuszt is helyeztünk.  
                 </para>
                 <para>
                     Ha sikerül forrásokat találni a kutatáshoz, akkor mindkét, a &#x201E;várható&#x201D; és a &#x201E;váratlan&#x201D; 
