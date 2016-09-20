@@ -58,9 +58,11 @@
                 </para>
                 
             </section>            
-            <section>
+            <section xml:id="usecases">
                 <title>Főbb használati esetek</title>
                 <para>
+                    A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki, majd a
+                    <link xlink:href="#rapidprotos">Gyors prototípusozás</link> c. pontban vezetünk be konkrét játékokat.
                 </para>
                 <section>
                     <title>Samu, az ágens</title>
@@ -85,23 +87,63 @@
                     <title>Matyi, a vadász</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek az érzékelést és a mozgást valósítják meg (adott esetben például 
-geocaching<indexterm>
+                        geocaching<indexterm>
                             <primary>geocaching</primary>
                         </indexterm>
                         jelleggel).                         
                     </para>
                 </section>
+                <section>
+                    <title>Erika, a harcos</title>
+                    <para>
+                        Ebbe a csokorba olyan programok tartoznak majd, amelyek aspirálnak esportként is üzemelni. 
+                    </para>
+                    <tip>
+                        <title>Milyen a jó <emphasis>Erika, a harcos</emphasis> program?</title> 
+                        <para>
+                            Intuitívan gondolj arra, hogy úgy lehessen kivetítve játszani egy nagy arénában, mint egy nagy box gála fő mérkőzését. Tehát nem egy tipikus kvíz játékra gondolunk itt...
+                        </para>
+                    </tip>
+                </section>
+                
             </section>
         </section>
         <section>
             <title>Oktatási és kutatási terv</title>
             <para>                
+                Az UDPROG közösségben is kidolgozható feladatok.
             </para>
-            <section>
+            <section xml:id="rapidprotos">
                 <title>Gyors prototípusozás</title>
                 <para>
-                
+                    5letek és megvalósítások kerülnek ide. Fontos, hogy megfeleljenek a 
+                    <link xlink:href="#usecases">Főbb használati esetek</link> c. pont Gréta, Nándi, Matyi, Erika bontásának.
                 </para>
+                <section xml:id="album">
+                    <title>Album</title>
+                    <para>
+                    </para>
+                    <section>
+                        <title>Samu</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                        </para>
+                    </section>
+                </section>
             </section>                    
             <section>
                 <title>Szakfordítói jellegű feladatok</title>
