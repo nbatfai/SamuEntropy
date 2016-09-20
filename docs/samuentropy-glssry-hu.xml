@@ -16,12 +16,42 @@
             <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
-                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése, a csoport a  
-                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link> címen található.
+                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
                     Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
-                    Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is.
+                    Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is: 
+                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
+            </glossdef>
+        </glossentry>
+    </glossdiv>    
+    <glossdiv>
+        <title>E</title>
+        <glossentry xml:id="esamu">
+            <glossterm>Entrópia Samu</glossterm>
+            <abbrev>ESAMU</abbrev>
+            <glossdef>
+                <para>
+                    Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
+                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
+                    Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
+                    feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+                </para>    
+                <glossseealso otherterm="samu">Samu</glossseealso> 
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>F</title>
+        <glossentry xml:id="devrob">
+            <glossterm>Fejlődésrobotika</glossterm>
+            <abbrev>DevRob</abbrev>
+            <glossdef>
+                <para>
+                    Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. Alaptézise, hogy a robot testtel
+                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
+                </para>    
+                <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -75,6 +105,7 @@
                     prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a PSAMU 
                     beküldött kéziratot. 
                 </para>
+                <glossseealso otherterm="esamu">ESAMU</glossseealso>                 
             </glossdef>
         </glossentry>
     </glossdiv>

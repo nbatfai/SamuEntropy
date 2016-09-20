@@ -59,30 +59,36 @@
                 
             </section>            
             <section>
-                <title>Használati esetek</title>
+                <title>Főbb használati esetek</title>
                 <para>
                 </para>
                 <section>
                     <title>Samu, az ágens</title>
                     <para>
+                        Ebbe a csokorba olyan programok tartoznak majd, amelyek gépi tanulásos algoritmusok megvalósításai.
                     </para>
                 </section>
                 <section>
                     <title>Gréta, az építő</title>
                     <para>
+                        Ebbe a csokorba olyan programok tartoznak majd, amelyek vizuális interfészt adnak a Samu az ágens pont programjaihoz. 
+                        Fontos, hogy ezeknek a programoknak a rendezettség növelése játékélményt kell adniuk.
                     </para>
                 </section>
                 <section>
                     <title>Nándi, a tanító</title>
                     <para>
+                        Ebbe a csokorba olyan programok tartoznak majd, amelyek felügyelt tanulást biztosítanak.
                     </para>
                 </section>
                 <section>
                     <title>Matyi, a vadász</title>
                     <para>
-                        geocaching<indexterm>
+                        Ebbe a csokorba olyan programok tartoznak majd, amelyek az érzékelést és a mozgást valósítják meg (adott esetben például 
+geocaching<indexterm>
                             <primary>geocaching</primary>
                         </indexterm>
+                        jelleggel).                         
                     </para>
                 </section>
             </section>
