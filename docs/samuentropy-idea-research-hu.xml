@@ -11,6 +11,10 @@
             Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
             feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, lásd: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
         </para>
+        <para>Ennek a résznek a feladata a fejlesztendő esport játék kiválasztása, majd annak <indexterm>
+                <primary>SRS</primary>
+            </indexterm>SRS doksija készítésének támogatása.
+        </para>
             
     </partintro>
     <chapter>
@@ -119,7 +123,14 @@
         <section>
             <title>Oktatási és kutatási terv</title>
             <para>                
-                Ezeken a feladatokon egyaránt dolgoznak oktatók és hallgatók. Az aktuális hallgatóknak érdekes, hogy ezek az UDPROG közösségben is kidolgozható feladatok,
+                Ezeken a feladatokon egyaránt dolgoznak oktatók és hallgatók. Az aktuális hallgatóknak érdekes, hogy ezek az <indexterm>
+                    <primary>UDPROG</primary>
+                </indexterm> UDPROG 
+                (<indexterm>
+                    <primary>DevRob2Psy</primary>
+                </indexterm>DevRob2Psy, <indexterm>
+                    <primary>UDRFT</primary>
+                </indexterm> UDRFT) közösségben is kidolgozható feladatok,
                 ilyen értelemben tekinthetjük ezeket felhasználhatónak az oktatásban. 
             </para>            
             <para>                
@@ -132,7 +143,7 @@
                         <para>A forkodban készítsd el a megoldásodat!</para>
                     </listitem>                
                     <listitem>
-                        <para>Küldj egy pull request-et! (az aktív UDPROG hallgatóknak a feladat pontértékének fele plusszban elszámolható, ha a pull request merge-lésre kerül, ez nyilván egy
+                        <para>Küldj egy pull request-et! (az aktív UDPROG hallgatóknak a feladat pontértékének fele plusszban elszámolható, ha a pull request merge-ölésre kerül, ez nyilván egy
                             szubjektív döntés eredménye, ezért tekintsük egyfajta bónusznak :)</para>
                     </listitem>                
                 </orderedlist>          
@@ -142,7 +153,7 @@
                 <para>
                     5letek és megvalósítások kerülnek ide. Fontos, hogy megfeleljenek a 
                     <link xlink:href="#usecases">Főbb használati esetek</link> c. pont Gréta, Nándi, Matyi, Erika bontásának.
-                    Ez egy brain storming jellegű pontnál, de annyiban több, hogy olyan konkrét játék 5leteket kell vázolni, amelyekre
+                    Ez egy brain storming jellegű pont, de annyiban több, hogy olyan konkrét játék 5leteket kell vázolni, amelyekre
                     egy gyors protót meg is tudunk valóban gyors protóként valósítani és ezen megvizsgálni a 
                     <indexterm>
                         <primary>játékélmény</primary>
@@ -152,22 +163,22 @@
                 <para>
                     A konkrét jétékoknál az agyviharban felmerülő fícsöröket érdekes külön is kiemelni, hátha azok egy másik játékba is bevezethetőek. 
                 </para>       
-                        <tip>
-                            <title>Meta-fícsör: egy agy mind felett</title>
-                            <para>
-                                Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk ki innen megvalósításra (SRS doksi elkészítése stb.) 
-                                hanem ha jól funkcionál a <link xlink:href="#usecases">Főbb használati esetek</link> c. pont alatti 
-                                Gréta, Nándi, Matyi, Erika archetikus bontásunk, akkor az agy eseti cseréjével a játékosok váltogathatnák, hogy éppen melyik játékban
-                                vesznek részt. 
-                            </para>
-                        </tip>                          
+                <tip>
+                    <title>Meta-fícsör: egy agy mind felett</title>
+                    <para>
+                        Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk majd ki innen megvalósításra (SRS doksi elkészítése stb.) 
+                        hanem ha jól funkcionál a <link xlink:href="#usecases">Főbb használati esetek</link> c. pont alatti 
+                        Gréta, Nándi, Matyi, Erika archetikus bontásunk, akkor az agy eseti cseréjével a játékosok váltogathatnák, hogy éppen melyik játékban
+                        vesznek részt. 
+                    </para>
+                </tip>                          
                 <section xml:id="album">
                     <title>Samu Family Album</title>
                     <para>
                         Ennek a konkrét játéknak a lényege az arcfelismerés.
                     </para>
                     <para>
-                        Minden családhoz tartozó humán játékosok fotókat készítenek magukól.
+                        Minden családhoz tartozó humán játékosok fotókat (arckép) készítenek magukól, más családok tagjairól, esetleg a játékban nem résztvevőkről is.
                     </para>
                     <section>
                         <title>Samu</title>
@@ -176,7 +187,7 @@
                                 <primary>DeepMind</primary>
                                 <secondary>TensorFlow</secondary>
                                 <see>Google</see>
-                            </indexterm> TensorFlow-t. 
+                            </indexterm> Google TensorFlow csomagját. Ez tipikusan PC-s app lenne ma.
                         </para>
                     </section>
                     <section>
@@ -186,7 +197,7 @@
                             <indexterm>
                                 <primary>játékélmény</primary>
                             </indexterm>
-                            játékélményt adni képes vizuális interfész biztosítása.
+                            játékélményt adni képes vizuális interfész biztosítása (Android és PC-s app-ok is).
                         </para>
                     </section>
                     <section>
@@ -194,27 +205,51 @@
                         <para>
                             A fejlesztendő program feladata az arcokhoz kapcsolt adatok (például kié az arc, milyen érzést fejez ki stb.) felügyelt tanítása.
                         </para>
+                        <para>
+                            Ha a &#x201E;Matyi&#x201D; funkcióban a játékos fotót is készít a vadászat során, akkor a humán &#x201E;Nándi tanító&#x201D;
+                            tanítja meg arra az agyat, hogy valódi-e a lefotózott játékos profilja.
+                        </para>
                     </section>
                     <section>
                         <title>Matyi</title>
                         <para>
-                            A fejlesztendő program feladata az arcképek és a kapcsolható adatok felvétele. Például a szerver jelez, hogy a közelben
+                            A fejlesztendő program feladata az arcképek és a kapcsolható adatok felvétele. Például a szerver jelez, hogy a közelben (
+                                                        <indexterm>
+                                <primary>OpenStreetMap</primary>
+                            </indexterm>OpenStreetMap és vagy 
+                                                        <indexterm>
+                                <primary>Google Maps</primary>
+                            </indexterm>Google Maps megjelenítés)
                             egy regisztrált játékos, vagy Bluetooth-on keresztül elérhető (vagy más, szoftverek kívüli szervező jelet vesz észre a játékos, mondjuk 
                             bar- vagy QR kódos karkötő, kitűző esetleg NFC matrica stb.) akkor arcot és kísérő adatokat cserélnek.                            
                         </para>
                         <tip>
                             <title>Fícsör: bitek gyűjtése</title>
                             <para>
-                                A játékost a találkozásokra az sarkallja, hogy ezekért biteket kap! Általában is próbáljuk a játékonbelüli fizetőeszközt, összemérési
-                                alapot információban, azaz bitekben megfogalmazni.
+                                A játékost a találkozásokra az sarkallja, hogy ezekért biteket kap! Általában is próbáljuk a játékon belüli fizetőeszközt, összemérési
+                                alapot, jóságot stb. információban, azaz bitekben megfogalmazni.
                             </para>
                             <para>                                
                                 Például a vadász a találkozásokról relatív gyakoriságot vezet (X-el x<subscript>1</subscript>-szer, 
-                                Y-nal y<subscript>1</subscript>-szer, stb. addig ismeretlennel pedig ennyiszer találkoztam), ez alapján a következő 
-                                találkozáskor a játékosok annyi bitet kapnak, amennyi a kivel találkoztam entrópiája (amit esetleg csak akkor kap meg,
+                                Y-nal y<subscript>1</subscript>-szer, stb. addig ismeretlennel pedig ennyiszer találkoztam) ez alapján a következő 
+                                találkozáskor a játékosok annyi bitet kapnak, amennyi a &#x201E;kivel találkoztam&#x201D; entrópiája (amit esetleg csak akkor kap meg,
                                 ha prediktált és eltalálta stb).                                
                             </para>
                         </tip>                            
+                        <para>
+                            Fontos, hogy lehetőleg csak arcképeket fotózzunk, ezért az
+                            arc fotózós Android app-ban próbáljuk ki az 
+                            <indexterm>
+                                <primary>Android Mobile Vision API</primary>
+                            </indexterm>
+                            <link xlink:href="https://github.com/googlesamples/android-vision">Android Mobile Vision API</link>-t. A PC-s app-ban kiindulhatunk a 
+                            <link xlink:href="https://github.com/nbatfai/SamuCam">SamuCam</link>-ban használt kódból (itt
+                            webkamera van vagy a teló csak egy IP webcam funkcióban és 
+                            <indexterm>
+                                <primary>OpenCV</primary>
+                            </indexterm>
+                            OpenCV-t használtunk). 
+                        </para>                        
                     </section>
                     <section>
                         <title>Erika</title>
@@ -229,18 +264,155 @@
                         </para>
                     </section>
                 </section>
+
+                <section xml:id="oocwc-fight">
+                    <title>Samu OOCWC Fight</title>
+                    <para>
+                        Ennek a konkrét játéknak a lényege az OOCW<footnote>
+                            <para>Az eddigi kiadások a  
+                                <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
+                                <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
+                        </footnote> RTS kiadása.
+                    </para>
+                    <para>
+                    </para>
+                    <section>
+                        <title>Samu</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Erika</title>
+                        <para>
+                        </para>
+                    </section>
+                </section>
+                                                                
+                <section xml:id="devrobvision">
+                    <title>Samu DevRob Vision</title>
+                    <para>
+                        Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
+                    </para>
+                    <para>
+                    </para>
+                    <section>
+                        <title>Samu</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Erika</title>
+                        <para>
+                        </para>
+                    </section>
+                </section>
+                
+                
+                <section xml:id="customrts">
+                    <title>Samu Custom RTS</title>
+                    <para>
+                        Ennek a konkrét játéknak a lényege az, hogy a 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
+                    </para>
+                    <para>
+                    </para>
+                    <section>
+                        <title>Samu</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Erika</title>
+                        <para>
+                        </para>
+                    </section>
+                </section>
+
             </section>                    
             <section>
                 <title>Szakfordítói jellegű feladatok</title>
                 <para>
                 
                 </para>
+                <orderedlist numeration="lowerroman">
+                    <listitem>
+                        <para>Ennek a doksinak az angol fordítása.</para>
+                    </listitem>                
+                    <listitem>
+                        <para>...</para>
+                    </listitem>                
+                </orderedlist>            
             </section> 
             <section>
                 <title>Licencmérnökség jellegű feladatok</title>
                 <para>
                 
                 </para>
+                <orderedlist numeration="lowerroman">
+                    <listitem>
+                        <para>A <link xlink:href="#album">Samu Family Album</link> Tensor Flow felhasználásának elemzése, különös tekintettel a 
+                        &#x201E;Gréta&#x201D; szerepre.</para>
+                    </listitem>                
+                    <listitem>
+                        <para>A <link xlink:href="#album">Samu Family Album</link>  
+                        &#x201E;Matyi&#x201D; szerepének <indexterm>
+                                <primary>OpenStreetMap</primary>
+                            </indexterm> OpenStreetMap felhasználása.</para>
+                    </listitem>                
+                    <listitem>
+                        <para>A <link xlink:href="#album">Samu Family Album</link>  
+                        &#x201E;Matyi&#x201D; szerepének <indexterm>
+                                <primary>Google Maps</primary>
+                            </indexterm> Google Maps felhasználása.</para>
+                    </listitem>                
+                    <listitem>
+                        <para>...</para>
+                    </listitem>                
+                </orderedlist>            
             </section>                               
         </section>        
         <section>

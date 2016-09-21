@@ -16,7 +16,9 @@
             <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
-                <para>A DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
+                <para>A <indexterm>
+                            <primary>DevRob2Psy</primary>
+                        </indexterm>DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
                     Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
                     Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is: 
                     <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
@@ -32,7 +34,9 @@
             <abbrev>ESAMU</abbrev>
             <glossdef>
                 <para>
-                    Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
+                    <indexterm>
+                            <primary>ESAMU</primary>
+                        </indexterm>Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
                     hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
                     Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
                     feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
@@ -48,6 +52,9 @@
             <abbrev>DevRob</abbrev>
             <glossdef>
                 <para>
+                    <indexterm>
+                            <primary>DevRob</primary>
+                        </indexterm>
                     Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. Alaptézise, hogy a robot testtel
                     rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
                 </para>    
@@ -59,10 +66,12 @@
         <title>I</title>
         <glossentry xml:id="ieee1998">
             <glossterm>IEEE Recommended Practice for Software Requirements Specifications</glossterm>
-            <acronym>IEEE, 1998</acronym>
+            <acronym>SRS</acronym>
             <abbrev>IEEE Std 830-1998</abbrev>
             <glossdef>
-                <para>A szoftverkövetelmény dokumentum
+                <para><indexterm>
+                            <primary>SRS</primary>
+                        </indexterm>A szoftverkövetelmény dokumentum
                     <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>. Entrópia Samu szoftverkövetelmény
                     doksiját ennek a szabványnak megfelelően készítjük majd el.
                 </para>
@@ -75,6 +84,9 @@
             <glossterm>JIBO</glossterm>
             <glossdef>
                 <para>
+                    <indexterm>
+                            <primary>JIBO</primary>
+                        </indexterm>
                     Cynthia Breazeal társasági robotja, lásd  
                     <link xlink:href="https://www.jibo.com/">https://www.jibo.com/</link>
                 </para>
@@ -87,6 +99,9 @@
             <glossterm>Robotpszichológia</glossterm>
             <glossdef>
                 <para>
+                    <indexterm>
+                            <primary>robotpszichológia</primary>
+                        </indexterm>
                     Az <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimovi robotpszichológia</link> programozói szemszögből értelmezett implementálása, lásd  
                     <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
                 </para>
@@ -99,6 +114,9 @@
             <glossterm>Samu</glossterm>
             <glossdef>
                 <para>
+                    <indexterm>
+                            <primary>Samu</primary>
+                        </indexterm>
                     Egyszer a fejlődésrobotikus családi csevegőrobottal, Bátfai Samuval, másrészt általában a mesterséges intelligencia 
                     fejlődésrobotikai megközelítésével kapcsolatos kutatásaink összefoglaló neve. 
                     Lásd még a <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
@@ -115,7 +133,10 @@
             <glossterm>The Yearbook of the Programmers of University of Debrecen</glossterm>
             <abbrev>UDPROG</abbrev>
             <glossdef>
-                <para>A Debreceni Egyetem <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">reguláris programozás oktatásához</link> kapcsolódó,
+                <para>
+                    <indexterm>
+                            <primary>UDPROG</primary>
+                        </indexterm>A Debreceni Egyetem <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">reguláris programozás oktatásához</link> kapcsolódó,
                     Linkedin-en szervezett
                     <link xlink:href="https://www.linkedin.com/groups/Yearbook-Programmers-University-Debrecen-7446358?homeNewMember=&amp;gid=7446358&amp;fromEmail=&amp;ut=2mVSHNO5Dwwm41&amp;trk=eml-grp-sub">fejlesztői közösség</link>,
                     melynek egyik gyújtópontjában <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">szoftverek</link>,
