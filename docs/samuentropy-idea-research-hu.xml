@@ -56,16 +56,22 @@
                     pedig azon keresztül valósul meg, hogy a mobil tulajdonosa viszi a mobilt. Gondoljunk arra, hogy ha az agy kíváncs, mi történik valahol, akkor a 
                     játékos a mobilja GPS-ének segítségével odamegy és kamerájával fotót készít a helyszínről, lásd majd a Matyi, a vadász használati esetet.  
                 </para>
-                
+                <note>
+                    <title>A család az architektúrális keret</title> 
+                    <para>
+                        Intuitívan gondolj arra, hogy a fejlesztendő játékbeli család fogalmunk az imént vázolt architektúrát rögzíti.
+                    </para>
+                </note>                
             </section>            
             <section xml:id="usecases">
                 <title>Főbb használati esetek</title>
                 <para>
-                    A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki, majd a
+                    A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki (amelyeket a fejlesztendő
+                    konrét játékoknak meg kell próbálniuk megvalósítani), majd a
                     <link xlink:href="#rapidprotos">Gyors prototípusozás</link> c. pontban vezetünk be konkrét játékokat.
                 </para>
                 <section>
-                    <title>Samu, az ágens</title>
+                    <title>Samu, az agy</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek gépi tanulásos algoritmusok megvalósításai.
                     </para>
@@ -74,7 +80,9 @@
                     <title>Gréta, az építő</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek vizuális interfészt adnak a Samu az ágens pont programjaihoz. 
-                        Fontos, hogy ezeknek a programoknak a rendezettség növelése játékélményt kell adniuk.
+                        Fontos, hogy ezeknek a programoknak a rendezettség növelése <indexterm>
+                            <primary>játékélmény</primary>
+                        </indexterm> játékélményt kell adniuk.
                     </para>
                 </section>
                 <section>
@@ -111,36 +119,113 @@
         <section>
             <title>Oktatási és kutatási terv</title>
             <para>                
-                Az UDPROG közösségben is kidolgozható feladatok.
-            </para>
+                Ezeken a feladatokon egyaránt dolgoznak oktatók és hallgatók. Az aktuális hallgatóknak érdekes, hogy ezek az UDPROG közösségben is kidolgozható feladatok,
+                ilyen értelemben tekinthetjük ezeket felhasználhatónak az oktatásban. 
+            </para>            
+            <para>                
+                A feladatok megoldásának menete a következő:
+                <orderedlist numeration="lowerroman">
+                    <listitem>
+                        <para>Forkold le ezt a <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link> projektet!</para>
+                    </listitem>                
+                    <listitem>
+                        <para>A forkodban készítsd el a megoldásodat!</para>
+                    </listitem>                
+                    <listitem>
+                        <para>Küldj egy pull request-et! (az aktív UDPROG hallgatóknak a feladat pontértékének fele plusszban elszámolható, ha a pull request merge-lésre kerül, ez nyilván egy
+                            szubjektív döntés eredménye, ezért tekintsük egyfajta bónusznak :)</para>
+                    </listitem>                
+                </orderedlist>          
+            </para>            
             <section xml:id="rapidprotos">
                 <title>Gyors prototípusozás</title>
                 <para>
                     5letek és megvalósítások kerülnek ide. Fontos, hogy megfeleljenek a 
                     <link xlink:href="#usecases">Főbb használati esetek</link> c. pont Gréta, Nándi, Matyi, Erika bontásának.
+                    Ez egy brain storming jellegű pontnál, de annyiban több, hogy olyan konkrét játék 5leteket kell vázolni, amelyekre
+                    egy gyors protót meg is tudunk valóban gyors protóként valósítani és ezen megvizsgálni a 
+                    <indexterm>
+                        <primary>játékélmény</primary>
+                    </indexterm>
+                    <link xlink:href="#samuentropy-idea-intro-hu.jatekelmeny">játékélményt</link>. 
                 </para>
+                <para>
+                    A konkrét jétékoknál az agyviharban felmerülő fícsöröket érdekes külön is kiemelni, hátha azok egy másik játékba is bevezethetőek. 
+                </para>       
+                        <tip>
+                            <title>Meta-fícsör: egy agy mind felett</title>
+                            <para>
+                                Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk ki innen megvalósításra (SRS doksi elkészítése stb.) 
+                                hanem ha jól funkcionál a <link xlink:href="#usecases">Főbb használati esetek</link> c. pont alatti 
+                                Gréta, Nándi, Matyi, Erika archetikus bontásunk, akkor az agy eseti cseréjével a játékosok váltogathatnák, hogy éppen melyik játékban
+                                vesznek részt. 
+                            </para>
+                        </tip>                          
                 <section xml:id="album">
-                    <title>Album</title>
+                    <title>Samu Family Album</title>
                     <para>
+                        Ennek a konkrét játéknak a lényege az arcfelismerés.
+                    </para>
+                    <para>
+                        Minden családhoz tartozó humán játékosok fotókat készítenek magukól.
                     </para>
                     <section>
                         <title>Samu</title>
                         <para>
+                            A fejlesztendő ágens feladata arcok (a saját és más családok arcainak) felismerése. Egy megvalósításban használjuk a <indexterm>
+                                <primary>DeepMind</primary>
+                                <secondary>TensorFlow</secondary>
+                                <see>Google</see>
+                            </indexterm> TensorFlow-t. 
                         </para>
                     </section>
                     <section>
                         <title>Gréta</title>
                         <para>
+                            A fejlesztendő TensorFlow-os Samu megvalósítás feladata, a TensorFlow adatfolyam gráfhoz 
+                            <indexterm>
+                                <primary>játékélmény</primary>
+                            </indexterm>
+                            játékélményt adni képes vizuális interfész biztosítása.
                         </para>
                     </section>
                     <section>
                         <title>Nándi</title>
                         <para>
+                            A fejlesztendő program feladata az arcokhoz kapcsolt adatok (például kié az arc, milyen érzést fejez ki stb.) felügyelt tanítása.
                         </para>
                     </section>
                     <section>
                         <title>Matyi</title>
                         <para>
+                            A fejlesztendő program feladata az arcképek és a kapcsolható adatok felvétele. Például a szerver jelez, hogy a közelben
+                            egy regisztrált játékos, vagy Bluetooth-on keresztül elérhető (vagy más, szoftverek kívüli szervező jelet vesz észre a játékos, mondjuk 
+                            bar- vagy QR kódos karkötő, kitűző esetleg NFC matrica stb.) akkor arcot és kísérő adatokat cserélnek.                            
+                        </para>
+                        <tip>
+                            <title>Fícsör: bitek gyűjtése</title>
+                            <para>
+                                A játékost a találkozásokra az sarkallja, hogy ezekért biteket kap! Általában is próbáljuk a játékonbelüli fizetőeszközt, összemérési
+                                alapot információban, azaz bitekben megfogalmazni.
+                            </para>
+                            <para>                                
+                                Például a vadász a találkozásokról relatív gyakoriságot vezet (X-el x<subscript>1</subscript>-szer, 
+                                Y-nal y<subscript>1</subscript>-szer, stb. addig ismeretlennel pedig ennyiszer találkoztam), ez alapján a következő 
+                                találkozáskor a játékosok annyi bitet kapnak, amennyi a kivel találkoztam entrópiája (amit esetleg csak akkor kap meg,
+                                ha prediktált és eltalálta stb).                                
+                            </para>
+                        </tip>                            
+                    </section>
+                    <section>
+                        <title>Erika</title>
+                        <para>
+                            Egy párharcban két család méri össze az erejét (tudását). Mondjuk 5-5 profilképet (saját játékosaik) feldobnak a hozzájuk tartozó infókkal, majd
+                            ezek rövid tanulása után a másik agynak a család további más képeit kell felismerni, hogy szerepel-e az illető az 5-ben, ha igen, melyik az stb. 
+                            (kvázi olyan 11-es párbaj jelleggel, illetve az eredményeket itt is a jóslat entrópiája alapján bitekben mérjük). 
+                        </para>
+                        <para>
+                            A győztes család megkapja a legyőzött tudását vagy egy ideig a legyőzött megosztja a legyőzőjével a továbbiakban szerzett információi 
+                            valamilyen részét.
                         </para>
                     </section>
                 </section>
@@ -150,7 +235,13 @@
                 <para>
                 
                 </para>
-            </section>                    
+            </section> 
+            <section>
+                <title>Licencmérnökség jellegű feladatok</title>
+                <para>
+                
+                </para>
+            </section>                               
         </section>        
         <section>
             <title>Köszönetnyilvánítás</title>

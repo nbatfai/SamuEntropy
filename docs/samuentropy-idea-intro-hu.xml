@@ -169,7 +169,7 @@
                         vagy még inkább csak illusztrálni. Például a 0 A. D.<indexterm>
                                         <primary>0 A. D.</primary>
                                     </indexterm> adta üres világot mindinkább megszervezni 
-                        (beépíteni) személyes tapasztalatom szerint ez egy nagyon jó játékélményt adó elfoglaltság.
+                        (beépíteni) személyes tapasztalatom szerint ez egy nagyon jó <indexterm><primary>játékélmény</primary></indexterm> játékélményt adó elfoglaltság.
                         Ennek egy pillanatfelvételét látjuk a következő ábrán. 
                     </para>                            
                     <figure>
@@ -189,8 +189,10 @@
                             </textobject>
                         </mediaobject>
                     </figure>                
-                    <para>
-                        Játékélmény alatt azt értjük, hogy a játék fejlesztői alapvetően egy élményt kódolnak a játékkal, amelyet a játékosok dekódolni tudnak, 
+                    <para xml:id="samuentropy-idea-intro-hu.jatekelmeny">
+                        Játékélmény 
+<indexterm><primary>játékélmény</primary></indexterm>                        
+                        alatt azt értjük, hogy a játék fejlesztői alapvetően egy élményt kódolnak a játékkal, amelyet a játékosok dekódolni tudnak, 
                         azaz át tudnak élni<footnote>
                             <para>Lásd ennek kapcsán a következő publikációt: Bátfai Norbert, Bátfai Erika, A mobil játékfejlesztés 
                                 elméleti és gyakorlati momentumai, Híradástechnika, 5, 34-37, 2005, 
@@ -268,7 +270,7 @@
                 <section>
                     <title>A játékélmény</title>
                     <para>                                    
-                        Ebben a pontban kísérletet teszünk a játékélmény megálmodására. Két alapvető részből gyúrnánk össze: 
+                        Ebben a pontban kísérletet teszünk a <indexterm><primary>játékélmény</primary></indexterm> játékélmény megálmodására. Két alapvető részből gyúrnánk össze: 
                         <itemizedlist>
                             <listitem>
                                 <para>legyen a játék világának szervezettséget növelő része
