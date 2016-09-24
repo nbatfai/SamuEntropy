@@ -414,6 +414,33 @@ amely az élő képből kijelöli az arcot.
                             <para>
                             </para>
                         </section>
+                        <section>
+                            <title>Játékélmény és vizualizációs kísérletek</title>
+                            <para>
+                            </para>
+                            <orderedlist numeration="lowerroman">
+                                <listitem>
+                                    <para>
+                                        ESamu Amoba: Lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
+                                        <indexterm>
+                            <primary>OpenStreetMap</primary>
+                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
+                                        az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
+                                        (kiindulhatsz a <indexterm>
+                            <primary>Raxicab</primary>
+                            <secondary>rcwin</secondary>
+                            <see>OOCWC</see>
+                        </indexterm>Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, az 
+                                        <indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
+                                        UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
+                                        bemutatása fészes posztban).
+                                    </para>
+                                </listitem>
+                            </orderedlist>
+                        </section>
+                        
                     </section>
                 </section>
 
