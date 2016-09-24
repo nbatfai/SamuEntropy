@@ -181,7 +181,9 @@
                     </para>
                 </tip>                          
                 <section xml:id="album">
-                    <title>Samu Family Album</title>
+                    <title>Samu Family Album<footnote>
+                            <para>Munkacímnek: ARC CSATA, FACE BATTLE (FaBa).</para>
+                        </footnote>.</title>
                     <para>
                         Ennek a konkrét játéknak a lényege az arcfelismerés<footnote>
                             <para>A kamera használatánál az arc kivágása alap (lásd pl. a SamuCam projektet) itt felismerés alatt a képek konkrét személyekhez (játékos
@@ -234,7 +236,7 @@
                             egy regisztrált játékos, vagy Bluetooth-on keresztül elérhető (vagy más, szoftverek kívüli szervező jelet vesz észre a játékos, mondjuk 
                             bar- vagy QR kódos karkötő, kitűző esetleg NFC matrica stb.) akkor arcot és kísérő adatokat cserélnek.                            
                         </para>
-                        <tip>
+                        <tip xml:id="bits">
                             <title>Fícsör: bitek gyűjtése</title>
                             <para>
                                 A játékost a találkozásokra az sarkallja, hogy ezekért biteket kap! Általában is próbáljuk a játékon belüli fizetőeszközt, összemérési
@@ -247,7 +249,7 @@
                                 ha prediktált és eltalálta stb).                                
                             </para>
                         </tip>                            
-                        <para>
+                        <para  xml:id="samucam1">
                             Fontos, hogy lehetőleg csak arcképeket fotózzunk, ezért az
                             arc fotózós Android app-ban próbáljuk ki az 
                             <indexterm>
@@ -262,7 +264,7 @@
                             OpenCV-t használtunk). 
                             <tip>
                                 <title>Fotókkal is műxik</title>
-                                <para>
+                                <para xml:id="samucam2">
                                     Az említett <application>SamuCam</application> programban láthattuk, hogy az arcfelismerés tanítása fotókkal is tökéletesen (nem a
                                     tanulása, a tanítása :) megy, lásd ezen a videón például: <link xlink:href="https://youtu.be/6cRbyKrq45c">https://youtu.be/6cRbyKrq45c</link>                                
                                 </para>
@@ -297,24 +299,88 @@
                             </para>
                             <para>
                                 Egy szerver reprezentál egy törzset, a törzsek és a családok kapcsolata 1:N jellegű. Tehát egy törzsnek több családja lehet. 
-                                A család regisztrációját egy törzshöz a Samu agy kliensen a játékos kezdeményezheti. 
+                                A család regisztrációját egy törzshöz a Samu agy kliensen a játékos kezdeményezheti adott esetben. 
                             </para>
                             <para>
-                                Norbi és Samu kapcsolata: Norbi minden Samunak annak bitszámától<footnote>
-                            <para>A család &#x201E;jóságát&#x201D; is bitekben mérjük, azt mondjuk majd, az én családom 64 kilobájtos, 3 gigás stb. jelentsen 
-                                ez egyelőre bármit.</para>
-                        </footnote> függő sort biztosít a távoli Gréta, Nándi, Matyi és Erika családtagoknak a képek és az azokat kísérő metaadatok megosztásához. 
+                                Tervezz kommunikációs protokollt az alábbi esetekre, használd a 
+                                                                                            <indexterm>
+                                <primary>Google</primary>
+                                <secondary>Protocol Buffers</secondary>
+                            </indexterm>
+
+                                <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>-t
+                                (UDPROG közösségben 6x20 pont, a SamuEntropy forkba ne kerüljön 
+                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
+                            <orderedlist numeration="lowerroman">
+                                <listitem>
+                                    <para>
+                                        Norbi és Samu kapcsolata: Norbi minden Samunak annak bitszámától<footnote>
+                                            <para>A család &#x201E;jóságát&#x201D; is bitekben mérjük, azt mondjuk majd, az én családom 64 kilobájtos, 3 gigás stb. jelentsen 
+                                                ez egyelőre bármit.</para>
+                                        </footnote> függő méretű sort biztosít a Gréta, Nándi, Matyi és Erika családtagoknak 
+                                        a képek és az azokat kísérő metaadatok megosztásához. 
+                                    </para>
+                            <para>
+                                Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
+                                    <para>Lásd a   
+                                        <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
+                                        c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
+                                </footnote>, GPS a regisztrációkor stb.
+                                (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
+                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                            </para>                                    
+                                </listitem>                                
+                                <listitem>
+                                    <para>
+                                        Norbi és Gréta kapcsolata: a Gréta kliens letölti a Samu agy neurális architektúráját, például szerkesztésre.
+                                    </para>
+                                </listitem>                            
+                                <listitem>
+                                    <para>
+                                        Norbi és Nándi kapcsolata: a Nándi kliens letölti a Matyi által &#x201E;összevadászott&#x201D; képeket és infókat.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Norbi és Matyi kapcsolata: a Matyi kliens feltölti az &#x201E;összevadászott&#x201D; képeket és infókat.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Norbin keresztül két Samu kapcsolata: az agycsata eredményétől függő információmegosztás a két agy között.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Norbi és Erika kapcsolata: az agycsata lebonyolítása!
+                                    </para>                                        
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Két Norbi kapcsolata: törzsek csatája, ezzel egyelőre ne foglalkozzunk, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor
+                                        kerül terítékre!
+                                    </para>                                        
+                                </listitem>
+                        
+                            </orderedlist>
                         </section>
                         <section>
                             <title>Samu</title>
                             <para>
+                                                            <indexterm>
+                                <primary>TensorFlow</primary>
+                            </indexterm>
                                 Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
-                            <para>Lásd a   
-                                <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
-                                tutoriált.</para>
-                        </footnote> (UDPROG közösségben 680 pont, a SamuEntropy forkba ne kerüljön 
-                                be, csak max. saját repóba, bemutatása fészes posztban).
+                                    <para>Lásd a   
+                                        <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
+                                        tutoriált.</para>
+                                </footnote> (UDPROG közösségben 680 pont, a SamuEntropy forkba ne kerüljön 
+                                be, csak max. saját repóba, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -330,6 +396,17 @@
                         <section>
                             <title>Matyi</title>
                             <para>
+                                A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
+amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
+(UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
+                            </para>
+                            <para>
+                                                            <indexterm>
+                                <primary>Android Mobile Vision API</primary>
+                            </indexterm>
+                                A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
+amely az élő képből kijelöli az arcot.
+(UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -349,6 +426,9 @@
                         </indexterm> OOCWC<footnote>
                             <para>Az eddigi kiadások a  
                                 <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
+                                <indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
                         </footnote> RTS kiadása.
                     </para>
@@ -424,8 +504,8 @@
                     <title>Samu Custom RTS</title>
                     <para>
                         Ennek a konkrét játéknak a lényege az, hogy a <indexterm>
-                                        <primary>0 A. D.</primary>
-                                    </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
+                            <primary>0 A. D.</primary>
+                        </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
                     </para>
                     <!--
                     <para>
@@ -468,6 +548,10 @@
                     <listitem>
                         <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
                     </listitem>                
+                    <listitem>
+                        <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe). (UDPROG közösségben 35 pont kommitonként 
+                            az előző feladat verziójától számolva).</para>
+                    </listitem>                     
                     <listitem>
                         <para>...</para>
                     </listitem>                
