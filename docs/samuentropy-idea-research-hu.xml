@@ -72,7 +72,8 @@
                 <para>
                     A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki (amelyeket a fejlesztendő
                     konrét játékoknak meg kell próbálniuk megvalósítani), majd a
-                    <link xlink:href="#rapidprotos">Gyors prototípusozás</link> c. pontban vezetünk be konkrét játékokat.
+                    <link xlink:href="#rapidprotos">Gyors prototípusozás</link> c. pontban vezetünk be konkrét játékokat. Ezek a használati
+                    esetek a fejlesztendő alkalmazások archetípusait jelölik ki.
                 </para>
                 <section>
                     <title>Samu, az agy</title>
@@ -119,7 +120,12 @@
                         </para>
                     </tip>
                 </section>
-                
+                <section>
+                    <title>Norbi, a törzsfőnök</title>
+                    <para>
+                        Ebbe a csokorba olyan szerveroldali programok tartoznak majd, amelyek a családok és az agycsaták kezelését valósítják meg. 
+                    </para>
+                </section>                
             </section>
         </section>
         <section>
@@ -280,19 +286,35 @@
                             </footnote>.
                         </para>
                     </section>
-                    
-                    
-                    
                     <section>
                         <title>Konkrét app 5letek</title>
                         <para>
-                       
                         </para>
-                        <para>
-                        </para>
+                        <section>
+                            <title>Norbi</title>
+                            <para>
+                                A szerveroldal feladata a &#x201E;Samu az agy&#x201D; PC-n futó családok és az agycsaták szervezése. 
+                            </para>
+                            <para>
+                                Egy szerver reprezentál egy törzset, a törzsek és a családok kapcsolata 1:N jellegű. Tehát egy törzsnek több családja lehet. 
+                                A család regisztrációját egy törzshöz a Samu agy kliensen a játékos kezdeményezheti. 
+                            </para>
+                            <para>
+                                Norbi és Samu kapcsolata: Norbi minden Samunak annak bitszámától<footnote>
+                            <para>A család &#x201E;jóságát&#x201D; is bitekben mérjük, azt mondjuk majd, az én családom 64 kilobájtos, 3 gigás stb. jelentsen 
+                                ez egyelőre bármit.</para>
+                        </footnote> függő sort biztosít a távoli Gréta, Nándi, Matyi és Erika családtagoknak a képek és az azokat kísérő metaadatok megosztásához. 
+                            </para>
+                        </section>
                         <section>
                             <title>Samu</title>
                             <para>
+                                Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
+                            <para>Lásd a   
+                                <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
+                                tutoriált.</para>
+                        </footnote> (UDPROG közösségben 680 pont, a SamuEntropy forkba ne kerüljön 
+                                be, csak max. saját repóba, bemutatása fészes posztban).
                             </para>
                         </section>
                         <section>
@@ -316,9 +338,6 @@
                             </para>
                         </section>
                     </section>
-                    
-                    
-                    
                 </section>
 
                 <section xml:id="oocwc-fight">
@@ -333,6 +352,7 @@
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
                         </footnote> RTS kiadása.
                     </para>
+                    <!--
                     <para>
                     </para>
                     <section>
@@ -360,6 +380,7 @@
                         <para>
                         </para>
                     </section>
+                    -->
                 </section>
                                                                 
                 <section xml:id="devrobvision">
@@ -367,6 +388,7 @@
                     <para>
                         Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
                     </para>
+                    <!--
                     <para>
                     </para>
                     <section>
@@ -394,6 +416,7 @@
                         <para>
                         </para>
                     </section>
+                    -->
                 </section>
                 
                 
@@ -404,6 +427,7 @@
                                         <primary>0 A. D.</primary>
                                     </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
                     </para>
+                    <!--
                     <para>
                     </para>
                     <section>
@@ -431,6 +455,7 @@
                         <para>
                         </para>
                     </section>
+                    -->
                 </section>
 
             </section>                    
@@ -441,7 +466,7 @@
                 </para>
                 <orderedlist numeration="lowerroman">
                     <listitem>
-                        <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 800)</para>
+                        <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
                     </listitem>                
                     <listitem>
                         <para>...</para>
@@ -500,10 +525,10 @@
                     </para>                
                     <orderedlist numeration="lowerroman">
                         <listitem>
-                            <para>Logó az Entrópia Samuhoz általában. (UDPROG közösségben 200)</para>
+                            <para>Logó az Entrópia Samuhoz általában. (UDPROG közösségben 240 pont)</para>
                         </listitem>                
                         <listitem>
-                            <para>Logó az Entrópia Samu/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x100)</para>
+                            <para>Logó az Entrópia Samu/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
                         </listitem>                
                         <listitem>
                             <para>...</para>
