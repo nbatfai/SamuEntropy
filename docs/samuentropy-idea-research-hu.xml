@@ -612,7 +612,17 @@ amely az élő képből kijelöli az arcot.
                             </indexterm> Google Maps felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
                     </listitem>                
                     <listitem>
-                        <para>...</para>
+                        <para>A <link xlink:href="https://firebase.google.com/">Google Firebase rendszer</link>
+                            felhasználásának vizsgálata. Mint bármely más Google szolgáltatásra, erre is az általános 
+                            <link xlink:href="https://console.developers.google.com/tos?id=universal">Google APIs Terms of Service</link> vonatkozik.
+                            Ami számunkra lényeges, hogy az API-t használó szoftver lehet open source 
+                            (ez esetben egy fontos megkötés lásd később), de bezárható commercial szoftverként is, ezt a Google nem köti meg.
+                            Egyébként jellemzően a Google demo programjai Apache v2 licenccel érhetőek el.
+                            Fontos megkötés, hogy ha a szoftver forráskódját open source formában közzétesszük, semmilyen fejlesztői azonosítót nem tehetünk bele 
+                            (lásd section 4. b. 1.: "Developer credentials may not be embedded in open source projects.").
+                            Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
+                            Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
+                        </para>
                     </listitem>                
                 </orderedlist>            
             </section>                               
