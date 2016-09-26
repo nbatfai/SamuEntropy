@@ -34,6 +34,30 @@
                     </otheraddr>
                 </address>
             </author>
+            <author>
+                <personname>
+                    <honorific>Mr.</honorific>
+                    <surname>Besenczi</surname>
+                    <firstname>Renátó</firstname>        
+                </personname>    
+                <affiliation>
+                    <shortaffil>tansegéd, DEIK.</shortaffil>
+                    <jobtitle>tanársegéd</jobtitle>
+                    <orgname>Debreceni Egyetem, Informatikai Kar</orgname>
+                    <orgdiv>Információ Technológia Tanszék</orgdiv>
+                    <address>
+                        <email>besenczi.renato@inf.unideb.hu</email>
+                        <email>renato.besenczi@gmail.com</email>
+                    </address>
+                </affiliation>
+                <address>
+                    <street>Kassai út 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Magyarország</country>
+                    <email>besenczi.renato@inf.unideb.hu</email>
+                </address>
+            </author>
         </authorgroup>
         <edition>ESAMU, Entrópia Samu, v. hu.0.0.10.9</edition>
         <pubdate>2016</pubdate>
@@ -139,6 +163,14 @@
                 <authorinitials>nbatfai</authorinitials>
                 <revremark>Iniciális doksi a GitHub-ra, innentől a verziókezelés majd az ottani git-el, lásd majd a 
                     changelog-ot: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>
+                </revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.9</revnumber>
+                <date>2016-09-26</date>
+                <authorinitials>rbesenczi</authorinitials>
+                <revremark>
+                    Google Firebase rendszer licencmérnökségi feladat kifejtése.
                 </revremark>
             </revision>
             <!--
