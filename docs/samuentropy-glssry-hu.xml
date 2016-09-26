@@ -1,27 +1,26 @@
-    <glossary xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+﻿    <glossary xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Vocabulary</title>
+    <title>Vocablurary</title>
     <glossdiv>
         <title>D</title>
-        <glossentry xml:id="de">
-            <glossterm>Universtiy of Debrecen</glossterm>
+       <!-- <glossentry xml:id="de">
+            <glossterm>University of Debrecen</glossterm>
             <abbrev>UD</abbrev>
             <glossdef>
-                <para>The UD is the short form of University of Debrecen.
-                </para>
+                <para>The UD it the abbreviation of the University of Debrecen</para>
             </glossdef>
-        </glossentry>
+        </glossentry>-->
         <glossentry xml:id="devrob2psy">
             <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
                 <para>A <indexterm>
                             <primary>DevRob2Psy</primary>
-                        </indexterm>The DevRob2Psy is the abridgment of Developmental Robotics 2 Robopsychology Facebook group.
-                    Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
-                    Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is: 
-                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/<link>.
+                        </indexterm>The DevRob2Psy is the abbreviation of the Developmental Robotics 2 Robopsychology facebook group.
+                    This is an informal groub wich collect the students and professors who interested in this topic.
+                    In this group you can write comments with your own ideas:
+                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
             </glossdef>
@@ -48,15 +47,15 @@
     <glossdiv>
         <title>F</title>
         <glossentry xml:id="devrob">
-            <glossterm>Fejlődésrobotika</glossterm>
+            <glossterm>Developmental robotics</glossterm>
             <abbrev>DevRob</abbrev>
             <glossdef>
                 <para>
                     <indexterm>
                             <primary>DevRob</primary>
                         </indexterm>
-                    Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. Alaptézise, hogy a robot testtel
-                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
+                    Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. 
+                    Alaptézise, hogy a robot testtel rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
                 </para>    
                 <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
             </glossdef>
@@ -129,6 +128,13 @@
     </glossdiv>
     <glossdiv>
         <title>U</title>
+        <glossentry xml:id="de">
+            <glossterm>University of Debrecen</glossterm>
+            <abbrev>UD</abbrev>
+            <glossdef>
+                <para>The UD it the abbreviation of the University of Debrecen</para>
+            </glossdef>
+        </glossentry>
         <glossentry xml:id="udprog">
             <glossterm>The Yearbook of the Programmers of University of Debrecen</glossterm>
             <abbrev>UDPROG</abbrev>
