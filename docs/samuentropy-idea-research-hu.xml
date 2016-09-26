@@ -303,10 +303,10 @@
                             </para>
                             <para>
                                 Tervezz kommunikációs protokollt az alábbi esetekre, használd a 
-                                                                                            <indexterm>
-                                <primary>Google</primary>
-                                <secondary>Protocol Buffers</secondary>
-                            </indexterm>
+                                <indexterm>
+                                    <primary>Google</primary>
+                                    <secondary>Protocol Buffers</secondary>
+                                </indexterm>
 
                                 <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>-t
                                 (UDPROG közösségben 6x20 pont, a SamuEntropy forkba ne kerüljön 
@@ -321,15 +321,15 @@
                                         </footnote> függő méretű sort biztosít a Gréta, Nándi, Matyi és Erika családtagoknak 
                                         a képek és az azokat kísérő metaadatok megosztásához. 
                                     </para>
-                            <para>
-                                Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
-                                    <para>Lásd a   
-                                        <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
-                                        c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
-                                </footnote>, GPS a regisztrációkor stb.
-                                (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
-                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
-                            </para>                                    
+                                    <para>
+                                        Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
+                                            <para>Lásd a   
+                                                <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
+                                                c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
+                                        </footnote>, GPS a regisztrációkor stb.
+                                        (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
+                                        be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                                    </para>                                    
                                 </listitem>                                
                                 <listitem>
                                     <para>
@@ -372,9 +372,9 @@
                         <section>
                             <title>Samu</title>
                             <para>
-                                                            <indexterm>
-                                <primary>TensorFlow</primary>
-                            </indexterm>
+                                <indexterm>
+                                    <primary>TensorFlow</primary>
+                                </indexterm>
                                 Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
                                     <para>Lásd a   
                                         <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
@@ -397,16 +397,16 @@
                             <title>Matyi</title>
                             <para>
                                 A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
-amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
-(UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
+                                amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
+                                (UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
                             </para>
                             <para>
-                                                            <indexterm>
-                                <primary>Android Mobile Vision API</primary>
-                            </indexterm>
+                                <indexterm>
+                                    <primary>Android Mobile Vision API</primary>
+                                </indexterm>
                                 A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
-amely az élő képből kijelöli az arcot.
-(UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                                amely az élő képből kijelöli az arcot.
+                                (UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -422,23 +422,28 @@ amely az élő képből kijelöli az arcot.
                                 <listitem>
                                     <para>
                                         <indexterm>
-                            <primary>Samu</primary>
-                            <secondary>Amoba</secondary>
-                        </indexterm>
+                                            <primary>Samu</primary>
+                                            <secondary>Amoba</secondary>
+                                        </indexterm>
                                         Samu Amoba: lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
                                         <indexterm>
-                            <primary>OpenStreetMap</primary>
-                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
+                                            <primary>OpenStreetMap</primary>
+                                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
                                         az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
                                         (kiindulhatsz a <indexterm>
-                            <primary>Raxicab</primary>
-                            <secondary>rcwin</secondary>
-                            <see>OOCWC</see>
-                        </indexterm>Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
-                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
+                                            <primary>Raxicab</primary>
+                                            <secondary>rcwin</secondary>
+                                            <see>OOCWC</see>
+                                        </indexterm>Raxicab rcwin megjelenítőjéből az 
                                         <indexterm>
-                            <primary>Raxicab</primary>
-                        </indexterm>
+                                            <primary>OSM</primary>
+                                            <see>OpenStreetMap</see>
+                                        </indexterm>
+                                        OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
+                                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
+                                        <indexterm>
+                                            <primary>Raxicab</primary>
+                                        </indexterm>
                                         UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
                                         bemutatása fészes posztban).
                                     </para>
@@ -459,8 +464,8 @@ amely az élő képből kijelöli az arcot.
                             <para>Az eddigi kiadások a  
                                 <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
                                 <indexterm>
-                            <primary>Raxicab</primary>
-                        </indexterm>
+                                    <primary>Raxicab</primary>
+                                </indexterm>
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
                         </footnote> RTS kiadása.
                     </para>
