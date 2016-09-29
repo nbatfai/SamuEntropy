@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude">    
@@ -90,7 +90,7 @@
                 <revnumber>0.0.1</revnumber>
                 <date>2016-08-23</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Iniciális dokumentum. A kiinduló 5let (eBudapest2024) sportvezetés eredményeket kérdező 
+                <revremark>Initial document. A kiinduló 5let (eBudapest2024) sportvezetés eredményeket kérdező 
                     levelére esetleges válaszul elküldve, illetve a potenciális érdeklődőknek/befektetőknek elküldve.</revremark>
             </revision>
             <revision>

@@ -25,6 +25,7 @@
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
             </glossdef>
         </glossentry>
+        
     </glossdiv>    
     <glossdiv>
         <title>E</title>
@@ -35,8 +36,11 @@
                 <para>
                     <indexterm>
                             <primary>ESAMU</primary>
-                        </indexterm>Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
-                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
+                        </indexterm>It is very obvious that there is a strong connection between esport and artifical inteligence,
+in our research we working with this in higher level,
+and we are think about AI not just using in games,
+but we want to create the AI from the esport.
+                    
                     Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
                     feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
                 </para>    
@@ -95,7 +99,7 @@
     <glossdiv>
         <title>R</title>
         <glossentry xml:id="robotpszicho">
-            <glossterm>Robotpszichológia</glossterm>
+            <glossterm>Robotpsyhology</glossterm>
             <glossdef>
                 <para>
                     <indexterm>
