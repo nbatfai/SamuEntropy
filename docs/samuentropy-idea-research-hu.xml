@@ -171,7 +171,7 @@
                 <para>
                     A konkrét jétékoknál az agyviharban felmerülő fícsöröket érdekes külön is kiemelni, hátha azok egy másik játékba is bevezethetőek. 
                 </para>       
-                <tip>
+                <tip xml:id="brainswap">
                     <title>Meta-fícsör: egy agy mind felett</title>
                     <para>
                         Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk majd ki innen megvalósításra (SRS doksi elkészítése stb.) 
@@ -386,6 +386,13 @@
                         <section>
                             <title>Gréta</title>
                             <para>
+                                <indexterm>
+                                    <primary>Brainboard</primary>
+                                </indexterm>
+                                Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
+                                a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
+                                (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
+                                a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
                             </para>
                         </section>
                         <section>
@@ -629,10 +636,14 @@
                             Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
                         </para>
                     </listitem>                
+                    <listitem>
+                        <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
+                            felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
+                    </listitem>                                    
                 </orderedlist>            
             </section>                               
             <section>
-                <title>Művészeti jellegű feladatok</title>
+                <title>Kreatív és művészeti jellegű feladatok</title>
                 <para>
                 
                 </para>
@@ -666,7 +677,34 @@
                         </listitem>                
                     </orderedlist>            
                 </section> 
+                <section>
+                    <title>Konkrét app 5letek</title>
+                    <orderedlist numeration="lowerroman">
+                        <listitem>
+                            <para>A FACE BATTLE mintájára írd le saját játék 5letedet, (UDPROG közösségben 310 pont, például a
+                                <link xlink:href="oocwc-fight">Samu OOCWC Fight</link> részben 
+                                a DocBook forrásban kikommentezett Samu, Gréta, Nándi, Erika, Norbi pontokat kell kitalálnod). 
+                                A kidolgozás során vedd figyelembe a 
+                                <link xlink:href="brainswap">Meta-fícsör: egy agy mind felett</link>
+                                tippet!                            
+                            </para>
+                        </listitem>                
+                    </orderedlist>            
+                </section>                 
             </section>
+            <section>
+                <title>Promóciós jellegű feladatok</title>
+                <orderedlist numeration="lowerroman">
+                    <listitem>
+                        <para>Készíts promó YouTube videót az Entrópia Samuhoz. (UDPROG közösségben 540 pont, természetesen
+                            csak tiszta szoftverek és erőforrások - képek, fontok, stb. - használhatóak, illetve a gyors protók,
+                            feladatmegoldások eredményei, csak az számolhatja el, aki más ESAMU feladatból már elért legalább 150 pontot).</para>
+                    </listitem>                
+                    <listitem>
+                        <para>...</para>
+                    </listitem>                
+                </orderedlist>            
+            </section> 
         </section>        
         <section>
             <title>Köszönetnyilvánítás</title>
