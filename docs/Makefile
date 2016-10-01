@@ -1,4 +1,8 @@
-all:	clean validate_xmllint_idea_hu validate_xmllint_idea_en samuentropy-idea-hu.pdf samuentropy-idea-en.pdf
+#all:	clean validate_xmllint_idea_hu validate_xmllint_idea_en samuentropy-idea-hu.pdf samuentropy-idea-en.pdf
+
+all:	clean validate_xmllint_idea_en samuentropy-idea-en.pdf
+
+
 
 samuentropy-idea-hu.pdf: samuentropy-idea-hu.xml samuentropy-hu.xls
 	dblatex samuentropy-idea-hu.xml -p samuentropy-hu.xls

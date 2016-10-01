@@ -73,9 +73,9 @@
             <glossdef>
                 <para><indexterm>
                             <primary>SRS</primary>
-                        </indexterm>A szoftverkövetelmény dokumentum
-                    <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>. Entrópia Samu szoftverkövetelmény
-                    doksiját ennek a szabványnak megfelelően készítjük majd el.
+                        </indexterm>The Software Requirements Specifications
+                    <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE Standard</link>. 
+                    We are going to make the documentation of the Samu Entropy with this standard.
                 </para>
             </glossdef>
         </glossentry>
@@ -89,7 +89,7 @@
                     <indexterm>
                             <primary>JIBO</primary>
                         </indexterm>
-                    Cynthia Breazeal társasági robotja, lásd  
+                    The social tobot of Cynthia Breazeal, see also  
                     <link xlink:href="https://www.jibo.com/">https://www.jibo.com/</link>
                 </para>
             </glossdef>
@@ -119,11 +119,12 @@
                     <indexterm>
                             <primary>Samu</primary>
                         </indexterm>
-                    Egyszer a fejlődésrobotikus családi csevegőrobottal, Bátfai Samuval, másrészt általában a mesterséges intelligencia 
-                    fejlődésrobotikai megközelítésével kapcsolatos kutatásaink összefoglaló neve. 
-                    Lásd még a <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
-                    prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a PSAMU 
-                    beküldött kéziratot. 
+                    Once the devedevelopment robotics family chatrobot, Sam Bátfai, on the other hand the collective name of our development robotics 
+                    research.
+                    
+                    Also <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
+                    the presentation <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> and the PSAMU 
+                    manual. 
                 </para>
                 <glossseealso otherterm="esamu">ESAMU</glossseealso>                 
             </glossdef>
