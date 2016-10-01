@@ -36,13 +36,10 @@
                 <para>
                     <indexterm>
                             <primary>ESAMU</primary>
-                        </indexterm>It is very obvious that there is a strong connection between esport and artifical inteligence,
-in our research we working with this in higher level,
-and we are think about AI not just using in games,
-but we want to create the AI from the esport.
-                    
-                    Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
-                    feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+                        </indexterm>It is quite obvious that there is a close relation between esport and artificial intelligence.
+                         This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way.
+                          Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that 
+                          will be implemented by software on the family’s home desktop and mobile devices. <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
                 </para>    
                 <glossseealso otherterm="samu">Samu</glossseealso> 
             </glossdef>
@@ -58,8 +55,10 @@ but we want to create the AI from the esport.
                     <indexterm>
                             <primary>DevRob</primary>
                         </indexterm>
-                    Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. 
-                    Alaptézise, hogy a robot testtel rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
+                     It  is a scientific field which aims at studying the developmental mechanisms, architectures and constraints that 
+                    allow lifelong and open-ended learning of new skills and new knowledge in embodied machines.
+                    Alaptézise, hogy a robot testtel rendelkezik, ennek antézise lehet a csak szoftveres robot,
+                     a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
                 </para>    
                 <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
             </glossdef>
