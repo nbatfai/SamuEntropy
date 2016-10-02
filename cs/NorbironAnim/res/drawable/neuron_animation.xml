@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/neuron3inkscape2a0c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a1c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a2c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a3c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a4c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a5c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a6c"
+        android:duration="128"/>
+
+    
+    <item
+        android:drawable="@drawable/neuron3inkscape2a5c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a4c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a3c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a2c"
+        android:duration="128"/>
+    <item
+        android:drawable="@drawable/neuron3inkscape2a1c"
+        android:duration="128"/>
+    
+</animation-list>

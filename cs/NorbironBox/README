@@ -1,0 +1,27 @@
+# Norbiron Game Engine/NeuronBox
+
+## Norbiron, animation of a neuron
+
+This is a case study for creating sprites for SamuEntropy/Brainboard.
+
+## Building 
+
+ADT Bundle letöltése: http://developer.android.com/sdk
+
+Minden ablakban, vagy egyszerűen a $HOME/.profile fájl végére (miután újra loginolni kell)
+
+$ export ANDROID_HOME=$HOME/adt-bundle-linux-x86_64-<verzio>/sdk
+$ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+Megfelelő Maven életciklusok futtatása:
+
+$ mvn clean install (a pom.xml-el egy szinten kiadva)
+
+Emulátor indítása (másik ablakban)
+
+$ android avd
+
+Progi feltöltése az emulátorba (feltéve, hogy a pom.xml-el egy szinten állunk, telefonra
+ugyanezm ha USB debug engedélyezve devel módban és rádugva a telcsi)
+
+$ adb install -r target/NeuronAnim.apk 

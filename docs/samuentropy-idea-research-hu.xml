@@ -385,15 +385,123 @@
                         </section>
                         <section>
                             <title>Gréta</title>
-                            <para>
-                                <indexterm>
-                                    <primary>Brainboard</primary>
-                                </indexterm>
-                                Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
-                                a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
-                                a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                            </para>
+                            <orderedlist numeration="lowerroman">
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironLogo</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironLogo</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és 
+                                        és kísérletezz a saját logóddal, hogy mutat!
+                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 65 pont, 
+                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
+                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                    </para>
+                                    <important>
+                                        <title>Csak tiszta forrásból!</title> 
+                                        <para>
+                                            Az ESAMU-ban mindennek tisztának kell lennie szerzői jogi szempontból, sw licenc stb. szempontból!
+                                            Például a <filename class="directory">../res/logo/Norbiron</filename> logó 
+                                            ebből a kézi saját skiccből készült:
+                        <mediaobject>
+                            <imageobject>
+                                <imagedata fileref="img/NorbironKezi.png" scale="55"/>
+                            </imageobject>
+                            <textobject>
+                                <phrase>
+                                    A <indexterm>
+                                        <primary>Norbiron</primary>
+                                    </indexterm>Norbiron logó tervezése..
+                                </phrase>
+                            </textobject>
+                        </mediaobject>                                            
+                                        </para>
+                                    </important>                                                                        
+                                </listitem>
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironAnim</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironAnim</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és 
+                                        és kísérletezz a 
+                                        <indexterm>
+                                            <primary>Norbiron</primary>
+                                        </indexterm>                                        
+                                        Norbiron 
+                                        <filename class="directory">../res/logo/Norbiron</filename>                                        
+                                        logó animációjával, hogy mutat!
+                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 65 pont, 
+                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
+                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironGame</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironGame</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és 
+                                        és kísérletezz a 
+                                        <indexterm>
+                                            <primary>Norbiron</primary>
+                                        </indexterm>                                        
+                                        Norbiron 
+                                        <filename class="directory">../res/logo/Norbiron</filename>                                        
+                                        logó animációjával! Tedd páldául őket dobozokba, ahol az egyik dobozban
+                                        random mozogjanak, a másikban szabályosan (pl. rácsba szervezve rezegve, vagy körbe
+                                        forogva stb.)
+                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 115 pont, 
+                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
+                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBox</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBox</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és 
+                                        és kísérletezz a 
+                                        <indexterm>
+                                            <primary>Norbiron</primary>
+                                        </indexterm>                                        
+                                        Norbiron 
+                                        <filename class="directory">../res/logo/Norbiron</filename> alapú 
+                                        &#x201E;processzorokkal&#x201D;! Kapcsold őket például valamilyen 
+                                        hálózatba, ehhez lehet mozgatni kell őket, vagy fix slot helyekre kiválasztani stb.
+                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 135 pont, 
+                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
+                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                    </para>
+                                </listitem>
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>Brainboard</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
+                                        a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
+                                        (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
+                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                    </para>
+                                    <tip>
+                                        <title>Alaplap szerkesztő</title> 
+                                        <para>
+                                            A Brainboard app-okban az intuitív cél egyfajta &#x201E;neurális alaplap&#x201D; szerkesztőnek mint
+                                            játéknak a kialakítása.
+                                        </para>
+                                    </tip>                                    
+                                </listitem>
+                            </orderedlist>
                         </section>
                         <section>
                             <title>Nándi</title>
