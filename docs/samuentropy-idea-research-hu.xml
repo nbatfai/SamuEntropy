@@ -405,18 +405,18 @@
                                             Az ESAMU-ban mindennek tisztának kell lennie szerzői jogi szempontból, sw licenc stb. szempontból!
                                             Például a <filename class="directory">../res/logo/Norbiron</filename> logó 
                                             ebből a kézi saját skiccből készült:
-                        <mediaobject>
-                            <imageobject>
-                                <imagedata fileref="img/NorbironKezi.png" scale="55"/>
-                            </imageobject>
-                            <textobject>
-                                <phrase>
-                                    A <indexterm>
-                                        <primary>Norbiron</primary>
-                                    </indexterm>Norbiron logó tervezése..
-                                </phrase>
-                            </textobject>
-                        </mediaobject>                                            
+                                            <mediaobject>
+                                                <imageobject>
+                                                    <imagedata fileref="img/NorbironKezi.png" scale="55"/>
+                                                </imageobject>
+                                                <textobject>
+                                                    <phrase>
+                                                        A <indexterm>
+                                                            <primary>Norbiron</primary>
+                                                        </indexterm>Norbiron logó tervezése..
+                                                    </phrase>
+                                                </textobject>
+                                            </mediaobject>                                            
                                         </para>
                                     </important>                                                                        
                                 </listitem>
@@ -483,6 +483,22 @@
                                         a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
                                     </para>
                                 </listitem>
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBox</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBox</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és 
+                                        a <link xlink:href="http://www.oracle.com/technetwork/articles/java/index-137868.html">Javadoc</link> 
+                                        <indexterm>
+                                            <primary>Javadoc</primary>
+                                        </indexterm>
+                                        konvenciókat követve kommentezd fel a forrásokat!
+                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 90 pont).
+                                    </para>
+                                </listitem>                                
                                 <listitem>
                                     <para>
                                         <indexterm>
