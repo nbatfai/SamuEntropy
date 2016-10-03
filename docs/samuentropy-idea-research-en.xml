@@ -3,7 +3,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-en">
     <title>Research Plan</title>
     <partintro>
-        <para>Ebben a részben kísérletet teszünk az <emphasis>Entrópia Samu</emphasis> kutatási tervének összeállítására.
+        <para>In this part we will create the research plan of the  <emphasis>Samu Entropy</emphasis>.
         </para>
         <para>
             Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet ebben a kutatásunkban még tovább próbálunk fokozni azzal, 
@@ -19,23 +19,24 @@
     </partintro>
     <chapter>
         <info>
-            <title>Bevezetés</title>
+            <title>Introduction</title>
             <keywordset>
                 <keyword></keyword>
             </keywordset>
         </info>
         <section>
-            <title>Bevezetés</title>
+            <title>Introduction</title>
             <para>
-                Több alkalommal tűnt már úgy, hogy elérhető a mesterséges intelligencia létrehozása, de a siker csak nem jött el. 
-                A jelenlegi várakozásokat a Google DeepMind eredményei hízlalták fel. Samu is részben ennek inspirálására és ebbe az irányba
-                tett törekvés, de lehet hasztalan. Ezért most nem is a Samus irányainkra koncentrálunk, hanem egy egészen más perspektívából
+                Many times it seemed that create artifical inteligence is available, but the it was not succesfull.
+But our expectations are fatted up by the resoult of the Google DeepMind.
+Sam is also part of this inspiration and aspiration in this direction, but it might be useless.
+ Ezért most nem is a Samus irányainkra koncentrálunk, hanem egy egészen más perspektívából
                 közelítünk a kérdéshez: megálmodunk egy olyan esport játékot, amelynek célja mesterségesen intelligens faj létrehozása, ahol
                 a faj egyelőre legyen csak egy intuitív megjelölés, jelentsen a későbbiekben bármit. 
             </para>
         </section>
         <section>
-            <title>Entrópia Samu</title>
+            <title>Samu Entropy</title>
             <para>
                 Ebben a pontban tehát meg kell álmodunk egy játékot! Ezt egy eldobható gyors prototípus formájában tesszük meg, hogy 
                 szerezzünk némi tapasztalatot. 
@@ -44,7 +45,7 @@
                 Hol játszódik a játék? A Földön. Mikor? Napjainkban.
             </para>
             <section>
-                <title>A család</title>
+                <title>The Family</title>
                 <para>
                     A játék szervezésének alapja a család. Család alatt azt a közösséget értjük, amely gondoz egy Samu ágenst. Család (pontosabban
                     a fejlesztendő játékbeli családot fenntartó) lehet egy
@@ -333,7 +334,7 @@
                                 </listitem>                                
                                 <listitem>
                                     <para>
-                                        Norbi és Gréta kapcsolata: a Gréta kliens letölti a Samu agy neurális architektúráját, például szerkesztésre.
+                                        Relationship between Norbi and Gréta : The Gréta client downloads the Samu brain neural architecture, for editing.
                                     </para>
                                 </listitem>                            
                                 <listitem>
