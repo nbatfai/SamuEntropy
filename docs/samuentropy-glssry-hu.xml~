@@ -1,14 +1,14 @@
     <glossary xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Szójegyzék</title>
+    <title>Vocabulary</title>
     <glossdiv>
         <title>D</title>
         <glossentry xml:id="de">
-            <glossterm>Debreceni Egyetem</glossterm>
-            <abbrev>DE</abbrev>
+            <glossterm>Universtiy of Debrecen</glossterm>
+            <abbrev>UD</abbrev>
             <glossdef>
-                <para>A DE a Debreceni Egyetem rövidítése.
+                <para>The UD is the short form of University of Debrecen.
                 </para>
             </glossdef>
         </glossentry>
@@ -18,10 +18,10 @@
             <glossdef>
                 <para>A <indexterm>
                             <primary>DevRob2Psy</primary>
-                        </indexterm>DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
+                        </indexterm>The DevRob2Psy is the abridgment of Developmental Robotics 2 Robopsychology Facebook group.
                     Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
                     Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is: 
-                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
+                    <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/<link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
             </glossdef>

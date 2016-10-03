@@ -1,6 +1,6 @@
-all:	clean validate_xmllint_idea_hu validate_xmllint_idea_en samuentropy-idea-hu.pdf samuentropy-idea-en.pdf
+#all:	clean validate_xmllint_idea_hu validate_xmllint_idea_en samuentropy-idea-hu.pdf samuentropy-idea-en.pdf
 
-#all:	clean validate_xmllint_idea_en samuentropy-idea-en.pdf
+all:	clean validate_xmllint_idea_en samuentropy-idea-en.pdf
 
 
 

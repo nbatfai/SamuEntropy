@@ -1,7 +1,7 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-hu">
-    <title>Kutatási terv</title>
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-en">
+    <title>Research Plan</title>
     <partintro>
         <para>Ebben a részben kísérletet teszünk az <emphasis>Entrópia Samu</emphasis> kutatási tervének összeállítására.
         </para>
@@ -91,13 +91,13 @@
                     </para>
                 </section>
                 <section>
-                    <title>Nándi, a tanító</title>
+                    <title>Nándi, the teacher</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek felügyelt tanulást biztosítanak.
                     </para>
                 </section>
                 <section>
-                    <title>Matyi, a vadász</title>
+                    <title>Matyi, the hunter</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek az érzékelést és a mozgást valósítják meg (adott esetben például 
                         geocaching<indexterm>
@@ -107,7 +107,7 @@
                     </para>
                 </section>
                 <section>
-                    <title>Erika, a harcos</title>
+                    <title>Erika, the warrior</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek aspirálnak esportként is üzemelni. 
                     </para>
@@ -171,7 +171,7 @@
                 <para>
                     A konkrét jétékoknál az agyviharban felmerülő fícsöröket érdekes külön is kiemelni, hátha azok egy másik játékba is bevezethetőek. 
                 </para>       
-                <tip xml:id="brainswap">
+                <tip>
                     <title>Meta-fícsör: egy agy mind felett</title>
                     <para>
                         Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk majd ki innen megvalósításra (SRS doksi elkészítése stb.) 
@@ -303,10 +303,10 @@
                             </para>
                             <para>
                                 Tervezz kommunikációs protokollt az alábbi esetekre, használd a 
-                                <indexterm>
-                                    <primary>Google</primary>
-                                    <secondary>Protocol Buffers</secondary>
-                                </indexterm>
+                                                                                            <indexterm>
+                                <primary>Google</primary>
+                                <secondary>Protocol Buffers</secondary>
+                            </indexterm>
 
                                 <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>-t
                                 (UDPROG közösségben 6x20 pont, a SamuEntropy forkba ne kerüljön 
@@ -321,15 +321,15 @@
                                         </footnote> függő méretű sort biztosít a Gréta, Nándi, Matyi és Erika családtagoknak 
                                         a képek és az azokat kísérő metaadatok megosztásához. 
                                     </para>
-                                    <para>
-                                        Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
-                                            <para>Lásd a   
-                                                <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
-                                                c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
-                                        </footnote>, GPS a regisztrációkor stb.
-                                        (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
-                                        be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
-                                    </para>                                    
+                            <para>
+                                Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
+                                    <para>Lásd a   
+                                        <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
+                                        c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
+                                </footnote>, GPS a regisztrációkor stb.
+                                (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
+                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                            </para>                                    
                                 </listitem>                                
                                 <listitem>
                                     <para>
@@ -372,9 +372,9 @@
                         <section>
                             <title>Samu</title>
                             <para>
-                                <indexterm>
-                                    <primary>TensorFlow</primary>
-                                </indexterm>
+                                                            <indexterm>
+                                <primary>TensorFlow</primary>
+                            </indexterm>
                                 Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
                                     <para>Lásd a   
                                         <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
@@ -385,139 +385,8 @@
                         </section>
                         <section>
                             <title>Gréta</title>
-                            <orderedlist numeration="lowerroman">
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>NorbironLogo</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a 
-                                        <filename class="directory">../cs/NorbironLogo</filename> app-ból 
-                                        (az egész ESAMU-ról persze) és 
-                                        és kísérletezz a saját logóddal, hogy mutat!
-                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 65 pont, 
-                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                    <important>
-                                        <title>Csak tiszta forrásból!</title> 
-                                        <para>
-                                            Az ESAMU-ban mindennek tisztának kell lennie szerzői jogi szempontból, sw licenc stb. szempontból!
-                                            Például a <filename class="directory">../res/logo/Norbiron</filename> logó 
-                                            ebből a kézi saját skiccből készült:
-                                            <mediaobject>
-                                                <imageobject>
-                                                    <imagedata fileref="img/NorbironKezi.png" scale="55"/>
-                                                </imageobject>
-                                                <textobject>
-                                                    <phrase>
-                                                        A <indexterm>
-                                                            <primary>Norbiron</primary>
-                                                        </indexterm>Norbiron logó tervezése..
-                                                    </phrase>
-                                                </textobject>
-                                            </mediaobject>                                            
-                                        </para>
-                                    </important>                                                                        
-                                </listitem>
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>NorbironAnim</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a 
-                                        <filename class="directory">../cs/NorbironAnim</filename> app-ból 
-                                        (az egész ESAMU-ról persze) és 
-                                        és kísérletezz a 
-                                        <indexterm>
-                                            <primary>Norbiron</primary>
-                                        </indexterm>                                        
-                                        Norbiron 
-                                        <filename class="directory">../res/logo/Norbiron</filename>                                        
-                                        logó animációjával, hogy mutat!
-                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 65 pont, 
-                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>NorbironGame</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a 
-                                        <filename class="directory">../cs/NorbironGame</filename> app-ból 
-                                        (az egész ESAMU-ról persze) és 
-                                        és kísérletezz a 
-                                        <indexterm>
-                                            <primary>Norbiron</primary>
-                                        </indexterm>                                        
-                                        Norbiron 
-                                        <filename class="directory">../res/logo/Norbiron</filename>                                        
-                                        logó animációjával! Tedd páldául őket dobozokba, ahol az egyik dobozban
-                                        random mozogjanak, a másikban szabályosan (pl. rácsba szervezve rezegve, vagy körbe
-                                        forogva stb.)
-                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 115 pont, 
-                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>NorbironBox</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a 
-                                        <filename class="directory">../cs/NorbironBox</filename> app-ból 
-                                        (az egész ESAMU-ról persze) és 
-                                        és kísérletezz a 
-                                        <indexterm>
-                                            <primary>Norbiron</primary>
-                                        </indexterm>                                        
-                                        Norbiron 
-                                        <filename class="directory">../res/logo/Norbiron</filename> alapú 
-                                        &#x201E;processzorokkal&#x201D;! Kapcsold őket például valamilyen 
-                                        hálózatba, ehhez lehet mozgatni kell őket, vagy fix slot helyekre kiválasztani stb.
-                                        (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 135 pont, 
-                                        a &#x201E;játékélményt&#x201D; írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                </listitem>
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>NorbironBox</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a 
-                                        <filename class="directory">../cs/NorbironBox</filename> app-ból 
-                                        (az egész ESAMU-ról persze) és 
-                                        a <link xlink:href="http://www.oracle.com/technetwork/articles/java/index-137868.html">Javadoc</link> 
-                                        <indexterm>
-                                            <primary>Javadoc</primary>
-                                        </indexterm>
-                                        konvenciókat követve kommentezd fel a forrásokat!
-                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 90 pont).
-                                    </para>
-                                </listitem>                                
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>Brainboard</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
-                                        a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                        (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                    <tip>
-                                        <title>Alaplap szerkesztő</title> 
-                                        <para>
-                                            A Brainboard app-okban az intuitív cél egyfajta &#x201E;neurális alaplap&#x201D; szerkesztőnek mint
-                                            játéknak a kialakítása.
-                                        </para>
-                                    </tip>                                    
-                                </listitem>
-                            </orderedlist>
+                            <para>
+                            </para>
                         </section>
                         <section>
                             <title>Nándi</title>
@@ -528,16 +397,16 @@
                             <title>Matyi</title>
                             <para>
                                 A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
-                                amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
-                                (UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
+amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
+(UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
                             </para>
                             <para>
-                                <indexterm>
-                                    <primary>Android Mobile Vision API</primary>
-                                </indexterm>
+                                                            <indexterm>
+                                <primary>Android Mobile Vision API</primary>
+                            </indexterm>
                                 A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
-                                amely az élő képből kijelöli az arcot.
-                                (UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+amely az élő képből kijelöli az arcot.
+(UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -553,28 +422,23 @@
                                 <listitem>
                                     <para>
                                         <indexterm>
-                                            <primary>Samu</primary>
-                                            <secondary>Amoba</secondary>
-                                        </indexterm>
+                            <primary>Samu</primary>
+                            <secondary>Amoba</secondary>
+                        </indexterm>
                                         Samu Amoba: lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
                                         <indexterm>
-                                            <primary>OpenStreetMap</primary>
-                                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
+                            <primary>OpenStreetMap</primary>
+                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
                                         az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
                                         (kiindulhatsz a <indexterm>
-                                            <primary>Raxicab</primary>
-                                            <secondary>rcwin</secondary>
-                                            <see>OOCWC</see>
-                                        </indexterm>Raxicab rcwin megjelenítőjéből az 
+                            <primary>Raxicab</primary>
+                            <secondary>rcwin</secondary>
+                            <see>OOCWC</see>
+                        </indexterm>Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
+                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
                                         <indexterm>
-                                            <primary>OSM</primary>
-                                            <see>OpenStreetMap</see>
-                                        </indexterm>
-                                        OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
-                                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
-                                        <indexterm>
-                                            <primary>Raxicab</primary>
-                                        </indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
                                         UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
                                         bemutatása fészes posztban).
                                     </para>
@@ -595,8 +459,8 @@
                             <para>Az eddigi kiadások a  
                                 <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
                                 <indexterm>
-                                    <primary>Raxicab</primary>
-                                </indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
                         </footnote> RTS kiadása.
                     </para>
@@ -748,26 +612,12 @@
                             </indexterm> Google Maps felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
                     </listitem>                
                     <listitem>
-                        <para>A <link xlink:href="https://firebase.google.com/">Google Firebase rendszer</link>
-                            felhasználásának vizsgálata. Mint bármely más Google szolgáltatásra, erre is az általános 
-                            <link xlink:href="https://console.developers.google.com/tos?id=universal">Google APIs Terms of Service</link> vonatkozik.
-                            Ami számunkra lényeges, hogy az API-t használó szoftver lehet open source 
-                            (ez esetben egy fontos megkötés lásd később), de bezárható commercial szoftverként is, ezt a Google nem köti meg.
-                            Egyébként jellemzően a Google demo programjai Apache v2 licenccel érhetőek el.
-                            Fontos megkötés, hogy ha a szoftver forráskódját open source formában közzétesszük, semmilyen fejlesztői azonosítót nem tehetünk bele 
-                            (lásd section 4. b. 1.: "Developer credentials may not be embedded in open source projects.").
-                            Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
-                            Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
-                        </para>
+                        <para>...</para>
                     </listitem>                
-                    <listitem>
-                        <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
-                            felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                                    
                 </orderedlist>            
             </section>                               
             <section>
-                <title>Kreatív és művészeti jellegű feladatok</title>
+                <title>Művészeti jellegű feladatok</title>
                 <para>
                 
                 </para>
@@ -801,34 +651,7 @@
                         </listitem>                
                     </orderedlist>            
                 </section> 
-                <section>
-                    <title>Konkrét app 5letek</title>
-                    <orderedlist numeration="lowerroman">
-                        <listitem>
-                            <para>A FACE BATTLE mintájára írd le saját játék 5letedet, (UDPROG közösségben 310 pont, például a
-                                <link xlink:href="oocwc-fight">Samu OOCWC Fight</link> részben 
-                                a DocBook forrásban kikommentezett Samu, Gréta, Nándi, Erika, Norbi pontokat kell kitalálnod). 
-                                A kidolgozás során vedd figyelembe a 
-                                <link xlink:href="brainswap">Meta-fícsör: egy agy mind felett</link>
-                                tippet!                            
-                            </para>
-                        </listitem>                
-                    </orderedlist>            
-                </section>                 
             </section>
-            <section>
-                <title>Promóciós jellegű feladatok</title>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>Készíts promó YouTube videót az Entrópia Samuhoz. (UDPROG közösségben 540 pont, természetesen
-                            csak tiszta szoftverek és erőforrások - képek, fontok, stb. - használhatóak, illetve a gyors protók,
-                            feladatmegoldások eredményei, csak az számolhatja el, aki más ESAMU feladatból már elért legalább 150 pontot).</para>
-                    </listitem>                
-                    <listitem>
-                        <para>...</para>
-                    </listitem>                
-                </orderedlist>            
-            </section> 
         </section>        
         <section>
             <title>Köszönetnyilvánítás</title>

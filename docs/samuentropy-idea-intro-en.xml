@@ -1,4 +1,4 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Bevezetés</title>
@@ -22,7 +22,7 @@
             </keywordset>
         </info>
         <section>
-            <title>Az eredeti 5let</title>
+            <title>The original idea</title>
             <para>
                 Vázoljuk a kiinduló 5letet és annak egy magától értetődő megvalósítási irányát. A tárgyalásban lényegesen kitágítjuk az eredeti 5let koncepcióját és már nemcsak esport játékként fogalmazzuk meg, hanem egy nem triviálisan adódó megvalósítási irányként, mint alapkutatási célt is vázoljuk.
             </para>
