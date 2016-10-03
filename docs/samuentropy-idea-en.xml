@@ -97,25 +97,25 @@
                 <revnumber>0.0.2</revnumber>
                 <date>2016-08-25</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások.</revremark>
+                <revremark>Patches.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.3</revnumber>
                 <date>2016-09-02</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Továbbfejlesztés: a sztenderd és a váratlan megoldási irány felvázolása. Shared in DevRob2Psy</revremark>
+                <revremark>Updates: a sztenderd és a váratlan megoldási irány felvázolása. Shared in DevRob2Psy</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.4</revnumber>
                 <date>2016-09-03</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Updates. Shared in DevRob2Psy and UDPROG</revremark>
+                <revremark>Patches. Shared in DevRob2Psy and UDPROG</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.5</revnumber>
                 <date>2016-09-04</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások. A játékélmény. A DevRob2Psy, UDPROG-ba megosztva, e-mailben szétküldve potenciális érdeklődőknek.</revremark>
+                <revremark>Patches. A játékélmény. A DevRob2Psy, UDPROG-ba megosztva, e-mailben szétküldve potenciális érdeklődőknek.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.6</revnumber>
