@@ -55,47 +55,51 @@
                 <note>
                     <title>Family is the architectural frame</title> 
                     <para>
-                        Intuitívan gondolj arra, hogy a fejlesztendő játékbeli család fogalmunk az imént vázolt architektúrát rögzíti.
+                        Intuitively think that the family of concepts developed in-game captures the architecture outlined above.
                     </para>
                 </note>                
             </section>            
             <section xml:id="usecases">
                 <title>Main use cases</title>
                 <para>
-                    A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki (amelyeket a fejlesztendő
-                    konrét játékoknak meg kell próbálniuk megvalósítani), majd a
-                    <link xlink:href="#rapidprotos">Gyors prototípusozás</link> c. pontban vezetünk be konkrét játékokat. Ezek a használati
-                    esetek a fejlesztendő alkalmazások archetípusait jelölik ki.
+                    The next use cases are not specify a concrete game, 
+		    but only gave directions to appoint (which they should try to achieve a developed specific games), then
+		    <link xlink:href="#rapidprotos">Rapid prototyping</link> introduced specific point games.
+		    These use cases represent the archetypes developed applications.
+
                 </para>
                 <section>
                     <title>Samu, the brain</title>
                     <para>
-                        Ebbe a csokorba olyan programok tartoznak majd, amelyek gépi tanulásos algoritmusok megvalósításai.
+                        This will include a bunch of programs for machine learning algorithms implementations.
                     </para>
                 </section>
                 <section>
                     <title>Gréta, the builder</title>
                     <para>
-                        Ebbe a csokorba olyan programok tartoznak majd, amelyek vizuális interfészt adnak a Samu az ágens pont programjaihoz. 
-                        Fontos, hogy ezeknek a programoknak a rendezettség növelése <indexterm>
-                            <primary>játékélmény</primary>
-                        </indexterm> játékélményt kell adniuk.
+                        This will include a bunch of programs that provide a visual interface to the point of agent Sam programs.
+                        It is important that these programs increase the orderliness
+			<indexterm>
+                            <primary>gaming experience</primary>
+                        </indexterm> 
+			and they must provide gaming experience.
                     </para>
                 </section>
                 <section>
                     <title>Nándi, the teacher</title>
                     <para>
-                        Ebbe a csokorba olyan programok tartoznak majd, amelyek felügyelt tanulást biztosítanak.
+                        This will include a bunch of programs that provide supervised learning.
                     </para>
                 </section>
                 <section>
                     <title>Matyi, the hunter</title>
                     <para>
-                        Ebbe a csokorba olyan programok tartoznak majd, amelyek az érzékelést és a mozgást valósítják meg (adott esetben például 
-                        geocaching<indexterm>
+                        This will include a bunch of programs that perception and movement implemented (if applicable such as geocaching 
+                        geocaching
+			<indexterm>
                             <primary>geocaching</primary>
                         </indexterm>
-                        jelleggel).                         
+                        basis).                    
                     </para>
                 </section>
                 <section>
