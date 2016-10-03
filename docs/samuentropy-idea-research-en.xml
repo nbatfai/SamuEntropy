@@ -6,14 +6,11 @@
         <para>In this part we will create the research plan of the  <emphasis>Samu Entropy</emphasis>.
         </para>
         <para>
-            Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet ebben a kutatásunkban még tovább próbálunk fokozni azzal, 
-            hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
-            Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
-            feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, lásd: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+           It is quite obvious that there is a close relation between esport and artificial intelligence. This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented by software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
         </para>
-        <para>Ennek a résznek a feladata a fejlesztendő esport játék kiválasztása, majd annak <indexterm>
+        <para>The task of this part is to choose the development of the esport game, and then support of the <indexterm>
                 <primary>SRS</primary>
-            </indexterm>SRS doksija készítésének támogatása.
+            </indexterm>SRS documentation.
         </para>
             
     </partintro>
@@ -36,8 +33,7 @@
         <section>
             <title>Samu Entropy</title>
             <para>
-                Ebben a pontban tehát meg kell álmodunk egy játékot! Ezt egy eldobható gyors prototípus formájában tesszük meg, hogy 
-                szerezzünk némi tapasztalatot. 
+                In this point we have to dream the game! To gain some experience we create fast and disposable prototypes.
             </para>
             <para>
                 Where does the game take place? On the Earth. When? Today.
@@ -45,29 +41,26 @@
             <section>
                 <title>The Family</title>
                 <para>
-                    A játék szervezésének alapja a család. Család alatt azt a közösséget értjük, amely gondoz egy Samu ágenst. Család (pontosabban
-                    a fejlesztendő játékbeli családot fenntartó) lehet egy
-                    a szó soros értelmében vett család, egy baráti társaság vagy egy egyetemi kurzus közössége, de akár egyetlen humán játékos is.   
+                    The basic design of this game is the family. The family means that group which can take care of a Samu agent. The Family 			(inside the game) can be a real family, group of friends, society of a university course, but also a single human player.
                 </para>
                 <para>
-                    Architektúrális értelemben a családot az agynak (az ágens agyának) tekinthetjük (ami például egy PC-n vagy laptopon futó program) 
-                    amelyhez érzékelő és mozgató részek csatlakozhatnak (melyekre mint mobilos érzékszervekre vagy izmokra gondolhatunk). 
+                   In architectural meaning the family is the brain of the agent (for example it is a programme which run on PC or Notebook) 			   which has sensors and moving parts.
                 </para>
-                <para>
-                    Funkcionális értelemben az agy végzi a számításigényesebb tevékenységeket, még a tipikusan mobil eszközön futó programok az érzékelést
-                    és a mozgatást végzik. Konkrétan egy humán játékos mobil kamerája lehet az agy szeme, GPS helymeghatározása egy újabb érzékszerve. Samu mozgása
-                    pedig azon keresztül valósul meg, hogy a mobil tulajdonosa viszi a mobilt. Gondoljunk arra, hogy ha az agy kíváncs, mi történik valahol, akkor a 
-                    játékos a mobilja GPS-ének segítségével odamegy és kamerájával fotót készít a helyszínről, lásd majd a Matyi, a vadász használati esetet.  
+                <para>   
+		In functional meaning the brain do the calculations and the managing of the mobile sensors and moving parts.
+		The mobile camera of the human player is the eye and the GPS is an other sense-organ.
+		The player takes the phone and Samu can walk with the player through this methods.
+		We think about it that the brain is in something and what is happening, the player can find the place with GPS and take photo from the scene. See also later Matyi the hunter.
                 </para>
                 <note>
-                    <title>A család az architektúrális keret</title> 
+                    <title>Family is the architectural frame</title> 
                     <para>
                         Intuitívan gondolj arra, hogy a fejlesztendő játékbeli család fogalmunk az imént vázolt architektúrát rögzíti.
                     </para>
                 </note>                
             </section>            
             <section xml:id="usecases">
-                <title>Főbb használati esetek</title>
+                <title>Main use cases</title>
                 <para>
                     A következő használati esetek nem egy konkrét játékot specifikálnak, hanem csak adott irányokat jelölnek ki (amelyeket a fejlesztendő
                     konrét játékoknak meg kell próbálniuk megvalósítani), majd a
@@ -111,7 +104,7 @@
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek aspirálnak esportként is üzemelni. 
                     </para>
                     <tip>
-                        <title>Milyen a jó <emphasis>Erika, a harcos</emphasis> program?</title> 
+                        <title>Why <emphasis>Erika, the warrior</emphasis>is a good program?</title> 
                         <para>
                             Intuitívan gondolj arra, hogy úgy lehessen kivetítve játszani egy nagy arénában, 
                             mint egy nagy box gála fő mérkőzését. Tehát nem egy tipikus kvíz játékra gondolunk itt...
@@ -120,7 +113,7 @@
                     </tip>
                 </section>
                 <section>
-                    <title>Norbi, a törzsfőnök</title>
+                    <title>Norbi, the chief of staff</title>
                     <para>
                         Ebbe a csokorba olyan szerveroldali programok tartoznak majd, amelyek a családok és az agycsaták kezelését valósítják meg. 
                     </para>
@@ -337,13 +330,13 @@
                                 </listitem>                            
                                 <listitem>
                                     <para>
-                                        Norbi és Nándi kapcsolata: a Nándi kliens letölti a Matyi által &#x201E;összevadászott&#x201D; képeket és infókat.
+                                        Relationship between Norbi and Nándi: a Nándi kliens letölti a Matyi által &#x201E;összevadászott&#x201D; képeket és infókat.
                                     </para>                                
                                 </listitem>
 
                                 <listitem>
                                     <para>
-                                        Norbi és Matyi kapcsolata: a Matyi kliens feltölti az &#x201E;összevadászott&#x201D; képeket és infókat.
+                                        Relationship between Norbi and Matyi: a Matyi kliens feltölti az &#x201E;összevadászott&#x201D; képeket és infókat.
                                     </para>                                
                                 </listitem>
 
@@ -355,13 +348,13 @@
 
                                 <listitem>
                                     <para>
-                                        Norbi és Erika kapcsolata: az agycsata lebonyolítása!
+                                        Relationship between Norbi and Erika: az agycsata lebonyolítása!
                                     </para>                                        
                                 </listitem>
 
                                 <listitem>
                                     <para>
-                                        Két Norbi kapcsolata: törzsek csatája, ezzel egyelőre ne foglalkozzunk, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor
+                                        Relationship between two Norbi: törzsek csatája, ezzel egyelőre ne foglalkozzunk, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor
                                         kerül terítékre!
                                     </para>                                        
                                 </listitem>
