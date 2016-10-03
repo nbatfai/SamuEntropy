@@ -110,9 +110,9 @@
                     <tip>
                         <title>Why <emphasis>Erika, the warrior</emphasis>is a good program?</title> 
                         <para>
-                            Intuitively think that it can be projected onto a large play arenas,
-                             like a big boxing match in the main gala. So we do not think of a typical quiz game here ...
-                             You can be a great gaming experience, you can look good!
+                            Intuitively think that it can be projected onto a large play arenas, like a big boxing match in the main gala. So 
+			    we do not think of a typical quiz game here ... 
+			    You can be a great gaming experience, you can look good!
                         </para>
                     </tip>
                 </section>
@@ -125,9 +125,9 @@
             </section>
         </section>
         <section>
-            <title>Oktatási és kutatási terv</title>
+            <title>Educational and research plans</title>
             <para>                
-                Ezeken a feladatokon egyaránt dolgoznak oktatók és hallgatók. Az aktuális hallgatóknak érdekes, hogy ezek az <indexterm>
+                In these tasks the students and the teachers work together. Az aktuális hallgatóknak érdekes, hogy ezek az <indexterm>
                     <primary>UDPROG</primary>
                 </indexterm> UDPROG 
                 (<indexterm>
@@ -138,10 +138,10 @@
                 ilyen értelemben tekinthetjük ezeket felhasználhatónak az oktatásban. 
             </para>            
             <para>                
-                A feladatok megoldásának menete a következő:
+		The way of the tasks solution:
                 <orderedlist numeration="lowerroman">
                     <listitem>
-                        <para>Forkold le ezt a <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link> projektet!</para>
+                        <para>Fork this<link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link> project!</para>
                     </listitem>                
                     <listitem>
                         <para>A forkodban készítsd el a megoldásodat!</para>
