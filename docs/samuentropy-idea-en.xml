@@ -15,7 +15,7 @@
             <affiliation>
                 <shortaffil>E. adjunktus, DEIK.</shortaffil>
                 <jobtitle>Egyetemi adjunktus</jobtitle>
-                <orgname>Debreceni Egyetem, Informatikai Kar</orgname>
+                <orgname>University of Debrecen, Faculty of Information Technology</orgname>
                 <orgdiv>Információtechnológiai Tanszék</orgdiv>
                 <address>
                     <email>batfai.norbert@inf.unideb.hu</email>
@@ -26,7 +26,7 @@
                 <street>Kassai út 26.</street>
                 <city>Debrecen</city>
                 <postcode>4028</postcode>
-                <country>Magyarország</country>
+                <country>Hungary</country>
                 <email>batfai.norbert@inf.unideb.hu</email>
                 <otheraddr>
                     <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
@@ -103,13 +103,13 @@
                 <revnumber>0.0.3</revnumber>
                 <date>2016-09-02</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Továbbfejlesztés: a sztenderd és a váratlan megoldási irány felvázolása. A DevRob2Psy-ba megosztva.</revremark>
+                <revremark>Továbbfejlesztés: a sztenderd és a váratlan megoldási irány felvázolása. Shared in DevRob2Psy</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.4</revnumber>
                 <date>2016-09-03</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások. A DevRob2Psy, UDPROG-ba megosztva.</revremark>
+                <revremark>Updates. Shared in DevRob2Psy and UDPROG</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.5</revnumber>
@@ -149,7 +149,7 @@
             -->
         </revhistory>
     </info>   
-    <xi:include href="samuentropy-glssry-hu.xml">
+    <xi:include href="samuentropy-glssry-en.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
@@ -157,7 +157,7 @@
         </xi:fallback>
     </xi:include>     
     
-    <xi:include href="samuentropy-idea-intro-hu.xml">
+    <xi:include href="samuentropy-idea-intro-en.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-idea-intro-hu.xml file not found</emphasis>
@@ -165,7 +165,7 @@
         </xi:fallback>
     </xi:include>     
     
-    <xi:include href="samuentropy-idea-research-hu.xml">
+    <xi:include href="samuentropy-idea-research-en.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-idea-research-hu.xml file not found</emphasis>
