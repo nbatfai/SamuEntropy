@@ -28,11 +28,9 @@
             <title>Introduction</title>
             <para>
                 Many times it seemed that create artifical inteligence is available, but the it was not succesfull.
-But our expectations are fatted up by the resoult of the Google DeepMind.
-Sam is also part of this inspiration and aspiration in this direction, but it might be useless.
- Ezért most nem is a Samus irányainkra koncentrálunk, hanem egy egészen más perspektívából
-                közelítünk a kérdéshez: megálmodunk egy olyan esport játékot, amelynek célja mesterségesen intelligens faj létrehozása, ahol
-                a faj egyelőre legyen csak egy intuitív megjelölés, jelentsen a későbbiekben bármit. 
+		But our expectations are fatted up by the resoult of the Google DeepMind.
+		Sam is also part of this inspiration and aspiration in this direction, but it might be useless.
+		And now we are not concentrate to Samu, but also see things from different perspectives: our dream is an e-sport where the 			purpose is to create an artifical inteligence species where the species meaning something intuitive.
             </para>
         </section>
         <section>
@@ -42,7 +40,7 @@ Sam is also part of this inspiration and aspiration in this direction, but it mi
                 szerezzünk némi tapasztalatot. 
             </para>
             <para>
-                Hol játszódik a játék? A Földön. Mikor? Napjainkban.
+                Where does the game take place? On the Earth. When? Today.
             </para>
             <section>
                 <title>The Family</title>
@@ -77,13 +75,13 @@ Sam is also part of this inspiration and aspiration in this direction, but it mi
                     esetek a fejlesztendő alkalmazások archetípusait jelölik ki.
                 </para>
                 <section>
-                    <title>Samu, az agy</title>
+                    <title>Samu, the brain</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek gépi tanulásos algoritmusok megvalósításai.
                     </para>
                 </section>
                 <section>
-                    <title>Gréta, az építő</title>
+                    <title>Gréta, the builder</title>
                     <para>
                         Ebbe a csokorba olyan programok tartoznak majd, amelyek vizuális interfészt adnak a Samu az ágens pont programjaihoz. 
                         Fontos, hogy ezeknek a programoknak a rendezettség növelése <indexterm>
@@ -465,35 +463,7 @@ amely az élő képből kijelöli az arcot.
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
                         </footnote> RTS kiadása.
                     </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
+                    
                 </section>
                                                                 
                 <section xml:id="devrobvision">
@@ -501,35 +471,7 @@ amely az élő képből kijelöli az arcot.
                     <para>
                         Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
                     </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
+           
                 </section>
                 
                 
@@ -540,35 +482,7 @@ amely az élő képből kijelöli az arcot.
                             <primary>0 A. D.</primary>
                         </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
                     </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
+                    
                 </section>
 
             </section>                    
