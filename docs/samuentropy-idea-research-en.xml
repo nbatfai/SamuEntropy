@@ -127,15 +127,15 @@
         <section>
             <title>Educational and research plans</title>
             <para>                
-                In these tasks the students and the teachers work together. Az aktuális hallgatóknak érdekes, hogy ezek az <indexterm>
+                In these tasks the students and the teachers work together. The actual student can complete these task, in these <indexterm>
                     <primary>UDPROG</primary>
                 </indexterm> UDPROG 
                 (<indexterm>
                     <primary>DevRob2Psy</primary>
                 </indexterm>DevRob2Psy, <indexterm>
                     <primary>UDRFT</primary>
-                </indexterm> UDRFT) közösségben is kidolgozható feladatok,
-                ilyen értelemben tekinthetjük ezeket felhasználhatónak az oktatásban. 
+                </indexterm> UDRFT) facebook groups, and
+		in this sense these tasks can be used in education.
             </para>            
             <para>                
 		The way of the tasks solution:
@@ -144,31 +144,29 @@
                         <para>Fork this<link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link> project!</para>
                     </listitem>                
                     <listitem>
-                        <para>A forkodban készítsd el a megoldásodat!</para>
+                        <para>Make your own solution in your fork!</para>
                     </listitem>                
                     <listitem>
-                        <para>Küldj egy pull request-et! (az aktív UDPROG hallgatóknak a feladat pontértékének fele plusszban elszámolható, ha a pull request merge-ölésre kerül, ez nyilván egy
-                            szubjektív döntés eredménye, ezért tekintsük egyfajta bónusznak :)</para>
+                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus pointsk :)</para>
                     </listitem>                
                 </orderedlist>          
             </para>            
             <section xml:id="rapidprotos">
-                <title>Gyors prototípusozás</title>
+                <title>Rapd prototyping</title>
                 <para>
-                    5letek és megvalósítások kerülnek ide. Fontos, hogy megfeleljenek a 
-                    <link xlink:href="#usecases">Főbb használati esetek</link> c. pont Gréta, Nándi, Matyi, Erika bontásának.
-                    Ez egy brain storming jellegű pont, de annyiban több, hogy olyan konkrét játék 5leteket kell vázolni, amelyekre
-                    egy gyors protót meg is tudunk valóban gyors protóként valósítani és ezen megvizsgálni a 
+                    Here are ideas and their implementation. Fontos, hogy megfeleljenek a 
+                    <link xlink:href="#usecases">Main use cases</link> point in Gréta, Nándi, Matyi, Erika.
+                    This is a kind of brain storming point, but so much more to a specific game should outline ideas for which he can be 				really fast prototype to achieve a rapid prototypes and tested in this 
                     <indexterm>
-                        <primary>játékélmény</primary>
+                        <primary>gaming experience</primary>
                     </indexterm>
-                    <link xlink:href="#samuentropy-idea-intro-hu.jatekelmeny">játékélményt</link>. 
+                    <link xlink:href="#samuentropy-idea-intro-hu.jatekelmeny">game experience</link>.
                 </para>
                 <para>
-                    A konkrét jétékoknál az agyviharban felmerülő fícsöröket érdekes külön is kiemelni, hátha azok egy másik játékba is bevezethetőek. 
+                   The key feature of the emerging specific games brain storm as interesting to point out separately to see if they can be introduced to a different game.
                 </para>       
                 <tip>
-                    <title>Meta-fícsör: egy agy mind felett</title>
+                    <title>Meta-feature: ONE BRAIN RULE THEM ALL!</title>
                     <para>
                         Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk majd ki innen megvalósításra (SRS doksi elkészítése stb.) 
                         hanem ha jól funkcionál a <link xlink:href="#usecases">Főbb használati esetek</link> c. pont alatti 
@@ -192,7 +190,7 @@
                     <section>
                         <title>Samu</title>
                         <para>
-                            A fejlesztendő ágens feladata arcok (a saját és más családok arcainak) felismerése. Egy megvalósításban használjuk a <indexterm>
+                            The developed agent tasked with identifying faces (the faces of their own and other families). Egy megvalósításban használjuk a <indexterm>
                                 <primary>DeepMind</primary>
                                 <secondary>TensorFlow</secondary>
                                 <see>Google</see>
@@ -291,7 +289,7 @@
                         <section>
                             <title>Norbi</title>
                             <para>
-                                A szerveroldal feladata a &#x201E;Samu az agy&#x201D; PC-n futó családok és az agycsaták szervezése. 
+                                A szerveroldal feladata a &#x201E;Samu is the brain&#x201D; PC-n futó családok és az agycsaták szervezése. 
                             </para>
                             <para>
                                 Egy szerver reprezentál egy törzset, a törzsek és a családok kapcsolata 1:N jellegű. Tehát egy törzsnek több családja lehet. 
@@ -534,7 +532,7 @@ amely az élő képből kijelöli az arcot.
                 
                 </para>
                 <section>
-                    <title>Logók</title>
+                    <title>Logos</title>
                     <para>
                         A logókat a forkban helyezzétek a <filename class="directory">docs/res/logo</filename> könyvtárba. 
                         Kell egy png, egy svg változat és egy licenc! Követendő példaképpen
@@ -542,10 +540,10 @@ amely az élő képből kijelöli az arcot.
                             <primary>Vona Márton</primary>
                         </indexterm>Vona Márton készítette
                         <indexterm>
-                            <primary>Robotautó Világbajnokság</primary>
+                            <primary>Robocar Championship  </primary>
                             <see>OOCWC</see>
                         </indexterm>         
-                        Robotautó Világbajnokság                    
+                        Robocar Championship                    
                         <indexterm>
                             <primary>OOCWC</primary>
                         </indexterm>
@@ -553,10 +551,10 @@ amely az élő képből kijelöli az arcot.
                     </para>                
                     <orderedlist numeration="lowerroman">
                         <listitem>
-                            <para>Logó az Entrópia Samuhoz általában. (UDPROG közösségben 240 pont)</para>
+                            <para>Create a new logo for the Samu Entropy. (240 point in UDPROG society)</para>
                         </listitem>                
                         <listitem>
-                            <para>Logó az Entrópia Samu/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
+                            <para>Logo for the Samu Entropy/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
                         </listitem>                
                         <listitem>
                             <para>...</para>
@@ -566,10 +564,9 @@ amely az élő képből kijelöli az arcot.
             </section>
         </section>        
         <section>
-            <title>Köszönetnyilvánítás</title>
+            <title>Thanksgiving</title>
             <para>
-                Köszönöm gyermekeimnek Bátfai Mátyás Bendegúznak, Bátfai Nándor Benjáminnak és Bátfai Margaréta Niobénak 
-                a remek agyviharokért amelyből kialakult Entrópia Samu koncepciója.
+                Thank you to my children Bátfai Mátys Bendegúz, Bátfai Nándor Benjámin and Bátfai Margaréta Niobé for the great brain battles which created Samu Entropy.
             </para>
         </section>        
     </chapter>
