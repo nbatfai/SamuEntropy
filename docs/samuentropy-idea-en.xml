@@ -8,10 +8,10 @@
         <titleabbrev>ESAMU</titleabbrev>
         <author>
             <personname>
-                <honorific>Dr.</honorific>
+                <honorific>Dr</honorific>
                 <surname>Bátfai</surname>
                 <firstname>Norbert</firstname>        
-            </personname>    
+            </personname>  
             <affiliation>
                 <shortaffil>Senior lecturer, DEIK.</shortaffil>
                 <jobtitle>Senior lecturer</jobtitle>
@@ -33,6 +33,9 @@
                 </otheraddr>
             </address>
         </author>
+
+
+
         <edition>ESAMU, Samu Entropy, v. 0.0.1</edition>
         <pubdate>2016</pubdate>
         <copyright>
