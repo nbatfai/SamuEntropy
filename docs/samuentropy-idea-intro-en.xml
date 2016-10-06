@@ -1,19 +1,14 @@
 <part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Pilot</title>
+    <title>Introduction</title>
     <partintro>
-        <para>Először bemutatjuk az eredeti 5letet, hangsúlyozva annak interdiszciplináris 
-            (például esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem, és informatika) jellegét.
-            Majd az 5letet két irányban bontjuk ki, egy várhatóban, amelyre mindenki természetesen gondolna, illetve egy kevésbé
-            magától értetődőben, ahol már nem (csak) a játék a fejlesztendő esport célja, hanem a mesterséges intelligencia kutatás
-            sodorvonalába való bekapcsolódás, ahol az esport már nem csupán használja az MI-t, hanem megpróbálja megteremteni annak egy 
-            új minőségét. 
+        <para>First of all, we present the original idea, emphasizing its interdisciplinar (e.g. esport, artificial intelligence, pedagogy, psychology, history and informatics) aspect. Then, we unfold the idea in two directions, in an expectable one, which everyone would naturally think of, and in a less implicit direction, where the game is not the (only) goal of the esport to be developed, but the intention to join the research of artificial intelligence, where the esport is not simply using the AI, but it tries to create a new quality of AI.
         </para>
     </partintro>
     <chapter>
         <info>
-            <title>Bevezetés</title>
+            <title>Introduction</title>
             <keywordset>
                 <keyword>e-Budapest 2024</keyword>
                 <keyword>esport</keyword>
@@ -24,102 +19,91 @@
         <section>
             <title>The original idea</title>
             <para>
-                Vázoljuk a kiinduló 5letet és annak egy magától értetődő megvalósítási irányát. A tárgyalásban lényegesen kitágítjuk az eredeti 5let koncepcióját és már nemcsak esport játékként fogalmazzuk meg, hanem egy nem triviálisan adódó megvalósítási irányként, mint alapkutatási célt is vázoljuk.
+		We outline original idea and its implicit realization course. In the body of the document we greatyl widen the concept of the original idea and we define it not only as an esport game, but we also outline it as a nontrivial realization course, as a main part of our research plan.
             </para>
             <para>
-                The purpose of this document <link xlink:href="#samuentropy-idea-research-en">kutatási terv</link> elkészítésének megalapozása.
+                The aim of the current document is to foundate the completion of the research plan <link xlink:href="#samuentropy-idea-research-en"></link> 
             </para>
                 
             <section>
-                <title>Az 5let felvetése</title>
+                <title>Raising the idea</title>
                 <para>
-                    Az 5let munkacíme ez volt: &#x201E;<emphasis>Aki mer, az nyer</emphasis>&#x201D; e-Budapest 
+                    The title of the idea was: &#x201E;<emphasis>Nothing ventured nothing gained</emphasis>&#x201D; e-Budapest 
                     2024<indexterm>
                         <primary>e-Budapest 2024</primary>
                         <see>Budapest 2024</see>
-                    </indexterm>, alcíme: 
-                    <emphasis>esport kutatási projekt javaslat, avagy &#x201E;az esport napjaink sakk-tömegsportja&#x201D;?</emphasis>
+                    </indexterm>, subtitle: 
+                    <emphasis>esport research project proposal, &#x201E;the esport is today's chess mass sport&#x201D;?</emphasis>
                 </para>
                 
                 <section>
-                    <title>A projekt célok</title>
+                    <title>The project goals</title>
                     <para>
-                        A tervezett projekt célja egy  &#x201E;saját &#x201D; interdiszciplináris 
-                        (elsődlegesen esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem, és informatika) 
-                        esport torna kialakításának és a professzionális esportolók (elsődlegesen 
-                        esport élettani<footnote>
-                            <para>Ez egy érintetlen területnek tűnik, amely viszont akár beilleszthető lehet
-                                a DE egyébként stratégiai egészségipari törekvéseibe.</para>
-                        </footnote> és 
-                        informatikai<footnote>
-                            <para>Például adott játék esetén stratégiák, forgatókönyvek feltárása, elemzése.</para>
-                        </footnote>) támogatási lehetőségeinek kutatása.
+			The aims of the planned project are to establish an &#x201E;own &#x201D; interdisciplinar 
+                        (primarily esport, artificial intelligence, pedagogy, psychology, history and informatics) 
+                        esport gym and to research the opportunity of supporting the professional esportsmen (primarily 
+                        regarding the physiology of esport<footnote>
+                            <para>This seems to be an untouched area, which could be inserted to the otherwise strategical endeavour of the University of Debrecen, regarding health care.</para>
+                        </footnote>
+			<footnote>
+                            <para>For example strategies, unfolding scripts, or analyzing them in the case of a given game.</para>
+                        </footnote>
                     </para>
                 </section>
 
                 <section>
-                    <title>A projekt részcéljai</title>
+                    <title>The milestones of the project</title>
                         
                     <section>
                         <title>Esport</title>
                         <para>
-                            A projekt fő célja több nyílt forráskódú számítógépes 
-                            (tipikusan RTS<footnote>
-                                <para>Real Time Strategy, valós idejű stratégiai játék</para>
-                            </footnote>) 
-                            játék megvizsgálása, hogy alkalmasak lennének-e egy ráépülő “mozgalom” és esport viadal kialakításához és fenntartásához. A további részcélokat már egy konkrét ilyen példa mentén vesszük sorra, ennek megfelelően előzetesen essen a választásunk 
-                            a 0 A. D.<footnote>
+			    The main goal of the project is to examine several open-source computer games(typically RTS<footnote>
+                                <para>Real Time Strategy</para>
+                            </footnote>), whether if they are suitable for creating and upholding a "movement" and esport duel. We'll go over the further milestones with the help of a concrete example, accordingly, we pick the 0 A. D.<footnote>
                                 <para>A 0 A. D.<indexterm>
                                         <primary>0 A. D.</primary>
-                                    </indexterm> egy nyílt forráskódú, valós idejű stratégiai játék, 
+                                    </indexterm> an open-source, real-time strategy game, 
                                     <link xlink:href="https://play0ad.com/">https://play0ad.com/</link>, 
                                     <link xlink:href="https://github.com/0ad/0ad/">https://github.com/0ad/0ad/</link>.</para>
-                            </footnote> nyílt forráskódú, korhű történelmi RTS játékra. 
+                            </footnote> open-source, authentical, historical RTS game. 
                         </para>
                     </section>
                     <section>
-                        <title>Történelemtudomány</title>
-                        <para>Konkrét részcél lehet saját, korhű modok<footnote>
-                                <para>Egy aktuális mod például a szóban forgó játékhoz a Han-dinasztiát megvalósító: 
+                        <title>History</title>
+                        <para>Creating authentical mods<footnote>
+                                <para>An actual mod is for example the one about the Han dynasty:
                                     <link xlink:href="http://www.moddb.com/mods/rote">http://www.moddb.com/mods/rote</link>, 
                                     <link xlink:href="https://github.com/0ADMods/han_china">https://github.com/0ADMods/han_china</link>.</para>
-                            </footnote> kialakítása, például a honfoglaló magyarságé.
+                            </footnote> could be a concrete milestone, for example the Settlement of the Magyars in Hungary.
                         </para>
                     </section>
                     <section>
-                        <title>Neveléstudomány, pszichológia</title>
-                        <para>Az oktatási rendszer kontextusában a játék (tipikusan gyerekekre alapuló) tömegbázisa természetes módon vetne fel neveléstudományi, pszichológiai kérdéseket.
+                        <title>Pedagogy, psychology</title>
+                        <para>In the context of the education system the (typically children-based) target audience of the game would naturally raise pedagogical and pychological questions.
                         </para>
                     </section>
                     <section>
-                        <title>Esport élettan</title>
-                        <para>Az előző pont említette tömegbázison vizsgált kérdések önmagukban fontosak, de vizsgálatuk kamatoztatható lenne a professzionális játékosok támogatására is? A professzionális játékosok 
-                            extrémebb igénybevételének kutatása, a játékosok (például klasszikus élettani) támogatása direkt természetes cél lehet.
-                            Ugyanúgy érdekes a tömegsport (és annak vélt vagy valós &#x201E;állandóan a képernyőt bámulod&#x201D; jellegű túlkapásainak)
-                            vizsgálata. 
+                        <title>The physiology of esport</title>
+                        <para>The examined questions regarding the mentioned target audience are important on their own, but could their examination be profitable regarding the support of the professional players? The research of the extreme strain of the professional players, the support (for example classical physiological) of the players could be a direct natural goal. Examining mass sport (and its thought or real &#x201E;you always stare at the monitor&#x201D;  abuse) is interesting, too.
                         </para>
                     </section>
                     <section>
-                        <title>Promóció és közösségépítés</title>
-                        <para>Adott esetben a bevezetendő torna kapcsán legígéretesebb játék lehetne a Budapest 2024<indexterm>
+                        <title>Promotion and building society</title>
+                        <para>If there is occasion, regaring the gym that is being introduced, the most promising game could be a &#x201E;non-official&#x201D;<footnote>
+                                <para>The title non-official tries to imply that the game to be introduced would not be an olympic sport :), but it could be naturally a possible step in this direction. In any case, we could mention that accepting esport as an olympic sport (for example in the case of Rio) is a hot topic in the news(see for example the “League of Legends”<indexterm><primary>League of Legends</primary></indexterm> game).</para>
+                            </footnote> game of Budapest 2024.<indexterm>
                         <primary>Budapest 2024</primary>
-                    </indexterm> egy 
-                                &#x201E;nem hivatalos&#x201D;<footnote>
-                                <para>A nem hivatalos titulus azt szeretné érzékeltetni, hogy a bevezetendő játék még nem lenne olimpiai sport :), de
-                                    nyilván egy lehetséges lépés lenne ebbe az irányba. Azt mindenesetre megjegyezhetjük, hogy az esportnak
-                                    olimpiai sportként való elfogadtatásával – Rió kapcsán például – napi szinten olvashatunk híreket (lásd például a
-                                    “League of Legends”<indexterm><primary>League of Legends</primary></indexterm> játékot).</para>
-                            </footnote> játéka is.
+                    </indexterm>
+                                
                         </para>
                     </section>
                     <section>
-                        <title>Mesterséges intelligencia</title>
-                        <para>Az aktuális Google DeepMind<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> Ataris<footnote>
+                        <title>Artificial Intelligence</title>
+                        <para>The actual Google Deepmind's<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> article (regarding Atari 				    <footnote>
                                 <para>
                                     <link xlink:href="https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf">https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf</link>
                                 </para>
-                            </footnote>, 
-                            a Nature folyóiratban megjelent cikke egy forró témát nyitott a mesterséges intelligencia kutatásokban, amire figyelni, amihez kapcsolódni teljesen természetes és fontos.
+                            </footnote>) that was released in the Nature journal opened a hot topic in the research of artificial intelligence. Observing and joining to that is entirely natural and important.
                         </para>
                     </section>
                         
@@ -129,187 +113,167 @@
             </section>
                 
             <section>
-                <title>Egy várható megvalósítás</title>
+                <title>A probable realization</title>
                 <para>
-                    A bevezetésben használt 0 A. D.<indexterm>
-                                        <primary>0 A. D.</primary>
-                                    </indexterm> játékra vagy hasonlóra épített vertikális kutatási irány egy várható (sztenderd) megvalósítási irány, amelyben jó eséllyel valóra tudnánk váltani az említett esport, mesterséges intelligencia, neveléstudomány, pszichológia, történelem és informatikai célokat, de – vagy éppen ezért – a következő tárgyalásban egy másik, egy kevésbé előre megjósolható ám még ambiciózusabb megoldási irányt vázolunk fel.
+                    The vertical research direction built on the 0 A. D.<indexterm> <primary>0 A. D.</primary> </indexterm> game or on any similar one is a probable (standard) realizational direction , in which we could make the said esport, artificial intelligence, pedagogical, psychological, historical and informatical goals real with a pretty good chance, but – or accordingly – we outline another, a less predictable but more ambitional solution direction in the next chapter. 
                 </para>
             </section>
 
         </section>
             
         <section>
-            <title>Esport és mesterséges intelligencia</title>
+            <title>Esport and artificial intelligence</title>
 
             <section>
-                <title>Egy váratlan megvalósítás</title>
+                <title>An unexpected realization</title>
                 <para>
-                    A játékfejlesztés (és általában a szoftverfejlesztés) Szent Grálja a &#x201E;Killer App&#x201D;<footnote>
-                        <para>A &#x201E;killer app&#x201D;<indexterm><primary>Killer app</primary></indexterm> fogalom érzékeltetésére például a 
-                        Doom<indexterm><primary>Doom</primary></indexterm> az volt a PC-s játékok világában 
-                            vagy jóideje a Facebook az a közösségi portáloknál.</para>
-                    </footnote>-ok keresése. Ezeknek az app-oknak a ritkaság az alaptermészete, 
-                    killer app-ot<indexterm><primary>Killer app</primary></indexterm> csinálni várható megvalósítással lehetetlen. Persze közel ugyanez egy nem várható megvalósítási irányra is igaz lenne, mert a killer app-okat nem csinálják, hanem egy adott app válhat azzá, HA.
+                    The Holy Grail of game developing (and usually of software developing) is the search of &#x201E;Killer Apps&#x201D;<footnote>
+                        <para>To picture the &#x201E;killer app&#x201D;<indexterm><primary>Killer app</primary></indexterm> concept we could mention the Doom<indexterm><primary>Doom</primary></indexterm> PC game or the Facebook social site.</para>
+                    </footnote>These apps are rare by their very nature, developing a killer app<indexterm><primary>Killer app</primary></indexterm> with an expected realization is impossible. Of course, this would be equally true for an unexpected realizational direction because killer apps are not developed directly, but an app can become one, IF it can.
                 </para>
                 <para>
-                    Ez esetben viszont – legalábbis a kutatásban – bátran megpróbálhatjuk &#x201E;megváltani a világot&#x201D;. Ehhez először nézzük meg, hogy miért szeretünk játszani, majd azt, hogy egy fejlődésrobotikai esport játékkal ki tudnánk-e fejleszteni mesterséges intelligenciát? Tehát itt már nem a gépi játékos vezérlését vagy a játékmenet vezérlését értjük mesterséges intelligencia alatt, hanem egy intelligens új életforma megteremtését, ez persze most egy teljesen intuitív cél, tehát a teremtendő létforma jelentsen most még bármit.                              </para>
+                    In this case – at least in the research – we can bravely try to &#x201E;redeem the world&#x201D;. For this, first let us examine why we like playing games and whether if we could develop an artificial intelligence with an esport game. In other words, we define artificial intelligence neither as the controlling process of the plaer nor as controll of the gameplay, but as the creation of a new intelligent lifeform. This is now of course an entirely intuitive goal, so let the lifeform to be created mean anything for now.</para>
                 
                 <section>
-                    <title>Miért szeretünk játszani?</title>
+                    <title>Why do we like playing?</title>
                     <para>
-                        Fizikai testünk a kémia &#x201E;rendezetlen&#x201D; molekuláris világában él, de mint élő rendszer képes növelni és fenntartani belső rendezettségét 
-                        (azaz felnőni és élete során őrizni átmeneti állandóságát) ebben a világban<footnote>
-                            <para>Lásd Erwin Schrődinger, What is life? : the physical aspect of the living cell, Cambridge University Press, 1944 illetve Roger Penrose, A ​császár új elméje Számítógépek, gondolkodás és a fizika törvényei, Akadémiai, Budapest, 1993.</para>
-                        </footnote>. Feltételezhetjük, hogy ezt a tulajdonságot a mentális működéseink is &#x201E;öröklik&#x201D; abban az értelemben, hogy az érzékszerveink felfogta zajos inputba képesek olyan rendet belelátni, amelyet mi úgy nevezünk: a valóság. 
-                        <emphasis>Tézisünk, hogy azért szeretünk játszani, mert a játékban a játék világának belső szervezettségét növelni tudjuk.</emphasis> 
+                        Our physical body lives in the &#x201E;disordered&#x201D; molecular world of chemistry, but as a living system it is able to increase and maintain its internal order (in other words to grow up and to preserve its temporary consistency during its life) in this world.<footnote>
+                            <para>See Erwin Schrödinger's, What is life? : the physical aspect of the living cell, Cambridge University Press, 1944 and Roger Penrose's, A ​császár új elméje Számítógépek, gondolkodás és a fizika törvényei, Akadémiai, Budapest, 1993.</para>
+                        </footnote> We can assume that this attribute is &#x201E;inherited&#x201D; by our mental functionings in the following meaning: they are able to see the order in the noisy input, perceived by our sensory organs and this is called: reality.
+                        <emphasis>Our thesis is that we enjoy playing because this way we can improve the internal order of the game, inside the game.</emphasis> 
                     </para>
                     <para>
-                        Ezt a tézist szubjektív élményeimmel és a gyermekeimmel történt beszélgetések alapján tudom csupán megerősíteni, 
-                        vagy még inkább csak illusztrálni. Például a 0 A. D.<indexterm>
+                        I can confirm this thesis or just illustrate it only relying on my subjective experiences and the conversations between me and my chilren. For example organising (building) the empty world given by the 0 A.D.<indexterm>
                                         <primary>0 A. D.</primary>
-                                    </indexterm> adta üres világot mindinkább megszervezni 
-                        (beépíteni) személyes tapasztalatom szerint ez egy nagyon jó <indexterm><primary>játékélmény</primary></indexterm> játékélményt adó elfoglaltság.
-                        Ennek egy pillanatfelvételét látjuk a következő ábrán. 
+                                    </indexterm> offers in my opinion a great gaming experience.<indexterm><primary>gaming experience</primary></indexterm> 
+                        This can be seen in the screenshot below.
                     </para>                            
                     <figure>
-                        <title>Pillanatkép a 0 A .D.<indexterm>
+                        <title>Screenshot of a gameplay of the author(red on the map) played in the 0 A .D.<indexterm>
                                         <primary>0 A. D.</primary>
-                                    </indexterm> játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.</title>
+                                    </indexterm> game's han_china mod.</title>
                         <mediaobject>
                             <imageobject>
                                 <imagedata fileref="img/0adchina.png" scale="55"/>
                             </imageobject>
                             <textobject>
                                 <phrase>
-                                    Pillanatkép a 0 A.D.<indexterm>
+                                    Screenshot of a gameplay of the author(red on the map) played in the 0 A .D.<indexterm>
                                         <primary>0 A. D.</primary>
-                                    </indexterm> játék han_china modjában a szerző (a térképen piros) által játszott egy játékmenetből.
+                                    </indexterm> game's han_china mod.
                                 </phrase>
                             </textobject>
                         </mediaobject>
                     </figure>                
-                    <para xml:id="samuentropy-idea-intro-hu.jatekelmeny">
-                        Játékélmény 
-<indexterm><primary>játékélmény</primary></indexterm>                        
-                        alatt azt értjük, hogy a játék fejlesztői alapvetően egy élményt kódolnak a játékkal, amelyet a játékosok dekódolni tudnak, 
-                        azaz át tudnak élni<footnote>
-                            <para>Lásd ennek kapcsán a következő publikációt: Bátfai Norbert, Bátfai Erika, A mobil játékfejlesztés 
+                    <para xml:id="samuentropy-idea-intro-en.jatekelmeny">
+                       	Under gaming experience
+<indexterm><primary>gaming experience</primary></indexterm>                        
+                        we mean that creators of the game basically coded an experience with the game itself, which the gamers can decode, in other words, which they can live through.<footnote>
+                            <para>Regarding this, see the following publication: Bátfai Norbert, Bátfai Erika, A mobil játékfejlesztés 
                                 elméleti és gyakorlati momentumai, Híradástechnika, 5, 34-37, 2005, 
                                 <link xlink:href="http://www.hiradastechnika.hu/data/upload/file/2005/2005_5/HT_0505-7.pdf">http://www.hiradastechnika.hu/data/upload/file/2005/2005_5/HT_0505-7.pdf</link>.</para>
                         </footnote>. 
                     </para>
-                    <para>                                    
-                        Sőt gyermekeimnél volt olyan életkor, amikor csatázni nem is, csak építeni (a növekvő Town Hall szint adta
-                        új építményeket elhelyezni és a játékbeli szereplőket &#x201E;kimaxolni&#x201E; akartak. Ebben az időben 
-                        éppen ezt az élményt adta a <trademark class="registered">Minecraft</trademark><indexterm>
+                    <para>
+                        Futhermore, there were certain ages among my children, when they did not want to battle, but to build (positioning the new buildings and &#x201E;maxing&#x201E; in-game characters given by the increasing level of the Town hall). During this time, in the Minecraft <trademark class="registered">Minecraft</trademark><indexterm>
                                         <primary>Minecraft</primary>
-                                    </indexterm> játék<footnote>
+                                    </indexterm> game<footnote>
                             <para>
                                 <link xlink:href="https://minecraft.net/">https://minecraft.net/</link>
                             </para>
-                        </footnote> survival módjában<footnote>
-                            <para>A játék egyfajta &#x201E;örök élet&#x201E; módja, ahol szabadon lehet építeni, nem kell tartani semmitől.</para>
-                        </footnote> a szabad építkezés.
+                        </footnote> its survival mode offered exactly this experience,<footnote>
+                            <para>More precisely the game's &#x201E;eternal life&#x201E; mode, where one can build freely and does not have to fear anything.</para>
+                        </footnote> with its free building option.
                     </para>
                     <para>                                                
-                        További látványos példaként említjük a szervezettség növelésére 
-                        a <trademark class="registered">Clash of Clans</trademark><indexterm>
+                        We mention the <trademark class="registered">Clash of Clans</trademark><indexterm>
                                         <primary>Clash of Clans</primary>
-                                    </indexterm> című játékot<footnote>
+                                    </indexterm> game<footnote>
                             <para>
                                 <link xlink:href="http://supercell.com/en/games/clashofclans/">http://supercell.com/en/games/clashofclans/</link>
                             </para>
-                        </footnote>, ahol a játékélmény hasonló. 
-                        S ha a kedves olvasó játssza is esetleg ezt a játékot, akkor maga is megnézheti 
-                        (rákeresve például a &#x201E;Bátfai clan&#x201D;<indexterm><primary>Clash of Clans</primary>
+                        </footnote> as a spectacular example for increasing organization, where the gaming experience is similar.
+                        If the reader plays this game, then he/she can see for himself/herself (for example by searching for the &#x201E;Bátfai clan&#x201D;<indexterm><primary>Clash of Clans</primary>
                         <secondary>Bátfai clan</secondary>
-                        </indexterm> nevű klánra) hogy  
-                        a &#x201E;th&#x201D;-k<footnote>
+                        </indexterm> clan) that  
+                        the change of &#x201E;th&#x201D;-s<footnote>
                             <para>Ez a Town Hall szintjének rövidítése.</para>
-                        </footnote> változása jól mutatja a játék világa falvainak növekvő komplexitását, 
-                        a szervezettség növekedése a klántagok faluin (a klánbéli helyezésük sorrendjében, ami durván a játékra fordított idővel
-                        korrelál) kézzel fogható.                                        
+                        </footnote> shows well the increasing complexity of the villages in the game's world, the increase in the organization can be seen if we look at the villages of the clan members (in order of their rank in the clan, which roughly correlates with the time spent with playing).                                    
                     </para>
                 </section>
                 
                 <section>
-                    <title>Családi robotika és játék</title>
+                    <title>Family robotics and game</title>
                     <para>
-                        Szoftveresen implementált, a családi PC-n futó, mobil eszközös érzékszervekkel felszerelt, 
-                        JIBO-jellegű fejlődésrobotikai (Samu) alkalmazás fejlesztését már korábban felvetettük és a 
-                        DevRob2Spy kutatási terveinek része<footnote>
-                            <para>Lásd a Samu as a social robot for the family’s home desktop (PC/Samu mint társas robot a család asztali gépén) kutatási témát és az N. Bátfai, R. Besenczi, Robopsychology Manifesto: Samu in His Prenatal Development (submitted manuscript) kéziratot.</para>
-                        </footnote>. De hiányzott még a motiváció, hogy miért is használná ezt bárki is a családban? Erre lehet egy válasz a játék!
+                        We raised the idea of developing a JIBO-like developmental robotics (Samu) application earlier, that runs on the family PC and is equipped with mobile device sensory organs earlier, and it is part of our DevRob2Spy research plans.<footnote>
+                            <para>See the Samu as a social robot for the family’s home desktop research topic an the N. Bátfai, R. Besenczi, Robopsychology Manifesto: Samu in His Prenatal Development submitted manuscript.</para>
+                        </footnote>But there was one thing that the project lacked: why would anyone use it in the family? An answer to this could be the game!
                     </para>
                 </section>
                 <section>
-                    <title>A recept</title>
+                    <title>The receipt</title>
                     <para>                                    
                         <itemizedlist>
                             <listitem>
-                                <para>Adjuk meg az önmaga belső szervezettségét növelni tudó gép modelljét<footnote>
-                                        <para>Ez sajnos egy előre nem tervezhető lépés (Gábor Dénes után szabadon: ezt előbb még fel kell találni :) lásd a Norbert Bátfai, The Fractal Nature of Algorithms, 
-                                            <link xlink:href="https://github.com/nbatfai/AlgorithmicFractals">https://github.com/nbatfai/AlgorithmicFractals</link> c. kéziratot.</para>
+                                <para>Let us give the modell of the machine that knows how to increase its inner organization<footnote>
+                                        <para>This is unfortunately a step that cannot be pre-planned (after Dénes Gábor: this needs to be invented first :) See the Norbert Bátfai, The Fractal Nature of Algorithms 
+                                            <link xlink:href="https://github.com/nbatfai/AlgorithmicFractals">https://github.com/nbatfai/AlgorithmicFractals</link> c. manuscript.</para>
                                     </footnote>.
                                 </para>
                             </listitem>
                                     
                             <listitem>
-                                <para>Ezt a modellt valósítsuk meg egy “szoftveresen implementált, a családi PC-n futó, mobil eszközös érzékszervekkel felszerelt, JIBO-jellegű fejlődésrobotikai alkalmazás” formájában.
+                                <para>This model will be realized in the form of a “JIBO-like developmental robotics (Samu) application earlier, that runs on the family PC and is equipped with mobile device sensory organs”.
                                 </para>
                             </listitem>
 
                             <listitem>
-                                <para>Az alkalmazás belső szerkezetének egy vizuális interfésze lehetne egy játék alapja.
+                                <para>The visual interface of the inner structure of the application could be the foundation of a game.
                                 </para>
                             </listitem>
                         </itemizedlist>
                     </para>                                                                            
                 </section>
                 <section>
-                    <title>A játékélmény</title>
+                    <title>The gaming experience</title>
                     <para>                                    
-                        Ebben a pontban kísérletet teszünk a <indexterm><primary>játékélmény</primary></indexterm> játékélmény megálmodására. Két alapvető részből gyúrnánk össze: 
+                        In this we make an attempt to dream the <indexterm><primary>gaming experience</primary></indexterm> gaming experience. We would build it from two fundamental parts: 
                         <itemizedlist>
                             <listitem>
-                                <para>legyen a játék világának szervezettséget növelő része
+                                <para>the game needs to have a part that increases organization
                                 </para>
                             </listitem>
                             <listitem>
-                                <para>és legyen közösségi része.
+                                <para>and a social part.
                                 </para>
                             </listitem>
                         </itemizedlist>
                     </para>
-                    <para>                                                                            
-                        Miközben a játék célja legyen az, hogy Samu (avagy a &#x201E;fejlődésrobotikus tanulógép&#x201D;) minél jobban lásson és halljon!<footnote>
-                            <para>Csak intuitív értelemben említhetjük ide a kapcsolódó kísérleteinket. 
-                                A “látásra” például: <link xlink:href="https://github.com/nbatfai/SamuCam">https://github.com/nbatfai/SamuCam</link>, 
-                                a “hallásra”: <link xlink:href="https://github.com/nbatfai/SamuVocab">https://github.com/nbatfai/SamuVocab</link>.</para>
+                    <para>
+                        In the meantime, let the goal of the game be to enhance Samu's (in other worlds the &#x201E; developmental robotical learning machine &#x201D;) vision and hearing.<footnote>
+                            <para>Only in an intuitive manner can we mention our reasearches regarding this topic.
+                                For example for “vision”: <link xlink:href="https://github.com/nbatfai/SamuCam">https://github.com/nbatfai/SamuCam</link>, 
+                                and for “hearing”: <link xlink:href="https://github.com/nbatfai/SamuVocab">https://github.com/nbatfai/SamuVocab</link>.</para>
                         </footnote>
                     </para>
-                    <para>                                                                            
-                        A szervezettséget növelő részt a nehezebb kitalálni, mert ez függ az előző pont 1-es pontjától 
-                        (&#x201E;Adjuk meg az önmaga belső szervezettségét növelni tudó gép modelljét.&#x201D;), amely önmagában egy nagy tudományos kihívás… tehát most maximum intuitív analógiákat vonhatunk:
+                    <para>            
+                        Inventing the part that increases organization is harder because it depends on the 1st point of the previous point.                                                                
+                        (&#x201E;Let us give the modell of the machine that knows how to increase its inner organization&#x201D;), which is in itself is a big scientific challange… so we can make intuitive analogies at best:
                     </para>
                     <itemizedlist>
                         <listitem>
-                            <para>                                                                                
-                                Ha a szóban forgó &#x201E;entrópia-csökkentő gép&#x201D; fogalma a Turing gép fogalmához hasonlatos lenne, akkor a GoDNGoD c. játéktervhez analóg módon tudnánk vizualizálni a definíciót. (Az említett játékban a Turing gép fogalmon alapuló gép fajtákat  – breed-eket – szaporítunk, mint például a “Breedi Turingi”-t vagy a “Turingus Tri Breedus”-t, lásd a Norbert Bátfai, 
-                                Turing's Imitation Game has been Improved, <link xlink:href="http://arxiv.org/abs/1509.00584">http://arxiv.org/abs/1509.00584</link> c. kéziratot).
+                            <para>
+                                If the definition of the &#x201E;entropy decreaser machine&#x201D; in question were similar to the definition of the Turing machine, then we could visualize the definition analogically to the GoDNGoD game plan. (In the mentioned game we breed types based on the Turing machine's definition, for example the “Breedi Turingi” or the “Turingus Tri Breedus”-t, see the Norbert Bátfai, 
+                                Turing's Imitation Game has been Improved, <link xlink:href="http://arxiv.org/abs/1509.00584">http://arxiv.org/abs/1509.00584</link> manuscript).
                             </para>
                         </listitem>
                         <listitem>
-                            <para>                                                                                
-                                Ha a játékban a Samu látó (halló) megvalósítása használna több rejtett réteges neurális architektúrát, 
-                                akkor arra egy vizuális nyelv<footnote>
-                                    <para>Gondolatébresztőnek lásd páldául a korábbi 
-                                        <productname class="trade">LEGO</productname> <trademark class="registered">Mindstorms</trademark>-hoz<indexterm><primary>LEGO</primary><secondary>Mindstorms</secondary></indexterm> az 
-                                        MIT média laborja<indexterm><primary>MIT</primary><secondary>média labor</secondary></indexterm>
-                                        által fejlesztett nyelvet, Fred G. Martin, The Art of LEGO Design, The Robotics Practitioner: The Journal for Robot Builders, 1(2), 1995. http://www.kipr.org/sites/default/files/artoflego.pdf.</para>
+                            <para>    
+                                If the seeing (hearing) realization of Samu's sensory organs used more hidden layered neural architecture, then we could give a visual language			<footnote>
+                                    <para>As a thought-provoker see for example the language for the earlier 
+                                        <productname class="trade">LEGO</productname> <trademark class="registered">Mindstorms</trademark><indexterm><primary>LEGO</primary><secondary>Mindstorms</secondary></indexterm> developed by the media labor of the MIT<indexterm><primary>MIT</primary><secondary>media labor</secondary></indexterm>, Fred G. Martin, The Art of LEGO Design, The Robotics Practitioner: The Journal for Robot Builders, 1(2), 1995. http://www.kipr.org/sites/default/files/artoflego.pdf.</para>
                                 </footnote>
-                                megadható, amellyel a játékosok hangolhatják az architektúrát. Ha például ez a neurális architektúra megvalósítás a Google DeepMind<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> 
+                                with which the gamers could tune the architecture. For example if this neural architecture was based on the Google DeepMind's <indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> 
                                 TensorFlow<indexterm>
                                     <primary>DeepMind</primary>
                                     <secondary>TensorFlow</secondary>
@@ -319,49 +283,44 @@
                                     <para>
                                         <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link>
                                     </para>
-                                </footnote>-ján alapulna (ami egy &#x201E;vizuális nyelvből&#x201D; képes C++ forrást generálni például) akkor annak folyamatábra nyelvére egy 
-                                    &#x201E;játékosabb front-end&#x201D; nyelv kifejlesztése lehetne egy kutatási részcél. Ha ez járható út lenne, akkor maga a játék lehetne a játékos saját digitális élőlényei 
-                                    &#x201E;agyának&#x201D; olyan elrendezése, amelyek minél jobb látást adna a lénynek. Az erre épülő közösségi szinten pedig vagy 
-                                    &#x201E;harcolhatnak&#x201D; ezek a lények, hogy melyik lát jobban, vagy együttműködhetnek, miszerint két játékos &#x201E;rekombinálná&#x201D; a lényeit, ahol kérdés, hogy az eredmény lény hogyan lát.                                    
+                                </footnote>(which is for example able to generate C++ source code from &#x201E;visual language&#x201D;) then developing a &#x201E;more playful front-end&#x201D; language could be a research milestone. If this option was viable, then the game could be the player's own digital lifeforms' &#x201E;brains&#x201D; organization, which could give the given lifeform a better vision. On the social level that builds on this, these lifeforms could either &#x201E;fight&#x201D; to decide who sees better or co-operate, where two players would &#x201E;recombine&#x201D; their creatures and where the question would be: which creature sees better.
                             </para>
                         </listitem>
                         <listitem>
-                            <para>                                                                                
-                                A &#x201E;brain storming&#x201D;-ot bár folytathatnánk, de itt nem tesszük.                                    
+                            <para>
+                                Although we could continue this &#x201E;brain storming&#x201D;, we don't do it here.                                   
                             </para>
                         </listitem>
                     </itemizedlist>
                                     
                 </section>
                 <section>
-                    <title>Kockázatok</title>
+                    <title>Risks</title>
                     <para>
-                        Egyértelmű, hogy a &#x201E;váratlan&#x201D; irány alapkutatás és számos olyan buktatót tartalmaz, amelyek már alkalmazott kutatási célok kitűzését és megvalósítását is meggátolhatják, nem is beszélve az alkalmazott kutatásra esetleg építhető kísérleti fejlesztésről.
+                        It goes without saying that the &#x201E;unexpected&#x201D; direction is basic research and includes many pitfalls, which could detain the setting and realization of used research goals, not to mention the experimental development that could be built on top of the used research.
                     </para>
                 </section>
                 
             </section>
 
             <section>
-                <title>Összefoglalás</title>
+                <title>Conclusion</title>
                 <para>
-                    Kiindulásul az aktuális Budapest 2024<indexterm>
+                    For starters, we outlined an esport research plan including the actual Budapest 2024<indexterm>
                         <primary>Budapest 2024</primary>
-                    </indexterm> sportdiplomáciai erőfeszítésekre is hajazva vázoltunk egy esport kutatási tervet, amelyet alap- és alkalmazott kutatási irányokba álmodtunk tovább. Miközben az alapkutatási irányban egy hard-core mesterséges intelligencia kutatási fókuszt is helyeztünk.  
+                    </indexterm>   sportdiplomatical efforts, and we dreamed this plan further to basic and used research directions. While we placed a hard-core artificial intelligence research focus in the basic research direction.
                 </para>
                 <para>
-                    Ha sikerül forrásokat találni a kutatáshoz, akkor mindkét, a &#x201E;várható&#x201D; és a &#x201E;váratlan&#x201D; 
-                    irányokon is érdemes dolgozni párhuzamosan, hiszen az előbbi alkalmazott kutatás lévén kézzelfogható eredménnyel kecsegtet.
+                    If we succeed in searching resources for the research, it is worth working side by side on both the &#x201E;probable&#x201D; and the &#x201E;unexpected&#x201D; directions because the first one being a used research entices by concrete results. 
                 </para>
                 <para>
-                    Támogatás nélkül csak az alapkutatás javasolt.
+                    Without support only the basic research is recommended.
                 </para>
                 <para>
-                    Mindenesetre a futó Samuval kapcsolatos fejlődésrobotikai és robotpszichológiai kutatásainkat a jelen dokumentumban vázolt esport koncepcióba ágyazzuk majd be a továbbiakban.                         
+                    We will embed our developmental robotical and robotpsychological researches within the esport conception outlined in this document.                        
                 </para>
                 <para>
-                    A következőkben a a &#x201E;várható&#x201D; kutatási irányt a <emphasis>Szabvány Samu</emphasis>, 
-                    a &#x201E;váratlan&#x201D; kutatási irányt az <emphasis>Entrópia Samu</emphasis> munkanévvel illetjük. 
+                    We will call the &#x201E;probable&#x201D; research direction <emphasis>Samu Standard</emphasis> and the &#x201E;unexpected&#x201D; direction <emphasis>Samu Entropy</emphasis>
                 </para>
             </section>
 
