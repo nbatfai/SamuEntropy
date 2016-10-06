@@ -102,9 +102,9 @@
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>robotpszichológia</primary>
+                            <primary>robotpsihology</primary>
                         </indexterm>
-                    Az <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimovi robotpszichológia</link> programozói szemszögből értelmezett implementálása, lásd  
+                    The <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimov robotpsyhology</link> in programing view
                     <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
                 </para>
             </glossdef>
