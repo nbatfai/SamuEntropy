@@ -188,7 +188,7 @@
                         </footnote>.
                     </para>
                     <para>
-                        Minden családhoz tartozó humán játékosok fotókat (arckép) készítenek magukól, más családok tagjairól, esetleg a játékban nem résztvevőkről is.
+                        Every player who member of a family make a selfie and take a photo from their family members and from other non-players too.
                     </para>
                     <section>
                         <title>Samu</title>
@@ -203,17 +203,17 @@
                     <section>
                         <title>Gréta</title>
                         <para>
-                            A fejlesztendő TensorFlow-os Samu megvalósítás feladata, a TensorFlow adatfolyam gráfhoz 
-                            <indexterm>
-                                <primary>játékélmény</primary>
+                            The function of the Samu implementation developed in TensorFlow, that we will be able to provide graphical user 					interface for the better gaming experience
+				<indexterm>
+                                <primary>gaming experience</primary>
                             </indexterm>
-                            játékélményt adni képes vizuális interfész biztosítása (Android és PC-s app-ok is).
+ 				and monitoring the TensorFlow datastream.
                         </para>
                     </section>
                     <section>
                         <title>Nándi</title>
                         <para>
-                            A fejlesztendő program feladata az arcokhoz kapcsolt adatok (például kié az arc, milyen érzést fejez ki stb.) felügyelt tanítása.
+                            The function of this program that learn datas which belongs to the owner of the picture(for example whose face is in the photo, and the expressed feelings).
                         </para>
                         <para>
                             Ha a &#x201E;Matyi&#x201D; funkcióban a játékos fotót is készít a vadászat során, akkor a humán &#x201E;Nándi tanító&#x201D;
@@ -280,7 +280,7 @@
                             valamilyen részét.
                         </para>
                         <para>
-                            Az összecsapás elnevezése: agycsata<footnote>
+                            The name of the battles: brain battle<footnote>
                                 <para>Az elnevezésért köszönet Bátfai Mátyás Bendegúznak.</para>
                             </footnote>.
                         </para>
@@ -306,8 +306,7 @@
                             </indexterm>
 
                                 <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>-t
-                                (UDPROG közösségben 6x20 pont, a SamuEntropy forkba ne kerüljön 
-                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+
                             </para>
                             <orderedlist numeration="lowerroman">
                                 <listitem>
@@ -319,13 +318,12 @@
                                         a képek és az azokat kísérő metaadatok megosztásához. 
                                     </para>
                             <para>
-                                Tervezz játékosprofilt, pl.: kép, név, entrópiája<footnote>
+                                Create profile, for example.: picture, name, entropy<footnote>
                                     <para>Lásd a   
-                                        <link xlink:href="#bits">Fícsör: bitek gyűjtése</link> 
-                                        c. megjegyzést, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
+                                        <link xlink:href="#bits">Feature: collecting bits</link> 
+                                        note, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
                                 </footnote>, GPS a regisztrációkor stb.
-                                (UDPROG közösségben 35 pont, a SamuEntropy forkba ne kerüljön 
-                                be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+
                             </para>                                    
                                 </listitem>                                
                                 <listitem>
@@ -335,7 +333,7 @@
                                 </listitem>                            
                                 <listitem>
                                     <para>
-                                        Relationship between Norbi and Nándi: a Nándi kliens letölti a Matyi által &#x201E;összevadászott&#x201D; képeket és infókat.
+                                        Relationship between Norbi and Nándi: the Nándi client downloads the pictures and informations that &#x201E;hunted&#x201D; by Matyi.
                                     </para>                                
                                 </listitem>
 
@@ -347,20 +345,19 @@
 
                                 <listitem>
                                     <para>
-                                        Norbin keresztül két Samu kapcsolata: az agycsata eredményétől függő információmegosztás a két agy között.
+                                        Relationship between two Samu through Norbi: the sharing information between two brain independet to the result of the battle.
                                     </para>                                
                                 </listitem>
 
                                 <listitem>
                                     <para>
-                                        Relationship between Norbi and Erika: az agycsata lebonyolítása!
+                                        Relationship between Norbi and Erika: manage the brain battle!
                                     </para>                                        
                                 </listitem>
 
                                 <listitem>
                                     <para>
-                                        Relationship between two Norbi: törzsek csatája, ezzel egyelőre ne foglalkozzunk, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor
-                                        kerül terítékre!
+                                        Relationship between two Norbi: battle of tribes, we are not working with this for now, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor kerül terítékre!
                                     </para>                                        
                                 </listitem>
                         
@@ -373,11 +370,10 @@
                                 <primary>TensorFlow</primary>
                             </indexterm>
                                 Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
-                                    <para>Lásd a   
+                                    <para>See also the
                                         <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
-                                        tutoriált.</para>
-                                </footnote> (UDPROG közösségben 680 pont, a SamuEntropy forkba ne kerüljön 
-                                be, csak max. saját repóba, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                                        tutorial.</para>
+                                </footnote>
                             </para>
                         </section>
                         <section>
@@ -400,8 +396,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                                                             <indexterm>
                                 <primary>Android Mobile Vision API</primary>
                             </indexterm>
-                                A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
-amely az élő képből kijelöli az arcot.
+                                A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, amely az élő képből kijelöli az arcot.
                             </para>
                         </section>
                         <section>
@@ -429,18 +424,16 @@ amely az élő képből kijelöli az arcot.
                             <primary>Raxicab</primary>
                             <secondary>rcwin</secondary>
                             <see>OOCWC</see>
-                        </indexterm>Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
-                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
-                                        <indexterm>
+                        </indexterm>
+			Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái legyenek behuzalozva a kódba, de persze általánosan működjön, az 
+                        <indexterm>
                             <primary>Raxicab</primary>
                         </indexterm>
-                                        UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
-                                        bemutatása fészes posztban).
+                                        UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, bemutatása fészes posztban).
                                     </para>
                                 </listitem>
                             </orderedlist>
                         </section>
-                        
                     </section>
                 </section>
 
@@ -482,50 +475,8 @@ amely az élő képből kijelöli az arcot.
                 </section>
 
             </section>                    
-            <section>
-                <title>Szakfordítói jellegű feladatok</title>
-                <para>
-                
-                </para>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe).</para>
-                    </listitem>                     
-                    <listitem>
-                        <para>...</para>
-                    </listitem>                
-                </orderedlist>            
-            </section> 
-            <section>
-                <title>Licencmérnökség jellegű feladatok</title>
-                <para>
-                
-                </para>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link> Tensor Flow felhasználásának elemzése, különös tekintettel a 
-                        &#x201E;Gréta&#x201D; szerepre. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link>  
-                        &#x201E;Matyi&#x201D; szerepének <indexterm>
-                                <primary>OpenStreetMap</primary>
-                            </indexterm> OpenStreetMap felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link>  
-                        &#x201E;Matyi&#x201D; szerepének <indexterm>
-                                <primary>Google Maps</primary>
-                            </indexterm> Google Maps felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>...</para>
-                    </listitem>                
-                </orderedlist>            
-            </section>                               
+           
+                                  
             <section>
                 <title>Tasks and challanges</title>
                 <para>
@@ -553,13 +504,8 @@ amely az élő képből kijelöli az arcot.
                         <listitem>
                             <para>Create a new logo for the Samu Entropy. (240 point in UDPROG society)</para>
                         </listitem>                
-                        <listitem>
-                            <para>Logo for the Samu Entropy/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
-                        </listitem>                
-                        <listitem>
-                            <para>...</para>
-                        </listitem>                
-                    </orderedlist>            
+             
+                    </orderedlist>          
                 </section> 
             </section>
         </section>        
