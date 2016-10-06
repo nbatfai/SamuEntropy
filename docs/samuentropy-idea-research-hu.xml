@@ -385,6 +385,7 @@
                         </section>
                         <section>
                             <title>Gréta</title>
+                            <para>Android bevezető feladatként kezdjük az alábbi egymásra épülő apró esettanulmányokkal.</para>
                             <orderedlist numeration="lowerroman">
                                 <listitem>
                                     <para>
@@ -517,6 +518,55 @@
                                         </para>
                                     </tip>                                    
                                 </listitem>
+                                
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBoard</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBoard</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és gondold át a processzorok kijelölését, majd valósíts meg
+                                        ennek kapcsán valamilyen saját elképzelésedet!
+                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 420 pont).
+                                    </para>
+                                </listitem>                                
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBoard</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBoard</filename> app-ból 
+                                        (az egész ESAMU-ról persze) és javíts a mozgatáson és nagyításon (tehát legyen elképzelés mit
+                                        javítanál és valósítsd is meg)!
+                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 380 pont).
+                                    </para>
+                                </listitem>                                
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBoard</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBoard</filename> app-ból 
+                                        és old meg, hogy a neuron sprite-ok ne másszanak ki a procik alól!
+                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 210 pont).
+                                    </para>
+                                </listitem>                                
+                                
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                                            <primary>NorbironBoard</primary>
+                                        </indexterm>
+                                        Készíts egy saját forkot a 
+                                        <filename class="directory">../cs/NorbironBoard</filename> app-ból 
+                                        és old meg, hogy a készülék forgatásakor ua. maradjon az elemek elhelyezkedése!
+                                        (UDPROG közösségben, tipikusan kezdőknek ajánlva: 310 pont).
+                                    </para>
+                                </listitem>                                
+                                
                             </orderedlist>
                         </section>
                         <section>
