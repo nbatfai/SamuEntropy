@@ -216,54 +216,48 @@
                             The function of this program that learn datas which belongs to the owner of the picture(for example whose face is in the photo, and the expressed feelings).
                         </para>
                         <para>
-                            Ha a &#x201E;Matyi&#x201D; funkcióban a játékos fotót is készít a vadászat során, akkor a humán &#x201E;Nándi tanító&#x201D;
-                            tanítja meg arra az agyat, hogy valódi-e a lefotózott játékos profilja.
+                            If in the &#x201E;Matyi&#x201D; function the player creates photo during the hunt, then the human &#x201E;Nándi teacher&#x201D;
+                            teaches the brain to check out is the player's photo real.
                         </para>
                     </section>
                     <section>
                         <title>Matyi</title>
                         <para>
-                            A fejlesztendő program feladata az arcképek és a kapcsolható adatok felvétele. Például a szerver jelez, hogy a közelben (
+                            The developed program's task is to take up the face pictures and the related data. For example, the server signs if there is a registrated player nearby (
                             <indexterm>
                                 <primary>OpenStreetMap</primary>
-                            </indexterm>OpenStreetMap és vagy 
+                            </indexterm>OpenStreetMap and or
                             <indexterm>
                                 <primary>Google Maps</primary>
-                            </indexterm>Google Maps megjelenítés)
-                            egy regisztrált játékos, vagy Bluetooth-on keresztül elérhető (vagy más, szoftverek kívüli szervező jelet vesz észre a játékos, mondjuk 
-                            bar- vagy QR kódos karkötő, kitűző esetleg NFC matrica stb.) akkor arcot és kísérő adatokat cserélnek.                            
+                            </indexterm>Google Maps visualization)
+                            , or via Bluetooth reachable (or something, software recognise outsider organizer signs by the player, let's say 
+                            bar- or QR code bracelet, brooch, even NFC sticker etc.), then they change faces and following datas.                        
                         </para>
                         <tip xml:id="bits">
-                            <title>Fícsör: bitek gyűjtése</title>
+                            <title>Featurette: collecting bits</title>
                             <para>
-                                A játékost a találkozásokra az sarkallja, hogy ezekért biteket kap! Általában is próbáljuk a játékon belüli fizetőeszközt, összemérési
-                                alapot, jóságot stb. információban, azaz bitekben megfogalmazni.
+                               A player is prompted to meet, because they will get bits! Usually we try the ingame cash, matching fund, goodness, etc. define in information or bits.
                             </para>
                             <para>                                
-                                Például a vadász a találkozásokról relatív gyakoriságot vezet (X-el x<subscript>1</subscript>-szer, 
-                                Y-nal y<subscript>1</subscript>-szer, stb. addig ismeretlennel pedig ennyiszer találkoztam) ez alapján a következő 
-                                találkozáskor a játékosok annyi bitet kapnak, amennyi a &#x201E;kivel találkoztam&#x201D; entrópiája (amit esetleg csak akkor kap meg,
-                                ha prediktált és eltalálta stb).                                
+                                For example, the hunter takes a relative frequency at the meetings(With X x<subscript>1</subscript>-szer, 
+                                with Y y<subscript>1</subscript> times, etc. till with unfamiliar I met many times). Based on this, at the next meeting, the players will get as many bits as many with they met entropy &#x201E;&#x201D; (which it will get only if it predicated and caught it etc).                                
                             </para>
                         </tip>                            
                         <para  xml:id="samucam1">
-                            Fontos, hogy lehetőleg csak arcképeket fotózzunk, ezért az
-                            arc fotózós Android app-ban próbáljuk ki az 
+                            It is important to take pictures only about faces, because of this fact, try out in the face photo maker Android app
                             <indexterm>
                                 <primary>Android Mobile Vision API</primary>
                             </indexterm>
-                            <link xlink:href="https://github.com/googlesamples/android-vision">Android Mobile Vision API</link>-t. A PC-s app-ban kiindulhatunk a 
-                            <link xlink:href="https://github.com/nbatfai/SamuCam">SamuCam</link>-ban használt kódból (itt
-                            webkamera van vagy a teló csak egy IP webcam funkcióban és 
+                            <link xlink:href="https://github.com/googlesamples/android-vision">Android Mobile Vision API</link>. In the PC app, we can start from the code used in
+                            <link xlink:href="https://github.com/nbatfai/SamuCam">SamuCam</link> (there is a web camera or the phone just in an IP webcam function and
                             <indexterm>
                                 <primary>OpenCV</primary>
                             </indexterm>
-                            OpenCV-t használtunk). 
+                            we used OpenCV). 
                             <tip>
-                                <title>Fotókkal is műxik</title>
+                                <title>It works with photos</title>
                                 <para xml:id="samucam2">
-                                    Az említett <application>SamuCam</application> programban láthattuk, hogy az arcfelismerés tanítása fotókkal is tökéletesen (nem a
-                                    tanulása, a tanítása :) megy, lásd ezen a videón például: <link xlink:href="https://youtu.be/6cRbyKrq45c">https://youtu.be/6cRbyKrq45c</link>                                
+                                    In the mentioned <application>SamuCam</application> program, we could see that the face recognition teaching with photos goes perfectly (not the learning, but the teaching :) for example, see this video: <link xlink:href="https://youtu.be/6cRbyKrq45c">https://youtu.be/6cRbyKrq45c</link>                                
                                 </para>
                             </tip>                                                        
                         </para>                        
@@ -271,35 +265,34 @@
                     <section>
                         <title>Erika</title>
                         <para>
-                            Egy párharcban két család méri össze az erejét (tudását). Mondjuk 5-5 profilképet (saját játékosaik) feldobnak a hozzájuk tartozó infókkal, majd
-                            ezek rövid tanulása után a másik agynak a család további más képeit kell felismerni, hogy szerepel-e az illető az 5-ben, ha igen, melyik az stb. 
-                            (kvázi olyan 11-es párbaj jelleggel, illetve az eredményeket itt is a jóslat entrópiája alapján bitekben mérjük). 
+                            In a battle, two families struggle to measure up their power (knowledge). Profile picture of, let's say, 5-5 (private players) toss the frequency associated with, and
+                             after these short learning, the other brain has to recognize the family's other photos, if they are listed in the person-in-five, if so, which one, etc.
+                             (A quasi-11 duel basis and the results are measured in bits, based on the prediction entropy).
                         </para>
                         <para>
-                            A győztes család megkapja a legyőzött tudását vagy egy ideig a legyőzött megosztja a legyőzőjével a továbbiakban szerzett információi 
-                            valamilyen részét.
+                            The winning family will get the knowledge of the defeated one, or for a given time, the defeated family shares the later taken information's parts to the other player.
                         </para>
                         <para>
                             The name of the battles: brain battle<footnote>
-                                <para>Az elnevezésért köszönet Bátfai Mátyás Bendegúznak.</para>
+                                <para>For giving this name, special thanks to Bendegúz Mátyás Bátfai.</para>
                             </footnote>.
                         </para>
                     </section>
                     <section>
-                        <title>Konkrét app 5letek</title>
+                        <title>Concrete app ideas</title>
                         <para>
                         </para>
                         <section>
                             <title>Norbi</title>
                             <para>
-                                A szerveroldal feladata a &#x201E;Samu is the brain&#x201D; PC-n futó családok és az agycsaták szervezése. 
+                                The serverside's task is the &#x201E;Samu is the brain&#x201D; organisation of families and brain battles on PC.
                             </para>
                             <para>
-                                Egy szerver reprezentál egy törzset, a törzsek és a családok kapcsolata 1:N jellegű. Tehát egy törzsnek több családja lehet. 
-                                A család regisztrációját egy törzshöz a Samu agy kliensen a játékos kezdeményezheti adott esetben. 
+                                A server represents a tribe, the relationship of tribes and families is 1:N natured. So one tribe can have several families. 
+                                The registration of the family into a tribe can be initiated on the Samu brain client by a player in a given case. 
                             </para>
                             <para>
-                                Tervezz kommunikációs protokollt az alábbi esetekre, használd a 
+                                Design a communication protocoll for these cases, use the
                                                                                             <indexterm>
                                 <primary>Google</primary>
                                 <secondary>Protocol Buffers</secondary>
@@ -311,18 +304,18 @@
                             <orderedlist numeration="lowerroman">
                                 <listitem>
                                     <para>
-                                        Norbi és Samu kapcsolata: Norbi minden Samunak annak bitszámától<footnote>
-                                            <para>A család &#x201E;jóságát&#x201D; is bitekben mérjük, azt mondjuk majd, az én családom 64 kilobájtos, 3 gigás stb. jelentsen 
-                                                ez egyelőre bármit.</para>
-                                        </footnote> függő méretű sort biztosít a Gréta, Nándi, Matyi és Erika családtagoknak 
-                                        a képek és az azokat kísérő metaadatok megosztásához. 
+                                        Norbi's and Samu's relationship: Norbi ensures rows, depending on Samu's bitnumbers<footnote>
+                                            <para>The family's &#x201E;goodness&#x201D; is measured in bits, we will say that my family is  64 kilobyte, 3 giga and so on. 
+                                                </para>
+                                        </footnote> for the Gréta, Nándi, Matyi and Erika family members 
+                                        for the pictures and their following metadata sharing. 
                                     </para>
                             <para>
                                 Create profile, for example.: picture, name, entropy<footnote>
-                                    <para>Lásd a   
+                                    <para>See the   
                                         <link xlink:href="#bits">Feature: collecting bits</link> 
-                                        note, ami itt azt fejezné ki, hogy kvázi hány pontos a player.</para>
-                                </footnote>, GPS a regisztrációkor stb.
+                                        note, which explains, how many points the player has.</para>
+                                </footnote>, GPS at registration etc.
 
                             </para>                                    
                                 </listitem>                                
@@ -357,7 +350,7 @@
 
                                 <listitem>
                                     <para>
-                                        Relationship between two Norbi: battle of tribes, we are not working with this for now, majd ha az egy törzsön belüli fejlesztés okés lesz, akkor kerül terítékre!
+                                        Relationship between two Norbi: battle of tribes, we are not working with this for now, when the developing in one tribe will be ok, then it will be addressed!
                                     </para>                                        
                                 </listitem>
                         
@@ -369,7 +362,7 @@
                                                             <indexterm>
                                 <primary>TensorFlow</primary>
                             </indexterm>
-                                Készíts egy arcfelismerő esettanulmányt a TensorFlow (a C++ API) használatával<footnote>
+                                Create a face recogniser case study, using the TensorFlow (the C++ API)<footnote>
                                     <para>See also the
                                         <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
                                         tutorial.</para>
@@ -389,14 +382,14 @@
                         <section>
                             <title>Matyi</title>
                             <para>
-                                A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
-amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>!
+                                Going out from the previously mentioned <link xlink:href="#samucam1">SamuCam</link>, make a PC C++ case study, 
+which marks out the face from the living picture, see the previously linked SamuCam demo <link xlink:href="#samucam2">video</link>!
                             </para>
                             <para>
                                                             <indexterm>
                                 <primary>Android Mobile Vision API</primary>
                             </indexterm>
-                                A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, amely az élő képből kijelöli az arcot.
+                                Using the previously mentioned <link xlink:href="#samucam1">Android Mobile Vision API</link>, create an Android case study, which marks out the face from the living picture.
                             </para>
                         </section>
                         <section>
@@ -405,7 +398,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                             </para>
                         </section>
                         <section>
-                            <title>Játékélmény és vizualizációs kísérletek</title>
+                            <title>Gaming experience and visualization experiments</title>
                             <para>
                             </para>
                             <orderedlist numeration="lowerroman">
@@ -415,21 +408,21 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                             <primary>Samu</primary>
                             <secondary>Amoba</secondary>
                         </indexterm>
-                                        Samu Amoba: lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
+                                        Samu Amoba: asks from the Norbi server about the Samu brain and players from the family and on
                                         <indexterm>
                             <primary>OpenStreetMap</primary>
-                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
-                                        az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
-                                        (kiindulhatsz a <indexterm>
+                        </indexterm>OpenStreetMap draws and amoba, where &#x201E;&#x201D;
+                                        is the brain's GPS coordinates, on the middle the foothills the family's players registrational (or hunting) GPS coordinates. 
+                                        (you can go out from <indexterm>
                             <primary>Raxicab</primary>
                             <secondary>rcwin</secondary>
                             <see>OOCWC</see>
                         </indexterm>
-			Raxicab rcwin megjelenítőjéből az OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái legyenek behuzalozva a kódba, de persze általánosan működjön, az 
+			Raxicab rcwin viewer according to the OSM drawing , don't care about network communication, the family's GPS coordinates must be in the code, but of course should work as usual, the 
                         <indexterm>
                             <primary>Raxicab</primary>
                         </indexterm>
-                                        UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, bemutatása fészes posztban).
+                                        in UDPROG community 420 points, mustn't appear in the fork of SamuEntropy, just max. own repository, for example from Raxicab forked, introduction on Facebook).
                                     </para>
                                 </listitem>
                             </orderedlist>
@@ -440,7 +433,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                 <section xml:id="oocwc-fight">
                     <title>Samu OOCWC Fight</title>
                     <para>
-                        Ennek a konkrét játéknak a lényege az 
+                        his concrete game's main point is that
                         <indexterm>
                             <primary>OOCWC</primary>
                         </indexterm> OOCWC<footnote>
@@ -458,7 +451,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                 <section xml:id="devrobvision">
                     <title>Samu DevRob Vision</title>
                     <para>
-                        Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
+                        his concrete game's main point is the development of vision should be modelled, starting from an 1x1 pixel eye going to ???x???.
                     </para>
            
                 </section>
@@ -467,9 +460,9 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                 <section xml:id="customrts">
                     <title>Samu Custom RTS</title>
                     <para>
-                        Ennek a konkrét játéknak a lényege az, hogy a <indexterm>
+                        This concrete game's main point is that in <indexterm>
                             <primary>0 A. D.</primary>
-                        </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
+                        </indexterm> 0 A. D. RTS we leave to the brain to control certain parts of the empire.
                     </para>
                     
                 </section>
@@ -485,11 +478,11 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                 <section>
                     <title>Logos</title>
                     <para>
-                        A logókat a forkban helyezzétek a <filename class="directory">docs/res/logo</filename> könyvtárba. 
-                        Kell egy png, egy svg változat és egy licenc! Követendő példaképpen
-                        tekintsétek a <indexterm>
-                            <primary>Vona Márton</primary>
-                        </indexterm>Vona Márton készítette
+                        Place the forks into the <filename class="directory">docs/res/logo</filename> library. 
+                        A png is needed, an svg variant and a license! As an example
+                        take a look at <indexterm>
+                            <primary>Márton Vona</primary>
+                        </indexterm>Márton Vona created the
                         <indexterm>
                             <primary>Robocar Championship  </primary>
                             <see>OOCWC</see>
@@ -498,7 +491,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                         <indexterm>
                             <primary>OOCWC</primary>
                         </indexterm>
-                        <link xlink:href="https://sourceforge.net/p/udprog/code/ci/master/tree/source/robotauto/logo/">OOCWC logót</link>.
+                        <link xlink:href="https://sourceforge.net/p/udprog/code/ci/master/tree/source/robotauto/logo/">OOCWC logo</link>.
                     </para>                
                     <orderedlist numeration="lowerroman">
                         <listitem>
@@ -512,7 +505,7 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
         <section>
             <title>Thanksgiving</title>
             <para>
-                Thank you to my children Bátfai Mátys Bendegúz, Bátfai Nándor Benjámin and Bátfai Margaréta Niobé for the great brain battles which created Samu Entropy.
+                Thank you to my children Bátfai Mátyás Bendegúz, Bátfai Nándor Benjámin and Bátfai Margaréta Niobé for the great brain battles which created Samu Entropy.
             </para>
         </section>        
     </chapter>

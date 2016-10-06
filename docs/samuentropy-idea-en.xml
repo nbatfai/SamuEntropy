@@ -152,7 +152,7 @@
     <xi:include href="samuentropy-glssry-en.xml">
         <xi:fallback>
             <para>
-                <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
+                <emphasis>XInclude: samuentropy-glssry-en.xml file not found</emphasis>
             </para>
         </xi:fallback>
     </xi:include>     
@@ -160,7 +160,7 @@
     <xi:include href="samuentropy-idea-intro-en.xml">
         <xi:fallback>
             <para>
-                <emphasis>XInclude: samuentropy-idea-intro-hu.xml file not found</emphasis>
+                <emphasis>XInclude: samuentropy-idea-intro-en.xml file not found</emphasis>
             </para>
         </xi:fallback>
     </xi:include>     
@@ -168,7 +168,7 @@
     <xi:include href="samuentropy-idea-research-en.xml">
         <xi:fallback>
             <para>
-                <emphasis>XInclude: samuentropy-idea-research-hu.xml file not found</emphasis>
+                <emphasis>XInclude: samuentropy-idea-research-en.xml file not found</emphasis>
             </para>
         </xi:fallback>
     </xi:include>     
