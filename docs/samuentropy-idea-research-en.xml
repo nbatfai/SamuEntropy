@@ -168,20 +168,23 @@
                 <tip>
                     <title>Meta-feature: ONE BRAIN RULE THEM ALL!</title>
                     <para>
-                        Az egy külön érdekes irány lehet, hogy nem a legjobbnak vélt prototípust választjuk majd ki innen megvalósításra (SRS doksi elkészítése stb.) 
-                        hanem ha jól funkcionál a <link xlink:href="#usecases">Főbb használati esetek</link> c. pont alatti 
-                        Gréta, Nándi, Matyi, Erika archetikus bontásunk, akkor az agy eseti cseréjével a játékosok váltogathatnák, hogy éppen melyik játékban
-                        vesznek részt. 
+                       It can be a quiet interesting way that we are choose not the best prototype for the implementation(SRS docs etc.)
+
+                        but if it works as in the
+<link xlink:href="#usecases">Main use cases</link> under the heading 
+                        Gréta, Nándi, Matyi, Erika rchtype segmented, it is a case of changing the players can alternate the brain that are involved in just one game.
+
                     </para>
                 </tip>                          
                 <section xml:id="album">
                     <title>Samu Family Album<footnote>
-                            <para>Munkacímnek: ARC CSATA, FACE BATTLE (FaBa).</para>
+                            <para>For work title: FACE BATTLE (FaBa).</para>
                         </footnote>.</title>
                     <para>
-                        Ennek a konkrét játéknak a lényege az arcfelismerés<footnote>
-                            <para>A kamera használatánál az arc kivágása alap (lásd pl. a SamuCam projektet) itt felismerés alatt a képek konkrét személyekhez (játékos
-                                profilokhoz) vagy jellemzőkhöz (pl. boldog, szomorú) kötéséről van szó.</para>
+                        The essence of this game is the face recognition<footnote>
+                            <para>
+				We use the camera for the face recognition (See also the SamuCam projects) it means that the pictures are conected to a person (it means his/her account) or feelings(happy, sad).
+			    </para>
                         </footnote>.
                     </para>
                     <para>
@@ -190,11 +193,11 @@
                     <section>
                         <title>Samu</title>
                         <para>
-                            The developed agent tasked with identifying faces (the faces of their own and other families). Egy megvalósításban használjuk a <indexterm>
+                            The developed agent tasked with identifying faces (the faces of their own and other families). In this implementation we use the <indexterm>
                                 <primary>DeepMind</primary>
                                 <secondary>TensorFlow</secondary>
                                 <see>Google</see>
-                            </indexterm> Google TensorFlow csomagját. Ez tipikusan PC-s app lenne ma.
+                            </indexterm>Google's TensorFlow package. This is a typicaly PC application.
                         </para>
                     </section>
                     <section>
@@ -338,7 +341,7 @@
 
                                 <listitem>
                                     <para>
-                                        Relationship between Norbi and Matyi: a Matyi kliens feltölti az &#x201E;összevadászott&#x201D; képeket és infókat.
+                                        Relationship between Norbi and Matyi: the Matyi client uploads what he &#x201E;hunted&#x201D; the pictures and the informations.
                                     </para>                                
                                 </listitem>
 
@@ -391,8 +394,7 @@
                             <title>Matyi</title>
                             <para>
                                 A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
-amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
-(UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
+amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>!
                             </para>
                             <para>
                                                             <indexterm>
@@ -400,7 +402,6 @@ amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuC
                             </indexterm>
                                 A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
 amely az élő képből kijelöli az arcot.
-(UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -450,13 +451,13 @@ amely az élő képből kijelöli az arcot.
                         <indexterm>
                             <primary>OOCWC</primary>
                         </indexterm> OOCWC<footnote>
-                            <para>Az eddigi kiadások a  
-                                <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
+                            <para>Different editions:  
+                                <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> and the
                                 <indexterm>
                             <primary>Raxicab</primary>
                         </indexterm>
                                 <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
-                        </footnote> RTS kiadása.
+                        </footnote> RTS edition.
                     </para>
                     
                 </section>
@@ -491,8 +492,7 @@ amely az élő képből kijelöli az arcot.
                         <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
                     </listitem>                
                     <listitem>
-                        <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe). (UDPROG közösségben 35 pont kommitonként 
-                            az előző feladat verziójától számolva).</para>
+                        <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe).</para>
                     </listitem>                     
                     <listitem>
                         <para>...</para>
@@ -527,7 +527,7 @@ amely az élő képből kijelöli az arcot.
                 </orderedlist>            
             </section>                               
             <section>
-                <title>Művészeti jellegű feladatok</title>
+                <title>Tasks and challanges</title>
                 <para>
                 
                 </para>
