@@ -6,7 +6,7 @@
         <para>In this part we will create the research plan of the  <emphasis>Samu Entropy</emphasis>.
         </para>
         <para>
-           It is quite obvious that there is a close relation between esport and artificial intelligence. This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented by software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+           It is quite obvious that there is a close relation between esport and artifical intelligence. This relation is further enhanced by our research which tries to focus not only on using the artifical intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented by software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
         </para>
         <para>The task of this part is to choose the development of the esport game, and then support of the <indexterm>
                 <primary>SRS</primary>
@@ -44,11 +44,11 @@
                     The basic design of this game is the family. The family means that group which can take care of a Samu agent. The Family 			(inside the game) can be a real family, group of friends, society of a university course, but also a single human player.
                 </para>
                 <para>
-                   In architectural meaning the family is the brain of the agent (for example it is a programme which run on PC or Notebook) 			   which has sensors and moving parts.
+                   In architectural meaning the family is the brain of the agent (for example it is a programme which runs on PC or Notebook) 			   which has sensors and moving parts.
                 </para>
                 <para>   
-		In functional meaning the brain do the calculations and the managing of the mobile sensors and moving parts.
-		The mobile camera of the human player is the eye and the GPS is an other sense-organ.
+		In functional meaning the brain does the calculations and the managing of the mobile sensors and moving parts.
+		The mobile camera of the human player is the eye and the GPS is an other sensorary organ.
 		The player takes the phone and Samu can walk with the player through this methods.
 		We think about it that the brain is in something and what is happening, the player can find the place with GPS and take photo from the scene. See also later Matyi the hunter.
                 </para>
@@ -71,14 +71,14 @@
                 <section>
                     <title>Samu, the brain</title>
                     <para>
-                        This will include a bunch of programs for machine learning algorithms implementations.
+                        This will include a bunch of programs for machine learning algorithm implementations.
                     </para>
                 </section>
                 <section>
                     <title>Gréta, the builder</title>
                     <para>
-                        This will include a bunch of programs that provide a visual interface to the point of agent Sam programs.
-                        It is important that these programs increase the orderliness
+                        This will include a bunch of programs that provide a visual interface to the programs of Samu the agent point.
+                        It is important that these programs increase the organization
 			<indexterm>
                             <primary>gaming experience</primary>
                         </indexterm> 
@@ -94,23 +94,22 @@
                 <section>
                     <title>Matyi, the hunter</title>
                     <para>
-                        This will include a bunch of programs that perception and movement implemented (if applicable such as geocaching 
-                        geocaching
+                        This will include a bunch of programs that realize the perception and movement (for example with the help of 				geocaching)
 			<indexterm>
                             <primary>geocaching</primary>
                         </indexterm>
-                        basis).                    
+                        .                    
                     </para>
                 </section>
                 <section>
                     <title>Erika, the warrior</title>
                     <para>
-                        This will include a bunch of programs that seek as esport can operate.
+                        This will include a bunch of programs that aspire to operate as esport.
                     </para>
                     <tip>
-                        <title>Why <emphasis>Erika, the warrior</emphasis>is a good program?</title> 
+                        <title>Why <emphasis>Erika, the warrior</emphasis> is a good program?</title> 
                         <para>
-                            Intuitively think that it can be projected onto a large play arenas, like a big boxing match in the main gala. So 
+                            Intuitively think that it can be projected onto large play arenas, like a big boxing match in the main gala. So 
 			    we do not think of a typical quiz game here ... 
 			    You can be a great gaming experience, you can look good!
                         </para>
@@ -147,12 +146,12 @@
                         <para>Make your own solution in your fork!</para>
                     </listitem>                
                     <listitem>
-                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus pointsk :)</para>
+                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus points :)</para>
                     </listitem>                
                 </orderedlist>          
             </para>            
             <section xml:id="rapidprotos">
-                <title>Rapd prototyping</title>
+                <title>Rapid prototyping</title>
                 <para>
                     Here are ideas and their implementation. Fontos, hogy megfeleljenek a 
                     <link xlink:href="#usecases">Main use cases</link> point in Gréta, Nándi, Matyi, Erika.
