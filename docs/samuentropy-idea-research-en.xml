@@ -71,7 +71,7 @@
                 <section>
                     <title>Samu, the brain</title>
                     <para>
-                        This will include a bunch of programs for machine learning algorithms implementations.
+                        This will include a bunch of programs for machine learning algorithm implementations.
                     </para>
                 </section>
                 <section>
@@ -127,7 +127,7 @@
         <section>
             <title>Educational and research plans</title>
             <para>                
-                In these tasks the students and the teachers work together. The actual student can complete these task, in these <indexterm>
+                In these tasks the students and the teachers work together. The actual student can complete these tasks, in these <indexterm>
                     <primary>UDPROG</primary>
                 </indexterm> UDPROG 
                 (<indexterm>
@@ -147,12 +147,12 @@
                         <para>Make your own solution in your fork!</para>
                     </listitem>                
                     <listitem>
-                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus pointsk :)</para>
+                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus points :)</para>
                     </listitem>                
                 </orderedlist>          
             </para>            
             <section xml:id="rapidprotos">
-                <title>Rapd prototyping</title>
+                <title>Rapid prototyping</title>
                 <para>
                     Here are ideas and their implementation. Fontos, hogy megfeleljenek a 
                     <link xlink:href="#usecases">Main use cases</link> point in Gréta, Nándi, Matyi, Erika.
@@ -160,20 +160,19 @@
                     <indexterm>
                         <primary>gaming experience</primary>
                     </indexterm>
-                    <link xlink:href="#samuentropy-idea-intro-hu.jatekelmeny">game experience</link>.
+                    <link xlink:href="#samuentropy-idea-intro-en.jatekelmeny">game experience</link>.
                 </para>
                 <para>
-                   The key feature of the emerging specific games brain storm as interesting to point out separately to see if they can be introduced to a different game.
+                   It is worth highlighting the emerging features in the brainstorm to see if they can be applied to other games.
                 </para>       
                 <tip>
                     <title>Meta-feature: ONE BRAIN RULE THEM ALL!</title>
                     <para>
-                       It can be a quiet interesting way that we are choose not the best prototype for the implementation(SRS docs etc.)
+                       It can be quite an interesting way to choose not the best prototype for the implementation(SRS docs etc.)
 
                         but if it works as in the
 <link xlink:href="#usecases">Main use cases</link> under the heading 
-                        Gréta, Nándi, Matyi, Erika rchtype segmented, it is a case of changing the players can alternate the brain that are involved in just one game.
-
+                        Gréta, Nándi, Matyi, Erika archtype segmented, then with the change of the brain the players could choose in which game to participate.
                     </para>
                 </tip>                          
                 <section xml:id="album">
@@ -183,12 +182,12 @@
                     <para>
                         The essence of this game is the face recognition<footnote>
                             <para>
-				We use the camera for the face recognition (See also the SamuCam projects) it means that the pictures are conected to a person (it means his/her account) or feelings(happy, sad).
+				We use the camera for the face recognition (See also the SamuCam projects) it means that the pictures are connected to a person (it means his/her account) or feelings(happy, sad).
 			    </para>
                         </footnote>.
                     </para>
                     <para>
-                        Every player who member of a family make a selfie and take a photo from their family members and from other non-players too.
+                        Every player who is a member of a family takes a photo of themselves and of their other family members and other non-players too.
                     </para>
                     <section>
                         <title>Samu</title>
@@ -197,7 +196,7 @@
                                 <primary>DeepMind</primary>
                                 <secondary>TensorFlow</secondary>
                                 <see>Google</see>
-                            </indexterm>Google's TensorFlow package. This is a typicaly PC application.
+                            </indexterm>Google's TensorFlow package. This is a typical PC application.
                         </para>
                     </section>
                     <section>
@@ -217,30 +216,30 @@
                         </para>
                         <para>
                             If in the &#x201E;Matyi&#x201D; function the player creates photo during the hunt, then the human &#x201E;Nándi teacher&#x201D;
-                            teaches the brain to check out is the player's photo real.
+                            teaches the brain to check if the player's photo is real.
                         </para>
                     </section>
                     <section>
                         <title>Matyi</title>
                         <para>
-                            The developed program's task is to take up the face pictures and the related data. For example, the server signs if there is a registrated player nearby (
+                            The developed program's task is to record the face pictures and the related data. For example, the server signs if there is a registrated player nearby (
                             <indexterm>
                                 <primary>OpenStreetMap</primary>
                             </indexterm>OpenStreetMap and or
                             <indexterm>
                                 <primary>Google Maps</primary>
                             </indexterm>Google Maps visualization)
-                            , or via Bluetooth reachable (or something, software recognise outsider organizer signs by the player, let's say 
-                            bar- or QR code bracelet, brooch, even NFC sticker etc.), then they change faces and following datas.                        
+                            , or reachable via Bluetooth (or something, software recognise outsider organizer signs by the player, let's say 
+                            bar- or QR code bracelet, brooch, even NFC sticker etc.), then they change faces and datas.                        
                         </para>
                         <tip xml:id="bits">
-                            <title>Featurette: collecting bits</title>
+                            <title>Feature: collecting bits</title>
                             <para>
                                A player is prompted to meet, because they will get bits! Usually we try the ingame cash, matching fund, goodness, etc. define in information or bits.
                             </para>
                             <para>                                
-                                For example, the hunter takes a relative frequency at the meetings(With X x<subscript>1</subscript>-szer, 
-                                with Y y<subscript>1</subscript> times, etc. till with unfamiliar I met many times). Based on this, at the next meeting, the players will get as many bits as many with they met entropy &#x201E;&#x201D; (which it will get only if it predicated and caught it etc).                                
+                                For example, the hunter takes a relative frequency at the meetings(With X x<subscript>1</subscript> times, 
+                                with Y y<subscript>1</subscript> times, etc. till with unfamiliar I met many times). Based on this, at the next meeting, they will get as many bits as much is the entropy of &#x201E;with whom I met&#x201D; (which they will only get if it was predicted etc.).                                
                             </para>
                         </tip>                            
                         <para  xml:id="samucam1">
@@ -273,7 +272,7 @@
                             The winning family will get the knowledge of the defeated one, or for a given time, the defeated family shares the later taken information's parts to the other player.
                         </para>
                         <para>
-                            The name of the battles: brain battle<footnote>
+                            The name of the battle is: brain battle<footnote>
                                 <para>For giving this name, special thanks to Bendegúz Mátyás Bátfai.</para>
                             </footnote>.
                         </para>
@@ -298,7 +297,7 @@
                                 <secondary>Protocol Buffers</secondary>
                             </indexterm>
 
-                                <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>-t
+                                <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>
 
                             </para>
                             <orderedlist numeration="lowerroman">
@@ -326,7 +325,7 @@
                                 </listitem>                            
                                 <listitem>
                                     <para>
-                                        Relationship between Norbi and Nándi: the Nándi client downloads the pictures and informations that &#x201E;hunted&#x201D; by Matyi.
+                                        Relationship between Norbi and Nándi: the Nándi client downloads the pictures and informations that were &#x201E;hunted&#x201D; by Matyi.
                                     </para>                                
                                 </listitem>
 
@@ -350,7 +349,7 @@
 
                                 <listitem>
                                     <para>
-                                        Relationship between two Norbi: battle of tribes, we are not working with this for now, when the developing in one tribe will be ok, then it will be addressed!
+                                        Relationship between two Norbi: battle of tribes, we are not working on for now, when the developing in one tribe will be ok, then it will be addressed!
                                     </para>                                        
                                 </listitem>
                         
@@ -433,7 +432,7 @@ which marks out the face from the living picture, see the previously linked Samu
                 <section xml:id="oocwc-fight">
                     <title>Samu OOCWC Fight</title>
                     <para>
-                        his concrete game's main point is that
+                        This concrete game's main point is that
                         <indexterm>
                             <primary>OOCWC</primary>
                         </indexterm> OOCWC<footnote>
@@ -451,7 +450,7 @@ which marks out the face from the living picture, see the previously linked Samu
                 <section xml:id="devrobvision">
                     <title>Samu DevRob Vision</title>
                     <para>
-                        his concrete game's main point is the development of vision should be modelled, starting from an 1x1 pixel eye going to ???x???.
+                        This concrete game's main point is the development of vision should be modelled, starting from an 1x1 pixel eye going to ???x???.
                     </para>
            
                 </section>
@@ -482,7 +481,7 @@ which marks out the face from the living picture, see the previously linked Samu
                         A png is needed, an svg variant and a license! As an example
                         take a look at <indexterm>
                             <primary>Márton Vona</primary>
-                        </indexterm>Márton Vona created the
+                        </indexterm>The logo created by Márton Vona
                         <indexterm>
                             <primary>Robocar Championship  </primary>
                             <see>OOCWC</see>
@@ -511,7 +510,7 @@ which marks out the face from the living picture, see the previously linked Samu
 	<section>
             <title>Translators.</title>
             <para>
-                Bogacsovics Gergő, Pogány János, Fodor Attila.
+                Gergő Bogacsovics, János Pogány, Attila Fodor.
             </para>
         </section>         
     </chapter>

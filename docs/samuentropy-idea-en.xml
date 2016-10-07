@@ -6,34 +6,60 @@
         <title>Samu Entropy</title>
         <subtitle>ESPORT AND ARTIFICIAL INTELLIGENCE</subtitle>
         <titleabbrev>ESAMU</titleabbrev>
-        <author>
-            <personname>
-                <honorific>Dr</honorific>
-                <surname>Bátfai</surname>
-                <firstname>Norbert</firstname>        
-            </personname>  
-            <affiliation>
-                <shortaffil>Senior lecturer, DEIK.</shortaffil>
-                <jobtitle>Senior lecturer</jobtitle>
-                <orgname>University of Debrecen, Faculty of Informatics</orgname>
-                <orgdiv>Department of Information Technology</orgdiv>
+        <authorgroup>
+            <author>
+                <personname>
+                    <honorific>Dr</honorific>
+                    <surname>Bátfai</surname>
+                    <firstname>Norbert</firstname>        
+                </personname>  
+                <affiliation>
+                    <shortaffil>Senior lecturer, DEIK.</shortaffil>
+                    <jobtitle>Senior lecturer</jobtitle>
+                    <orgname>University of Debrecen, Faculty of Informatics</orgname>
+                    <orgdiv>Department of Information Technology</orgdiv>
+                    <address>
+                        <email>batfai.norbert@inf.unideb.hu</email>
+                        <email>nbatfai@gmail.com</email>
+                    </address>
+                </affiliation>
                 <address>
+                    <street>Kassai Street 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Hungary</country>
                     <email>batfai.norbert@inf.unideb.hu</email>
-                    <email>nbatfai@gmail.com</email>
+                    <otheraddr>
+                        <link xlink:href="http://arato.inf.unideb.hu/batfai.norbert">http://arato.inf.unideb.hu/batfai.norbert</link>
+                    </otheraddr>
                 </address>
-            </affiliation>
-            <address>
-                <street>Kassai Street 26.</street>
-                <city>Debrecen</city>
-                <postcode>4028</postcode>
-                <country>Hungary</country>
-                <email>batfai.norbert@inf.unideb.hu</email>
-                <otheraddr>
-                    <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
-                </otheraddr>
-            </address>
-        </author>
-        <edition>ESAMU, Samu Entropy, v. 0.0.1</edition>
+            </author>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Attila</firstname>
+                    <surname>Fodor</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Gergő</firstname>
+                    <surname>Bogacsovics</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>János</firstname>
+                    <surname>Pogány</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+        </authorgroup>
+        <edition>ESAMU, Samu Entropy, 7 Oct 2016, v. en-0.0.3</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
@@ -62,25 +88,7 @@
                 along with this program.  If not, see 
                 <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>.
             </para>
-            <para>
-                Ez a program szabad szoftver; terjeszthető illetve módosítható a 
-                Free Software Foundation által kiadott GNU General Public License
-                dokumentumában leírtak; akár a licenc 3-as, akár (tetszőleges) későbbi 
-                változata szerint.
-            </para>
-            <para>
-                Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz, 
-                de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA 
-                VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. 
-                További részleteket a GNU General Public License tartalmaz.
-            </para>
-            <para>
-                A felhasználónak a programmal együtt meg kell kapnia a GNU General 
-                Public License egy példányát; ha mégsem kapta meg, akkor
-                tekintse meg a
-                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>
-                oldalon.
-            </para>
+
             <para>
                 <link xlink:href="http://gnu.hu/gplv3.html">http://gnu.hu/gplv3.html</link>                
             </para>
