@@ -1,0 +1,331 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction</title>
+    <partintro>
+        <para>First of all, we present the original idea, emphasizing its interdisciplinar (e.g. esport, artificial intelligence, pedagogy, psychology, history and informatics) aspect. Then, we unfold the idea in two directions, in an expectable one, which everyone would naturally think of, and in a less implicit direction, where the game is not the (only) goal of the esport to be developed, but the intention to join the research of artificial intelligence, where the esport is not simply using the AI, but it tries to create a new quality of AI.
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Introduction</title>
+            <keywordset>
+                <keyword>e-Budapest 2024</keyword>
+                <keyword>esport</keyword>
+                <keyword>0 A.D.</keyword>
+                <keyword>Killer App</keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>The original idea</title>
+            <para>
+		We outline original idea and its implicit realization course. In the body of the document we greatyl widen the concept of the original idea and we define it not only as an esport game, but we also outline it as a nontrivial realization course, as a main part of our research plan.
+            </para>
+            <para>
+                The aim of the current document is to foundate the completion of the research plan <link xlink:href="#samuentropy-idea-research-en"></link> 
+            </para>
+                
+            <section>
+                <title>Raising the idea</title>
+                <para>
+                    The title of the idea was: &#x201E;<emphasis>Nothing ventured nothing gained</emphasis>&#x201D; e-Budapest 
+                    2024<indexterm>
+                        <primary>e-Budapest 2024</primary>
+                        <see>Budapest 2024</see>
+                    </indexterm>, subtitle: 
+                    <emphasis>esport research project proposal, &#x201E;the esport is today's chess mass sport&#x201D;?</emphasis>
+                </para>
+                
+                <section>
+                    <title>The project goals</title>
+                    <para>
+			The aims of the planned project are to establish an &#x201E;own &#x201D; interdisciplinar 
+                        (primarily esport, artificial intelligence, pedagogy, psychology, history and informatics) 
+                        esport gym and to research the opportunity of supporting the professional esportsmen (primarily 
+                        regarding the physiology of esport<footnote>
+                            <para>This seems to be an untouched area, which could be inserted to the otherwise strategical endeavour of the University of Debrecen, regarding health care.</para>
+                        </footnote>
+			<footnote>
+                            <para>For example strategies, unfolding scripts, or analyzing them in the case of a given game.</para>
+                        </footnote>
+                    </para>
+                </section>
+
+                <section>
+                    <title>The milestones of the project</title>
+                        
+                    <section>
+                        <title>Esport</title>
+                        <para>
+			    The main goal of the project is to examine several open-source computer games(typically RTS<footnote>
+                                <para>Real Time Strategy</para>
+                            </footnote>), whether if they are suitable for creating and upholding a "movement" and esport duel. We'll go over the further milestones with the help of a concrete example, accordingly, we pick the 0 A. D.<footnote>
+                                <para>A 0 A. D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> an open-source, real-time strategy game, 
+                                    <link xlink:href="https://play0ad.com/">https://play0ad.com/</link>, 
+                                    <link xlink:href="https://github.com/0ad/0ad/">https://github.com/0ad/0ad/</link>.</para>
+                            </footnote> open-source, authentical, historical RTS game. 
+                        </para>
+                    </section>
+                    <section>
+                        <title>History</title>
+                        <para>Creating authentical mods<footnote>
+                                <para>An actual mod is for example the one about the Han dynasty:
+                                    <link xlink:href="http://www.moddb.com/mods/rote">http://www.moddb.com/mods/rote</link>, 
+                                    <link xlink:href="https://github.com/0ADMods/han_china">https://github.com/0ADMods/han_china</link>.</para>
+                            </footnote> could be a concrete milestone, for example the Settlement of the Magyars in Hungary.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Pedagogy, psychology</title>
+                        <para>In the context of the education system the (typically children-based) target audience of the game would naturally raise pedagogical and pychological questions.
+                        </para>
+                    </section>
+                    <section>
+                        <title>The physiology of esport</title>
+                        <para>The examined questions regarding the mentioned target audience are important on their own, but could their examination be profitable regarding the support of the professional players? The research of the extreme strain of the professional players, the support (for example classical physiological) of the players could be a direct natural goal. Examining mass sport (and its thought or real &#x201E;you always stare at the monitor&#x201D;  abuse) is interesting, too.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Promotion and building society</title>
+                        <para>If there is occasion, regaring the gym that is being introduced, the most promising game could be a &#x201E;non-official&#x201D;<footnote>
+                                <para>The title non-official tries to imply that the game to be introduced would not be an olympic sport :), but it could be naturally a possible step in this direction. In any case, we could mention that accepting esport as an olympic sport (for example in the case of Rio) is a hot topic in the news(see for example the “League of Legends”<indexterm><primary>League of Legends</primary></indexterm> game).</para>
+                            </footnote> game of Budapest 2024.<indexterm>
+                        <primary>Budapest 2024</primary>
+                    </indexterm>
+                                
+                        </para>
+                    </section>
+                    <section>
+                        <title>Artificial Intelligence</title>
+                        <para>The actual Google Deepmind's<indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> article (regarding Atari 				    <footnote>
+                                <para>
+                                    <link xlink:href="https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf">https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf</link>
+                                </para>
+                            </footnote>) that was released in the Nature journal opened a hot topic in the research of artificial intelligence. Observing and joining to that is entirely natural and important.
+                        </para>
+                    </section>
+                        
+                        
+                </section>
+                                                                                              
+            </section>
+                
+            <section>
+                <title>A probable realization</title>
+                <para>
+                    The vertical research direction built on the 0 A. D.<indexterm> <primary>0 A. D.</primary> </indexterm> game or on any similar one is a probable (standard) realizational direction , in which we could make the said esport, artificial intelligence, pedagogical, psychological, historical and informatical goals real with a pretty good chance, but – or accordingly – we outline another, a less predictable but more ambitional solution direction in the next chapter. 
+                </para>
+            </section>
+
+        </section>
+            
+        <section>
+            <title>Esport and artificial intelligence</title>
+
+            <section>
+                <title>An unexpected realization</title>
+                <para>
+                    The Holy Grail of game developing (and usually of software developing) is the search of &#x201E;Killer Apps&#x201D;<footnote>
+                        <para>To picture the &#x201E;killer app&#x201D;<indexterm><primary>Killer app</primary></indexterm> concept we could mention the Doom<indexterm><primary>Doom</primary></indexterm> PC game or the Facebook social site.</para>
+                    </footnote>These apps are rare by their very nature, developing a killer app<indexterm><primary>Killer app</primary></indexterm> with an expected realization is impossible. Of course, this would be equally true for an unexpected realizational direction because killer apps are not developed directly, but an app can become one, IF it can.
+                </para>
+                <para>
+                    In this case – at least in the research – we can bravely try to &#x201E;redeem the world&#x201D;. For this, first let us examine why we like playing games and whether if we could develop an artificial intelligence with an esport game. In other words, we define artificial intelligence neither as the controlling process of the plaer nor as controll of the gameplay, but as the creation of a new intelligent lifeform. This is now of course an entirely intuitive goal, so let the lifeform to be created mean anything for now.</para>
+                
+                <section>
+                    <title>Why do we like playing?</title>
+                    <para>
+                        Our physical body lives in the &#x201E;disordered&#x201D; molecular world of chemistry, but as a living system it is able to increase and maintain its internal order (in other words to grow up and to preserve its temporary consistency during its life) in this world.<footnote>
+                            <para>See Erwin Schrödinger's, What is life? : the physical aspect of the living cell, Cambridge University Press, 1944 and Roger Penrose's, A ​császár új elméje Számítógépek, gondolkodás és a fizika törvényei, Akadémiai, Budapest, 1993.</para>
+                        </footnote> We can assume that this attribute is &#x201E;inherited&#x201D; by our mental functionings in the following meaning: they are able to see the order in the noisy input, perceived by our sensory organs and this is called: reality.
+                        <emphasis>Our thesis is that we enjoy playing because this way we can improve the internal order of the game, inside the game.</emphasis> 
+                    </para>
+                    <para>
+                        I can confirm this thesis or just illustrate it only relying on my subjective experiences and the conversations between me and my chilren. For example organising (building) the empty world given by the 0 A.D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> offers in my opinion a great gaming experience.<indexterm><primary>gaming experience</primary></indexterm> 
+                        This can be seen in the screenshot below.
+                    </para>                            
+                    <figure>
+                        <title>Screenshot of a gameplay of the author(red on the map) played in the 0 A .D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> game's han_china mod.</title>
+                        <mediaobject>
+                            <imageobject>
+                                <imagedata fileref="img/0adchina.png" scale="55"/>
+                            </imageobject>
+                            <textobject>
+                                <phrase>
+                                    Screenshot of a gameplay of the author(red on the map) played in the 0 A .D.<indexterm>
+                                        <primary>0 A. D.</primary>
+                                    </indexterm> game's han_china mod.
+                                </phrase>
+                            </textobject>
+                        </mediaobject>
+                    </figure>                
+                    <para xml:id="samuentropy-idea-intro-en.jatekelmeny">
+                       	Under gaming experience
+<indexterm><primary>gaming experience</primary></indexterm>                        
+                        we mean that creators of the game basically coded an experience with the game itself, which the gamers can decode, in other words, which they can live through.<footnote>
+                            <para>Regarding this, see the following publication: Bátfai Norbert, Bátfai Erika, A mobil játékfejlesztés 
+                                elméleti és gyakorlati momentumai, Híradástechnika, 5, 34-37, 2005, 
+                                <link xlink:href="http://www.hiradastechnika.hu/data/upload/file/2005/2005_5/HT_0505-7.pdf">http://www.hiradastechnika.hu/data/upload/file/2005/2005_5/HT_0505-7.pdf</link>.</para>
+                        </footnote>. 
+                    </para>
+                    <para>
+                        Futhermore, there were certain ages among my children, when they did not want to battle, but to build (positioning the new buildings and &#x201E;maxing&#x201E; in-game characters given by the increasing level of the Town hall). During this time, in the Minecraft <trademark class="registered">Minecraft</trademark><indexterm>
+                                        <primary>Minecraft</primary>
+                                    </indexterm> game<footnote>
+                            <para>
+                                <link xlink:href="https://minecraft.net/">https://minecraft.net/</link>
+                            </para>
+                        </footnote> its survival mode offered exactly this experience,<footnote>
+                            <para>More precisely the game's &#x201E;eternal life&#x201E; mode, where one can build freely and does not have to fear anything.</para>
+                        </footnote> with its free building option.
+                    </para>
+                    <para>                                                
+                        We mention the <trademark class="registered">Clash of Clans</trademark><indexterm>
+                                        <primary>Clash of Clans</primary>
+                                    </indexterm> game<footnote>
+                            <para>
+                                <link xlink:href="http://supercell.com/en/games/clashofclans/">http://supercell.com/en/games/clashofclans/</link>
+                            </para>
+                        </footnote> as a spectacular example for increasing organization, where the gaming experience is similar.
+                        If the reader plays this game, then he/she can see for himself/herself (for example by searching for the &#x201E;Bátfai clan&#x201D;<indexterm><primary>Clash of Clans</primary>
+                        <secondary>Bátfai clan</secondary>
+                        </indexterm> clan) that  
+                        the change of &#x201E;th&#x201D;-s<footnote>
+                            <para>Ez a Town Hall szintjének rövidítése.</para>
+                        </footnote> shows well the increasing complexity of the villages in the game's world, the increase in the organization can be seen if we look at the villages of the clan members (in order of their rank in the clan, which roughly correlates with the time spent with playing).                                    
+                    </para>
+                </section>
+                
+                <section>
+                    <title>Family robotics and game</title>
+                    <para>
+                        We raised the idea of developing a JIBO-like developmental robotics (Samu) application earlier, that runs on the family PC and is equipped with mobile device sensory organs earlier, and it is part of our DevRob2Spy research plans.<footnote>
+                            <para>See the Samu as a social robot for the family’s home desktop research topic an the N. Bátfai, R. Besenczi, Robopsychology Manifesto: Samu in His Prenatal Development submitted manuscript.</para>
+                        </footnote>But there was one thing that the project lacked: why would anyone use it in the family? An answer to this could be the game!
+                    </para>
+                </section>
+                <section>
+                    <title>The receipt</title>
+                    <para>                                    
+                        <itemizedlist>
+                            <listitem>
+                                <para>Let us give the modell of the machine that knows how to increase its inner organization<footnote>
+                                        <para>This is unfortunately a step that cannot be pre-planned (after Dénes Gábor: this needs to be invented first :) See the Norbert Bátfai, The Fractal Nature of Algorithms 
+                                            <link xlink:href="https://github.com/nbatfai/AlgorithmicFractals">https://github.com/nbatfai/AlgorithmicFractals</link> c. manuscript.</para>
+                                    </footnote>.
+                                </para>
+                            </listitem>
+                                    
+                            <listitem>
+                                <para>This model will be realized in the form of a “JIBO-like developmental robotics (Samu) application earlier, that runs on the family PC and is equipped with mobile device sensory organs”.
+                                </para>
+                            </listitem>
+
+                            <listitem>
+                                <para>The visual interface of the inner structure of the application could be the foundation of a game.
+                                </para>
+                            </listitem>
+                        </itemizedlist>
+                    </para>                                                                            
+                </section>
+                <section>
+                    <title>The gaming experience</title>
+                    <para>                                    
+                        In this we make an attempt to dream the <indexterm><primary>gaming experience</primary></indexterm> gaming experience. We would build it from two fundamental parts: 
+                        <itemizedlist>
+                            <listitem>
+                                <para>the game needs to have a part that increases organization
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>and a social part.
+                                </para>
+                            </listitem>
+                        </itemizedlist>
+                    </para>
+                    <para>
+                        In the meantime, let the goal of the game be to enhance Samu's (in other worlds the &#x201E; developmental robotical learning machine &#x201D;) vision and hearing.<footnote>
+                            <para>Only in an intuitive manner can we mention our reasearches regarding this topic.
+                                For example for “vision”: <link xlink:href="https://github.com/nbatfai/SamuCam">https://github.com/nbatfai/SamuCam</link>, 
+                                and for “hearing”: <link xlink:href="https://github.com/nbatfai/SamuVocab">https://github.com/nbatfai/SamuVocab</link>.</para>
+                        </footnote>
+                    </para>
+                    <para>            
+                        Inventing the part that increases organization is harder because it depends on the 1st point of the previous point.                                                                
+                        (&#x201E;Let us give the modell of the machine that knows how to increase its inner organization&#x201D;), which is in itself is a big scientific challange… so we can make intuitive analogies at best:
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                If the definition of the &#x201E;entropy decreaser machine&#x201D; in question were similar to the definition of the Turing machine, then we could visualize the definition analogically to the GoDNGoD game plan. (In the mentioned game we breed types based on the Turing machine's definition, for example the “Breedi Turingi” or the “Turingus Tri Breedus”-t, see the Norbert Bátfai, 
+                                Turing's Imitation Game has been Improved, <link xlink:href="http://arxiv.org/abs/1509.00584">http://arxiv.org/abs/1509.00584</link> manuscript).
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>    
+                                If the seeing (hearing) realization of Samu's sensory organs used more hidden layered neural architecture, then we could give a visual language			<footnote>
+                                    <para>As a thought-provoker see for example the language for the earlier 
+                                        <productname class="trade">LEGO</productname> <trademark class="registered">Mindstorms</trademark><indexterm><primary>LEGO</primary><secondary>Mindstorms</secondary></indexterm> developed by the media labor of the MIT<indexterm><primary>MIT</primary><secondary>media labor</secondary></indexterm>, Fred G. Martin, The Art of LEGO Design, The Robotics Practitioner: The Journal for Robot Builders, 1(2), 1995. http://www.kipr.org/sites/default/files/artoflego.pdf.</para>
+                                </footnote>
+                                with which the gamers could tune the architecture. For example if this neural architecture was based on the Google DeepMind's <indexterm><primary>Google</primary><secondary>DeepMind</secondary></indexterm> 
+                                TensorFlow<indexterm>
+                                    <primary>DeepMind</primary>
+                                    <secondary>TensorFlow</secondary>
+                                    <see>Google</see>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link>
+                                    </para>
+                                </footnote>(which is for example able to generate C++ source code from &#x201E;visual language&#x201D;) then developing a &#x201E;more playful front-end&#x201D; language could be a research milestone. If this option was viable, then the game could be the player's own digital lifeforms' &#x201E;brains&#x201D; organization, which could give the given lifeform a better vision. On the social level that builds on this, these lifeforms could either &#x201E;fight&#x201D; to decide who sees better or co-operate, where two players would &#x201E;recombine&#x201D; their creatures and where the question would be: which creature sees better.
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Although we could continue this &#x201E;brain storming&#x201D;, we don't do it here.                                   
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                                    
+                </section>
+                <section>
+                    <title>Risks</title>
+                    <para>
+                        It goes without saying that the &#x201E;unexpected&#x201D; direction is basic research and includes many pitfalls, which could detain the setting and realization of used research goals, not to mention the experimental development that could be built on top of the used research.
+                    </para>
+                </section>
+                
+            </section>
+
+            <section>
+                <title>Conclusion</title>
+                <para>
+                    For starters, we outlined an esport research plan including the actual Budapest 2024<indexterm>
+                        <primary>Budapest 2024</primary>
+                    </indexterm>   sportdiplomatical efforts, and we dreamed this plan further to basic and used research directions. While we placed a hard-core artificial intelligence research focus in the basic research direction.
+                </para>
+                <para>
+                    If we succeed in searching resources for the research, it is worth working side by side on both the &#x201E;probable&#x201D; and the &#x201E;unexpected&#x201D; directions because the first one being a used research entices by concrete results. 
+                </para>
+                <para>
+                    Without support only the basic research is recommended.
+                </para>
+                <para>
+                    We will embed our developmental robotical and robotpsychological researches within the esport conception outlined in this document.                        
+                </para>
+                <para>
+                    We will call the &#x201E;probable&#x201D; research direction <emphasis>Samu Standard</emphasis> and the &#x201E;unexpected&#x201D; direction <emphasis>Samu Entropy</emphasis>
+                </para>
+            </section>
+
+        </section>
+
+    </chapter>        
+        
+</part>

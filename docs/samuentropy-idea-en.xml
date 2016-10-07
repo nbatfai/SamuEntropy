@@ -8,39 +8,42 @@
         <titleabbrev>ESAMU</titleabbrev>
         <author>
             <personname>
-                <honorific>Dr.</honorific>
+                <honorific>Dr</honorific>
                 <surname>Bátfai</surname>
                 <firstname>Norbert</firstname>        
-            </personname>    
+            </personname>  
             <affiliation>
-                <shortaffil>E. adjunktus, DEIK.</shortaffil>
-                <jobtitle>Egyetemi adjunktus</jobtitle>
-                <orgname>Debreceni Egyetem, Informatikai Kar</orgname>
-                <orgdiv>Információtechnológiai Tanszék</orgdiv>
+                <shortaffil>Senior lecturer, DEIK.</shortaffil>
+                <jobtitle>Senior lecturer</jobtitle>
+                <orgname>University of Debrecen, Faculty of Informatics</orgname>
+                <orgdiv>Department of Information Technology</orgdiv>
                 <address>
                     <email>batfai.norbert@inf.unideb.hu</email>
                     <email>nbatfai@gmail.com</email>
                 </address>
             </affiliation>
             <address>
-                <street>Kassai út 26.</street>
+                <street>Kassai Street 26.</street>
                 <city>Debrecen</city>
                 <postcode>4028</postcode>
-                <country>Magyarország</country>
+                <country>Hungary</country>
                 <email>batfai.norbert@inf.unideb.hu</email>
                 <otheraddr>
                     <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
                 </otheraddr>
             </address>
         </author>
+
+
+
         <edition>ESAMU, Samu Entropy, v. 0.0.1</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
-            <holder>Dr. Bátfai Norbert</holder>
+            <holder>Dr. Norbert Bátfai</holder>
         </copyright>
         <legalnotice>
-            <para>Entrópia Samu
+            <para>Samu Entropy
             </para>
             <para>                
                 Copyright (C) 2016, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com
@@ -90,53 +93,50 @@
                 <revnumber>0.0.1</revnumber>
                 <date>2016-08-23</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Iniciális dokumentum. A kiinduló 5let (eBudapest2024) sportvezetés eredményeket kérdező 
-                    levelére esetleges válaszul elküldve, illetve a potenciális érdeklődőknek/befektetőknek elküldve.</revremark>
+                <revremark>Initial document. Sent as an answer to the letter of the original idea(eBudapest2024), regarding the leading sport achievements, furthermore sent to the potential enquirers/investors.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.2</revnumber>
                 <date>2016-08-25</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások.</revremark>
+                <revremark>Improvements.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.3</revnumber>
                 <date>2016-09-02</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Továbbfejlesztés: a sztenderd és a váratlan megoldási irány felvázolása. A DevRob2Psy-ba megosztva.</revremark>
+                <revremark>Enhancement: the outlines of the standard and unexpected solution curves. Shared in DevRob2Psy.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.4</revnumber>
                 <date>2016-09-03</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások. A DevRob2Psy, UDPROG-ba megosztva.</revremark>
+                <revremark>Improvements. Shared in the DevRob2Psy and UDPROG facebook groups.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.5</revnumber>
                 <date>2016-09-04</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Javítások. A játékélmény. A DevRob2Psy, UDPROG-ba megosztva, e-mailben szétküldve potenciális érdeklődőknek.</revremark>
+                <revremark>Improvements. The game experience. Shared in the DevRob2Psy and UDPROG facebook groups, furthermore sent to the potential enquirers via e-mail.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.6</revnumber>
                 <date>2016-09-05</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Technikai okokból LibreOffice-ból Word-be (ha lesz érdeklődés, minden további dokumentáció már DocBook XML-ben). 
-                    A doksi újra szétküldve.</revremark>
+                <revremark>Moved from LibreOffice to Word, due to technical difficulties (if there is interest, all further documentation will be in DobBook XML). The document was sent out again.</revremark>
             </revision>
             <revision>
                 <revnumber>0.0.7</revnumber>
                 <date>2016-09-14</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>DocBook XML 5.1 átirat és a kutatási terv elkezd.
+                <revremark>Started the DocBook XML 5.1 transcription and the research plan.
                 </revremark>
             </revision>
             <revision>
                 <revnumber>0.0.8</revnumber>
                 <date>2016-09-15</date>
                 <authorinitials>nbatfai</authorinitials>
-                <revremark>Iniciális doksi a GitHub-ra, innentől a verziókezelés majd az ottani git-el, lásd majd a 
-                    changelog-ot: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>
+                <revremark>Initial document tot the GitHub, version handling with git from now on, see the changelog: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>
                 </revremark>
             </revision>
             <!--
@@ -149,7 +149,7 @@
             -->
         </revhistory>
     </info>   
-    <xi:include href="samuentropy-glssry-hu.xml">
+    <xi:include href="samuentropy-glssry-en.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
@@ -157,15 +157,15 @@
         </xi:fallback>
     </xi:include>     
     
-    <xi:include href="samuentropy-idea-intro-hu.xml">
+    <xi:include href="samuentropy-idea-intro-en.xml">
         <xi:fallback>
             <para>
-                <emphasis>XInclude: samuentropy-idea-intro-hu.xml file not found</emphasis>
+                <emphasis>XInclude: samuentropy-idea-intro-en.xml file not found</emphasis>
             </para>
         </xi:fallback>
     </xi:include>     
     
-    <xi:include href="samuentropy-idea-research-hu.xml">
+    <xi:include href="samuentropy-idea-research-en.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-idea-research-hu.xml file not found</emphasis>
