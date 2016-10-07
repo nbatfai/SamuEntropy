@@ -1,7 +1,7 @@
 ﻿    <glossary xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Vocablurary</title>
+    <title>Vocabulary</title>
     <glossdiv>
         <title>D</title>
        <!-- <glossentry xml:id="de">
@@ -15,14 +15,31 @@
             <glossterm>Developmental Robotics 2 Robopsychology</glossterm>
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
-                <para>A <indexterm>
+                <para><indexterm>
                             <primary>DevRob2Psy</primary>
                         </indexterm>The DevRob2Psy is the abbreviation of the Developmental Robotics 2 Robopsychology facebook group.
-                    This is an informal groub wich collect the students and professors who interested in this topic.
+                    This is an informal group wich collects the students and professors who are interested in this topic.
                     In this group you can write comments with your own ideas:
                     <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
+            </glossdef>
+        </glossentry>
+
+        <glossentry xml:id="devrob">
+            <glossterm>Developmental robotics</glossterm>
+            <abbrev>DevRob</abbrev>
+            <glossdef>
+                <para>
+                    <indexterm>
+                            <primary>DevRob</primary>
+                        </indexterm>
+                     It  is a scientific field which aims at studying the developmental mechanisms, architectures and constraints that 
+                    allow lifelong and open-ended learning of new skills and new knowledge in embodied machines.
+		    Its basic thesis is that the robot has a body, the anti thesis of this could be a robot that only has software,
+		    the synthesis of the two was given in the PSAMU manuscript.
+                </para>    
+                <glossseealso otherterm="robotpszicho">Robotpsychology</glossseealso> 
             </glossdef>
         </glossentry>
         
@@ -45,25 +62,7 @@
             </glossdef>
         </glossentry>
     </glossdiv>
-    <glossdiv>
-        <title>F</title>
-        <glossentry xml:id="devrob">
-            <glossterm>Developmental robotics</glossterm>
-            <abbrev>DevRob</abbrev>
-            <glossdef>
-                <para>
-                    <indexterm>
-                            <primary>DevRob</primary>
-                        </indexterm>
-                     It  is a scientific field which aims at studying the developmental mechanisms, architectures and constraints that 
-                    allow lifelong and open-ended learning of new skills and new knowledge in embodied machines.
-                    Alaptézise, hogy a robot testtel rendelkezik, ennek antézise lehet a csak szoftveres robot,
-                     a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
-                </para>    
-                <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
-            </glossdef>
-        </glossentry>
-    </glossdiv>
+
     <glossdiv>
         <title>I</title>
         <glossentry xml:id="ieee1998">
@@ -89,7 +88,7 @@
                     <indexterm>
                             <primary>JIBO</primary>
                         </indexterm>
-                    The social tobot of Cynthia Breazeal, see also  
+                    The social robot of Cynthia Breazeal, see also  
                     <link xlink:href="https://www.jibo.com/">https://www.jibo.com/</link>
                 </para>
             </glossdef>
@@ -119,7 +118,7 @@
                     <indexterm>
                             <primary>Samu</primary>
                         </indexterm>
-                    Once the devedevelopment robotics family chatrobot, Sam Bátfai, on the other hand the collective name of our development robotics 
+                    Once the devedevelopment robotics family chatrobot, Samu Bátfai, on the other hand the collective name of our development robotics 
                     research.
                     
                     Also <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
@@ -136,7 +135,7 @@
             <glossterm>University of Debrecen</glossterm>
             <abbrev>UD</abbrev>
             <glossdef>
-                <para>The UD it the abbreviation of the University of Debrecen</para>
+                <para>The UD is the abbreviation of the University of Debrecen</para>
             </glossdef>
         </glossentry>
         <glossentry xml:id="udprog">
