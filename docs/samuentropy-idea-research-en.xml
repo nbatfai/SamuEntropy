@@ -1,0 +1,518 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-en">
+    <title>Research Plan</title>
+    <partintro>
+        <para>In this part we will create the research plan of the  <emphasis>Samu Entropy</emphasis>.
+        </para>
+        <para>
+           It is quite obvious that there is a close relation between esport and artifical intelligence. This relation is further enhanced by our research which tries to focus not only on using the artifical intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented by software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+        </para>
+        <para>The task of this part is to choose the development of the esport game, and then support of the <indexterm>
+                <primary>SRS</primary>
+            </indexterm>SRS documentation.
+        </para>
+            
+    </partintro>
+    <chapter>
+        <info>
+            <title>Introduction</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Introduction</title>
+            <para>
+                Many times it seemed that create artifical inteligence is available, but the it was not succesfull.
+		But our expectations are fatted up by the resoult of the Google DeepMind.
+		Sam is also part of this inspiration and aspiration in this direction, but it might be useless.
+		And now we are not concentrate to Samu, but also see things from different perspectives: our dream is an e-sport where the 			purpose is to create an artifical inteligence species where the species meaning something intuitive.
+            </para>
+        </section>
+        <section>
+            <title>Samu Entropy</title>
+            <para>
+                In this point we have to dream the game! To gain some experience we create fast and disposable prototypes.
+            </para>
+            <para>
+                Where does the game take place? On the Earth. When? Today.
+            </para>
+            <section>
+                <title>The Family</title>
+                <para>
+                    The basic design of this game is the family. The family means that group which can take care of a Samu agent. The Family 			(inside the game) can be a real family, group of friends, society of a university course, but also a single human player.
+                </para>
+                <para>
+                   In architectural meaning the family is the brain of the agent (for example it is a programme which runs on PC or Notebook) 			   which has sensors and moving parts.
+                </para>
+                <para>   
+		In functional meaning the brain does the calculations and the managing of the mobile sensors and moving parts.
+		The mobile camera of the human player is the eye and the GPS is an other sensorary organ.
+		The player takes the phone and Samu can walk with the player through this methods.
+		We think about it that the brain is in something and what is happening, the player can find the place with GPS and take photo from the scene. See also later Matyi the hunter.
+                </para>
+                <note>
+                    <title>Family is the architectural frame</title> 
+                    <para>
+                        Intuitively think that the family of concepts developed in-game captures the architecture outlined above.
+                    </para>
+                </note>                
+            </section>            
+            <section xml:id="usecases">
+                <title>Main use cases</title>
+                <para>
+                    The next use cases are not specify a concrete game, 
+		    but only gave directions to appoint (which they should try to achieve a developed specific games), then
+		    <link xlink:href="#rapidprotos">Rapid prototyping</link> introduced specific point games.
+		    These use cases represent the archetypes developed applications.
+
+                </para>
+                <section>
+                    <title>Samu, the brain</title>
+                    <para>
+                        This will include a bunch of programs for machine learning algorithm implementations.
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta, the builder</title>
+                    <para>
+                        This will include a bunch of programs that provide a visual interface to the programs of Samu the agent point.
+                        It is important that these programs increase the organization
+			<indexterm>
+                            <primary>gaming experience</primary>
+                        </indexterm> 
+			and they must provide gaming experience.
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi, the teacher</title>
+                    <para>
+                        This will include a bunch of programs that provide supervised learning.
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi, the hunter</title>
+                    <para>
+                        This will include a bunch of programs that realize the perception and movement (for example with the help of 				geocaching)
+			<indexterm>
+                            <primary>geocaching</primary>
+                        </indexterm>
+                        .                    
+                    </para>
+                </section>
+                <section>
+                    <title>Erika, the warrior</title>
+                    <para>
+                        This will include a bunch of programs that aspire to operate as esport.
+                    </para>
+                    <tip>
+                        <title>Why <emphasis>Erika, the warrior</emphasis> is a good program?</title> 
+                        <para>
+                            Intuitively think that it can be projected onto large play arenas, like a big boxing match in the main gala. So 
+			    we do not think of a typical quiz game here ... 
+			    You can be a great gaming experience, you can look good!
+                        </para>
+                    </tip>
+                </section>
+                <section>
+                    <title>Norbi, the chief of staff</title>
+                    <para>
+                        This will include a bunch of server-side programs that are implemented to manage families and brainbattles.
+                    </para>
+                </section>                
+            </section>
+        </section>
+        <section>
+            <title>Educational and research plans</title>
+            <para>                
+                In these tasks the students and the teachers work together. The actual student can complete these tasks, in these <indexterm>
+                    <primary>UDPROG</primary>
+                </indexterm> UDPROG 
+                (<indexterm>
+                    <primary>DevRob2Psy</primary>
+                </indexterm>DevRob2Psy, <indexterm>
+                    <primary>UDRFT</primary>
+                </indexterm> UDRFT) facebook groups, and
+		in this sense these tasks can be used in education.
+            </para>            
+            <para>                
+		The way of the tasks solution:
+                <orderedlist numeration="lowerroman">
+                    <listitem>
+                        <para>Fork this<link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link> project!</para>
+                    </listitem>                
+                    <listitem>
+                        <para>Make your own solution in your fork!</para>
+                    </listitem>                
+                    <listitem>
+                        <para>Send a pull-request! (The active UDPROG students can earn points by completing these tasks, if your pull request will merege you can earn more bonus points :)</para>
+                    </listitem>                
+                </orderedlist>          
+            </para>            
+            <section xml:id="rapidprotos">
+                <title>Rapid prototyping</title>
+                <para>
+                    Here are ideas and their implementation. Fontos, hogy megfeleljenek a 
+                    <link xlink:href="#usecases">Main use cases</link> point in Gréta, Nándi, Matyi, Erika.
+                    This is a kind of brain storming point, but so much more to a specific game should outline ideas for which he can be 				really fast prototype to achieve a rapid prototypes and tested in this 
+                    <indexterm>
+                        <primary>gaming experience</primary>
+                    </indexterm>
+                    <link xlink:href="#samuentropy-idea-intro-en.jatekelmeny">game experience</link>.
+                </para>
+                <para>
+                   It is worth highlighting the emerging features in the brainstorm to see if they can be applied to other games.
+
+                </para>       
+                <tip>
+                    <title>Meta-feature: ONE BRAIN RULE THEM ALL!</title>
+                    <para>
+                       It can be quite an interesting way to choose not the best prototype for the implementation(SRS docs etc.)
+
+                        but if it works as in the
+<link xlink:href="#usecases">Main use cases</link> under the heading 
+                        Gréta, Nándi, Matyi, Erika archtype segmented, then with the change of the brain the players could choose in which game to participate.
+
+                    </para>
+                </tip>                          
+                <section xml:id="album">
+                    <title>Samu Family Album<footnote>
+                            <para>For work title: FACE BATTLE (FaBa).</para>
+                        </footnote>.</title>
+                    <para>
+                        The essence of this game is the face recognition<footnote>
+                            <para>
+				We use the camera for the face recognition (See also the SamuCam projects) it means that the pictures are connected to a person (it means his/her account) or feelings(happy, sad).
+			    </para>
+                        </footnote>.
+                    </para>
+                    <para>
+                        Every player who is a member of a family takes a photo of themselves and of their other family members and other non-players too.
+                    </para>
+                    <section>
+                        <title>Samu</title>
+                        <para>
+                            The developed agent tasked with identifying faces (the faces of their own and other families). In this implementation we use the <indexterm>
+                                <primary>DeepMind</primary>
+                                <secondary>TensorFlow</secondary>
+                                <see>Google</see>
+                            </indexterm>Google's TensorFlow package. This is a typical PC application.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                            The function of the Samu implementation developed in TensorFlow, that we will be able to provide graphical user 					interface for the better gaming experience
+				<indexterm>
+                                <primary>gaming experience</primary>
+                            </indexterm>
+ 				and monitoring the TensorFlow datastream.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                            The function of this program that learn datas which belongs to the owner of the picture(for example whose face is in the photo, and the expressed feelings).
+                        </para>
+                        <para>
+                            If in the &#x201E;Matyi&#x201D; function the player creates photo during the hunt, then the human &#x201E;Nándi teacher&#x201D;
+                            teaches the brain to check if the player's photo is real.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                            The developed program's task is to record the face pictures and the related data. For example, the server signs if there is a registrated player nearby (
+                            <indexterm>
+                                <primary>OpenStreetMap</primary>
+                            </indexterm>OpenStreetMap and or
+                            <indexterm>
+                                <primary>Google Maps</primary>
+                            </indexterm>Google Maps visualization)
+                            , or reachable via Bluetooth (or something, software recognise outsider organizer signs by the player, let's say 
+                            bar- or QR code bracelet, brooch, even NFC sticker etc.), then they change faces and datas.                        
+                        </para>
+                        <tip xml:id="bits">
+                            <title>Feature: collecting bits</title>
+                            <para>
+                               A player is prompted to meet, because they will get bits! Usually we try the ingame cash, matching fund, goodness, etc. define in information or bits.
+                            </para>
+                            <para>                                
+                                For example, the hunter takes a relative frequency at the meetings(With X x<subscript>1</subscript> times, 
+                                with Y y<subscript>1</subscript> times, etc. till with unfamiliar I met many times). Based on this, at the next meeting, they will get as many bits as much is the entropy of &#x201E;with whom I met&#x201D; (which they will only get if it was predicted etc.).                                
+                            </para>
+                        </tip>                            
+                        <para  xml:id="samucam1">
+                            It is important to take pictures only about faces, because of this fact, try out in the face photo maker Android app
+                            <indexterm>
+                                <primary>Android Mobile Vision API</primary>
+                            </indexterm>
+                            <link xlink:href="https://github.com/googlesamples/android-vision">Android Mobile Vision API</link>. In the PC app, we can start from the code used in
+                            <link xlink:href="https://github.com/nbatfai/SamuCam">SamuCam</link> (there is a web camera or the phone just in an IP webcam function and
+                            <indexterm>
+                                <primary>OpenCV</primary>
+                            </indexterm>
+                            we used OpenCV). 
+                            <tip>
+                                <title>It works with photos</title>
+                                <para xml:id="samucam2">
+                                    In the mentioned <application>SamuCam</application> program, we could see that the face recognition teaching with photos goes perfectly (not the learning, but the teaching :) for example, see this video: <link xlink:href="https://youtu.be/6cRbyKrq45c">https://youtu.be/6cRbyKrq45c</link>                                
+                                </para>
+                            </tip>                                                        
+                        </para>                        
+                    </section>
+                    <section>
+                        <title>Erika</title>
+                        <para>
+                            In a battle, two families struggle to measure up their power (knowledge). Profile picture of, let's say, 5-5 (private players) toss the frequency associated with, and
+                             after these short learning, the other brain has to recognize the family's other photos, if they are listed in the person-in-five, if so, which one, etc.
+                             (A quasi-11 duel basis and the results are measured in bits, based on the prediction entropy).
+                        </para>
+                        <para>
+                            The winning family will get the knowledge of the defeated one, or for a given time, the defeated family shares the later taken information's parts to the other player.
+                        </para>
+                        <para>
+                            The name of the battle is: brain battle<footnote>
+                                <para>For giving this name, special thanks to Bendegúz Mátyás Bátfai.</para>
+                            </footnote>.
+                        </para>
+                    </section>
+                    <section>
+                        <title>Concrete app ideas</title>
+                        <para>
+                        </para>
+                        <section>
+                            <title>Norbi</title>
+                            <para>
+                                The serverside's task is the &#x201E;Samu is the brain&#x201D; organisation of families and brain battles on PC.
+                            </para>
+                            <para>
+                                A server represents a tribe, the relationship of tribes and families is 1:N natured. So one tribe can have several families. 
+                                The registration of the family into a tribe can be initiated on the Samu brain client by a player in a given case. 
+                            </para>
+                            <para>
+                                Design a communication protocoll for these cases, use the
+                                                                                            <indexterm>
+                                <primary>Google</primary>
+                                <secondary>Protocol Buffers</secondary>
+                            </indexterm>
+
+                                <link xlink:href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</link>
+
+                            </para>
+                            <orderedlist numeration="lowerroman">
+                                <listitem>
+                                    <para>
+                                        Norbi's and Samu's relationship: Norbi ensures rows, depending on Samu's bitnumbers<footnote>
+                                            <para>The family's &#x201E;goodness&#x201D; is measured in bits, we will say that my family is  64 kilobyte, 3 giga and so on. 
+                                                </para>
+                                        </footnote> for the Gréta, Nándi, Matyi and Erika family members 
+                                        for the pictures and their following metadata sharing. 
+                                    </para>
+                            <para>
+                                Create profile, for example.: picture, name, entropy<footnote>
+                                    <para>See the   
+                                        <link xlink:href="#bits">Feature: collecting bits</link> 
+                                        note, which explains, how many points the player has.</para>
+                                </footnote>, GPS at registration etc.
+
+                            </para>                                    
+                                </listitem>                                
+                                <listitem>
+                                    <para>
+                                        Relationship between Norbi and Gréta : The Gréta client downloads the Samu brain neural architecture, for editing.
+                                    </para>
+                                </listitem>                            
+                                <listitem>
+                                    <para>
+                                        Relationship between Norbi and Nándi: the Nándi client downloads the pictures and informations that were &#x201E;hunted&#x201D; by Matyi.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Relationship between Norbi and Matyi: the Matyi client uploads what he &#x201E;hunted&#x201D; the pictures and the informations.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Relationship between two Samu through Norbi: the sharing information between two brain dependet on the result of the battle.
+                                    </para>                                
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Relationship between Norbi and Erika: manage the brain battle!
+                                    </para>                                        
+                                </listitem>
+
+                                <listitem>
+                                    <para>
+                                        Relationship between two Norbi: battle of tribes, we are not working on for now, when the developing in one tribe will be ok, then it will be addressed!
+                                    </para>                                        
+                                </listitem>
+                        
+                            </orderedlist>
+                        </section>
+                        <section>
+                            <title>Samu</title>
+                            <para>
+                                                            <indexterm>
+                                <primary>TensorFlow</primary>
+                            </indexterm>
+                                Create a face recogniser case study, using the TensorFlow (the C++ API)<footnote>
+                                    <para>See also the
+                                        <link xlink:href="https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html">https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html</link> 
+                                        tutorial.</para>
+                                </footnote>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Gréta</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Nándi</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Matyi</title>
+                            <para>
+                                Going out from the previously mentioned <link xlink:href="#samucam1">SamuCam</link>, make a PC C++ case study, 
+which marks out the face from the living picture, see the previously linked SamuCam demo <link xlink:href="#samucam2">video</link>!
+                            </para>
+                            <para>
+                                                            <indexterm>
+                                <primary>Android Mobile Vision API</primary>
+                            </indexterm>
+                                Using the previously mentioned <link xlink:href="#samucam1">Android Mobile Vision API</link>, create an Android case study, which marks out the face from the living picture.
+                            </para>
+                        </section>
+                        <section>
+                            <title>Erika</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Gaming experience and visualization experiments</title>
+                            <para>
+                            </para>
+                            <orderedlist numeration="lowerroman">
+                                <listitem>
+                                    <para>
+                                        <indexterm>
+                            <primary>Samu</primary>
+                            <secondary>Amoba</secondary>
+                        </indexterm>
+                                        Samu Amoba: asks from the Norbi server about the Samu brain and players from the family and on
+                                        <indexterm>
+                            <primary>OpenStreetMap</primary>
+                        </indexterm>OpenStreetMap draws an amoeba, where &#x201E;amoeba&#x201D;
+                                        is the brain's GPS coordinates, in the middle the foothills the family's players are registrational (or hunting) GPS coordinates. 
+                                        (you can go out from <indexterm>
+                            <primary>Raxicab</primary>
+                            <secondary>rcwin</secondary>
+                            <see>OOCWC</see>
+                        </indexterm>
+			Raxicab rcwin viewer according to the OSM drawing , don't care about network communication, the family's GPS coordinates must be in the code, but of course should work as usual, the 
+                        <indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
+                                        in UDPROG community 420 points, mustn't appear in the fork of SamuEntropy, just max. own repository, for example from Raxicab forked, introduction on Facebook).
+                                    </para>
+                                </listitem>
+                            </orderedlist>
+                        </section>
+                    </section>
+                </section>
+
+                <section xml:id="oocwc-fight">
+                    <title>Samu OOCWC Fight</title>
+                    <para>
+                        This concrete game's main point is that
+                        <indexterm>
+                            <primary>OOCWC</primary>
+                        </indexterm> OOCWC<footnote>
+                            <para>Different editions:  
+                                <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> and the
+                                <indexterm>
+                            <primary>Raxicab</primary>
+                        </indexterm>
+                                <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
+                        </footnote> RTS edition.
+                    </para>
+                    
+                </section>
+                                                                
+                <section xml:id="devrobvision">
+                    <title>Samu DevRob Vision</title>
+                    <para>
+                        This concrete game's main point is the development of vision should be modelled, starting from an 1x1 pixel eye going to ???x???.
+                    </para>
+           
+                </section>
+                
+                
+                <section xml:id="customrts">
+                    <title>Samu Custom RTS</title>
+                    <para>
+                        This concrete game's main point is that in <indexterm>
+                            <primary>0 A. D.</primary>
+                        </indexterm> 0 A. D. RTS we leave to the brain to control certain parts of the empire.
+                    </para>
+                    
+                </section>
+
+            </section>                    
+           
+                                  
+            <section>
+                <title>Tasks and challanges</title>
+                <para>
+                
+                </para>
+                <section>
+                    <title>Logos</title>
+                    <para>
+                        Place the forks into the <filename class="directory">docs/res/logo</filename> library. 
+                        A png is needed, an svg variant and a license! As an example
+                        take a look at <indexterm>
+                            <primary>Márton Vona</primary>
+                        </indexterm>The logo created by Márton Vona
+                        <indexterm>
+                            <primary>Robocar Championship  </primary>
+                            <see>OOCWC</see>
+                        </indexterm>         
+                        Robocar Championship                    
+                        <indexterm>
+                            <primary>OOCWC</primary>
+                        </indexterm>
+                        <link xlink:href="https://sourceforge.net/p/udprog/code/ci/master/tree/source/robotauto/logo/">OOCWC logo</link>.
+                    </para>                
+                    <orderedlist numeration="lowerroman">
+                        <listitem>
+                            <para>Create a new logo for the Samu Entropy. (240 point in UDPROG society)</para>
+                        </listitem>                
+             
+                    </orderedlist>          
+                </section> 
+            </section>
+        </section>        
+        <section>
+            <title>Thanksgiving</title>
+            <para>
+                Thank you to my children Bátfai Mátyás Bendegúz, Bátfai Nándor Benjámin and Bátfai Margaréta Niobé for the great brain battles which created Samu Entropy.
+            </para>
+        </section> 
+	<section>
+            <title>Translators.</title>
+            <para>
+                Gergő Bogacsovics, János Pogány, Attila Fodor.
+            </para>
+        </section>         
+    </chapter>
+</part>    

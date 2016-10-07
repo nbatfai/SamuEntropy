@@ -1,10 +1,14 @@
 all:	clean validate_xmllint_idea_hu validate_xmllint_idea_en samuentropy-idea-hu.pdf samuentropy-idea-en.pdf
 
+#all:	clean validate_xmllint_idea_en samuentropy-idea-en.pdf
+
+
+
 samuentropy-idea-hu.pdf: samuentropy-idea-hu.xml samuentropy-hu.xls
 	dblatex samuentropy-idea-hu.xml -p samuentropy-hu.xls
 
-samuentropy-idea-en.pdf: samuentropy-idea-en.xml samuentropy-hu.xls
-	dblatex samuentropy-idea-en.xml -p samuentropy-hu.xls
+samuentropy-idea-en.pdf: samuentropy-idea-en.xml samuentropy-en.xls
+	dblatex samuentropy-idea-en.xml -p samuentropy-en.xls
 
 .PHONY: validate_jing_idea_hu
 validate_jing_idea_hu:
