@@ -503,25 +503,6 @@
                                 <listitem>
                                     <para>
                                         <indexterm>
-                                            <primary>Brainboard</primary>
-                                        </indexterm>
-                                        Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
-                                        a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                        (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
-                                        a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
-                                    </para>
-                                    <tip>
-                                        <title>Alaplap szerkesztő</title> 
-                                        <para>
-                                            A Brainboard app-okban az intuitív cél egyfajta &#x201E;neurális alaplap&#x201D; szerkesztőnek mint
-                                            játéknak a kialakítása.
-                                        </para>
-                                    </tip>                                    
-                                </listitem>
-                                
-                                <listitem>
-                                    <para>
-                                        <indexterm>
                                             <primary>NorbironBoard</primary>
                                         </indexterm>
                                         Készíts egy saját forkot a 
@@ -553,8 +534,7 @@
                                         és old meg, hogy a neuron sprite-ok ne másszanak ki a procik alól!
                                         (UDPROG közösségben, tipikusan kezdőknek ajánlva: 210 pont).
                                     </para>
-                                </listitem>                                
-                                
+                                </listitem>                                                                
                                 <listitem>
                                     <para>
                                         <indexterm>
@@ -565,9 +545,140 @@
                                         és old meg, hogy a készülék forgatásakor ua. maradjon az elemek elhelyezkedése!
                                         (UDPROG közösségben, tipikusan kezdőknek ajánlva: 310 pont).
                                     </para>
-                                </listitem>                                
-                                
+                                </listitem>                                                                
                             </orderedlist>
+                            <para>A bevezető Androidos feladatokat zárjuk az előző csokor első és utolsó aktivitiének
+                                összekapcsolásával, ez a NorbironSplash
+                                <indexterm>
+                                    <primary>NorbironSplash</primary>
+                                </indexterm>
+                                Készíts egy saját forkot a 
+                                <filename class="directory">../cs/NorbironSplash</filename> app-ból 
+                                és eszközölj benne valamilyen tetszőleges módosítást!
+                                (UDPROG közösségben, tipikusan kezdőknek ajánlva: 80 pont, ennek a hegylakó változata
+                                a határidőre, versenyben, from scratch 500 pont volt).
+                            </para>                                                        
+                            <section>
+                                <title>Az 5. védés</title>                            
+                                <para>
+                                    Az előző pont oktatásban bevezető (kutatásban a potenciális játékélményeket feltáró) példái
+                                    után itt azok következnek, amelyek védhetőek a reguláris képzés UDPROG közösségében.
+                                </para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>
+                                            <indexterm>
+                                                <primary>Brainboard</primary>
+                                            </indexterm>
+                                            Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
+                                            a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
+                                            (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, 
+                                            a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                        </para>
+                                        <tip>
+                                            <title>Alaplap szerkesztő</title> 
+                                            <para>
+                                                A Brainboard app-okban az intuitív cél egyfajta &#x201E;neurális alaplap&#x201D; szerkesztőnek mint
+                                                játéknak a kialakítása.
+                                            </para>
+                                        </tip>                                    
+                                    </listitem>                                
+                                </orderedlist>                            
+                            </section>
+                        </section>
+                            <section>
+                                <title>Nándi</title>
+                                <para>
+                                </para>
+                            </section>
+                            <section>
+                                <title>Matyi</title>
+                                <para>
+                                    A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
+                                    amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
+                                    (UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
+                                </para>
+                                <para>
+                                    <indexterm>
+                                        <primary>Android Mobile Vision API</primary>
+                                    </indexterm>
+                                    A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
+                                    amely az élő képből kijelöli az arcot.
+                                    (UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
+                                </para>
+                            </section>
+                            <section>
+                                <title>Erika</title>
+                                <para>
+                                </para>
+                            </section>
+                            <section>
+                                <title>Játékélmény és vizualizációs kísérletek</title>
+                                <para>
+                                </para>
+                                <orderedlist numeration="lowerroman">
+                                    <listitem>
+                                        <para>
+                                            <indexterm>
+                                                <primary>Samu</primary>
+                                                <secondary>Amoba</secondary>
+                                            </indexterm>
+                                            Samu Amoba: lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
+                                            <indexterm>
+                                                <primary>OpenStreetMap</primary>
+                                            </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
+                                            az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
+                                            (kiindulhatsz a <indexterm>
+                                                <primary>Raxicab</primary>
+                                                <secondary>rcwin</secondary>
+                                                <see>OOCWC</see>
+                                            </indexterm>Raxicab rcwin megjelenítőjéből az 
+                                            <indexterm>
+                                                <primary>OSM</primary>
+                                                <see>OpenStreetMap</see>
+                                            </indexterm>
+                                            OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
+                                            legyenek behuzalozva a kódba, de persze általánosan működjön, az 
+                                            <indexterm>
+                                                <primary>Raxicab</primary>
+                                            </indexterm>
+                                            UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
+                                            bemutatása fészes posztban).
+                                        </para>
+                                    </listitem>
+                                </orderedlist>
+                            </section>
+                        
+                        </section>
+                    </section>
+
+                    <section xml:id="oocwc-fight">
+                        <title>Samu OOCWC Fight</title>
+                        <para>
+                            Ennek a konkrét játéknak a lényege az 
+                            <indexterm>
+                                <primary>OOCWC</primary>
+                            </indexterm> OOCWC<footnote>
+                                <para>Az eddigi kiadások a  
+                                    <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
+                                    <indexterm>
+                                        <primary>Raxicab</primary>
+                                    </indexterm>
+                                    <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
+                            </footnote> RTS kiadása.
+                        </para>
+                        <!--
+                        <para>
+                        </para>
+                        <section>
+                            <title>Samu</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Gréta</title>
+                            <para>
+                            </para>
                         </section>
                         <section>
                             <title>Nándi</title>
@@ -577,17 +688,6 @@
                         <section>
                             <title>Matyi</title>
                             <para>
-                                A korábban említett <link xlink:href="#samucam1">SamuCam</link>-ból kiindulva készíts egy PC-s C++ esettanulmányt, 
-                                amely az élő képből kijelöli az arcot, lásd még a korábban linkelt SamuCam demó <link xlink:href="#samucam2">videót</link>! 
-                                (UDPROG közösségben 280 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. SamuCam fork-ból csak kipusztítani kell, bemutatása fészes posztban).
-                            </para>
-                            <para>
-                                <indexterm>
-                                    <primary>Android Mobile Vision API</primary>
-                                </indexterm>
-                                A korábban említett <link xlink:href="#samucam1">Android Mobile Vision API</link>-t használva készíts egy Androidos esettanulmányt, 
-                                amely az élő képből kijelöli az arcot.
-                                (UDPROG közösségben 440 pont, a SamuEntropy forkba ne kerüljön be, bemutatása fészes posztban, a posztodra minden szakmai komment +10 pont).
                             </para>
                         </section>
                         <section>
@@ -595,297 +695,214 @@
                             <para>
                             </para>
                         </section>
+                        -->
+                    </section>
+                                                                
+                    <section xml:id="devrobvision">
+                        <title>Samu DevRob Vision</title>
+                        <para>
+                            Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
+                        </para>
+                        <!--
+                        <para>
+                        </para>
                         <section>
-                            <title>Játékélmény és vizualizációs kísérletek</title>
+                            <title>Samu</title>
                             <para>
                             </para>
-                            <orderedlist numeration="lowerroman">
-                                <listitem>
-                                    <para>
-                                        <indexterm>
-                                            <primary>Samu</primary>
-                                            <secondary>Amoba</secondary>
-                                        </indexterm>
-                                        Samu Amoba: lekérdezi a Norbi szerverről a Samu agy és a család játékosait és az 
-                                        <indexterm>
-                                            <primary>OpenStreetMap</primary>
-                                        </indexterm>OpenStreetMap-re egy olyan &#x201E;amőbát&#x201D; rajzol, ahol
-                                        az agy GPS koordinátája van középen a nyúlványok a család játékosainak regisztrációkori (vagy vadászatos) GPS koordinátái. 
-                                        (kiindulhatsz a <indexterm>
-                                            <primary>Raxicab</primary>
-                                            <secondary>rcwin</secondary>
-                                            <see>OOCWC</see>
-                                        </indexterm>Raxicab rcwin megjelenítőjéből az 
-                                        <indexterm>
-                                            <primary>OSM</primary>
-                                            <see>OpenStreetMap</see>
-                                        </indexterm>
-                                        OSM-re rajzolás tekintetében, a network kommunikációtól tekinstünk el, a család GPS koordinátái
-                                        legyenek behuzalozva a kódba, de persze általánosan működjön, az 
-                                        <indexterm>
-                                            <primary>Raxicab</primary>
-                                        </indexterm>
-                                        UDPROG közösségben 420 pont, a SamuEntropy forkba ne kerüljön be, csak max. saját repóba, pl. a Raxicab-ból forkoltba, 
-                                        bemutatása fészes posztban).
-                                    </para>
-                                </listitem>
-                            </orderedlist>
                         </section>
-                        
+                        <section>
+                            <title>Gréta</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Nándi</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Matyi</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Erika</title>
+                            <para>
+                            </para>
+                        </section>
+                        -->
                     </section>
-                </section>
+                
+                
+                    <section xml:id="customrts">
+                        <title>Samu Custom RTS</title>
+                        <para>
+                            Ennek a konkrét játéknak a lényege az, hogy a <indexterm>
+                                <primary>0 A. D.</primary>
+                            </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
+                        </para>
+                        <!--
+                        <para>
+                        </para>
+                        <section>
+                            <title>Samu</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Gréta</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Nándi</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Matyi</title>
+                            <para>
+                            </para>
+                        </section>
+                        <section>
+                            <title>Erika</title>
+                            <para>
+                            </para>
+                        </section>
+                        -->
+                    </section>
 
-                <section xml:id="oocwc-fight">
-                    <title>Samu OOCWC Fight</title>
-                    <para>
-                        Ennek a konkrét játéknak a lényege az 
-                        <indexterm>
-                            <primary>OOCWC</primary>
-                        </indexterm> OOCWC<footnote>
-                            <para>Az eddigi kiadások a  
-                                <link xlink:href="https://github.com/nbatfai/robocar-emulator">Police</link> és a 
-                                <indexterm>
-                                    <primary>Raxicab</primary>
-                                </indexterm>
-                                <link xlink:href="https://github.com/nbatfai/SamuSmartCity">Raxicab</link>.</para>
-                        </footnote> RTS kiadása.
-                    </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
-                </section>
-                                                                
-                <section xml:id="devrobvision">
-                    <title>Samu DevRob Vision</title>
-                    <para>
-                        Ennek a konkrét játéknak a lényege a látás kifejlődésének modellezése az 1x1 pixeles szemtől indulva a ???x???-ig.
-                    </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
-                </section>
-                
-                
-                <section xml:id="customrts">
-                    <title>Samu Custom RTS</title>
-                    <para>
-                        Ennek a konkrét játéknak a lényege az, hogy a <indexterm>
-                            <primary>0 A. D.</primary>
-                        </indexterm> 0 A. D. RTS-ben az agyra bízzuk a birodalom adott részeinek irányítását.
-                    </para>
-                    <!--
-                    <para>
-                    </para>
-                    <section>
-                        <title>Samu</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Gréta</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                        </para>
-                    </section>
-                    <section>
-                        <title>Erika</title>
-                        <para>
-                        </para>
-                    </section>
-                    -->
-                </section>
-
-            </section>                    
-            <section>
-                <title>Szakfordítói jellegű feladatok</title>
-                <para>
-                
-                </para>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe). (UDPROG közösségben 35 pont kommitonként 
-                            az előző feladat verziójától számolva).</para>
-                    </listitem>                     
-                    <listitem>
-                        <para>...</para>
-                    </listitem>                
-                </orderedlist>            
-            </section> 
-            <section>
-                <title>Licencmérnökség jellegű feladatok</title>
-                <para>
-                
-                </para>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link> Tensor Flow felhasználásának elemzése, különös tekintettel a 
-                        &#x201E;Gréta&#x201D; szerepre. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link>  
-                        &#x201E;Matyi&#x201D; szerepének <indexterm>
-                                <primary>OpenStreetMap</primary>
-                            </indexterm> OpenStreetMap felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>A <link xlink:href="#album">Samu Family Album</link>  
-                        &#x201E;Matyi&#x201D; szerepének <indexterm>
-                                <primary>Google Maps</primary>
-                            </indexterm> Google Maps felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                
-                    <listitem>
-                        <para>A <link xlink:href="https://firebase.google.com/">Google Firebase rendszer</link>
-                            felhasználásának vizsgálata. Mint bármely más Google szolgáltatásra, erre is az általános 
-                            <link xlink:href="https://console.developers.google.com/tos?id=universal">Google APIs Terms of Service</link> vonatkozik.
-                            Ami számunkra lényeges, hogy az API-t használó szoftver lehet open source 
-                            (ez esetben egy fontos megkötés lásd később), de bezárható commercial szoftverként is, ezt a Google nem köti meg.
-                            Egyébként jellemzően a Google demo programjai Apache v2 licenccel érhetőek el.
-                            Fontos megkötés, hogy ha a szoftver forráskódját open source formában közzétesszük, semmilyen fejlesztői azonosítót nem tehetünk bele 
-                            (lásd section 4. b. 1.: "Developer credentials may not be embedded in open source projects.").
-                            Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
-                            Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
-                        </para>
-                    </listitem>                
-                    <listitem>
-                        <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
-                            felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
-                    </listitem>                                    
-                </orderedlist>            
-            </section>                               
-            <section>
-                <title>Kreatív és művészeti jellegű feladatok</title>
-                <para>
-                
-                </para>
+                </section>                    
                 <section>
-                    <title>Logók</title>
+                    <title>Szakfordítói jellegű feladatok</title>
                     <para>
-                        A logókat a forkban helyezzétek a <filename class="directory">docs/res/logo</filename> könyvtárba. 
-                        Kell egy png, egy svg változat és egy licenc! Követendő példaképpen
-                        tekintsétek a <indexterm>
-                            <primary>Vona Márton</primary>
-                        </indexterm>Vona Márton készítette
-                        <indexterm>
-                            <primary>Robotautó Világbajnokság</primary>
-                            <see>OOCWC</see>
-                        </indexterm>         
-                        Robotautó Világbajnokság                    
-                        <indexterm>
-                            <primary>OOCWC</primary>
-                        </indexterm>
-                        <link xlink:href="https://sourceforge.net/p/udprog/code/ci/master/tree/source/robotauto/logo/">OOCWC logót</link>.
-                    </para>                
+                
+                    </para>
                     <orderedlist numeration="lowerroman">
                         <listitem>
-                            <para>Logó az Entrópia Samuhoz általában. (UDPROG közösségben 240 pont)</para>
+                            <para>Ennek a doksinak az angol fordítása. (UDPROG közösségben 990 pont)</para>
                         </listitem>                
                         <listitem>
-                            <para>Logó az Entrópia Samu/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
-                        </listitem>                
+                            <para>Ennek a doksinak az angol fordításának verziókövetése (az új részek fordításe). (UDPROG közösségben 35 pont kommitonként 
+                                az előző feladat verziójától számolva).</para>
+                        </listitem>                     
                         <listitem>
                             <para>...</para>
                         </listitem>                
                     </orderedlist>            
                 </section> 
                 <section>
-                    <title>Konkrét app 5letek</title>
+                    <title>Licencmérnökség jellegű feladatok</title>
+                    <para>
+                
+                    </para>
                     <orderedlist numeration="lowerroman">
                         <listitem>
-                            <para>A FACE BATTLE mintájára írd le saját játék 5letedet, (UDPROG közösségben 310 pont, például a
-                                <link xlink:href="oocwc-fight">Samu OOCWC Fight</link> részben 
-                                a DocBook forrásban kikommentezett Samu, Gréta, Nándi, Erika, Norbi pontokat kell kitalálnod). 
-                                A kidolgozás során vedd figyelembe a 
-                                <link xlink:href="brainswap">Meta-fícsör: egy agy mind felett</link>
-                                tippet!                            
+                            <para>A <link xlink:href="#album">Samu Family Album</link> Tensor Flow felhasználásának elemzése, különös tekintettel a 
+                        &#x201E;Gréta&#x201D; szerepre. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
+                        </listitem>                
+                        <listitem>
+                            <para>A <link xlink:href="#album">Samu Family Album</link>  
+                        &#x201E;Matyi&#x201D; szerepének <indexterm>
+                                    <primary>OpenStreetMap</primary>
+                                </indexterm> OpenStreetMap felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
+                        </listitem>                
+                        <listitem>
+                            <para>A <link xlink:href="#album">Samu Family Album</link>  
+                        &#x201E;Matyi&#x201D; szerepének <indexterm>
+                                    <primary>Google Maps</primary>
+                                </indexterm> Google Maps felhasználása. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
+                        </listitem>                
+                        <listitem>
+                            <para>A <link xlink:href="https://firebase.google.com/">Google Firebase rendszer</link>
+                                felhasználásának vizsgálata. Mint bármely más Google szolgáltatásra, erre is az általános 
+                                <link xlink:href="https://console.developers.google.com/tos?id=universal">Google APIs Terms of Service</link> vonatkozik.
+                                Ami számunkra lényeges, hogy az API-t használó szoftver lehet open source 
+                                (ez esetben egy fontos megkötés lásd később), de bezárható commercial szoftverként is, ezt a Google nem köti meg.
+                                Egyébként jellemzően a Google demo programjai Apache v2 licenccel érhetőek el.
+                                Fontos megkötés, hogy ha a szoftver forráskódját open source formában közzétesszük, semmilyen fejlesztői azonosítót nem tehetünk bele 
+                                (lásd section 4. b. 1.: "Developer credentials may not be embedded in open source projects.").
+                                Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
+                                Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
                             </para>
                         </listitem>                
+                        <listitem>
+                            <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
+                                felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
+                        </listitem>                                    
                     </orderedlist>            
-                </section>                 
-            </section>
+                </section>                               
+                <section>
+                    <title>Kreatív és művészeti jellegű feladatok</title>
+                    <para>
+                
+                    </para>
+                    <section>
+                        <title>Logók</title>
+                        <para>
+                            A logókat a forkban helyezzétek a <filename class="directory">docs/res/logo</filename> könyvtárba. 
+                            Kell egy png, egy svg változat és egy licenc! Követendő példaképpen
+                            tekintsétek a <indexterm>
+                                <primary>Vona Márton</primary>
+                            </indexterm>Vona Márton készítette
+                            <indexterm>
+                                <primary>Robotautó Világbajnokság</primary>
+                                <see>OOCWC</see>
+                            </indexterm>         
+                            Robotautó Világbajnokság                    
+                            <indexterm>
+                                <primary>OOCWC</primary>
+                            </indexterm>
+                            <link xlink:href="https://sourceforge.net/p/udprog/code/ci/master/tree/source/robotauto/logo/">OOCWC logót</link>.
+                        </para>                
+                        <orderedlist numeration="lowerroman">
+                            <listitem>
+                                <para>Logó az Entrópia Samuhoz általában. (UDPROG közösségben 240 pont)</para>
+                            </listitem>                
+                            <listitem>
+                                <para>Logó az Entrópia Samu/Samu Family Album játékhoz (Samu + a Gréta, a Nándi, a Matyi és az Erika irányokhoz). (UDPROG közösségben 5x120 pont)</para>
+                            </listitem>                
+                            <listitem>
+                                <para>...</para>
+                            </listitem>                
+                        </orderedlist>            
+                    </section> 
+                    <section>
+                        <title>Konkrét app 5letek</title>
+                        <orderedlist numeration="lowerroman">
+                            <listitem>
+                                <para>A FACE BATTLE mintájára írd le saját játék 5letedet, (UDPROG közösségben 310 pont, például a
+                                    <link xlink:href="oocwc-fight">Samu OOCWC Fight</link> részben 
+                                    a DocBook forrásban kikommentezett Samu, Gréta, Nándi, Erika, Norbi pontokat kell kitalálnod). 
+                                    A kidolgozás során vedd figyelembe a 
+                                    <link xlink:href="brainswap">Meta-fícsör: egy agy mind felett</link>
+                                    tippet!                            
+                                </para>
+                            </listitem>                
+                        </orderedlist>            
+                    </section>                 
+                </section>
+                <section>
+                    <title>Promóciós jellegű feladatok</title>
+                    <orderedlist numeration="lowerroman">
+                        <listitem>
+                            <para>Készíts promó YouTube videót az Entrópia Samuhoz. (UDPROG közösségben 540 pont, természetesen
+                                csak tiszta szoftverek és erőforrások - képek, fontok, stb. - használhatóak, illetve a gyors protók,
+                                feladatmegoldások eredményei, csak az számolhatja el, aki más ESAMU feladatból már elért legalább 150 pontot).</para>
+                        </listitem>                
+                        <listitem>
+                            <para>...</para>
+                        </listitem>                
+                    </orderedlist>            
+                </section> 
+            </section>        
             <section>
-                <title>Promóciós jellegű feladatok</title>
-                <orderedlist numeration="lowerroman">
-                    <listitem>
-                        <para>Készíts promó YouTube videót az Entrópia Samuhoz. (UDPROG közösségben 540 pont, természetesen
-                            csak tiszta szoftverek és erőforrások - képek, fontok, stb. - használhatóak, illetve a gyors protók,
-                            feladatmegoldások eredményei, csak az számolhatja el, aki más ESAMU feladatból már elért legalább 150 pontot).</para>
-                    </listitem>                
-                    <listitem>
-                        <para>...</para>
-                    </listitem>                
-                </orderedlist>            
-            </section> 
-        </section>        
-        <section>
-            <title>Köszönetnyilvánítás</title>
-            <para>
-                Köszönöm gyermekeimnek Bátfai Mátyás Bendegúznak, Bátfai Nándor Benjáminnak és Bátfai Margaréta Niobénak 
-                a remek agyviharokért amelyből kialakult Entrópia Samu koncepciója.
-            </para>
-        </section>        
+                <title>Köszönetnyilvánítás</title>
+                <para>
+                    Köszönöm gyermekeimnek Bátfai Mátyás Bendegúznak, Bátfai Nándor Benjáminnak és Bátfai Margaréta Niobénak 
+                    a remek agyviharokért amelyből kialakult Entrópia Samu koncepciója.
+                </para>
+            </section>        
     </chapter>
 </part>    
