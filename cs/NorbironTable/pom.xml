@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* pom.xml
+*
+* NorbironSplash
+* This is a case study for creating sprites for SamuEntropy/Brainboard.
+*
+* Copyright (C) 2016, Dr. Bátfai Norbert
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+* Ez a program szabad szoftver; terjeszthető illetve módosítható a
+* Free Software Foundation által kiadott GNU General Public License
+* dokumentumában leírtak; akár a licenc 3-as, akár (tetszőleges) későbbi
+* változata szerint.
+*
+* Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz,
+* de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA
+* VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve.
+* További részleteket a GNU General Public License tartalmaz.
+*
+* A felhasználónak a programmal együtt meg kell kapnia a GNU General
+* Public License egy példányát; ha mégsem kapta meg, akkor
+* tekintse meg a <http://www.gnu.org/licenses/> oldalon.
+*
+* Version history:
+*
+* 0.0.1, 26 Sept 2016, initial hack
+*
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>batfai.samuentropy.brainboard7</groupId>
+    <artifactId>NeuronTable</artifactId>
+    <version>0.0.1</version>
+    <packaging>apk</packaging>
+    <name>NeuronTable</name>
+    <url>https://github.com/nbatfai/SamuEntropy</url>
+    <description>Samu Entropy: ESPORT AND ARTIFICIAL INTELLIGENCE. 
+        It is quite obvious that there is a close relation between esport and artificial intelligence. 
+        This relation is further enhanced by our research which tries to focus not only on using the
+        artificial intelligence but on creating it in a new way. Our idea is to develop a new developmental
+        robotics and robopsychology based game called Samu Entropy as a social robot that will be 
+        implemented by software on the family’s home desktop and mobile devices. Further details can be 
+        found at: https://github.com/nbatfai/SamuEntropy</description>
+    <organization>
+        <name>Norbert Batfai, University of Debrecen, Department of Information Technology</name>
+        <url>https://arato.inf.unideb.hu/batfai.norbert/</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>GNU GPL v3</name>
+            <url>http://www.gnu.org/licenses/gpl.html</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>norbi</id>
+            <name>Norbert Batfai</name>
+            <email>nbatfai@gmail.com</email>
+            <url>https://arato.inf.unideb.hu/batfai.norbert/</url>
+            <organization>University of Debrecen</organization>
+            <organizationUrl>http://www.inf.unideb.hu</organizationUrl>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <build>        
+        <finalName>${project.artifactId}</finalName>
+        <sourceDirectory>src</sourceDirectory>        
+        <plugins>
+            <plugin> 
+                <groupId>com.simpligility.maven.plugins</groupId> 
+                <artifactId>android-maven-plugin</artifactId> 
+                <version>4.4.3</version> 
+                <configuration> 
+                    <sdk>
+                        <platform>19</platform>
+                    </sdk>
+                    <deleteConflictingFiles>true</deleteConflictingFiles> 
+                    <undeployBeforeDeploy>true</undeployBeforeDeploy> 
+                    <androidManifestFile>AndroidManifest.xml</androidManifestFile>
+                    <resourceDirectory>res</resourceDirectory>
+                </configuration> 
+                <extensions>true</extensions> 
+            </plugin>
+        </plugins>
+    </build>  
+</project>
