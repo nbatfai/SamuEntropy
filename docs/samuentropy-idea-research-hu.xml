@@ -599,10 +599,24 @@
                                             <indexterm>
                                                 <primary>Brainboard</primary>
                                             </indexterm>
-                                            Készíts egy saját forkot a Brainboard app-ból (az egész ESAMU-ról persze) és 
+                                            Készíts egy saját forkot a <filename class="directory">../cs/Brainboard</filename> app-ból (az egész ESAMU-ról persze) és 
                                             a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                            (UDPROG közösségben 590 pont, a játékélményt írd meg fészes posztban is, 
-                                            a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+                                            Védésként választva kötelező implemntálandó pontok az alábbiak:
+                                            <itemizedlist>                                    
+                                                <listitem>
+                                                    <para>
+                                                        Tudjon mindent, amit a NorbironTable feladott védési feladatként!
+                                                    </para>
+                                                </listitem>
+                                                <listitem>
+                                                    <para>Az aktuális csomópontokat a <guibutton>BOXIN</guibutton>
+                                                    gomb nyomására tegye egy új dobozba, ami
+                                                    jelenjen meg a <guibutton>BUILD</guibutton> alatt is!                                            
+                                                    </para>
+                                                </listitem>
+                                            </itemizedlist>                                               
+                                            (UDPROG közösségben 790 pont, a játékélményt írd meg fészes posztban is, 
+                                            a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).                                            
                                         </para>
                                         <tip>
                                             <title>Alaplap szerkesztő</title> 
