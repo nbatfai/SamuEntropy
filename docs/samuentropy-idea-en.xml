@@ -14,8 +14,8 @@
                     <firstname>Norbert</firstname>        
                 </personname>  
                 <affiliation>
-                    <shortaffil>Senior lecturer, DEIK.</shortaffil>
-                    <jobtitle>Senior lecturer</jobtitle>
+                    <shortaffil>Assistant professor, DEIK.</shortaffil>
+                    <jobtitle>Assistant professor</jobtitle>
                     <orgname>University of Debrecen, Faculty of Informatics</orgname>
                     <orgdiv>Department of Information Technology</orgdiv>
                     <address>
@@ -59,7 +59,7 @@
                 </contrib>
             </othercredit>
         </authorgroup>
-        <edition>ESAMU, Samu Entropy, 7 Oct 2016, v. en-0.0.4</edition>
+        <edition>ESAMU, Samu Entropy, 14 Oct 2016, v. en-0.0.4</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
