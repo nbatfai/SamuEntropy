@@ -1,0 +1,13 @@
+<resources>
+    <style name="Animation.FadeInOutAnim" parent="@android:Animation">
+        <item name="android:windowEnterAnimation">@drawable/fadein</item>
+        <item name="android:windowExitAnimation">@drawable/fadeout</item> 
+    </style>
+    <style name="Theme.NorbironSplash" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.FadeInOutAnim</item>        
+    </style>  
+</resources> 
