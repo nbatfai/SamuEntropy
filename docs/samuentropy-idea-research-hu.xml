@@ -893,7 +893,10 @@
                             Ezen felül a rendszer használata bizonyos kvóták eléréséig ingyenes, azon felül viszont fizetni kell. 
                             Ez nem automatikus, tehát a rendszer nem fog automatikusan fizetési igényt bejelenteni, mert elértünk vagy átléptünk egy kvótát. 
                         </para>
-                    </listitem>                
+                        <para>
+                          <link xlink:href="https://github.com/ViktorSimko/NorbironTableFB.git">Firebase-t használó gyors prototípus.</link>
+                        </para>
+                    </listitem>
                     <listitem>
                         <para>Altalában a <link xlink:href="https://fonts.google.com/">https://fonts.google.com/</link> fontok 
                             felhasználhatósága és rövid iránymutatás a használathoz. (UDPROG közösségben nem meghirdetve, csak oktatói forkból)</para>
