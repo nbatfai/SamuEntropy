@@ -65,8 +65,8 @@
                     <firstname>Szilárd Viktor</firstname>
                 </personname>    
                 <affiliation>
-                    <shortaffil>tanuló, DEIK PTI</shortaffil>
-                    <jobtitle>tanuló</jobtitle>
+                    <shortaffil>hallgató, DEIK PTI</shortaffil>
+                    <jobtitle>hallgató</jobtitle>
                     <address>
                         <email>aqviktor@gmail.com</email>
                     </address>
@@ -80,7 +80,7 @@
                 </address>
             </author>
         </authorgroup>
-        <edition>ESAMU, Entrópia Samu, 2016. okt. 14, v. hu.0.0.11.6</edition>
+        <edition>ESAMU, Entrópia Samu, 2016. okt. 14, v. hu.0.0.11.8</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
@@ -195,7 +195,7 @@
                 </revremark>
             </revision>
             <revision>
-                <revnumber>hu.0.0.10.9</revnumber>
+                <revnumber>hu.0.0.11.7</revnumber>
                 <date>2016-10-19</date>
                 <authorinitials>viktorsimko</authorinitials>
                 <revremark>
