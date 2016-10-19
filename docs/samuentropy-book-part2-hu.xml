@@ -1,0 +1,28 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>A jövő programozása</title>
+    <partintro>
+        <para>
+            Erwin Schrödingernek az élettel kapcsolatos kutatásaiból tudjuk, hogy 
+            az élet titka az entrópia alacsonyan tartásának képessége. Ennek fényében 
+            már nem csupán &#x2013; mint mindenki &#x2013; szeretek enni, hanem a megértés egy 
+            magasabb szintjén tudom is, hogy életem fenntartása érdekében eszek. 
+            Sok esetben ez az érzésnek a kontrollálatlansága áll az elhízás mögött. 
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Bevezetés</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title></title>
+            <para>
+                
+            </para>
+        </section>
+    </chapter>
+</part>

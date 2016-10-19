@@ -611,8 +611,8 @@
                                                 </listitem>
                                                 <listitem>
                                                     <para>Az aktuális csomópontokat a <guibutton>BOXIN</guibutton>
-                                                    gomb nyomására tegye egy új dobozba, ami
-                                                    jelenjen meg a <guibutton>BUILD</guibutton> alatt is!                                            
+                                                        gomb nyomására tegye egy új dobozba, ami
+                                                        jelenjen meg a <guibutton>BUILD</guibutton> alatt is!                                            
                                                     </para>
                                                 </listitem>
                                             </itemizedlist>                                               
@@ -634,7 +634,19 @@
                                             </indexterm>
                                             Készíts egy saját forkot a GretaTheBuilder app-ból (az egész ESAMU-ról persze) és 
                                             a saját magad elképzelte irányban fejleszd tovább, azaz kísérletezz a játékélménnyel!
-                                            (UDPROG közösségben 690 pont, a játékélményt írd meg fészes posztban is, 
+                                            Védésként választva kötelező implemntálandó pontok az alábbiak:
+                                            <itemizedlist>                                    
+                                                <listitem>
+                                                    <para>
+                                                        Tudjon mindent, amit a Brainboard feladott védési feladatként!
+                                                    </para>
+                                                </listitem>
+                                                <listitem>
+                                                    <para>Ne csak csomópontokat, hanem éleket is kezeljen!                                            
+                                                    </para>
+                                                </listitem>
+                                            </itemizedlist>                                               
+                                            (UDPROG közösségben 990 pont, a játékélményt írd meg fészes posztban is, 
                                             a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
                                         </para>
                                     </listitem>                                

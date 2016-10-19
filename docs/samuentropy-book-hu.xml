@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">    
+    <info>
+        <title>Kimaxoljuk a programozást</title>
+        <subtitle>Programozás és robotpszichológia 12 alatti gyerekeknek</subtitle>
+        <titleabbrev>ESAMU U12</titleabbrev>
+        <authorgroup>
+            <author>
+                <personname>
+                    <honorific>Dr.</honorific>
+                    <surname>Bátfai</surname>
+                    <firstname>Norbert</firstname>        
+                </personname>    
+                <affiliation>
+                    <shortaffil>E. adjunktus, DEIK.</shortaffil>
+                    <jobtitle>Egyetemi adjunktus</jobtitle>
+                    <orgname>Debreceni Egyetem, Informatikai Kar</orgname>
+                    <orgdiv>Információtechnológiai Tanszék</orgdiv>
+                    <address>
+                        <email>batfai.norbert@inf.unideb.hu</email>
+                        <email>nbatfai@gmail.com</email>
+                    </address>
+                </affiliation>
+                <address>
+                    <street>Kassai út 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Magyarország</country>
+                    <email>batfai.norbert@inf.unideb.hu</email>
+                    <otheraddr>
+                        <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
+                    </otheraddr>
+                </address>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Margaréta</firstname>
+                    <othername>Niobé</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>tanuló</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Úszó osztály</orgdiv>
+                    <address>
+                        <email>batfai.greta@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Nándor</firstname>
+                    <othername>Benjámin</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>tanuló</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Úszó osztály</orgdiv>
+                    <address>
+                        <email>batfai.nandi@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Mátyás</firstname>
+                    <othername>Bendegúz</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>tanuló</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Úszó osztály</orgdiv>
+                    <address>
+                        <email>batfai.matyi@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+        </authorgroup>
+        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 19, v. hu.0.0.2</edition>
+        <pubdate>2016</pubdate>
+        <copyright>
+            <year>2016</year>
+            <holder>Dr. Bátfai Norbert</holder>
+        </copyright>
+        <legalnotice>
+            <para>Entrópia Samu Book U12
+            </para>
+            <para>                
+                Copyright (C) 2016, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com, 
+                Margaréta Bátfai, batfai.greta@gmail.com, 
+                Nándor Bátfai, batfai.nandi@gmail.com, 
+                Mátyás Bátfai, batfai.matyi@gmail.com
+            </para>
+            <para>
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU General Public License as published by
+                the Free Software Foundation, either version 3 of the License, or
+                (at your option) any later version.
+            </para>
+            <para>
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU General Public License for more details.
+            </para>
+            <para>
+                You should have received a copy of the GNU General Public License
+                along with this program.  If not, see 
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>.
+            </para>
+            <para>
+                Ez a program szabad szoftver; terjeszthető illetve módosítható a 
+                Free Software Foundation által kiadott GNU General Public License
+                dokumentumában leírtak; akár a licenc 3-as, akár (tetszőleges) későbbi 
+                változata szerint.
+            </para>
+            <para>
+                Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz, 
+                de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA 
+                VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. 
+                További részleteket a GNU General Public License tartalmaz.
+            </para>
+            <para>
+                A felhasználónak a programmal együtt meg kell kapnia a GNU General 
+                Public License egy példányát; ha mégsem kapta meg, akkor
+                tekintse meg a
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>
+                oldalon.
+            </para>
+            <para>
+                <link xlink:href="http://gnu.hu/gplv3.html">http://gnu.hu/gplv3.html</link>                
+            </para>
+        </legalnotice>            
+        <revhistory>
+            <revision>
+                <revnumber>0.0.1</revnumber>
+                <date>2016-09-19</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Iniciális dokumentum. A fejlesztés az ESAMU központi tárolójában történik: 
+                    <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>,
+                    verziótörténet tekintetében lásd az ottani changelog-ot.
+                </revremark>
+            </revision>
+            <!--
+            <revision>
+                <revnumber>0.0.</revnumber>
+                <date>2016-</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document release for comment.</revremark>
+            </revision>
+            -->
+        </revhistory>
+    </info>   
+    <dedication>
+        <para>
+            Ezt a könyvet az olvasóinak, a jövő robotpszichológusainak ajánljuk.
+        </para>
+    </dedication>
+    <preface>
+        <title>Előszó</title>
+        <para>
+            Ha 12 alatti gyerek vagy, akkor ezt az unalmas előszót kihagyhatod, nem neked szántuk, hanem a mentorodnak. Persze abból
+            nem lehet baj, ha elolvasod, csak ne aludj el közben, mert egy olyan távolabbi jövőről szól, ami Neked most még lehet, hogy
+            teljesen érdekleten.
+        </para>
+        <para>
+            Egy hacker ismerősöm fejtette ki nekem egyszer, hogy a programozás mint tevékenység nem algoritmizálható, ezért
+            nem is tanítható. Csak egy lehetőség van: fanatizálni az érdeklődőket, hogy programozzanak 
+            és a csoda magától megtörténik: némelyekből programozó lesz!
+        </para>
+        <para>
+            Ezt a hitvallást mi is magunkénak érezzük. 
+            Ám ebben a doksiban mégis megpróbáljuk programozni tanítani a 12 év alatti gyerekeket... 
+            <systemitem class="systemname">C++</systemitem> nyelven. Ezzel foglalkozunk az első részben, de a csodát igazán nem is 
+            ettől várjuk, hanem a második résztől, ahol bevezetjük a jövő &#x2013; víziónk szerinti &#x2013; programozását. 
+        </para>
+        <para>
+            Mi ez a vízió?
+        </para>
+        <para>
+            Amikor gimnazista koromban megismerkedtem a számítógéppel<footnote>
+                <para>Commodore 64, Balassi Bálint Gimnázium Balassagyarmat, hála Fűrész István számtech. tanáromnak, 
+                    a programozást is megszerettem.</para>
+            </footnote> két kapcsolatom volt vele: programoztam és játszottam rajta. Ennek a két
+            tevékenységnek volt közös része, amikor például egy 8x8 bites karaktert átdefiniáltam egy emberkére és az 
+            egy saját &#x201E;játékomban&#x201D; kolbászolt
+            a képernyőn... de a játék és a programozás azért két különböző dolog volt akkor és az ma is.             
+        </para>        
+        <para>
+            De különböző lesz a jövőben is? Víziónk szerint lesznek területek, ahol nem! Ilyenek lehetnek például a mesterséges intelligencia
+            területéhez tartozó különböző kognitív jellegű programozási feladatok, mint páldául a gépi látás, amikor a gép nem csupán 
+            feldolgozza a képeket, hanem valamilyen szinten olyan kérdésekre is az emberhez hasonlóan tud válaszolni, hogy mit ábrázol a kép! 
+        </para>        
+        <para>
+            Az ilyen rendszereket nem &#x201E;from scratch&#x201D; programozzuk majd, hanem kiindulunk egy általános megoldásból és 
+            azt finomítjuk. Ha ez a megoldás mondjuk TensorFlow<indexterm>
+                                    <primary>DeepMind</primary>
+                                    <secondary>TensorFlow</secondary>
+                                    <see>Google</see>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link>
+                                    </para>
+                                </footnote> alapú akkor például a TensorBoard<indexterm>
+                                    <primary>TensorFlow</primary>
+                                    <secondary>TensorBoard</secondary>
+                                    <see>DeepMind</see>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tensorboard">https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tensorboard</link>
+                                    </para>
+                                </footnote> adatfolyam szerkesztőjével...
+        </para>                
+        <para>
+            S mi is az Entrópia Samu víziója? Húzzunk még egy újabb interfészt ezekre az adatfolyam vizualizációs eszközökre, egy olyat
+            amely képes entrópia-csökkentő játék élményt adni... egyszóval tegyük játékká a programozást! 
+            Az asimovi robotpszichológia programozói értelmezésében<indexterm>
+                                    <primary>robotpszichológia</primary>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>
+                                    </para>
+                                </footnote> ez a tevékenység robotpszichológiának 
+            tekinthető (vagy legalábbis annak csírájának, hiszen intuitíven a Westworld című filmben 
+            látható robotpszichót tekinthetnénk az asimovi vízió tökéletes, de természetesen ma még csak
+            elképzelt megjelenítésénnek).        
+        </para>                
+        <para>
+            Hogy csináljuk? Az első részt könnyebb, ez máris elkezdhető: a gyerekek hazaérnek a mindennapi úszóedzésről olyan 6 óra 
+            után, vacsora majd minden hétköznap megbeszélünk egy C++ forrást és ki is próbáljuk persze, másnapra ezt a programot 
+            mindhárman leírják a saját szavaikkal, nekem elküldik mailben, mire én beteszem ebbe a könyvbe.
+        </para>                
+        <para>
+            A második rész már komplikáltabb lesz, mert ezt &#x2013; Gábor Dénes után szabadon &#x2013; előbb fel kell találni. Ezzel
+            próbálkozunk meg a &#x201E;Entropy non-increasing games for improvement of dataflow programming&#x201D; című publikáció készítésével.
+        </para>                
+    </preface>    
+    <xi:include href="samuentropy-glssry-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-book-part1-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-book-part1-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-book-part2-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-book-part2-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>             
+</book>
