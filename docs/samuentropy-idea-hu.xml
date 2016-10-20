@@ -3,7 +3,7 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude">    
     <info>
-        <title>Entrópia Samu</title>
+        <title>Entrópia Samu Programozói Kézikönyv</title>
         <subtitle>ESPORT ÉS MESTERSÉGES INTELLIGENCIA</subtitle>
         <titleabbrev>ESAMU</titleabbrev>
         <authorgroup>
@@ -62,7 +62,8 @@
                 <personname>
                     <honorific>Mr.</honorific>
                     <surname>Simkó</surname>
-                    <firstname>Szilárd Viktor</firstname>
+                    <othername>Viktor</othername>                    
+                    <firstname>Szilárd</firstname>
                 </personname>    
                 <affiliation>
                     <shortaffil>hallgató, DEIK PTI</shortaffil>
@@ -80,7 +81,7 @@
                 </address>
             </author>
         </authorgroup>
-        <edition>ESAMU, Entrópia Samu, 2016. okt. 14, v. hu.0.0.11.8</edition>
+        <edition>ESAMU, Entrópia Samu, 2016. okt. 14, v. prog.guide.hu.0.0.11.10</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>

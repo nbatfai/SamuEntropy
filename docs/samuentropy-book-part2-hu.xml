@@ -4,12 +4,27 @@
     <title>A jövő programozása</title>
     <partintro>
         <para>
-            Erwin Schrödingernek az élettel kapcsolatos kutatásaiból tudjuk, hogy 
+            Erwin Schrödingernek az élettel kapcsolatos kutatásaiból<footnote>
+                <para>Lásd Erwin Schrődinger, What is life? : the physical aspect of the living cell, Cambridge University Press, 1944 illetve Roger Penrose, A ​császár új elméje Számítógépek, gondolkodás és a fizika törvényei, Akadémiai, Budapest, 1993.</para>
+            </footnote> tudjuk, hogy 
             az élet titka az entrópia alacsonyan tartásának képessége. Ennek fényében 
-            már nem csupán &#x2013; mint mindenki &#x2013; szeretek enni, hanem a megértés egy 
-            magasabb szintjén tudom is, hogy életem fenntartása érdekében eszek. 
-            Sok esetben ez az érzésnek a kontrollálatlansága áll az elhízás mögött. 
+            már nem csupán &#x2013; mint mindenki &#x2013; szeretek enni, hanem immár a megértés egy 
+            magasabb szintjén tudom is, hogy életem fenntartása érdekében eszek (és lélegzek). 
+            Sok esetben az eredeti nyilvánvaló érzésnek a kontrollálatlansága állhat az elhízás mögött. 
         </para>
+        <para>
+            A mozgáshoz hasonló kedvet érzünk, ugyanúgy örömünket leljük benne, meglehet, hogy ennek is van entrópia alapú magyarázata? 
+            Például éppen akár a cikk<footnote>
+                <para>http://www.bmj.com/content/bmj/349/bmj.g7257.full.pdf</para>
+            </footnote> kapcsán is, hogy ugyan a mozgás emeli a hőmérsékletet de ezzel egyben a legmagasabb entrópiájú hőt ad le illetve 
+            a szaporább légzéssel több magas entrópiájú szén dioxidot.
+        </para>
+        <para>
+            Az entrópia nem növelő játékok koncepcióját az ESAMU programozói kézikönyvben vezettük be. Aktuális célunk ennek megkoronázása, azaz
+            az &#x201E;Entropy non-increasing games for improvement of dataflow programming&#x201D; című kézirat készítésével párhuzamosan itt 
+            a kézirat eredményeit próbáljuk majd átültetni a gyakorlatba egy konkrét játék megírásával, ami játék egyben egy neurális alapú feladatmegoldó 
+            optimalizálását is jelenti majd.
+        </para>        
     </partintro>
     <chapter>
         <info>
