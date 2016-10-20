@@ -337,7 +337,7 @@ int main()
                             végén már csak az ablak becsukása segített!
                         </para>
                         <note>
-                            <title>Matyit beszámolásában</title>
+                            <title>Matyi beszámolásában</title>
                             <para>
                                 Ha 1-től 4-ig ++i akkor négyszer kiírja, hogy: Hello Vilag. Ha nem tesszük oda a ++i akkor az lesz
                                 mint velem, a Helló Világot végtelen ciklusban végrehajtja.
@@ -449,8 +449,255 @@ int main()
                 
                 
             </section>
+            
             <section>
-                <title>Harmadik nap &#x2013; lefagyott</title>
+                <title>Harmadik nap &#x2013; szorzótábla</title>
+                <para>
+                    Feladatot oldottak meg a gyerekek: módosítsuk úgy a 2-es progit, hogy kiírja a hetes szorzótáblát, azaz ezt a kimenetet érjük el:
+                    <screen>                                 
+<![CDATA[1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+.
+.
+.
+10 * 7 = 70
+]]>
+                    </screen>                                                            
+                </para>
+                <section>
+                    <title>Apa &#x2013; mentor</title>
+                    <para>
+                        Papíron röviden megbeszéltükm hogy az első szám pont úgy változik mint a for ciklus i változója, a másik szám pedig mindig a 7-es. Utóbbit például így
+                        definiálhatjuk <code>int m = 7;</code>. A kiratást külön megbeszéltük, hogy az első szám az tk. az i, a második az m, 
+                        a harmadik a kettő összeszorzása, azaz ilyesmit írhatunk majd a gépnél: <code><![CDATA[cout << i << "*" << m << i*m << endl;]]></code>.                 
+                    </para>
+                </section>                
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                
+                    </para>
+                </section>                
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                A tegnapi feladat Matyi féle for-os megoldsából indult ki, gyorsan ment
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;    
+    std::cout << "Nandi szorzotabla" << std::endl;
+    for(long int i=1; i<4; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>                 
+                    <para>
+                csak a ciklus felső határát kellett módosítani egy jó megoldáshoz.
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;    
+    std::cout << "Nandi szorzotabla" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>                 
+                    <screen>                                 
+<![CDATA[$ ./nandi2
+Nandi szorzotabla
+1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+4 * 7 = 28
+5 * 7 = 35
+6 * 7 = 42
+7 * 7 = 49
+8 * 7 = 56
+9 * 7 = 63
+10 * 7 = 70
+]]>
+                    </screen>                                                            
+                    <para>
+                Nándi ráérzett a dolog ízére, kimaxolta a feladatot: kinyomtatta 10000-ig a szorzótáblát majd meg akarta bolondítani a for ciklust azzal, hogy
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    int m =7;    
+    std::cout << "Nandi szorzotabla" << std::endl;
+    for(long int i=1; i<0; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>                 
+                    <screen>                                 
+<![CDATA[$ g++ nandi2.cpp -o nandi2
+$ ./nandi2
+Nandi szorzotabla
+$ 
+]]>
+                    </screen>                                                            
+                    
+                </section>                
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                Az alábbi sikertelen próbálkozás
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello Vilag!" << std::endl;
+    for(int i=1;m=7  i<4; ++i)
+        std::cout << i <<"*"<<m<<"=" <<i*m<< std::endl;
+    return 0;
+}]]>
+                    </programlisting>                 
+                    <para>
+                után Nánditól függetlenül (külön szobában programoztak éppen) ugyanazon a megoldási úton érte el a jó eredményt.
+                    </para>
+                      
+                </section>                
+                
+
+                <section>
+                    <title>Feladat</title>
+                    <para>
+                        Módosítsuk úgy a programot, hogy ne a szorzótáblát, hanem az első 10 négyzetszámot produkálja! Azaz az alábbi kimenetet
+                        adja:
+                        <screen>                                 
+<![CDATA[1 * 1 = 1
+2 * 2 = 4
+3 * 3 = 9
+.
+.
+.
+10 * 10 = 100
+]]>
+                        </screen>                                                                                    
+                    </para>                    
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                
+                        </para>
+                    </section>                
+                    <section>
+                        <title>Nándi</title>
+                    <para>
+                        Nagyon jól kezdett:
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    long int m =i;    
+    std::cout << "Nandi szorzotabla" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<"*"<<m <<"=" <<i*m<< std::endl;
+    return 0;
+}
+]]>
+                    </programlisting>                 
+                    <screen>                                 
+<![CDATA[nandi2.cpp:5:17: error: ‘i’ was not declared in this scope
+     long int m =i;  ]]>
+                    </screen>                      
+                    <para>
+                        majd miután figyelmeztettem, hogy ott ahová az <code>long int m =i;</code> utasítást írta, ott az i még nem ismert, hiszen 
+                        csak lejjebb mondtuk meg, hogy az egy kis szám (int) ami a for ciklus szerint változik, aztán előállt egy működő megoldással
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    
+    std::cout << "Nandi szorzotabla" << std::endl;
+    for(long int i=1; i<11; ++i)
+    {
+        long int m =i;
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+    }
+    return 0;
+}
+]]>
+                    </programlisting>                 
+                    
+                    </section>                
+                    <section>
+                        <title>Matyi</title>
+                    <para>
+                        Az <code>i*i</code> remek 5let, de nem kellett volna semmi más ezen túl
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{  int i=1<i<11;
+    std::cout << "MATYI SZORZOTABLA" << std::endl;
+    for(int i=1<;  i<11 ; ++i)
+        std::cout << i <<" * "<<i<<"=" <<i*i<< std::endl;
+    return 0;
+}]]>
+                    </programlisting>               
+                    <para>
+                        mert ez így szintaktikailag hibás
+                    </para>
+                        <screen>                                 
+<![CDATA[matyi2.cpp:6:17: error: expected primary-expression before ‘;’ token
+     for(int i=1<;  i<11 ; ++i)
+]]>
+                        </screen>                        
+                    <para>
+                       a for i ciklusváltozójába becsúszott egy felesleges karakter, illetve a 
+                        <code><![CDATA[int i=1<i<11;]]></code> értelmezhetetlen a program szempontjából. 
+                    </para>
+                    <para>
+                       Eztán a Nándinál már ismertetett irányba oldotta meg a feladatot, s Ő is kimaxolta ezt is a ciklus felső határának feltolásával. 
+                        Ez egy idő után persze túlcsorduláshoz vezetett, amit abból éreztek gyanúsnak, hogy negatív számok jelentek meg a szorzatban. 
+                    </para>
+                        <screen>                                 
+<![CDATA[.
+.
+.
+46338 * 46338=2147210244
+46339 * 46339=2147302921
+46340 * 46340=2147395600
+46341 * 46341=-2147479015
+46342 * 46342=-2147386332
+46343 * 46343=-2147293647
+.
+.
+.
+]]>
+                        </screen>                        
+                                                                                    
+                    </section>                
+                                        
+                </section>
+
+            </section>            
+            
+            <section>
+                <title>Negyedik nap &#x2013; lefagyott</title>
                 <para>
                 
                 </para>
