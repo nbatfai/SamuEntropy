@@ -53,7 +53,7 @@ int main()
                         számolnia. A mi esetünkben ez a rész üres, tehát semmit nem adunk meg neki bemenetként.
                     </para>
                     <para>
-                        A függvény törzse a blokk, ami utasítások kapcsoszárókelek közé zárt listája. Minden utasítás egy pontosvesszővel van
+                        A függvény törzse a blokk, ami utasítások kapcsoszárójelek közé zárt listája. Minden utasítás egy pontosvesszővel van
                         lezárva. 
                         Most két utasításunk van. Az első az <varname>std::cout</varname> nevű kimenő csatornára kinyomja a 
                         <literal>"Hello, Vilag!"</literal> szöveget. Ennek a csatornának a bemenő nyílása van a proginkban, a kimenője
