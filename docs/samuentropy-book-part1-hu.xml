@@ -93,6 +93,42 @@ int main()
                             ... mert ez így megy még több képernyőn! Láthatod, hogy a proci nyelvét meg a <systemitem class="systemname">C++</systemitem> programozók nem értik. 
                         </para>                                            
                     </important>
+                    <important>             
+                        <title>A Linux programozói kézikönyve</title>                    
+                        <para>
+                            Az imént a <filename>greta1</filename> állomány tartalmát néztük meg a <command>hexdump</command> paranccsal: 
+                            <code><![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more]]></code> de ne gondold ám, hogy ilysmi ákombákomot
+                            fejlből le tudok írni! Egyszerűen megnéztem
+                            a manuálban. 
+                        </para>
+                        <para>
+                            A C programozásban méginkább az a napi gyakorlat, hogy ha kell valamit használnod ott van a manuálban, meg kell nézni, hogyan 
+                            teheted meg! Ez egy írott szakma, ami nem Istentől való, hanem mérnökök írták, ez az egyszerű titok: csak el kell olvasni.
+                            Nézd meg például, hogy mit ír a kézikönyv az <varname>std::cout</varname> objektumról:                           
+                        </para>
+                        <screen>                                 
+<![CDATA[std::cout(3)                   C++ Programmer's Manual                   std::cout(3)
+
+
+
+NAME
+       std::cout - Standard output stream
+
+TYPE
+       object
+
+SYNOPSIS
+       #include <iostream>
+
+       extern ostream cout;
+
+DESCRIPTION
+       Object of class ostream that represents the standard output stream oriented 
+       to narrow characters (of type char). It corresponds to the C stream stdout.
+       ...
+]]>
+                        </screen>                        
+                    </important>
                     <para>
                         Először lefordítjuk a forráskódot a saját gépünk procijának saját nyelvére. A proci számára érthető fordítást
                         a greta1 nevű állományba mentetjűk el a <application>g++</application> fordítóprogival. Majd ennek a nevét a pont per 
@@ -482,7 +518,7 @@ int main()
                 <section>
                     <title>Nándi</title>
                     <para>
-                A tegnapi feladat Matyi féle for-os megoldsából indult ki, gyorsan ment
+                        A tegnapi feladat Matyi féle for-os megoldsából indult ki, gyorsan ment
                     </para>
                     <programlisting language="C++">
 <![CDATA[include <iostream>
@@ -498,7 +534,7 @@ int main()
 }]]>
                     </programlisting>                 
                     <para>
-                csak a ciklus felső határát kellett módosítani egy jó megoldáshoz.
+                        csak a ciklus felső határát kellett módosítani egy jó megoldáshoz.
                     </para>
                     <programlisting language="C++">
 <![CDATA[include <iostream>
@@ -529,7 +565,7 @@ Nandi szorzotabla
 ]]>
                     </screen>                                                            
                     <para>
-                Nándi ráérzett a dolog ízére, kimaxolta a feladatot: kinyomtatta 10000-ig a szorzótáblát majd meg akarta bolondítani a for ciklust azzal, hogy
+                        Nándi ráérzett a dolog ízére, kimaxolta a feladatot: kinyomtatta 10000-ig a szorzótáblát majd meg akarta bolondítani a for ciklust azzal, hogy
                     </para>
                     <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -556,7 +592,7 @@ $
                 <section>
                     <title>Matyi</title>
                     <para>
-                Az alábbi sikertelen próbálkozás
+                        Az alábbi sikertelen próbálkozás
                     </para>
                     <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -570,7 +606,7 @@ int main()
 }]]>
                     </programlisting>                 
                     <para>
-                után Nánditól függetlenül (külön szobában programoztak éppen) ugyanazon a megoldási úton érte el a jó eredményt.
+                        után Nánditól függetlenül (külön szobában programoztak éppen) ugyanazon a megoldási úton érte el a jó eredményt.
                     </para>
                       
                 </section>                
@@ -600,10 +636,10 @@ int main()
                     </section>                
                     <section>
                         <title>Nándi</title>
-                    <para>
-                        Nagyon jól kezdett:
-                    </para>
-                    <programlisting language="C++">
+                        <para>
+                            Nagyon jól kezdett:
+                        </para>
+                        <programlisting language="C++">
 <![CDATA[#include <iostream>
 
 int main()
@@ -615,16 +651,16 @@ int main()
     return 0;
 }
 ]]>
-                    </programlisting>                 
-                    <screen>                                 
+                        </programlisting>                 
+                        <screen>                                 
 <![CDATA[nandi2.cpp:5:17: error: ‘i’ was not declared in this scope
      long int m =i;  ]]>
-                    </screen>                      
-                    <para>
-                        majd miután figyelmeztettem, hogy ott ahová az <code>long int m =i;</code> utasítást írta, ott az i még nem ismert, hiszen 
-                        csak lejjebb mondtuk meg, hogy az egy kis szám (int) ami a for ciklus szerint változik, aztán előállt egy működő megoldással
-                    </para>
-                    <programlisting language="C++">
+                        </screen>                      
+                        <para>
+                            majd miután figyelmeztettem, hogy ott ahová az <code>long int m =i;</code> utasítást írta, ott az i még nem ismert, hiszen 
+                            csak lejjebb mondtuk meg, hogy az egy kis szám (int) ami a for ciklus szerint változik, aztán előállt egy működő megoldással
+                        </para>
+                        <programlisting language="C++">
 <![CDATA[#include <iostream>
 
 int main()
@@ -639,15 +675,15 @@ int main()
     return 0;
 }
 ]]>
-                    </programlisting>                 
+                        </programlisting>                 
                     
                     </section>                
                     <section>
                         <title>Matyi</title>
-                    <para>
-                        Az <code>i*i</code> remek 5let, de nem kellett volna semmi más ezen túl
-                    </para>
-                    <programlisting language="C++">
+                        <para>
+                            Az <code>i*i</code> remek 5let, de nem kellett volna semmi más ezen túl
+                        </para>
+                        <programlisting language="C++">
 <![CDATA[#include <iostream>
 
 int main()
@@ -657,23 +693,23 @@ int main()
         std::cout << i <<" * "<<i<<"=" <<i*i<< std::endl;
     return 0;
 }]]>
-                    </programlisting>               
-                    <para>
-                        mert ez így szintaktikailag hibás
-                    </para>
+                        </programlisting>               
+                        <para>
+                            mert ez így szintaktikailag hibás
+                        </para>
                         <screen>                                 
 <![CDATA[matyi2.cpp:6:17: error: expected primary-expression before ‘;’ token
      for(int i=1<;  i<11 ; ++i)
 ]]>
                         </screen>                        
-                    <para>
-                       a for i ciklusváltozójába becsúszott egy felesleges karakter, illetve a 
-                        <code><![CDATA[int i=1<i<11;]]></code> értelmezhetetlen a program szempontjából. 
-                    </para>
-                    <para>
-                       Eztán a Nándinál már ismertetett irányba oldotta meg a feladatot, s Ő is kimaxolta ezt is a ciklus felső határának feltolásával. 
-                        Ez egy idő után persze túlcsorduláshoz vezetett, amit abból éreztek gyanúsnak, hogy negatív számok jelentek meg a szorzatban. 
-                    </para>
+                        <para>
+                            a for i ciklusváltozójába becsúszott egy felesleges karakter, illetve a 
+                            <code><![CDATA[int i=1<i<11;]]></code> értelmezhetetlen a program szempontjából. 
+                        </para>
+                        <para>
+                            Eztán a Nándinál már ismertetett irányba oldotta meg a feladatot, s Ő is kimaxolta ezt is a ciklus felső határának feltolásával. 
+                            Ez egy idő után persze túlcsorduláshoz vezetett, amit abból éreztek gyanúsnak, hogy negatív számok jelentek meg a szorzatban. 
+                        </para>
                         <screen>                                 
 <![CDATA[.
 .

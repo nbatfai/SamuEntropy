@@ -80,7 +80,7 @@
                 </affiliation>
             </author>
         </authorgroup>
-        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 20, v. book.u12.hu.0.0.4.0</edition>
+        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 21, v. book.u12.hu.0.0.4.1</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
@@ -230,16 +230,20 @@
                                 </footnote> ez a tevékenység robotpszichológiának 
             tekinthető (vagy legalábbis annak csírájának, hiszen intuitíven a Westworld című filmben 
             látható robotpszichót tekinthetnénk az asimovi vízió tökéletes, de természetesen ma még csak
-            elképzelt megjelenítésénnek).        
+            elképzelt megvalósításának).        
         </para>                
         <para>
             Hogy csináljuk? Az első részt könnyebb, ez máris elkezdhető: a gyerekek hazaérnek a mindennapi úszóedzésről olyan 6 óra 
             után, vacsora majd minden hétköznap megbeszélünk egy C++ forrást és ki is próbáljuk persze, másnapra ezt a programot 
-            mindhárman leírják a saját szavaikkal, nekem elküldik mailben, mire én beteszem ebbe a könyvbe.
+            mindhárman leírják a saját szavaikkal, nekem elküldik mailben, mire én beteszem ebbe a könyvbe &#x2013; ez legalábbis az ideális 
+            terv íve :)
         </para>                
         <para>
             A második rész már komplikáltabb lesz, mert ezt &#x2013; Gábor Dénes után szabadon &#x2013; előbb fel kell találni. Ezzel
             próbálkozunk meg a &#x201E;Entropy non-increasing games for improvement of dataflow programming&#x201D; című publikáció készítésével.
+        </para>                
+        <para>
+            Következik a szójegyzék, amely még mindig inkább a mentorra van hangolva, mint a gyermek olvasóra.
         </para>                
     </preface>    
     <xi:include href="samuentropy-glssry-hu.xml">
