@@ -80,7 +80,7 @@
                 </affiliation>
             </author>
         </authorgroup>
-        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 21, v. book.u12.hu.0.0.4.1</edition>
+        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 21, v. book.u12.hu.0.0.5.0</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
@@ -233,7 +233,9 @@
             elképzelt megvalósításának).        
         </para>                
         <para>
-            Hogy csináljuk? Az első részt könnyebb, ez máris elkezdhető: a gyerekek hazaérnek a mindennapi úszóedzésről olyan 6 óra 
+            Hogy csináljuk? Az első részt könnyebb, ez máris elkezdhető: a gyerekek 
+            (Gréta 8, Nándi 8 és Matyi 10 évesek)
+            hazaérnek a mindennapi úszóedzésről olyan 6 óra 
             után, vacsora majd minden hétköznap megbeszélünk egy C++ forrást és ki is próbáljuk persze, másnapra ezt a programot 
             mindhárman leírják a saját szavaikkal, nekem elküldik mailben, mire én beteszem ebbe a könyvbe &#x2013; ez legalábbis az ideális 
             terv íve :)

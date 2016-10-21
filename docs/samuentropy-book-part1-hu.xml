@@ -38,10 +38,20 @@ int main()
                 <section>
                     <title>Apa &#x2013; mentor</title>
                     <para>
-                        A programozó általában óriások vállán áll, azaz felhasználja más programozók programjait. 
+                        A programozóra is igaz, hogy általában óriások vállán áll<footnote>
+                            <para>A nagy tudós Isaac Newton így fejezte ki (Robert Hooknak írt levelében) hogy ő is tudott mások munkájára alapozni: 
+                                "If I have seen further it is by standing on the sholders of Giants" avagy körülbelüli fordításban: 
+                                azért láthattam messzebbre, mert óriások vállán álltam.
+                            </para>
+                        </footnote>, azaz felhasználja más programozók programjait. 
                         A <code>#include</code> utasítás éppen ezt csinálja, beilleszti a mások által megírt 
                         <code>iostream</code> programokat. Ebben az <code>iostream</code>-ben csatornákat megvalósító
-                        programok vannak. Például lesz a programodnak egy olyan csatornája, amibe ha a programod 
+                        programok vannak. Például lesz a programodnak egy olyan csatornája<footnote>
+                            <para>Honnan van ez a csatorna? A gépeden (de például a telefonodon vagy a tableteden is) van egy különleges program, amelynek a neve
+                                operációs rendszer, a Linux kernel, amit egyébként még egyetemi diák korában kezdett el írni Finnországban Linus Torvalds. Az operációs 
+                                rendszer a programozó jóbarátja, ez a program biztosítja például a szóban forgó csatornákat is.
+                            </para>
+                        </footnote>, amibe ha a programod 
                         benyomja a betűket, akkor
                         a betűk megjelennek a képernyőn. 
                     </para>
@@ -70,6 +80,23 @@ int main()
                     <para>
                         Most próbáljuk ki a programot!
                     </para>       
+                    <para>
+                        Először lefordítjuk a forráskódot a saját gépünk procijának saját nyelvére. A proci számára érthető fordítást
+                        a greta1 nevű állományba mentetjűk el a <application>g++</application> fordítóprogival. Majd ennek a nevét a pont per 
+                        után leírva futtatjuk a lefordított progit. A futtatás az a folyamat, amikor a proci olvassa el a lefordított
+                        programot.
+                    </para>                           
+                    <para>
+                        Entert nyomva a pont per után írt állománynév után mi is történt? Végrehajtódott a main függvény, ami a 
+                        kimenő csatornára kinyomta, hogy Helló, Világ! ami ennek megfelelően megjelent a képernyőn.
+                    </para>                           
+                    <screen>                                 
+<![CDATA[$ g++ greta1.cpp -o greta1
+$ ./greta1 
+Hello, Vilag!
+$ 
+]]>
+                    </screen>     
                     <important>             
                         <title>A processzor nyelve</title>                    
                         <para>
@@ -77,11 +104,16 @@ int main()
                             hanem a <systemitem class="systemname">C++</systemitem> programozók értik!
                             A forráskódot le kell
                             fordítani a processzorok saját nyelvére. Ezt a fordítást végzi el a <application>g++</application> fordító 
-                            program. Nem kell aggódnod, a <application>g++</application> program megvan a gépedre, a kezdetek óta
+                            program<footnote>
+                <para>A g++ fordítót olyan híres programozó írta akinek jól ismert hacker neve is van: RMS, azaz Richard Matthew Stallman. Ha álmodban a
+                    Gyűrűk urában találnád magad mint Frodó, akkor biztos, hogy ő lesz Gandalf :)
+                </para>
+            </footnote>. Nem kell aggódnod, a <application>g++</application> program megvan a gépedre, a kezdetek óta
                             segíti a Linuxot!                            
                         </para>
                         <para>
-                            A mentorod megmutathatja, hogyan fest a nyelv, amit a processzor ért: számok. Íme például:                            
+                            A mentorod megmutathatja, hogyan fest a nyelv, amit a processzor ért: számok. Íme például az első forrásprogidból fordított
+                            futtatható kód:                            
                         </para>
                         <screen>                                 
 <![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more
@@ -128,51 +160,35 @@ DESCRIPTION
        ...
 ]]>
                         </screen>                        
-                    </important>
-                    <para>
-                        Először lefordítjuk a forráskódot a saját gépünk procijának saját nyelvére. A proci számára érthető fordítást
-                        a greta1 nevű állományba mentetjűk el a <application>g++</application> fordítóprogival. Majd ennek a nevét a pont per 
-                        után leírva futtatjuk a lefordított progit. A futtatás az a folyamat, amikor a proci olvassa el a lefordított
-                        programot.
-                    </para>                           
-                    <para>
-                        Entert nyomva a pont per után írt állománynév után mi is történt? Végrehajtódott a main függvény, ami a 
-                        kimenő csatornára kinyomta, hogy Helló, Világ! ami ennek megfelelően megjelent a képernyőn.
-                    </para>                           
-                    <screen>                                 
-<![CDATA[$ g++ greta1.cpp -o greta1
-$ ./greta1 
-Hello, Vilag!
-$ 
-]]>
-                    </screen>                                    
+                    </important>                                                   
                 </section>                
                 <section>
                     <title>Gréta</title>
                     <para>
                         A processzor számokat számol és az <varname>std::cout</varname>-ba írjuk a betűket. 
                         A <application>g++</application> fordítja
-                        le a szavakat. Az iostream egy csatorna. A C++ átilleszti a másik programját a sajátodba. A 0 azt jelenti, hogy 
+                        le a szavakat. Az iostream egy csatorna. A <code>#include</code> átilleszti a másik programját a sajátodba. A 0 azt jelenti, hogy 
                         jól vége lett a programnak, azaz jól ment a program le.
                     </para>
                 </section>                
                 <section>
                     <title>Nándi</title>
                     <para>
-                
+                A <application>g++</application> a processzor nyelvére fordít. A <varname>cout</varname> valójában egy csatorna, amelyen betűk mennek át. 
+                A <code>#include</code> egy parancs, amely azt adja ki, hogy másold be.
                     </para>
                 </section>                
                 <section>
                     <title>Matyi</title>
                     <para>
-                        Az include az első parancs.
-                        Az includdal beillesztünk más programokat. 
+                        A <code>#include</code> az első parancs.
+                        A <code>#include</code>-al beillesztünk más programokat. 
                         Az <varname>iostream</varname> egy csatorna. 
-                        Az <code>int main</code> az egy fő fügvény.
-                        A fügvény azt jelenti, hogy a program építőeleme.                                                                                        
+                        Az <code>int main</code> az egy fő függvény.
+                        A függvény azt jelenti, hogy a program építőeleme.                                                                                        
                         <code><![CDATA[std::cout << Hello Vilag << std::endl]]></code> 
                         ez azt jelenti, hogy a betűket belenyomom a csatornába. 
-                        Az <constant>std::endl</constant> azt jelenti, hogy a kulzor a következő sorba megy.
+                        Az <constant>std::endl</constant> azt jelenti, hogy a kurzor a következő sorba megy.
                         A <code>return 0;</code> ez azt jelenti, hogy nincs baj a programmal.                
                     </para>
                 </section>                
@@ -180,7 +196,7 @@ $
             <section>
                 <title>Második nap &#x2013; for ciklus</title>
                 <para>
-                
+                Picit fejlesztünk az előző 1-es programunkon, így kapjuk majd ezt a 2-est:
                 </para>
                 <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -189,7 +205,7 @@ int main()
 {
     std::cout << "Hello Vilag!" << std::endl;
     for(int i=0; i<3; ++i)
-        std::cout << i << std::endl;;
+        std::cout << i << std::endl;
     return 0;
 }
 ]]>
@@ -197,7 +213,15 @@ int main()
                 <section>
                     <title>Apa &#x2013; mentor</title>
                     <para>
-                
+                        A <code>for</code> utasítással tehetünk ismétléseket, más névvel iterációkat a program működésébe. Az iteráció azt jelenti, hogy
+                        valamit (amit iterálunk) többször (akár nullászor, azaz egyszer sem vagy végtelenszer) végrehajtunk egymás után.
+                    </para>
+                    <para>
+                        Általánosan így fest egy for <code>for(honnan indul; meddig megy; hogyan megy) {azt iteráljuk, ami itt van}</code>.
+                    </para>                    
+                    <para>
+                        A 2-es forrásban egy egész számot <code>int i</code> léptetünk <code>i=0</code> értéktől indítva (inicializálva) és addig megyünk, amig igaz,
+                        hogy <code><![CDATA[i<3]]></code>, azaz a i=0, 1, 2 kis egész számokra fut le az i változó, sorrendben a 0, 1, 2 egymás alatti kiíratása.   
                     </para>
                 </section>                
                 <section>
@@ -240,14 +264,14 @@ int main()
                 <section>
                     <title>Feladat</title>
                     <para>
-                        A program négyszer írja ki a <literal>Helló, világ!</literal>-ot! A gyerekek időrendben a 
+                        Módosítsuk úgy a 2-es progit, hogy egymás alá négyszer írja ki a <literal>Helló, világ!</literal>-ot! A gyerekek időrendben a 
                         következő megolásokat adták.
                     </para>
                     <section>
                         <title>Nándi</title>
                         <para>
-                            A 2-es program helyett gyakorlatilag az 1-esből indult ki, mert a 2-esből a ciklust törölte, majd 
-                            betabulálva betett egy új <literal>Helló, világ!</literal>-ot.
+                            A 2-es program helyett gyakorlatilag az 1-esből indult ki, mert a 2-esből a <code>for</code> ciklust törölte, majd 
+                            betabulálva betett egy új <literal>Helló, világ!</literal>-ot az alábbiak szerint.
                         </para>
                         <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -270,7 +294,9 @@ nandi2.cpp:6:19: error: ‘Hello’ was not declared in this scope
                    Hello Vilag!]]>
                         </screen>                                                            
                         <para>
-                            Következő próbálkozása már ugyan hiba nélkül lefordult
+                            Mivel a kiírandó szöveg betűi nem voltak idézőjelek között, ezért a fordító megpróbálhatta felismerni mint a program részét, de nem járt
+                            sikerrel.
+                            A következő próbálkozása már ugyan hiba nélkül lefordult
                         </para>                                                     
                         <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -284,7 +310,7 @@ int main()
 ]]>
                         </programlisting>    
                         <para>
-                            de nem csinált semmit. Ezt a következő módosítás követte
+                            de a progi így nem csinált semmit. Ezt a következő módosítás követte
                         </para>                             
                         <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -344,7 +370,7 @@ int main()
 }]]>
                         </programlisting>    
                         <para>
-                            amire ezt a hibát kapta
+                            amire ezt a (korábban Nándinál már látott) hibát kapta
                         </para>                             
                         <screen>                                 
 <![CDATA[$ g++ matyi2.cpp -o matyi2
@@ -369,18 +395,22 @@ int main()
                         </programlisting>                         
                         
                         <para>
-                            amivel végtelen ciklusba futott a programja a futtatáskor... csak szaladtak a Hello Világok az ablakban, a
+                            amivel végtelen ciklusba futott a programja a futtatáskor... csak szaladtak a <literal>Helló, Világ!</literal>-ok a terminál programban<footnote>
+                            <para>A ciklusmag iterálása után az i növelését kivéve az mindig 0 marad, soha nem éri el a 3-at, azaz soha nem lesz vége a ciklusmag
+                                iterálásának. Ez bizony egy végtelen ciklus!
+                            </para>
+                        </footnote>, a
                             végén már csak az ablak becsukása segített!
                         </para>
                         <note>
                             <title>Matyi beszámolásában</title>
                             <para>
-                                Ha 1-től 4-ig ++i akkor négyszer kiírja, hogy: Hello Vilag. Ha nem tesszük oda a ++i akkor az lesz
+                                Ha 1-től 4-ig ++i akkor négyszer kiírja, hogy: Hello Vilag. Ha nem tesszük oda az <code>++i</code>-t akkor az lesz
                                 mint velem, a Helló Világot végtelen ciklusban végrehajtja.
                             </para>                                
                         </note>
                         <para>
-                            A ciklusváltozó inkrementálását visszarakva megkapott aztán már egy jó megoldást:
+                            A ciklusváltozó inkrementálását (növelését) visszarakva megkapott aztán már egy jó megoldást:
                         </para>                             
                         <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -430,7 +460,11 @@ int main()
 ]]>
                         </programlisting>    
                         <para>
-                            amivel ezt a hibát kapta
+                            amivel ezt a hibát kapta<footnote>
+                            <para>A fordítási hibaüzenetek szövege (az error: után) sokszor segít a szintaktikai hibák megtalálásában, máskor meg nem... 
+                                Most ez utóbbi a szitu. Idővel kialakul majd a rutinod és rögtön fogod látni, hogy ott a 4-esnek nincs semmi keresnivalója.
+                            </para>
+                        </footnote>
                         </para>                             
                         <screen>                                 
 <![CDATA[$ g++ greta2.cpp -o greta2
@@ -452,6 +486,7 @@ int main()
 }]]>
                         </programlisting>    
                         <para>
+                            ami már fordult, futott, igaz még hibásan:
                         </para>                             
                         <screen>                                 
 <![CDATA[$ g++ greta2.cpp -o greta2
@@ -461,7 +496,7 @@ Hello Vilag!
 nbatfai@robopsy:~$]]>
                         </screen>                                                            
                         <para>
-                            amelyet már egy jó megoldás követett:
+                            s ezt már egy jó megoldás követett:
                         </para>                             
                         <programlisting language="C++">
 <![CDATA[#include <iostream>
