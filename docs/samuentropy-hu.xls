@@ -11,5 +11,6 @@
 <xsl:param name="latex.babel.language">magyar</xsl:param>
 <xsl:param name="latex.encoding">utf8</xsl:param>
 <xsl:param name="doc.collab.show">2</xsl:param>
+<xsl:param name="highlight.source" select="1"/>
       
 </xsl:stylesheet>

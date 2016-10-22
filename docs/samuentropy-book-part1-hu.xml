@@ -105,10 +105,10 @@ $
                             A forráskódot le kell
                             fordítani a processzorok saját nyelvére. Ezt a fordítást végzi el a <application>g++</application> fordító 
                             program<footnote>
-                <para>A g++ fordítót olyan híres programozó írta akinek jól ismert hacker neve is van: RMS, azaz Richard Matthew Stallman. Ha álmodban a
-                    Gyűrűk urában találnád magad mint Frodó, akkor biztos, hogy ő lesz Gandalf :)
-                </para>
-            </footnote>. Nem kell aggódnod, a <application>g++</application> program megvan a gépedre, a kezdetek óta
+                                <para>A g++ fordítót olyan híres programozó írta akinek jól ismert hacker neve is van: RMS, azaz Richard Matthew Stallman. Ha álmodban a
+                                    Gyűrűk urában találnád magad mint Frodó, akkor biztos, hogy ő lesz Gandalf :)
+                                </para>
+                            </footnote>. Nem kell aggódnod, a <application>g++</application> program megvan a gépedre, a kezdetek óta
                             segíti a Linuxot!                            
                         </para>
                         <para>
@@ -174,8 +174,8 @@ DESCRIPTION
                 <section>
                     <title>Nándi</title>
                     <para>
-                A <application>g++</application> a processzor nyelvére fordít. A <varname>cout</varname> valójában egy csatorna, amelyen betűk mennek át. 
-                A <code>#include</code> egy parancs, amely azt adja ki, hogy másold be.
+                        A <application>g++</application> a processzor nyelvére fordít. A <varname>cout</varname> valójában egy csatorna, amelyen betűk mennek át. 
+                        A <code>#include</code> egy parancs, amely azt adja ki, hogy másold be.
                     </para>
                 </section>                
                 <section>
@@ -196,7 +196,7 @@ DESCRIPTION
             <section>
                 <title>Második nap &#x2013; for ciklus</title>
                 <para>
-                Picit fejlesztünk az előző 1-es programunkon, így kapjuk majd ezt a 2-est:
+                    Picit fejlesztünk az előző 1-es programunkon, így kapjuk majd ezt a 2-est:
                 </para>
                 <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -396,10 +396,10 @@ int main()
                         
                         <para>
                             amivel végtelen ciklusba futott a programja a futtatáskor... csak szaladtak a <literal>Helló, Világ!</literal>-ok a terminál programban<footnote>
-                            <para>A ciklusmag iterálása után az i növelését kivéve az mindig 0 marad, soha nem éri el a 3-at, azaz soha nem lesz vége a ciklusmag
-                                iterálásának. Ez bizony egy végtelen ciklus!
-                            </para>
-                        </footnote>, a
+                                <para>A ciklusmag iterálása után az i növelését kivéve az mindig 0 marad, soha nem éri el a 3-at, azaz soha nem lesz vége a ciklusmag
+                                    iterálásának. Ez bizony egy végtelen ciklus!
+                                </para>
+                            </footnote>, a
                             végén már csak az ablak becsukása segített!
                         </para>
                         <note>
@@ -461,10 +461,10 @@ int main()
                         </programlisting>    
                         <para>
                             amivel ezt a hibát kapta<footnote>
-                            <para>A fordítási hibaüzenetek szövege (az error: után) sokszor segít a szintaktikai hibák megtalálásában, máskor meg nem... 
-                                Most ez utóbbi a szitu. Idővel kialakul majd a rutinod és rögtön fogod látni, hogy ott a 4-esnek nincs semmi keresnivalója.
-                            </para>
-                        </footnote>
+                                <para>A fordítási hibaüzenetek szövege (az error: után) sokszor segít a szintaktikai hibák megtalálásában, máskor meg nem... 
+                                    Most ez utóbbi a szitu. Idővel kialakul majd a rutinod és rögtön fogod látni, hogy ott a 4-esnek nincs semmi keresnivalója.
+                                </para>
+                            </footnote>
                         </para>                             
                         <screen>                                 
 <![CDATA[$ g++ greta2.cpp -o greta2
@@ -553,7 +553,7 @@ int main()
                 <section>
                     <title>Nándi</title>
                     <para>
-                        A tegnapi feladat Matyi féle for-os megoldsából indult ki, gyorsan ment
+                        A tegnapi feladat Matyi féle for-os megoldásából indult ki, gyorsan ment
                     </para>
                     <programlisting language="C++">
 <![CDATA[include <iostream>
@@ -768,26 +768,74 @@ int main()
             </section>            
             
             <section>
-                <title>Negyedik nap &#x2013; lefagyott</title>
+                <title>Negyedik nap &#x2013; osztály</title>
                 <para>
                 
                 </para>
-                <programlisting language="C++">
+                <programlisting language="C++" linenumbering="numbered">
 <![CDATA[#include <iostream>
+
+class Katona
+{
+public:
+    std::string nev;
+    int elet;
+    int sebzes;
+
+    Katona(std::string nev, int elet, int sebzes) {
+
+        this->nev = nev;
+        this->elet = elet;
+        this->sebzes = sebzes;
+    }
+
+    bool el() {
+        return elet > 0;
+    }
+
+    friend std::ostream &operator<< (std::ostream &stream, Katona &katona) {
+        stream << katona.nev << " " << katona.elet << " " << katona.sebzes;
+        return stream;
+    }
+
+};
+
+
+Katona &harcol(Katona &egyik, Katona &masik)
+{
+    for (; egyik.el() && masik.el() ;) {
+        egyik.elet = egyik.elet - masik.sebzes;
+        masik.elet = masik.elet - egyik.sebzes;
+    }
+
+    if (egyik.elet > masik.elet)
+        return egyik;
+    else
+        return masik;
+}
+
 
 int main()
 {
-    std::cout << "Hello Vilag!" << std::endl;
-    for(;;);
+    Katona en {"Nandi", 100, 10};
+    Katona ellen {"Barbar", 80, 5};
+
+    std::cout << harcol(en, ellen) << std::endl;
+
     return 0;
-}
-]]>
+}]]>
                 </programlisting>                 
                 <section>
                     <title>Apa &#x2013; mentor</title>
                     <para>
                 
                     </para>
+                    <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4 
+Nandi 60 10
+]]>
+                    </screen>                        
                 </section>                
                 <section>
                     <title>Gréta</title>
@@ -804,10 +852,143 @@ int main()
                 <section>
                     <title>Matyi</title>
                     <para>
-                
+                        A class az egy osztály. Az osztály az adatok és függvények csoportja.
+                        Milye van egy katonának? Élete, sebzése és neve. 
+                    </para>
+                    <para>                        
+                        Mikor él egy katona? Amikor az élete több mint 0. Ezt az <function>el</function> függvény mondja el. 
+                        Az <function>el</function> függvény visszaadja a hívójának, hogy igaz-e, hogy él-e a katona.
+                    </para>
+                    <para>                        
+                        Van több csatorna. Az egyik csatorna neve: iostream a másiknak ostream. 
+                    </para>
+                    <para>                        
+                        Mennyi az élete és a sebzése egy katonának? 
+                        Nándinak az élete 100 és a sebzése 10. 
+                        A Barbárnak az élete 80 és a sebzése 5.                         
+                        Ezeket a konstruktornak adjuk mag.
+                        A konstruktorról akkor beszélünk ha az osztály és a függvény neve meggegyezik. 
+                    </para>
+                    <para>
+                        A végén a győztes katona nevét kiírjuk a csatornára.                                                               
+                        A return visszaad egy számot az operációs rendszernek.
                     </para>
                 </section>                
+
                 
+                                
+                <section>
+                    <title>Feladatok</title>
+                    <para>
+                        Itt már több feladatot adunk ki, de csak mindenkinek csak egy megoldást teszünk be ide.
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                Matyi fejben kiszámolta, még a futtatás előtt, hogy 60-at fog kiírni. Módosítsuk úgy a programot a 
+                                <function>harcol</function> függvényben, hogy
+                                a harc minden lépésében nyomja ki a két katonát a képernyőre, azaz az alábbi futási eredmény legyen: 
+                                <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4 
+Nandi 95 10
+Barbar 70 5
+Nandi 90 10
+Barbar 60 5
+Nandi 85 10
+Barbar 50 5
+Nandi 80 10
+Barbar 40 5
+Nandi 75 10
+Barbar 30 5
+Nandi 70 10
+Barbar 20 5
+Nandi 65 10
+Barbar 10 5
+Nandi 60 10
+Barbar 0 5
+Nandi 60 10
+]]>
+                                </screen>                                                        
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Módosítsuk úgy az előző feladat megoldását programot a harc győztese után konstruáljunk meg egy harmadik 
+                                katona objektumot ezekkel az adatokkal: <code><![CDATA[{"Orias", 180, 20}]]></code> 
+                                és ez az új katona a győztessel
+                                harcoljon, azaz az alábbi futási eredmény legyen: 
+                                <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4 
+Nandi 95 10
+Barbar 70 5
+Nandi 90 10
+Barbar 60 5
+Nandi 85 10
+Barbar 50 5
+Nandi 80 10
+Barbar 40 5
+Nandi 75 10
+Barbar 30 5
+Nandi 70 10
+Barbar 20 5
+Nandi 65 10
+Barbar 10 5
+Nandi 60 10
+Barbar 0 5
+Nandi 60 10
+Nandi 40 10
+Orias 170 20
+Nandi 20 10
+Orias 160 20
+Nandi 0 10
+Orias 150 20
+Orias 150 20
+]]>
+                                </screen>                                                        
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Próbáld ki, majd magyarázd meg ezt a forráskódot:                     
+                                <programlisting language="C++">
+<![CDATA[int main()
+{
+    Katona en {"Nandi", 100, 10};
+    Katona ellen {"Barbar", 80, 5};
+    Katona harmadik {"Orias", 180, 20};
+
+    std::cout << harcol(harcol(en, ellen), harmadik) << std::endl;
+    
+    return 0; 
+}]]>
+                                </programlisting>                 
+                            </para>
+                        </listitem>
+                    </itemizedlist>                    
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                
+                        </para>
+                    </section>                
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                
+                        </para>
+                    </section>                
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                
+                        </para>
+                    </section>                
+                </section>                
+                                                
+                                                                
+                                                                                                
             </section>
             
         </section>
