@@ -642,7 +642,8 @@
                                                     </para>
                                                 </listitem>
                                                 <listitem>
-                                                    <para>Ne csak csomópontokat, hanem éleket is kezeljen!                                            
+                                                    <para>Ne csak csomópontokat, hanem éleket is kezeljen vagy mentse/töltse vissza ne csak a csomópontokat, hanem
+                                                        azok pozícióját is az alaplapon.                                            
                                                     </para>
                                                 </listitem>
                                             </itemizedlist>                                               
