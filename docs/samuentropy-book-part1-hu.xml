@@ -880,7 +880,8 @@ Nandi 60 10
                 <section>
                     <title>Feladatok</title>
                     <para>
-                        Itt már több feladatot adunk ki, de csak mindenkinek csak egy megoldást teszünk be ide.
+                        Itt már több feladatot adunk ki, úgy alakult, hogy ezeket közösen oldották meg a gyerekek (az első kettőt hárman egy gép előtt, de 
+                        a másodikat már leginkább csak Matyi).
                     </para>
                     <itemizedlist>
                         <listitem>
@@ -909,12 +910,33 @@ Nandi 60 10
 Barbar 0 5
 Nandi 60 10
 ]]>
-                                </screen>                                                        
+                                </screen>
+                                A megoldás ez a kiegészítés volt a harcot definiáló <function>harcol</function> nevű függvényben:
+                                <programlisting language="C++">
+<![CDATA[Katona &harcol(Katona &egyik, Katona &masik)
+{
+    for (; egyik.el() && masik.el() ;) {
+        egyik.elet = egyik.elet - masik.sebzes;
+        masik.elet = masik.elet - egyik.sebzes;
+
+        std::cout << egyik << std::endl;
+        std::cout << masik << std::endl;
+    }
+
+    if (egyik.elet > masik.elet)
+        return egyik;
+    else
+        return masik;
+}
+]]>
+                                </programlisting>                                
+                                                                                        
+                                                                                                                                                                                                        
                             </para>
                         </listitem>
                         <listitem>
                             <para>
-                                Módosítsuk úgy az előző feladat megoldását programot a harc győztese után konstruáljunk meg egy harmadik 
+                                Módosítsuk úgy az előző feladat megoldásának programját úgy, hogy a harc győztese után konstruáljunk meg egy harmadik 
                                 katona objektumot ezekkel az adatokkal: <code><![CDATA[{"Orias", 180, 20}]]></code> 
                                 és ez az új katona a győztessel
                                 harcoljon, azaz az alábbi futási eredmény legyen: 
@@ -946,7 +968,150 @@ Nandi 0 10
 Orias 150 20
 Orias 150 20
 ]]>
-                                </screen>                                                        
+                                </screen>
+                            </para>
+                            <para>
+                               Ez volt a gép melletti első próbálkozás a megoldásra, a main függvénybeli alábbi módosítás:                                                                                                                                                                         
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[int main()
+{
+    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+   
+    std::cout << harcol(en, ellen ,en,giant) << std::endl;
+
+    return 0;
+}]]>
+                            </programlisting>                                                                                        
+                            <para>
+ami egy jól is olvasható hibát adott, a fordító program pontosan megmondta mi ezzel a megoldási próbálkozással a gond: túl sok bemenő paramétert (too many arguments) 
+                                adtunk meg
+                                a <function>harcol</function> nevű függvénynek                                                                                                                                                                                                        
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:57:44: error: too many arguments to function ‘Katona& harcol(Katona&, Katona&)’
+     std::cout << harcol(en, ellen ,en,giant) << std::endl;
+                                            ^
+nandi4.cpp:32:9: note: declared here
+ Katona& harcol(Katona& egyik, Katona& masik)
+         ^]]>
+                            </screen>                        
+                            <para>
+          s valóban, hiszen a <function>harcol</function> fejét nézzük csak meg! 
+          <code><![CDATA[Katona &harcol(Katona &egyik, Katona &masik)]]></code>
+          Két bemenő katonát vár és nem négyet (és visszaadja a harcban győző katonát).
+          Ennek megfelelően ez volt a következő próbálkozás a main függvényben:
+                            </para>                            
+                            <programlisting language="C++">
+<![CDATA[    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+    Katona gyoztas =harcol(en , ellen);
+    harcol(gyoztas,giant);
+   
+    std::cout << harcol(en, ellen ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                            Ez már lefordul, majd lefut:                                                                                                                                                                            
+                            </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbar 70 5
+Nandi 90 10
+Barbar 60 5
+Nandi 85 10
+Barbar 50 5
+Nandi 80 10
+Barbar 40 5
+Nandi 75 10
+Barbar 30 5
+Nandi 70 10
+Barbar 20 5
+Nandi 65 10
+Barbar 10 5
+Nandi 60 10
+Barbar 0 5
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+Nandi 60 10
+]]>
+                            </screen>                        
+                            <para>
+                            Ám ebben a kimenetben Matyi, az élesszemű észrevette, hogy valami nem stimmel. 
+                                Jobban láthatja a kedves olvasó, ha <literal>-----------</literal>-el jelöljük benne a csatákat:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbar 70 5
+Nandi 90 10
+Barbar 60 5
+Nandi 85 10
+Barbar 50 5
+Nandi 80 10
+Barbar 40 5
+Nandi 75 10
+Barbar 30 5
+Nandi 70 10
+Barbar 20 5
+Nandi 65 10
+Barbar 10 5
+Nandi 60 10
+Barbar 0 5
+-----------
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+-----------
+Nandi 60 10
+]]>
+                            </screen>                        
+                            <para>
+                               2 csata helyett 3 volt... erre a megoldásuk az utolsó kitörlése (pontosabban kommentbe tétele) volt                                
+                            </para>
+                            <note>
+                                <title>Másoló konstruktor</title>
+                                <para>
+                                    S történt itt még valami nagyon érdekes! Nézd meg az utolsó kimeneti sort: <literal>Nandi 60 10</literal>, hogy
+                                    lehet, hogy a <literal>Nandi</literal> elnevezésű katona élete 60, amikor előtte az óriással való harcban
+                                    már lement nullára...? Most ez misztikus kérdés kell legyen, de választ kapsz majd rá az 6. napon.
+                                </para>
+                            </note>
+                                                        
+                            <programlisting language="C++">
+<![CDATA[    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+    Katona gyoztas =harcol(en , ellen);
+    harcol(gyoztas,giant);
+    
+   //std::cout << harcol(en, ellen ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                              hogy a feladat kiírásában megkívánt megoldást kapják, ebben a 2. harcol hívást kinyomták a csatornára és elkészültek:
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+    Katona gyoztas =harcol(en , ellen);
+    std::cout << harcol(gyoztas,giant ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            
+                            <para>
+                                  ami már pont ugyanazt adja, amit kértem.                                                                                                                                                                      
                             </para>
                         </listitem>
                         <listitem>
@@ -966,29 +1131,34 @@ Orias 150 20
                                 </programlisting>                 
                             </para>
                         </listitem>
-                    </itemizedlist>                    
+                    </itemizedlist>                                                                                
                     <section>
-                        <title>Gréta</title>
+                        <title>A gyerekek saját feladatai</title>
                         <para>
-                
+                            Itt már több feladatot adunk ki, úgy alakult, hogy ezeket közösen oldották meg a gyerekek (az első kettőt hárman egy gép előtt, de 
+                            a másodikat már leginkább csak Matyi).
                         </para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>
+                                    Gréta:
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    Nándi:
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    Matyi:
+                                </para>
+                            </listitem>
+                        </itemizedlist>                    
                     </section>                
-                    <section>
-                        <title>Nándi</title>
-                        <para>
-                
-                        </para>
-                    </section>                
-                    <section>
-                        <title>Matyi</title>
-                        <para>
-                
-                        </para>
-                    </section>                
+                                                                                
                 </section>                
-                                                
-                                                                
-                                                                                                
+                                                                                                                                                
             </section>
             
         </section>
