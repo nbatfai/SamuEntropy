@@ -1137,13 +1137,126 @@ Nandi 60 10
 }]]>
                                 </programlisting>                 
                             </para>
+                            <para>
+                                Papíron próbáltak meg választ adni, amit Matyi ügyesen így fogalmazott meg: TODO: saját szavaival amikor azt mondta, hogy a 
+                                két csata rövidített leírása. 
+                            </para>
+                            <para>
+                                A megértést ellenőrző feladatként azt kapták, hogy az aktuális kódcsipet mintájára valósítsák meg azt gép mellett, hogy
+                                négy katona harcoljon, a negyedik az addigi győztessel! Íme az első próbálkozásuk
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[int main()
+{
+    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+    Katona negyedik{"MATYI",500,300};
+      
+    std::cout << harcol(harcol(en,ellen, )harmadik)negyedik) << std::endl;
+}]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                ami nyilván nem fordul le, hiszen teljesen rossz helyre tették a vesszőket:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+^[[Anandi4.cpp: In function ‘int main()’:
+nandi4.cpp:59:42: error: expected primary-expression before ‘)’ token
+     std::cout << harcol(harcol(en,ellen, )harmadik)negyedik) << std::endl;]]>
+                            </screen>                        
+                            <para>
+                                Ezt a hibát gyorsan ki tudták javítani
+                            </para>
+                            
+                            <programlisting language="C++">
+<![CDATA[
+    Katona en{"Nandi", 100, 10};
+    Katona ellen{"Barbar", 80, 5};
+    Katona giant{"Giant",180,20};
+    Katona negyedik{"MATYI",500,300};
+   
+    std::cout << harcol(harcol(en,ellen ),harmadik),negyedik) << std::endl;
+]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                amivel már egy beszédes fordítási hibát kaptak:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:59:50: error: ‘harmadik’ was not declared in this scope
+     std::cout << harcol(harcol(harcol(en,ellen ),harmadik),negyedik) << std::en]]>
+                            </screen>                        
+                            <para>
+                                mivel ők a tegnapi kódjukból indultak ki, ahol nem volt <varname>harmadik</varname> nevű referencia, hanem a 
+                                <varname>giant</varname> nevet használták helyette, ennek megfelelően módosítottak: 
+                            </para>
+
+                            <programlisting language="C++">
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
+     std::cout << harcol(harcol(en,ellen ),harmadik),negyedik) << std::endl;
+]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                de még ez sem hozott sikert
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
+     std::cout << harcol(harcol(en,ellen ),harmadik),negyedik) << std::endl;
+]]>
+                            </screen>                        
+                            <para>
+                                hiszen három bezáró kerekzárójel van és csak kettő nyitó! A hány harcot akartok? segítő kérdés segített, mert hármat akarnak,
+                                de csak kér harcol függényhívás van, a helyét megtanácskozva betették a harmadikat:
+                            </para>
+                            
+                            <programlisting language="C++">
+<![CDATA[    std::cout << harcol(harcol(harcol(en,ellen ),harmadik),negyedik) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                ami már egy jó működést produkált:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbar 70 5
+Nandi 90 10
+Barbar 60 5
+Nandi 85 10
+Barbar 50 5
+Nandi 80 10
+Barbar 40 5
+Nandi 75 10
+Barbar 30 5
+Nandi 70 10
+Barbar 20 5
+Nandi 65 10
+Barbar 10 5
+Nandi 60 10
+Barbar 0 5
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+Giant -150 20
+MATYI 480 300
+MATYI 480 300
+]]>
+                            </screen>                        
+                            <para>
+                            </para>
                         </listitem>
                     </itemizedlist>                                                                                
                     <section>
-                        <title>A gyerekek saját feladatai</title>
+                        <title>A gyerekek által kiírt feladatok</title>
                         <para>
-                            Itt már több feladatot adunk ki, úgy alakult, hogy ezeket közösen oldották meg a gyerekek (az első kettőt hárman egy gép előtt, de 
-                            a másodikat már leginkább csak Matyi).
                         </para>
                         <itemizedlist>
                             <listitem>
