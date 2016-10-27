@@ -22,7 +22,8 @@
             <section>
                 <title>Első nap &#x2013; <literal>Helló, világ!</literal></title>
                 <para>
-                    Ezzel a  <systemitem class="systemname">C++</systemitem> nyelvű forrásszöveggel kezdünk.
+                    Ezzel a  <systemitem class="systemname">C++</systemitem> nyelvű forrásszöveggel kezdünk (amit például Gréta a 
+                    <filename>greta1.cpp</filename> állományba begépelve kapott meg).
                 </para>
                 <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -167,15 +168,18 @@ DESCRIPTION
                     <para>
                         A processzor számokat számol és az <varname>std::cout</varname>-ba írjuk a betűket. 
                         A <application>g++</application> fordítja
-                        le a szavakat. Az iostream egy csatorna. A <code>#include</code> átilleszti a másik programját a sajátodba. A 0 azt jelenti, hogy 
+                        le a programot. Az iostream egy csatorna. A <code>#include</code> átilleszti a másik programját a sajátodba. A 0 azt jelenti, hogy 
                         jól vége lett a programnak, azaz jól ment a program le.
                     </para>
                 </section>                
                 <section>
                     <title>Nándi</title>
                     <para>
-                        A <application>g++</application> a processzor nyelvére fordít. A <varname>cout</varname> valójában egy csatorna, amelyen betűk mennek át. 
-                        A <code>#include</code> egy parancs, amely azt adja ki, hogy másold be.
+                        A <application>g++</application> a processzor nyelvére fordít. 
+                        A <code>#include</code> egy parancs, amely azt adja ki, hogy másold be. 
+                        A <varname>cout</varname> valójában egy csatorna, amelyen betűk mennek át. 
+                        A <code><![CDATA[<<]]></code> azt jelenti, hogy arra told a betűket. A 0 azt jelenti, hogy jól sikerült a 
+                        main függvény.
                     </para>
                 </section>                
                 <section>
@@ -185,10 +189,12 @@ DESCRIPTION
                         A <code>#include</code>-al beillesztünk más programokat. 
                         Az <varname>iostream</varname> egy csatorna. 
                         Az <code>int main</code> az egy fő függvény.
+                        A main függvényt az operációs rendszer hívja. 
                         A függvény azt jelenti, hogy a program építőeleme.                                                                                        
                         <code><![CDATA[std::cout << Hello Vilag << std::endl]]></code> 
                         ez azt jelenti, hogy a betűket belenyomom a csatornába. 
                         Az <constant>std::endl</constant> azt jelenti, hogy a kurzor a következő sorba megy.
+                        A <code>return</code> visszaad a függvény hívójának egy számot.
                         A <code>return 0;</code> ez azt jelenti, hogy nincs baj a programmal.                
                     </para>
                 </section>                
@@ -227,13 +233,13 @@ int main()
                 <section>
                     <title>Gréta</title>
                     <para>
-                
+                A for egy ciklus. A for az i=0-tól indul és <code><![CDATA[i<3]]></code>-ig tart. 
                     </para>
                 </section>                
                 <section>
                     <title>Nándi</title>
                     <para>
-                
+                A for ismétli a ciklust. A for egy ciklus. Mit is jelent a ciklus? Nyomj egy fekvőtámaszt, utána 10 fekvőtámaszt. A 10 fekvőtámasz egy ciklus 1-től 10-ig.
                     </para>
                 </section>                
                 <section>
@@ -258,7 +264,8 @@ int main()
                                 </para>
                             </listitem> 
                         </orderedlist>                            
-                        Ha kapcsoszárójel lenne a for-nál akkor több parancs lenne.                 
+                        Ha kapcsoszárójel lenne a for-nál akkor több parancs lenne.                
+                        Az i=0 az, hogy honnan indul, az <code><![CDATA[i<3]]></code>, hogy meddig megy, a ++i, hogy mennyivel növekszik.
                     </para>
                 </section>                
                 <section>
