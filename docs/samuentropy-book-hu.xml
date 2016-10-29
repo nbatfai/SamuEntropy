@@ -80,7 +80,7 @@
                 </affiliation>
             </author>
         </authorgroup>
-        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 27, v. book.u12.hu.0.0.6.2</edition>
+        <edition>ESAMU Book U12, Entrópia Samu, 2016. okt. 29, v. book.u12.hu.0.0.7.1</edition>
         <pubdate>2016</pubdate>
         <copyright>
             <year>2016</year>
@@ -167,6 +167,11 @@
             nem lehet baj, ha elolvasod, csak ne aludj el közben, mert egy olyan távolabbi jövőről szól, ami Neked most még lehet, hogy
             teljesen érdektelen.
         </para>
+        <para>
+            A könyv két részből áll, az első  &#x2013; kevesek élvezetére számítva &#x2013; C++ programozás, a jelen programozása. 
+            A második a jövő egy lehetséges programozási gyakorlata, amikor már nem klasszikus értelemben programozunk, hanem csak játszunk. Játék (esport) 
+            lévén itt lehet tömeges olvasótáborra számítani.
+        </para>        
         <para>
             Egy hacker ismerősöm fejtette ki nekem egyszer, hogy a programozás mint tevékenység nem algoritmizálható, ezért
             nem is tanítható. Csak egy lehetőség van: fanatizálni az érdeklődőket, hogy programozzanak 
