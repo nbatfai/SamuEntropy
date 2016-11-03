@@ -1322,29 +1322,6 @@ MATYI 480 300
                                                                                                                                                 
             </section>
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <section>
                 <title>Ötödik nap &#x2013; veszélyes vizeken</title>
                 <para>
@@ -1569,31 +1546,105 @@ main fgv: Giant 150 20]]>
                     <para>
                         végre az történik amit a programozó elképzelt!
                     </para>
-                                                               
-                    
-                </section>                
-                <section>
-                    <title>Gréta</title>
                     <para>
-                
+                        Ezzel a változattal a gyerekek szabad stílusban (spontán) kezdtek el játszani: 
                     </para>
-                </section>                
-                <section>
-                    <title>Nándi</title>
-                    <para>
-                
-                    </para>
-                </section>                
-                <section>
-                    <title>Matyi</title>
-                    <para>
-                    </para>
-                </section>                
-                                                                                                                                                
-            </section>            
-            
-            
+                    <programlisting language="C++">
+<![CDATA[    Katona en {"Matyi", 1000, 100};
+    Katona ellen {"Greta", 800, 50};
+    Katona harmadik {"Nandi", 800, 50};
 
+    Katona &egyikGyoztes = harcol(en, ellen);
+    Katona &masikGyoztes = harcol(en, harmadik);
+
+    std::cout << "main fgv: " << harcol(egyikGyoztes, masikGyoztes) << std::endl;]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[harcol fgv: harc indul, Matyi 1000 100 vs. Greta 800 50
+harcol fgv: Matyi 950 100
+harcol fgv: Greta 700 50
+harcol fgv: Matyi 900 100
+harcol fgv: Greta 600 50
+harcol fgv: Matyi 850 100
+harcol fgv: Greta 500 50
+harcol fgv: Matyi 800 100
+harcol fgv: Greta 400 50
+harcol fgv: Matyi 750 100
+harcol fgv: Greta 300 50
+harcol fgv: Matyi 700 100
+harcol fgv: Greta 200 50
+harcol fgv: Matyi 650 100
+harcol fgv: Greta 100 50
+harcol fgv: Matyi 600 100
+harcol fgv: Greta 0 50
+harcol fgv: harc indul, Matyi 600 100 vs. Nandi 800 50
+harcol fgv: Matyi 550 100
+harcol fgv: Nandi 700 50
+harcol fgv: Matyi 500 100
+harcol fgv: Nandi 600 50
+harcol fgv: Matyi 450 100
+harcol fgv: Nandi 500 50
+harcol fgv: Matyi 400 100
+harcol fgv: Nandi 400 50
+harcol fgv: Matyi 350 100
+harcol fgv: Nandi 300 50
+harcol fgv: Matyi 300 100
+harcol fgv: Nandi 200 50
+harcol fgv: Matyi 250 100
+harcol fgv: Nandi 100 50
+harcol fgv: Matyi 200 100
+harcol fgv: Nandi 0 50
+harcol fgv: harc indul, Matyi 200 100 vs. Matyi 200 100
+harcol fgv: Matyi 0 100
+harcol fgv: Matyi 0 100
+main fgv: Matyi 0 100]]>
+                    </screen>                    
+
+                    <para>
+                        De Matyi nem akarta, hogy a végén a <literal>Matyi</literal> név-tulajdonságú objektum önmagával harcoljon... a következő
+                        próbálkozásaik arról szóltak, hogy a végén a <literal>Matyi</literal> objektum győzzön, de ne magával harcoljon. Próbálkozást
+                        próbálkozás követett, de a többiek örömére egyszer a <literal>Gréta</literal>, máskor a <literal>Nándi</literal> objektum győzött,
+                        s persze párszor visszaköszönt a <literal>Matyi</literal> önmagával való harca is, mire belátta, hogy vannak olyan feladatok, amelyek
+                        megadott keretek között megoldhatatlanok. (Mert ha az első meccset Matyi elveszti, akkor a másodikba már nem élve megy, így nem kerül a döntőbe.
+                        Ha ez nem teljesül, azaz az elsőt nyeri, de a másodikat bukja, akkor a döntőbe kerül már eleve nem élve.)
+                    </para>                                                                                   
+                    
+                    <programlisting language="C++">
+<![CDATA[]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[]]>
+                    </screen>                    
+                                        
+                                                            
+
+                    <programlisting language="C++">
+<![CDATA[]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[]]>
+                    </screen>                    
+
+                                                                                                                                                                                                                                                                                                            
+                    <para>
+                        Elevenítsük fel a következő pontban az egyik Gréta által bedobott feladatot!
+                    </para>                                                                                   
+                </section>                
+                <section>
+                    <title>Gréta, Nándi, Matyi</title>                    
+                    <blockquote>
+                        <attribution>Gréta</attribution>
+                        <para>
+                            &#x201E;Másik feladat, hogy amikor a katonák harcolnak és ha valamelyik győz, akkor újra megkapja az életét.&#x201D;</para>
+                    </blockquote>                    
+                    <para>
+                    </para>
+                </section>                
+                
+            </section>            
             
             <section>
                 <title>Hatodik nap &#x2013; másoló konstruktor</title>
@@ -1612,6 +1663,7 @@ main fgv: Giant 150 20]]>
 <![CDATA[]]>
                     </screen>                        
                 </section>                
+                
                 <section>
                     <title>Gréta</title>
                     <para>
@@ -1629,15 +1681,8 @@ main fgv: Giant 150 20]]>
                     <para>
                     </para>
                 </section>                
-                                                                                                                                                
+                                                                                                                                                                        
             </section>            
-            
-                                    
-            
-            
-            
-            
-            
             
         </section>
 

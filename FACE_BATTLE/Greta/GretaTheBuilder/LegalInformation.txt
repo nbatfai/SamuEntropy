@@ -1,0 +1,9 @@
+Open Source Licences
+
+Norbert Bátfai designed and implemented ESAMU that
+is released under the GNU GPL v3. See also the 
+files THANKS and ChangeLog.
+
+The LuckiestGuy font has been used in images. 
+This font is released under the Apache 2.0 licence
+see https://fonts.google.com/specimen/Luckiest+Guy
