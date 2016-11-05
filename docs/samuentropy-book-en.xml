@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <info>
+        <title>We get the maximum of the programming</title>
+        <subtitle>Programming and robotpsychology for children under 12</subtitle>
+        <titleabbrev>ESAMU U12</titleabbrev>
+        <authorgroup>
+            <author>
+                <personname>
+                    <honorific>Dr.</honorific>
+                    <surname>Bátfai</surname>
+                    <firstname>Norbert</firstname>
+                </personname>
+                <affiliation>
+                    <shortaffil>U. adjunct, DEIK.</shortaffil>
+                    <jobtitle>Assistant Professor</jobtitle>
+                    <orgname>University of Debrecen, Faculty of Informatics</orgname>
+                    <orgdiv>Department of Information Technology</orgdiv>
+                    <address>
+                        <email>batfai.norbert@inf.unideb.hu</email>
+                        <email>nbatfai@gmail.com</email>
+                    </address>
+                </affiliation>
+                <address>
+                    <street>Kassai street 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Hungary</country>
+                    <email>batfai.norbert@inf.unideb.hu</email>
+                    <otheraddr>
+                        <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
+                    </otheraddr>
+                </address>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Margaréta</firstname>
+                    <othername>Niobé</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>student</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Swimmer class</orgdiv>
+                    <address>
+                        <email>batfai.greta@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Nándor</firstname>
+                    <othername>Benjámin</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>student</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Swimmer class</orgdiv>
+                    <address>
+                        <email>batfai.nandi@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+            <author>
+                <personname>
+                    <firstname>Mátyás</firstname>
+                    <othername>Bendegúz</othername>
+                    <surname>Bátfai</surname>
+                </personname>
+                <affiliation>
+                    <jobtitle>student</jobtitle>
+                    <orgname>Hunyadi</orgname>
+                    <orgdiv>Swimmer class</orgdiv>
+                    <address>
+                        <email>batfai.matyi@gmail.com</email>
+                    </address>
+                </affiliation>
+            </author>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Artúr</firstname>
+                    <surname>Sáfrány</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Gergő</firstname>
+                    <surname>Bogacsovics</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Kinga</firstname>
+                    <surname>Enyedi</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Kristóf</firstname>
+                    <surname>Kovács</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Sándor</firstname>
+                    <surname>Kovács</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+        </authorgroup>
+        <edition>ESAMU Book U12, Entrópia Samu, 2016. nov. 3, v. book.u12.hu.0.0.7.2</edition>
+        <pubdate>2016</pubdate>
+        <copyright>
+            <year>2016</year>
+            <holder>Dr. Bátfai Norbert</holder>
+        </copyright>
+        <legalnotice>
+            <para>Entrópia Samu Book U12
+            </para>
+            <para>
+                Copyright (C) 2016, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com,
+                Margaréta Bátfai, batfai.greta@gmail.com,
+                Nándor Bátfai, batfai.nandi@gmail.com,
+                Mátyás Bátfai, batfai.matyi@gmail.com
+            </para>
+            <para>
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU General Public License as published by
+                the Free Software Foundation, either version 3 of the License, or
+                (at your option) any later version.
+            </para>
+            <para>
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU General Public License for more details.
+            </para>
+            <para>
+                You should have received a copy of the GNU General Public License
+                along with this program.  If not, see
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>.
+            </para>
+            <para>
+                <link xlink:href="http://gnu.hu/gplv3.html">http://gnu.hu/gplv3.html</link>
+            </para>
+        </legalnotice>
+        <revhistory>
+            <revision>
+                <revnumber>0.0.1</revnumber>
+                <date>2016-09-19</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document. The developement happens at the central storage of ESAMU:
+                    <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>,
+                    for version history see the changelog there.
+                </revremark>
+            </revision>
+            <!--
+            <revision>
+                <revnumber>0.0.</revnumber>
+                <date>2016-</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document release for comment.</revremark>
+            </revision>
+            -->
+        </revhistory>
+    </info>
+    <dedication>
+        <para>
+            We recommend this book for its readers, for the robotpsychologists of the future.
+        </para>
+    </dedication>
+    <preface>
+        <title>Foreword</title>
+        <para>
+            If you are a child under age 12, you can skip this boring foreword, we didn't devote it to you but your mentor. Of course it's not problem if you read over, just don't fall asleep meanwhile, because it's about a further future that is still completely unconcerned for you.
+        </para>
+        <para>
+            The book consists of two parts, the first one &#x2013; anticipating for a few's pleasure &#x2013; C++ programming, the programming of the present. The second one is the possible programming exercise of the future, when we already don't program in the classic manner, but only play. Since it's a game (esport), here massive amount of readers can be counted on.
+        </para>
+        <para>
+            Once my hacker friend expounded to me that the programming as an activity can't be algorithmic, therefore it's not teachable. There is only one possibility: encourage the ones that are interested in programming to program and the wonder happens by itself: some becomes programmer!
+        </para>
+        <para>
+            We feel this creed as ours, too. However, in this document we still try to teach programming the children under age 12 in language...
+            <systemitem class="systemname">C++</systemitem>. We deal with this in the first part, but we don't wait for the wonder from this but from the second part, where we introduce &#x2013; according to our vision &#x2013; the programming of the future.
+        </para>
+        <para>
+            What is this vision?
+        </para>
+        <para>
+            When I was in highschool, I started to use a computer <footnote>
+                <para>Commodore 64, Balassi Bálint High School Balassagyarmat, thanks to István Fűrész informatics teacher, I started to like programming, too.</para>
+            </footnote> and I had two relationship with it: I programmed and I played games on it. These two activities had one same part, for example when I defined over a 8x8 bytes character to a person and in my own &#x201E;game,&#x201D; it moved on a screen... but the game and the programming was two different thing and still is.
+        </para>
+        <para>
+            But would it different in the future? In our vision will be places where not! For example different programming tasks with a cognitive character belonging to the area of artificial intelligence eg. machine vision when the machine is not only processes the images, but at similar level also can answer questions like people, what is depicted in the picture!
+        </para>
+        <para>
+            Such system we are programming not like &#x201E;from scratch&#x201D;, but we set out from a general solution and we refine it. If this solution based on for example TensorFlow<indexterm>
+                                    <primary>DeepMind</primary>
+                                    <secondary>TensorFlow</secondary>
+                                    <see>Google</see>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link>
+                                    </para>
+                                </footnote>, we will work with TensorBoard's<indexterm>
+                                    <primary>TensorFlow</primary>
+                                    <secondary>TensorBoard</secondary>
+                                    <see>DeepMind</see>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tensorboard">https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tensorboard</link>
+                                    </para>
+                                </footnote> stream editor.
+        </para>
+        <para>
+            And what is Samu Entropy's vision? Let's pull a newer interface over these data flow onto visualisation devices which can give you entropy-decrease gaming experience... in one word: let us make the programming to a game. The asimovian robot programming psychology interpretation of this activity <indexterm>
+                                    <primary>robotpszichológia</primary>
+                                </indexterm>
+                                <footnote>
+                                    <para>
+                                        <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>
+                                    </para>
+                                </footnote> is considered as a robot psychology (or at least as it's germ, since intuitively in the Westworld titled movie appearing robotpsychology could be considered as the the perfect but of course today still imagined realization of the asimovian vision).
+        </para>
+        <para>
+            How are we doing? The first part is easier: the children (Gréta 8, Nándi 8 and Matyi 10 years old) they arrive home from the swimming train after 6 pm, they have dinner, then everyday we discuss one C++ source and of course we try it. They describe in their own words for the next day and they send me them in e-mail, and I get into this book &#x2013; at least this is the ideal plan. :)
+        </para>
+        <para>
+            The second part would be more complecated, because that &#x2013; after Dénes Gábor &#x2013; you have to invent. We trying to make a publication named &#x201E;Entropy non-increasing games for improvement of dataflow programming&#x201D;.
+        </para>
+        <para>
+            Next up is the glossary, which is still more tuned to the mentor as a child reader.
+        </para>
+    </preface>
+    <xi:include href="samuentropy-glssry-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-glssry-en.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>
+    <xi:include href="samuentropy-book-part1-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-book-part1-en.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>
+    <xi:include href="samuentropy-book-part2-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-book-part2-en.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>
+</book>

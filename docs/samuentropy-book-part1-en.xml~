@@ -1,0 +1,866 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Programming of the present</title>
+    <partintro>
+        <para>
+          Programming and Linux are two good friends, begin with installing Linux on your PC, with the help of your mentor!
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Introduction</title>
+            <keywordset>
+                <keyword>GNU/Linux</keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Good beginning</title>
+            <para>
+              If you alreay have Linux on your PC then you can read further, if you don't then scroll back!
+            </para>
+            <section>
+                <title>The first day &#x2013; <literal>Hello, World!</literal></title>
+                <para>
+                    We begin with this <systemitem class="systemname">C++</systemitem> source code (which was for example given to Gréta in the
+                    <filename>greta1.cpp</filename> file).
+                </para>
+                <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+]]>
+                </programlisting>
+
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        It is true for the programmer, too, that generally he/she stands on the shoulders of giants <footnote>
+                            <para> The great scientist, Isaac Newton wrote this (in his letter written to Robert Hook) to express that he could also build upon the work of others:
+                                "If I have seen further it is by standing on the sholders of Giants".
+                            </para>
+                        </footnote>, in other words, he or she reuses other programmers' programs.
+                        The <code>#include</code> command does exactly this, it pastes the
+                        <code>iostream</code> programs written by others. In this <code>iostream</code> there are programs that materialize the channels. For example your program will have a channel<footnote>
+                            <para>Where does this channel come from? On your machine (or for example on your phone or even on your tablet) there is a special program, called
+                                the operating system, the Linux kernel, which Linus Torvalds started to write when he was on a university in Finnland.  The operating
+                                system is a good friend of the programmer, this program guarantees fro example these channels, too.
+                            </para>
+                        </footnote>, whereto your program sends the letters, and these letters will be displayed on the screen.
+                    </para>
+                    <para>
+                        The basic foundation of a <systemitem class="systemname">C++</systemitem> program is the function, this has a first line,
+                        which is now the <code>int main()</code> line. This is made of three parts: it tells what the function will calculate: this is now
+                        a number, the <type>int</type> keyword means this. The second part is the name of the function, this in our case is
+                        <code>main</code>. The third part is written between parantheses: the function receives what is here, it has to calculate from these
+                        . In our case this part is empty, in other words we didn't give the function anything as an input.
+                    </para>
+                    <para>
+                        The body of the function is the block, which is a list of commands written between curly braces. Every command ends with a semicolon.
+                        We have now two commands. The first one is the one called <varname>std::cout</varname> which prints the
+                        <literal>"Hello, Vilag!"</literal> text to output channel. The input part of this channel is in our program and the output part is opened to the screen.
+                        Then we print a special signal, which makes the cursor jump to a new line on the screen.
+                    </para>
+                    <para>
+                        The second command is the <code>return</code> which gives back the value calculated by the function to the caller of the function.
+                        We didn't calculate anything now, only printed to the screen, so we returned 0. This means by convention that everything was okay with the program,
+                        because the caller of your <function>main</function> function was the operating system itself,
+                        the kernel of the Linux, the program indicates that it didn't have any problems.
+                        With this, the <function>main</function> function ended and with that our program finished.
+                    </para>
+                    <para>
+                        Now let us try out the program!
+                    </para>
+                    <para>
+                        First, we translate the source code so that the processor of our machine understands it.
+                        We save this translation in the greta1 file with the <application>g++</application> compiler. Then by writing its name after the dot slash
+                        we run the compiled program. Running a program is the process when the processor reads the compiled program.
+                    </para>
+                    <para>
+                        What happened after pressing enter after typing dot slash and the filename? The main function was executed, which printed
+                        the Hello, World! text to the output channel, which was therefore displayed on the screen.
+                    </para>
+                    <screen>
+<![CDATA[$ g++ greta1.cpp -o greta1
+$ ./greta1
+Hello, World!
+$
+]]>
+                    </screen>
+                    <important>
+                        <title>The language of the processor</title>
+                        <para>
+                            The machines do not understand the various <systemitem class="systemname">C++</systemitem> source codes,
+                            but the <systemitem class="systemname">C++</systemitem> programmers do!
+                            The source code must be compiled to the processor's own language. This is executed by the <application>g++</application>compiler program
+                            <footnote>
+                                <para> The g++ compiler was written by a famous programmer who has a well-known hacker name: RMS, in other words Richard Matthew Stallman.
+                                  If in your dreams you found yourself in the world of The Lord of The Rings as Frodo, then he will be Gandalf. :)
+                                </para>
+                            </footnote>. You don't have to worry, the <application>g++</application> program is already on your computer, it has been helping the Linux since a very long time!
+                        </para>
+                        <para>
+                            Your mentor can show you what the language that your processor understands actually looks like: it is made of numbers. Here is for example the runnable code
+                            compiled from you first program:
+                        </para>
+                        <screen>
+<![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more
+7F 45 4C 46 02 01 01 00 00 00 00 00 00 00 00 00 02 00 3E 00 01 00 00 00 50 07 40 00 00 00 00 00 40 00 00 00 00 00 00 00 40 1C 00 00 00 00 00 00 00 00 00 00 40 00 38
+00 09 00 40 00 1F 00 1C 00 06 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 40 00 40 00 00 00 00 00 40 00 40 00 00 00 00 00 F8 01 00 00 00 00 00 00 F8 01 00 00 00 00
+00 00 08 00 00 00 00 00 00 00 03 00 00 00 04 00 00 00 38 02 00 00 00 00 00 00 38...]]>
+                        </screen>
+                        <para>
+                            ... because this continues on more displays! You can see that the language of your processor is not understandable for the <systemitem class="systemname">C++</systemitem> programmers.
+                        </para>
+                    </important>
+                    <important>
+                        <title>The programmer manual of Linux</title>
+                        <para>
+                            Previously we saw the contents of the <filename>greta1</filename> file with the <command>hexdump</command> command:
+                            <code><![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more]]></code> but don't think that I can write these things immediately!
+                            Simply I just check them in the manual.
+                        </para>
+                        <para>
+                            In the world of C programming, it is even more of a daily routine to check what you have to use in the manual and see how you can make it work!
+                            This is a written profession, it was not given to us by God, it was invented by engineers, this is the simple truth: you only have to read it.
+                            For example take a look at what the manual says about the <varname>std::cout</varname> object:
+                        </para>
+                        <screen>
+<![CDATA[std::cout(3)                   C++ Programmer's Manual                   std::cout(3)
+
+
+
+NAME
+       std::cout - Standard output stream
+
+TYPE
+       object
+
+SYNOPSIS
+       #include <iostream>
+
+       extern ostream cout;
+
+DESCRIPTION
+       Object of class ostream that represents the standard output stream oriented
+       to narrow characters (of type char). It corresponds to the C stream stdout.
+       ...
+]]>
+                        </screen>
+                    </important>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                        The processor counts numbers and prints the letters to the
+                        <varname>std::cout</varname> .
+                        The <application>g++</application> compiles
+                        the program. The iostream is a channel. The <code>#include</code> pastes others' code into yours. The 0 means that
+                        your program executed successfully.
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The <application>g++</application> translates to the processor's language.
+                        The <code>#include</code> is a command, which tells the computer to copy other's code into yours.
+                        The <varname>cout</varname> is a channel for letters to cross it.
+                        The <code><![CDATA[<<]]></code> means that push the letters in this direction. The 0 means that the main function was executed properly.
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The <code>#include</code> is the first command.
+                        With the <code>#include</code> we paste into other programs.
+                        The <varname>iostream</varname> is a channel.
+                        The <code>int main</code> is the main function.
+                        The main function is called by the operating system.
+                        The function means that it is a building block of the program.
+                        <code><![CDATA[std::cout << Hello World << std::endl]]></code>
+                        This means that we print the letters to the channel.
+                        The <constant>std::endl</constant> means that the cursor goes to the next line.
+                        The <code>return</code> returns a number to the caller of the function.
+                        The <code>return 0;</code> means that the program finished successfully.
+                    </para>
+                </section>
+            </section>
+            <section>
+                <title>Second day &#x2013; for loop</title>
+                <para>
+                    We improve our first program, so that we can get this second one:
+                </para>
+                <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; ++i)
+        std::cout << i << std::endl;
+    return 0;
+}
+]]>
+                </programlisting>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        With the <code>for</code> statement we can repeat things, in other words we can make iterations in our program. The iteration means that
+                        we execute something (the thing that we iterate) over an over again, multiple times (it can even be 0: 0 or infinite).
+                    </para>
+                    <para>
+                        Generally, a for loop looks like this <code>for(starting point; how many times; ending point) {we iterate what is here}</code>.
+                    </para>
+                    <para>
+                        In the second source we iterate a whole number <code>int i</code> starting from the value of <code>i=0</code> (initialising) and we continue until it is true that
+                        <code><![CDATA[i<3]]></code>, so the i variable takes on the values 0, 1 and 2, printing them in this order.
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                        The for is a loop. The for starts from i=0 and iterates while <code><![CDATA[i<3]]></code> is true.
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The for repeats the loop. The for is a loop. What does a loop mean? Do one push-up then 10 push-ups. The 10 push-ups are a loop from 1 to 10.
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The for is a loop. It is a loop because it executes the program multiple times.
+                        The ++i means that we increase the value of i by 1. For example if i equals 1 then
+                        <orderedlist numeration="arabic">
+                            <listitem>
+                                <para>
+                                    ++i=2
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    ++i=3
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    ++i=4.
+                                </para>
+                            </listitem>
+                        </orderedlist>
+                        If there was a curly brace next to the for statement then there would be more commands.
+                        The i=0 is where the iteration starts, the <code><![CDATA[i<3]]></code> shows how long it will iterate and the ++i shows by how many it increases on every iteration.
+                    </para>
+                </section>
+                <section>
+                    <title>Task</title>
+                    <para>
+                        Modify the second program to write the
+                         <literal>Hello, World!</literal> text to the screen 4 times! The chilren gave the following solutions in the following order.
+                    </para>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                            He took the first program as a starting point generally instead of the second one because he deleted the for loop from the second,
+                            then he place a  <literal>Hello, World!</literal> text, indenting it with tabulators.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+                  Hello World!
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            With this, he got the following error.
+                        </para>
+                        <screen>
+<![CDATA[$ g++ nandi2.cpp -o nandi2
+nandi2.cpp: In function ‘int main()’:
+nandi2.cpp:6:19: error: ‘Hello’ was not declared in this scope
+                   Hello World!]]>
+                        </screen>
+                        <para>
+                            The compiler tried to identify the text as a part of the code because it was not between apostrophes, but it did not succeed.
+                            Although on his next try his program compiled successfully,
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+                 "Hello World!";
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            his program didn't do anything. The next change was this:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!";
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            Then this, to print 4 <literal>Hello World!</literal>
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!";
+    std::cout << "Hello World!";
+    std::cout << "Hello World!";
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            and finally to start printing in new lines:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}]]>
+
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                            He started from program 2, first he modified the bound of the loop from 3 to 4 and he wrote <varname>i</varname> instead of <literal>Hello, World!</literal>.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<4; ++i)
+        std::cout << Hello World! << std::endl;;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            He got this error (earlier seen at Nándi already)
+                        </para>
+                        <screen>
+<![CDATA[$ g++ matyi2.cpp -o matyi2
+matyi2.cpp: In function ‘int main()’:
+matyi2.cpp:7:22: error: ‘Hello’ was not declared in this scope
+         std::cout << Hello World! << std::endl;
+]]>
+                        </screen>
+                        <para>
+                            He wrote back i into the printing and deleted the incrementation of the loop variable:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; )
+        std::cout << i << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+
+                        <para>
+                            So his program ran into an infinite loop at runtime... <literal>Hello, World!</literal> lines were just running in the terminal window<footnote>
+                                <para>After iteration of the core of the loop, deleting the incrementation of i, i will stay 0 and will never reach 3, so the iteration of the core of the loop will never end. This is certainly an infinite loop!
+                                </para>
+                            </footnote>, in the end only closing the window helped!
+
+                        </para>
+                        <note>
+                            <title>In the report of Matyi</title>
+                            <para>
+                                If from 1 to 4 ++i, then writes four times: Hello World. If we don't put <code>++i</code> there, things will happen just like with me, executing Hello World in an infinite loop.
+                            </para>
+                        </note>
+                        <para>
+                            After putting incrementation of loop variable back, he got a good solution:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; ++i)
+        std::cout << "Hello World!" << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+
+
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                            First she started with program 2 too and incremented to 1 the beginning value of the loop variable
+                        </para>
+
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=1; i<3; ++i)
+        std::cout << i << std::endl;;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            then compiling and running essentially she returned back to hacking her program 1 in her puzzlement, since she deleted the loop and after the words Hello World she wrote a number 4:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!"4 << std::endl;
+
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            that she got this error to:<footnote>
+                                <para>The text of compilation error (after the "error:") often helps at finding the syntax error, however sometimes this is not the case... Now the letter one is the case. With time your routine will be formed and you will immediately see that that 4 has nothing to do there.
+                                </para>
+                            </footnote>
+                        </para>
+                        <screen>
+<![CDATA[$ g++ greta2.cpp -o greta2
+greta2.cpp: In function ‘int main()’:
+greta2.cpp:5:32: error: expected ‘;’ before numeric constant
+     std::cout << "Hello World!"4 << std::endl;]]>
+                        </screen>
+                        <para>
+                            correcting this, she was trying with this
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            that was already compiling and running, still wrong though:
+                        </para>
+                        <screen>
+<![CDATA[$ g++ greta2.cpp -o greta2
+$ ./greta2
+Hello World!
+
+nbatfai@robopsy:~$]]>
+                        </screen>
+                        <para>
+                            and that was followed by a good solution:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+]]>
+                        </programlisting>
+
+                    </section>
+
+
+                </section>
+
+
+
+            </section>
+
+            <section>
+                <title>Third day &#x2013; multiplication table</title>
+                <para>
+                    The children solved a task: let's modify the program 2 so that it prints the 7 times table, i.e. we must reach this output:
+                    <screen>
+<![CDATA[1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+.
+.
+.
+10 * 7 = 70
+]]>
+                    </screen>
+                </para>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        On paper we discussed briefly that the first number changes just like the for loop variable i, the other number is always 7, in turn. We can define the latter one for example as <code>int m = 7;</code>. We talked over the printing separately, that the first number is always i, the second one is m, the third one is the multiplication of the two, i.e. later at the computer we can write something like this: <code><![CDATA[cout << i << "*" << m << i*m << endl;]]></code>.
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The task from yesterday started from Matyi's for-like solution, it was gone fast
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<4; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <para>
+                        it was only needed to modify the upper bound of the loop to the right solution.
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <screen>
+<![CDATA[$ ./nandi2
+Nandi multiplication table
+1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+4 * 7 = 28
+5 * 7 = 35
+6 * 7 = 42
+7 * 7 = 49
+8 * 7 = 56
+9 * 7 = 63
+10 * 7 = 70
+]]>
+                    </screen>
+                    <para>
+                        Nándi got an inkling of how stuff is going, he made the maximum of the task: he printed the times table to 10000, then he wanted to tweak the for loop as:
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<0; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <screen>
+<![CDATA[$ g++ nandi2.cpp -o nandi2
+$ ./nandi2
+Nandi multiplication table
+$
+]]>
+                    </screen>
+
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        After the undermentioned unsuccessul attempt
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=1;m=7  i<4; ++i)
+        std::cout << i <<"*"<<m<<"=" <<i*m<< std::endl;
+    return 0;
+}]]>
+                    </programlisting>
+                    <para>
+                        independently from Nándi (they were just programming in different rooms) he reached the right result through the same way.
+                    </para>
+
+                </section>
+
+
+                <section>
+                    <title>Task</title>
+                    <para>
+                        Let's modify the program so that instead of the multiplication table it produces the first 10 square numbers! I.e. it gives the undermentioned output:
+                        <screen>
+<![CDATA[1 * 1 = 1
+2 * 2 = 4
+3 * 3 = 9
+.
+.
+.
+10 * 10 = 100
+]]>
+                        </screen>
+                    </para>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                            He started very well:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    long int m =i;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<"*"<<m <<"=" <<i*m<< std::endl;
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <screen>
+<![CDATA[nandi2.cpp:5:17: error: ‘i’ was not declared in this scope
+     long int m =i;  ]]>
+                        </screen>
+                        <para>
+                            after I warned him that at the place where he had written the statement <code>long int m =i;</code>, i is still not known because we only told later that it's a small number (int) which changes by the for loop, he came up with a solution.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+    {
+        long int m =i;
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+    }
+    return 0;
+}
+]]>
+                        </programlisting>
+
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                            The <code>i*i</code> is a great idea, but it was enough
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{  int i=1<i<11;
+    std::cout << "MATYI MULTIPLICATION TABLE" << std::endl;
+    for(int i=1<;  i<11 ; ++i)
+        std::cout << i <<" * "<<i<<"=" <<i*i<< std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            because this yields a syntactic error.
+                        </para>
+                        <screen>
+<![CDATA[matyi2.cpp:6:17: error: expected primary-expression before ‘;’ token
+     for(int i=1<;  i<11 ; ++i)
+]]>
+                        </screen>
+                        <para>
+                            There is an unnecessary character in the first part of the for loop declaration,
+                            furthermore the program cannot understand the
+                            <code><![CDATA[int i=1<i<11;]]></code> statement.
+                        </para>
+                        <para>
+                            After this, he solved the task in a way mentioned earlier regarding Nándi, and he maxed out too this loop with pushing the upper limits higher.
+                            Of course, after some time this lead to overflow, which they could notice from the negative numbers in the multiplications.
+                        </para>
+                        <screen>
+<![CDATA[.
+.
+.
+46338 * 46338=2147210244
+46339 * 46339=2147302921
+46340 * 46340=2147395600
+46341 * 46341=-2147479015
+46342 * 46342=-2147386332
+46343 * 46343=-2147293647
+.
+.
+.
+]]>
+                        </screen>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section>
+                <title>Fourth day &#x2013; class</title>
+                <para>
+
+                </para>
+                <programlisting language="C++" linenumbering="numbered">
+<![CDATA[#include <iostream>
+
+class Soldier
+{
+public:
+    std::string name;
+    int life;
+    int damage;
+
+    Soldier(std::string name, int life, int damage) {
+
+        this->name = name;
+        this->life = life;
+        this->damage = damage;
+    }
+
+    bool lives() {
+        return life > 0;
+    }
+
+    friend std::ostream &operator<< (std::ostream &stream, Soldier &soldier) {
+        stream << soldier.name << " " << soldier.life << " " << soldier.damage;
+        return stream;
+    }
+
+};
+
+
+Soldier &fight(Soldier &first, Soldier &second)
+{
+    for (; first.lives() && second.lives() ;) {
+        first.life = first.life - second.damage;
+        second.life = second.life - first.damage;
+    }
+
+    if (first.life > second.life)
+        return first;
+    else
+        return second;
+}
+
+
+int main()
+{
+    Soldier me {"Nandi", 100, 10};
+    Soldier enemy {"Barbarian", 80, 5};
+
+    std::cout << fight(me, enemy) << std::endl;
+
+    return 0;
+}]]>
+                </programlisting>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+
+                    </para>
+                    <screen>
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4
+Nandi 60 10
+]]>
+                    </screen>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The class is a class. The class is a group of data and functions.
+                        What does a soldier have? Life, damage and name.
+                    </para>
+                    <para>
+                        When does a soldier live? When his/her life is more than 0. The <function>lives</function> function gives information about this.
+                        The <function>lives</function> function tells whether the soldier lives or not to its caller.
+                    </para>
+                    <para>
+                        There are more channels. The name of one of these is: iostream and an other one is the ostream.
+                    </para>
+                    <para>
+                        How many lives and how much damage does a soldier have?
+                        Nándi's life is 100 and his damage is 10.
+                        The Barbarian has 80 life and 5 damage.
+                        We give these to the constructor.
+                        We talk about a constructor when the name of the function and the class is the same.
+                    </para>
+                    <para>
+                        Finally, we print the name of the winner soldier to the channel.
+                        The return returns a number to the operating system.
+                    </para>
+                </section>
+
+		
