@@ -41,13 +41,13 @@ int main()
                     <para>
                         It is true for the programmer, too, that generally he/she stands on the shoulders of giants <footnote>
                             <para> The great scientist, Isaac Newton wrote this (in his letter written to Robert Hook) to express that he could also build upon the work of others:
-                                "If I have seen further it is by standing on the sholders of Giants".
+                                "If I have seen further it is by standing on the shoulders of Giants".
                             </para>
                         </footnote>, in other words, he or she reuses other programmers' programs.
                         The <code>#include</code> command does exactly this, it pastes the
                         <code>iostream</code> programs written by others. In this <code>iostream</code> there are programs that materialize the channels. For example your program will have a channel<footnote>
                             <para>Where does this channel come from? On your machine (or for example on your phone or even on your tablet) there is a special program, called
-                                the operating system, the Linux kernel, which Linus Torvalds started to write when he was on a university in Finnland.  The operating
+                                the operating system, the Linux kernel, which Linus Torvalds started to write when he was on a university in Finland.  The operating
                                 system is a good friend of the programmer, this program guarantees fro example these channels, too.
                             </para>
                         </footnote>, whereto your program sends the letters, and these letters will be displayed on the screen.
@@ -56,7 +56,7 @@ int main()
                         The basic foundation of a <systemitem class="systemname">C++</systemitem> program is the function, this has a first line,
                         which is now the <code>int main()</code> line. This is made of three parts: it tells what the function will calculate: this is now
                         a number, the <type>int</type> keyword means this. The second part is the name of the function, this in our case is
-                        <code>main</code>. The third part is written between parantheses: the function receives what is here, it has to calculate from these
+                        <code>main</code>. The third part is written between parentheses: the function receives what is here, it has to calculate from these
                         . In our case this part is empty, in other words we didn't give the function anything as an input.
                     </para>
                     <para>
@@ -262,7 +262,7 @@ int main()
                     <title>Task</title>
                     <para>
                         Modify the second program to write the
-                         <literal>Hello, World!</literal> text to the screen 4 times! The chilren gave the following solutions in the following order.
+                         <literal>Hello, World!</literal> text to the screen 4 times! The children gave the following solutions in the following order.
                     </para>
                     <section>
                         <title>Nándi</title>
@@ -616,7 +616,7 @@ $
                 <section>
                     <title>Matyi</title>
                     <para>
-                        After the undermentioned unsuccessul attempt
+                        After the undermentioned unsuccessful attempt
                     </para>
                     <programlisting language="C++">
 <![CDATA[#include <iostream>
@@ -767,22 +767,22 @@ class Soldier
 {
 public:
     std::string name;
-    int life;
+    int HP;
     int damage;
 
-    Soldier(std::string name, int life, int damage) {
+    Soldier(std::string name, int HP, int damage) {
 
         this->name = name;
-        this->life = life;
+        this->HP = HP;
         this->damage = damage;
     }
 
-    bool lives() {
-        return life > 0;
+    bool alive() {
+        return HP > 0;
     }
 
     friend std::ostream &operator<< (std::ostream &stream, Soldier &soldier) {
-        stream << soldier.name << " " << soldier.life << " " << soldier.damage;
+        stream << soldier.name << " " << soldier.HP << " " << soldier.damage;
         return stream;
     }
 
@@ -791,12 +791,12 @@ public:
 
 Soldier &fight(Soldier &first, Soldier &second)
 {
-    for (; first.lives() && second.lives() ;) {
-        first.life = first.life - second.damage;
-        second.life = second.life - first.damage;
+    for (; first.alive() && second.alive() ;) {
+        first.HP = first.HP - second.damage;
+        second.HP = second.HP - first.damage;
     }
 
-    if (first.life > second.life)
+    if (first.HP > second.HP)
         return first;
     else
         return second;
@@ -841,19 +841,19 @@ Nandi 60 10
                     <title>Matyi</title>
                     <para>
                         The class is a class. The class is a group of data and functions.
-                        What does a soldier have? Life, damage and name.
+                        What does a soldier have? HP, damage and name.
                     </para>
                     <para>
-                        When does a soldier live? When his/her life is more than 0. The <function>lives</function> function gives information about this.
-                        The <function>lives</function> function tells whether the soldier lives or not to its caller.
+                        When does a soldier alive? When his/her HP is more than 0. The <function>alive</function> function gives information about this.
+                        The <function>alive</function> function tells whether the soldier alive or not to its caller.
                     </para>
                     <para>
                         There are more channels. The name of one of these is: iostream and an other one is the ostream.
                     </para>
                     <para>
-                        How many lives and how much damage does a soldier have?
-                        Nándi's life is 100 and his damage is 10.
-                        The Barbarian has 80 life and 5 damage.
+                        How much HP and how much damage does a soldier have?
+                        Nándi's HP is 100 and his damage is 10.
+                        The Barbarian has 80 HP and 5 damage.
                         We give these to the constructor.
                         We talk about a constructor when the name of the function and the class is the same.
                     </para>
@@ -866,37 +866,37 @@ Nandi 60 10
 		                <section>
                     <title>Tasks</title>
                     <para>
-                        Here we gave more tasks and it happend in a way that the kids solved them together ( the first two tasks, the three of them on one computer, but the second task mostly done only by Matyi)
+                        Here we gave more tasks and it happened in a way that the kids solved them together ( the first two tasks, the three of them on one computer, but the second task mostly done only by Matyi)
                     </para>
                     <itemizedlist>
                         <listitem>
                             <para>
-                                Matyi reckoned in his head before before the execution that it will give 60. We modified the programme according to the <function>fighting</function> that the two soldiers will be shown on the screen in every step of the battle so to get the following result:
+                                Matyi reckoned in his head before the execution that it will give 60. We modified the programme according to the <function>fight</function> that the two soldiers will be shown on the screen in every step of the battle so to get the following result:
                                 <screen>                                 
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 $ ./nandi4 
 Nandi 95 10
-Barbar 70 5
+Barbarian 70 5
 Nandi 90 10
-Barbar 60 5
+Barbarian 60 5
 Nandi 85 10
-Barbar 50 5
+Barbarian 50 5
 Nandi 80 10
-Barbar 40 5
+Barbarian 40 5
 Nandi 75 10
-Barbar 30 5
+Barbarian 30 5
 Nandi 70 10
-Barbar 20 5
+Barbarian 20 5
 Nandi 65 10
-Barbar 10 5
+Barbarian 10 5
 Nandi 60 10
-Barbar 0 5
+Barbarian 0 5
 Nandi 60 10
 ]]>
                                 </screen>
-                                The solution was this addition to the function which defines the fight in the <function>fighting</function>:
+                                The solution was this addition to the function which defines the fight in the <function>fight</function>:
                                 <programlisting language="C++">
-<![CDATA[Soldier &fighting(Soldier &first, Soldier &second)
+<![CDATA[Soldier &fight(Soldier &first, Soldier &second)
 {
     for (; first.alive() && second.alive() ;) {
         first.HP = first.HP - second.damage;
@@ -924,21 +924,21 @@ Nandi 60 10
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 $ ./nandi4 
 Nandi 95 10
-Barbar 70 5
+Barbarian 70 5
 Nandi 90 10
-Barbar 60 5
+Barbarian 60 5
 Nandi 85 10
-Barbar 50 5
+Barbarian 50 5
 Nandi 80 10
-Barbar 40 5
+Barbarian 40 5
 Nandi 75 10
-Barbar 30 5
+Barbarian 30 5
 Nandi 70 10
-Barbar 20 5
+Barbarian 20 5
 Nandi 65 10
-Barbar 10 5
+Barbarian 10 5
 Nandi 60 10
-Barbar 0 5
+Barbarian 0 5
 Nandi 60 10
 Nandi 40 10
 Giant 170 20
@@ -957,38 +957,38 @@ Giant 150 20
 <![CDATA[int main()
 {
     Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
    
-    std::cout << fighting(me, against ,me,giant) << std::endl;
+    std::cout << fight(me, against ,me,giant) << std::endl;
 
     return 0;
 }]]>
                             </programlisting>                                                                                        
                             <para>
-                                which one gave a really telling error, the compiler programme said correctly what is the problem with this one: too many arguments are given to the <function>fighting</function> named function 
+                                which gave a really telling error, the compiler programme said correctly what is the problem with this one: too many arguments are given to the <function>fight</function> named function 
 			    </para>
                             <screen>                                 
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 nandi4.cpp: In function ‘int main()’:
-nandi4.cpp:57:44: error: too many arguments to function ‘Soldier& fighting(Soldier&, Soldier&)’
-     std::cout << fighting(me, against ,me,giant) << std::endl;
+nandi4.cpp:57:44: error: too many arguments to function ‘Soldier& fight(Soldier&, Soldier&)’
+     std::cout << fight(me, against ,me,giant) << std::endl;
                                             ^
 nandi4.cpp:32:9: note: declared here
- Soldier& fighting(Soldier& first, Soldier& second)
+ Soldier& fight(Soldier& first, Soldier& second)
          ^]]>
                             </screen>                        
                             <para>
-                                and really, because now just check the <function>fighting</function>'s head! <code><![CDATA[Soldier &fighting(Soldier &first, Soldier &second)]]></code> This one waits for two soldiers and not four (and it gives back the winner one). According to this, there is the next try in the main function:
+                                and really, because now just check the <function>fight</function>'s head! <code><![CDATA[Soldier &fight(Soldier &first, Soldier &second)]]></code> This one waits for two soldiers and not four (and it gives back the winner one). According to this, there is the next try in the main function:
                             </para>                            
                             <programlisting language="C++">
 <![CDATA[    Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
-    Soldier winner =fighting(me , against);
-    fighting(winner,giant);
+    Soldier winner =fight(me , against);
+    fight(winner,giant);
    
-    std::cout << fighting(me, against ) << std::endl;]]>
+    std::cout << fight(me, against ) << std::endl;]]>
                             </programlisting>                                                                                        
                             <para>
                                 That one finally compiles and runs:
@@ -996,21 +996,21 @@ nandi4.cpp:32:9: note: declared here
                             <screen>                                 
 <![CDATA[$ ./nandi4
 Nandi 95 10
-Barbar 70 5
+Barbarian 70 5
 Nandi 90 10
-Barbar 60 5
+Barbarian 60 5
 Nandi 85 10
-Barbar 50 5
+Barbarian 50 5
 Nandi 80 10
-Barbar 40 5
+Barbarian 40 5
 Nandi 75 10
-Barbar 30 5
+Barbarian 30 5
 Nandi 70 10
-Barbar 20 5
+Barbarian 20 5
 Nandi 65 10
-Barbar 10 5
+Barbarian 10 5
 Nandi 60 10
-Barbar 0 5
+Barbarian 0 5
 Nandi 40 10
 Giant 170 20
 Nandi 20 10
@@ -1026,21 +1026,21 @@ Nandi 60 10
                             <screen>                                 
 <![CDATA[$ ./nandi4
 Nandi 95 10
-Barbar 70 5
+Barbarian 70 5
 Nandi 90 10
-Barbar 60 5
+Barbarian 60 5
 Nandi 85 10
-Barbar 50 5
+Barbarian 50 5
 Nandi 80 10
-Barbar 40 5
+Barbarian 40 5
 Nandi 75 10
-Barbar 30 5
+Barbarian 30 5
 Nandi 70 10
-Barbar 20 5
+Barbarian 20 5
 Nandi 65 10
-Barbar 10 5
+Barbarian 10 5
 Nandi 60 10
-Barbar 0 5
+Barbarian 0 5
 -----------
 Nandi 40 10
 Giant 170 20
@@ -1061,28 +1061,28 @@ Nandi 60 10
                                     </indexterm>
                                 </title>
                                 <para>
-                                    And something really interesting happened! Just take a look on the last output line: <literal>Nandi 60 10</literal>, so it could happen that the <literal>Nandi</literal> named Soldier's HP is 60 while the int the previous fight against the giant it already went down to zero...? Now it has to stay as a mystery but soon, on the 6th day we give you the answer.
+                                    And something really interesting happened! Just take a look on the last output line: <literal>Nandi 60 10</literal>, so it could happen that the <literal>Nandi</literal> named Soldier's HP is 60 while the int the previous fight against the giant it already went down to zero...? Now it has to stay as a mystery but soon, on the 6th day we will give you the answer.
                                 </para>
                             </note>
 
                             <programlisting language="C++">
 <![CDATA[    Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
-    Soldier winner =fighting(me , against);
-    fighting(winner,giant);
+    Soldier winner =fight(me , against);
+    fight(winner,giant);
     
-   //std::cout << fighting(me, against ) << std::endl;]]>
+   //std::cout << fight(me, against ) << std::endl;]]>
                             </programlisting>                                                                                        
                             <para>
-                                to receive the wanted solution from the task's proposal, in this they pushed out the 2nd fighting call to the channel then they were ready:
+                                to receive the wanted solution from the task's proposal, in this they pushed out the 2nd fight call to the channel then they were ready:
                             </para>
                             <programlisting language="C++">
 <![CDATA[    Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
-    Soldier winner =fighting(me , against);
-    std::cout << fighting(winner,giant ) << std::endl;]]>
+    Soldier winner =fight(me , against);
+    std::cout << fight(winner,giant ) << std::endl;]]>
                             </programlisting>                                                                                        
                             
                             <para>
@@ -1096,31 +1096,31 @@ Nandi 60 10
 <![CDATA[int main()
 {
     Soldier me {"Nandi", 100, 10};
-    Soldier against {"Barbar", 80, 5};
+    Soldier against {"Barbarian", 80, 5};
     Soldier third {"Giant", 180, 20};
 
-    std::cout << fighting(fighting(me, against), third) << std::endl;
+    std::cout << fight(fight(me, against), third) << std::endl;
     
     return 0; 
 }]]>
                                 </programlisting>                 
                             </para>
                             <para>
-                               They tried the to answer it on paper, what Matyi phrased in a great way: TODO: when he said it in his own words that this is 
-the two battles' shortened discription.  
+                               They tried to answer it on paper, what Matyi phrased in a great way: TODO: when he said it in his own words that this is 
+the two battles' shortened description.  
                             </para>
                             <para>
-                               For a checkup task they have to take the current code part as a sample and make it happen on the computer that the four Soldier have to fight, the fourth one with the current winner!  There is is their first try:
+                               For a checkup task they have to take the current code part as a sample and make it happen on the computer that the four Soldier have to fight, the fourth one with the current winner!  There is their first try:
                             </para>
                             <programlisting language="C++">
 <![CDATA[int main()
 {
     Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
     Soldier fourth{"MATYI",500,300};
       
-    std::cout << fighting(fighting(me,against, )third)fourth) << std::endl;
+    std::cout << fight(fight(me,against, )third)fourth) << std::endl;
 }]]>
                             </programlisting>                                                                                        
                             <para>
@@ -1130,7 +1130,7 @@ the two battles' shortened discription.
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 ^[[Anandi4.cpp: In function ‘int main()’:
 nandi4.cpp:59:42: error: expected primary-expression before ‘)’ token
-     std::cout << fighting(fighting(me,against, )third)fourth) << std::endl;]]>
+     std::cout << fight(fight(me,against, )third)fourth) << std::endl;]]>
                             </screen>                        
                             <para>
                                 They were able to fix this error really fast
@@ -1139,11 +1139,11 @@ nandi4.cpp:59:42: error: expected primary-expression before ‘)’ token
                             <programlisting language="C++">
 <![CDATA[
     Soldier me{"Nandi", 100, 10};
-    Soldier against{"Barbar", 80, 5};
+    Soldier against{"Barbarian", 80, 5};
     Soldier giant{"Giant",180,20};
     Soldier fourth{"MATYI",500,300};
    
-    std::cout << fighting(fighting(me,against ),third),fourth) << std::endl;
+    std::cout << fight(fight(me,against ),third),fourth) << std::endl;
 ]]>
                             </programlisting>                                                                                        
                             <para>
@@ -1153,7 +1153,7 @@ nandi4.cpp:59:42: error: expected primary-expression before ‘)’ token
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 nandi4.cpp: In function ‘int main()’:
 nandi4.cpp:59:50: error: ‘third’ was not declared in this scope
-     std::cout << fighting(fighting(fighting(me,against ),third),fourth) << std::me]]>
+     std::cout << fight(fight(fight(me,against ),third),fourth) << std::me]]>
                             </screen>                        
                             <para>
                                 as they have started from their code from yesterday where wasn't any <varname>third</varname> named reference but <varname>giant</varname> name was used instead of that so it was changed according to that: 
@@ -1163,7 +1163,7 @@ nandi4.cpp:59:50: error: ‘third’ was not declared in this scope
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 nandi4.cpp: In function ‘int main()’:
 nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
-     std::cout << fighting(fighting(me,against ),third),fourth) << std::endl;
+     std::cout << fight(fight(me,against ),third),fourth) << std::endl;
 ]]>
                             </programlisting>                                                                                        
                             <para>
@@ -1173,15 +1173,15 @@ nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
 <![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
 nandi4.cpp: In function ‘int main()’:
 nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
-     std::cout << fighting(fighting(me,against ),third),fourth) << std::endl;
+     std::cout << fight(fight(me,against ),third),fourth) << std::endl;
 ]]>
                             </screen>                        
                             <para>
-                                because there are three closing bracklets and only two opening ones! The „How many fights do you want?” helping question worked because they wanted three, but there are only two fighting function call, after discussing it's place they put the third one in:
+                                because there are three closing brackets and only two opening ones! The „How many fights do you want?” helping question worked because they wanted three, but there are only two fight function call, after discussing it's place they put the third one in:
                             </para>
                             
                             <programlisting language="C++">
-<![CDATA[    std::cout << fighting(fighting(fighting(me,against ),third),fourth) << std::endl;]]>
+<![CDATA[    std::cout << fight(fight(fight(me,against ),third),fourth) << std::endl;]]>
                             </programlisting>                                                                                        
                             <para>
                                 which already shows a good operation:
@@ -1189,21 +1189,21 @@ nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
                             <screen>                                 
 <![CDATA[$ ./nandi4
 Nandi 95 10
-Barbar 70 5
+Barbarian 70 5
 Nandi 90 10
-Barbar 60 5
+Barbarian 60 5
 Nandi 85 10
-Barbar 50 5
+Barbarian 50 5
 Nandi 80 10
-Barbar 40 5
+Barbarian 40 5
 Nandi 75 10
-Barbar 30 5
+Barbarian 30 5
 Nandi 70 10
-Barbar 20 5
+Barbarian 20 5
 Nandi 65 10
-Barbar 10 5
+Barbarian 10 5
 Nandi 60 10
-Barbar 0 5
+Barbarian 0 5
 Nandi 40 10
 Giant 170 20
 Nandi 20 10
@@ -1227,7 +1227,7 @@ MATYI 480 300
                             <listitem>
                                 <para>
                                     Gréta: three soldier had a championship. One is Gréta, her HP is 400, damage is 300. 
- Second one is Nándi, his HP is 100, damage is 10. Third one Matyi, his HP is 100, damage is 5. The task is to code this programme this!
+ Second one is Nándi, his HP is 100, damage is 10. Third one Matyi, his HP is 100, damage is 5. The task is to code this programme!
                                 </para>
                                 <para>
                                     Other task is to create three soldiers and give them data, for example HP and damage. The reader could write any number when they are made. 
@@ -1243,7 +1243,7 @@ MATYI 480 300
                             </listitem>
                             <listitem>
                                 <para>
-                                    Matyi: the task is to make a cup! In a way that Nándi and Barbar, Giant and Matyi fight with each other. The winners will have two battles. Pne battle's winner vs. Exploder, the other's winner vs. Wizard. After this the two winner fights each other.
+                                    Matyi: the task is to make a cup! In a way that Nándi and Barbarian, Giant and Matyi fight with each other. The winners will have two battles. The battle's winner vs. Exploder, the other's winner vs. Wizard. After this the two winner fights each other.
                                 </para>                                                                
                                 <itemizedlist>
                                     <listitem>
@@ -1259,7 +1259,7 @@ MATYI 480 300
                                         </para>
                                     </listitem>
                                     <listitem>
-                                        <para>Barbar: {HP: 80, damage 5}
+                                        <para>Barbarian: {HP: 80, damage 5}
                                         </para>
                                     </listitem>
                                     <listitem>
@@ -1313,17 +1313,17 @@ public:
 };
 
 
-Soldier &fighting(Soldier &first, Soldier &second)
+Soldier &fight(Soldier &first, Soldier &second)
 {
-    std::cout << "fighting func: fight start, " << first << " vs. " << second << std::endl;
+    std::cout << "fight func: fight start, " << first << " vs. " << second << std::endl;
 
     for (; first.alive() && second.alive() ;) {
       
         first.HP = first.HP - second.damage;
         second.HP = second.HP - first.damage;
 
-        std::cout << "fighting func: " << first << std::endl;
-        std::cout << "fighting func: " << second << std::endl;
+        std::cout << "fight func: " << first << std::endl;
+        std::cout << "fight func: " << second << std::endl;
 
     }
 
@@ -1338,10 +1338,10 @@ int main()
 {
 
     Soldier me {"Nandi", 100, 10};
-    Soldier against {"Barbar", 80, 5};
+    Soldier against {"Barbarian", 80, 5};
     Soldier third {"Giant", 180, 20};
 
-    std::cout << "main func: " << fighting(fighting(me, against), fighting(me, third)) << std::endl;
+    std::cout << "main func: " << fight(fight(me, against), fight(me, third)) << std::endl;
 
     return 0;
 }]]>
@@ -1351,41 +1351,41 @@ int main()
                     
                     
                     <para>
-                        What to count on? The <literal>me</literal> Soldier object (<literal>Nandi</literal>) put down the <literal>against</literal> Soldier object (the <literal>Barbar</literal>). The <literal>third</literal> Soldier object (<literal>Giant</literal>) put down the <literal>me</literal> object, then the two winner: <literal>me</literal> and <literal>third</literal> plays, where <literal>third</literal> wins.  
+                        What do we expect? The <literal>me</literal> Soldier object (<literal>Nandi</literal>) puts down the <literal>against</literal> Soldier object (the <literal>Barbarian</literal>). The <literal>third</literal> Soldier object (<literal>Giant</literal>) puts down the <literal>me</literal> object, then the two winner: <literal>me</literal> and <literal>third</literal> plays, where <literal>third</literal> wins.  
                     </para>
                     <screen>                                 
 <![CDATA[$ g++ nandi5.cpp -o nandi5 -std=c++11
 $ ./nandi5
-fighting func: fight start, Nandi 100 10 vs. Giant 180 20
-fighting func: Nandi 80 10
-fighting func: Giant 170 20
-fighting func: Nandi 60 10
-fighting func: Giant 160 20
-fighting func: Nandi 40 10
-fighting func: Giant 150 20
-fighting func: Nandi 20 10
-fighting func: Giant 140 20
-fighting func: Nandi 0 10
-fighting func: Giant 130 20
-fighting func: fight start, Nandi 0 10 vs. Barbar 80 5
-fighting func: fight start, Barbar 80 5 vs. Giant 130 20
-fighting func: Barbar 60 5
-fighting func: Giant 125 20
-fighting func: Barbar 40 5
-fighting func: Giant 120 20
-fighting func: Barbar 20 5
-fighting func: Giant 115 20
-fighting func: Barbar 0 5
-fighting func: Giant 110 20
+fight func: fight start, Nandi 100 10 vs. Giant 180 20
+fight func: Nandi 80 10
+fight func: Giant 170 20
+fight func: Nandi 60 10
+fight func: Giant 160 20
+fight func: Nandi 40 10
+fight func: Giant 150 20
+fight func: Nandi 20 10
+fight func: Giant 140 20
+fight func: Nandi 0 10
+fight func: Giant 130 20
+fight func: fight start, Nandi 0 10 vs. Barbarian 80 5
+fight func: fight start, Barbarian 80 5 vs. Giant 130 20
+fight func: Barbarian 60 5
+fight func: Giant 125 20
+fight func: Barbarian 40 5
+fight func: Giant 120 20
+fight func: Barbarian 20 5
+fight func: Giant 115 20
+fight func: Barbarian 0 5
+fight func: Giant 110 20
 main func: Giant 110 20
 ]]>
                     </screen>                        
                     <para>
-                        On the other hand what are the tracking messages showing? What happened? The <literal>third</literal> Soldier object (<literal>Giant</literal>) put down the <literal>me</literal> (<literal>Nandi</literal>) object. Then the already weakened <literal>me</literal> Soldier object (<literal>Nandi</literal>) put down the <literal>against</literal> object the (<literal>Barbar</literal>).
- Then the two winners: <literal>against</literal> and <literal>third</literal> plays, where <literal>third</literal> wins. Well, we didn't really cunt on this, did we?
+                        On the other hand what are the tracking messages showing? What happened? The <literal>third</literal> Soldier object (<literal>Giant</literal>) put down the <literal>me</literal> (<literal>Nandi</literal>) object. Then the already weakened <literal>me</literal> Soldier object (<literal>Nandi</literal>) put down the <literal>against</literal> object the (<literal>Barbarian</literal>).
+ Then the two winners: <literal>against</literal> and <literal>third</literal> plays, where <literal>third</literal> wins. Well, we didn't really count on this, did we?
                     </para>
                     <para>
-                        The explanation: We thought when we played it through in our heads that first the <code>fighting(me, against)</code> happens, then the <code>fighting(me, third)</code> and in the end the two winners will play. There is a chance that a computer exists on which it will happen like this, but mine is not that computer! That's because the C++ laguage does not determine the order of the function call's ingoing parameters. In our case that the external fighting function could start with either the right or the left side's fighting call's execution. Because it is not determined that it will happen like this on the first computer and like that on the other one. That is the reason why we are on slipper ground. What can the programmer do? What does the programmer have to do? He has to avoid to write sources in which situations like this could appear. For this there are many opportunities, it's only questionable in style that which one will the programmer use. Right now it's enough to know that the C++ is not a playground (for example the Java or C# is) in the meaning of the programmer shouldn't only know properly what will the effect be of his programme on the objects in the memory will be, he HAS to konw it perfectly! 
+                        The explanation: We thought when we played it through in our heads that first the <code>fight(me, against)</code> happens, then the <code>fight(me, third)</code> and in the end the two winners will play. There is a chance that a computer exists on which it will happen like this, but mine is not that computer! That's because the C++ language does not determine the order of the function call's ingoing parameters. In our case that the external fight function could start with either the right or the left side's fight call's execution. Because it is not determined that it will happen like this on the first computer and like that on the other one. That is the reason why we are on slipper ground. What can the programmer do? What does the programmer have to do? He has to avoid to write sources in which situations like this could appear. For this there are many opportunities, it's only questionable in style that which one will the programmer use. Right now it's enough to know that the C++ is not a playground (for example the Java or C# is) in the meaning of the programmer shouldn't only know properly what will the effect be of his programme on the objects in the memory will be, he HAS to know it perfectly! 
                     </para>
                     <para>
                         The code will be much more readable if we remove the function calls from the function call, so we write this:
@@ -1395,52 +1395,52 @@ main func: Giant 110 20
 {
 
     Soldier me {"Nandi", 100, 10};
-    Soldier against {"Barbar", 80, 5};
+    Soldier against {"Barbarian", 80, 5};
     Soldier third {"Giant", 180, 20};
 
-    Soldier firstWinner = fighting(me, against);
-    Soldier secondWinner = fighting(me, third);
+    Soldier firstWinner = fight(me, against);
+    Soldier secondWinner = fight(me, third);
         
-    std::cout << "main func: " << fighting(firstWinner, secondWinner) << std::endl;
+    std::cout << "main func: " << fight(firstWinner, secondWinner) << std::endl;
 
     return 0;
 }]]>
                     </programlisting>                       
                     <para>
-                        Here it is already obvious in C++ language what does the programmer want, but saddly that's still not what is happening yet:
+                        Here it is already obvious in C++ language what does the programmer want, but sadly that's still not what is happening yet:
                     </para>
                     <screen>                                 
-<![CDATA[fighting func: fight start, Nandi 100 10 vs. Barbar 80 5
-fighting func: Nandi 95 10
-fighting func: Barbar 70 5
-fighting func: Nandi 90 10
-fighting func: Barbar 60 5
-fighting func: Nandi 85 10
-fighting func: Barbar 50 5
-fighting func: Nandi 80 10
-fighting func: Barbar 40 5
-fighting func: Nandi 75 10
-fighting func: Barbar 30 5
-fighting func: Nandi 70 10
-fighting func: Barbar 20 5
-fighting func: Nandi 65 10
-fighting func: Barbar 10 5
-fighting func: Nandi 60 10
-fighting func: Barbar 0 5
-fighting func: fight start, Nandi 60 10 vs. Giant 180 20
-fighting func: Nandi 40 10
-fighting func: Giant 170 20
-fighting func: Nandi 20 10
-fighting func: Giant 160 20
-fighting func: Nandi 0 10
-fighting func: Giant 150 20
-fighting func: fight start, Nandi 60 10 vs. Giant 150 20
-fighting func: Nandi 40 10
-fighting func: Giant 140 20
-fighting func: Nandi 20 10
-fighting func: Giant 130 20
-fighting func: Nandi 0 10
-fighting func: Giant 120 20
+<![CDATA[fight func: fight start, Nandi 100 10 vs. Barbarian 80 5
+fight func: Nandi 95 10
+fight func: Barbarian 70 5
+fight func: Nandi 90 10
+fight func: Barbarian 60 5
+fight func: Nandi 85 10
+fight func: Barbarian 50 5
+fight func: Nandi 80 10
+fight func: Barbarian 40 5
+fight func: Nandi 75 10
+fight func: Barbarian 30 5
+fight func: Nandi 70 10
+fight func: Barbarian 20 5
+fight func: Nandi 65 10
+fight func: Barbarian 10 5
+fight func: Nandi 60 10
+fight func: Barbarian 0 5
+fight func: fight start, Nandi 60 10 vs. Giant 180 20
+fight func: Nandi 40 10
+fight func: Giant 170 20
+fight func: Nandi 20 10
+fight func: Giant 160 20
+fight func: Nandi 0 10
+fight func: Giant 150 20
+fight func: fight start, Nandi 60 10 vs. Giant 150 20
+fight func: Nandi 40 10
+fight func: Giant 140 20
+fight func: Nandi 20 10
+fight func: Giant 130 20
+fight func: Nandi 0 10
+fight func: Giant 120 20
 main func: Giant 120 20
 ]]>
                     </screen>                        
@@ -1450,38 +1450,38 @@ main func: Giant 120 20
 	       </para>
                      
                     <programlisting language="C++">
-<![CDATA[    Soldier& firstWinner = fighting(me, against);
-    Soldier& secondWinner = fighting(me, third);]]>
+<![CDATA[    Soldier& firstWinner = fight(me, against);
+    Soldier& secondWinner = fight(me, third);]]>
                     </programlisting>                       
                     <para>
                         and let's see a miracle:
                     </para>
                     <screen>                                 
-<![CDATA[fighting func: fight start, Nandi 100 10 vs. Barbar 80 5
-fighting func: Nandi 95 10
-fighting func: Barbar 70 5
-fighting func: Nandi 90 10
-fighting func: Barbar 60 5
-fighting func: Nandi 85 10
-fighting func: Barbar 50 5
-fighting func: Nandi 80 10
-fighting func: Barbar 40 5
-fighting func: Nandi 75 10
-fighting func: Barbar 30 5
-fighting func: Nandi 70 10
-fighting func: Barbar 20 5
-fighting func: Nandi 65 10
-fighting func: Barbar 10 5
-fighting func: Nandi 60 10
-fighting func: Barbar 0 5
-fighting func: fight start, Nandi 60 10 vs. Giant 180 20
-fighting func: Nandi 40 10
-fighting func: Giant 170 20
-fighting func: Nandi 20 10
-fighting func: Giant 160 20
-fighting func: Nandi 0 10
-fighting func: Giant 150 20
-fighting func: fight start, Nandi 0 10 vs. Giant 150 20
+<![CDATA[fight func: fight start, Nandi 100 10 vs. Barbarian 80 5
+fight func: Nandi 95 10
+fight func: Barbarian 70 5
+fight func: Nandi 90 10
+fight func: Barbarian 60 5
+fight func: Nandi 85 10
+fight func: Barbarian 50 5
+fight func: Nandi 80 10
+fight func: Barbarian 40 5
+fight func: Nandi 75 10
+fight func: Barbarian 30 5
+fight func: Nandi 70 10
+fight func: Barbarian 20 5
+fight func: Nandi 65 10
+fight func: Barbarian 10 5
+fight func: Nandi 60 10
+fight func: Barbarian 0 5
+fight func: fight start, Nandi 60 10 vs. Giant 180 20
+fight func: Nandi 40 10
+fight func: Giant 170 20
+fight func: Nandi 20 10
+fight func: Giant 160 20
+fight func: Nandi 0 10
+fight func: Giant 150 20
+fight func: fight start, Nandi 0 10 vs. Giant 150 20
 main func: Giant 150 20]]>
                     </screen>                        
                     <para>
@@ -1495,55 +1495,55 @@ main func: Giant 150 20]]>
     Soldier against {"Greta", 800, 50};
     Soldier third {"Nandi", 800, 50};
 
-    Soldier &firstWinner = fighting(me, against);
-    Soldier &secondWinner = fighting(me, third);
+    Soldier &firstWinner = fight(me, against);
+    Soldier &secondWinner = fight(me, third);
 
-    std::cout << "main func: " << fighting(firstWinner, secondWinner) << std::endl;]]>
+    std::cout << "main func: " << fight(firstWinner, secondWinner) << std::endl;]]>
                     </programlisting>                                                                                        
                     
                     <screen>                                 
-<![CDATA[fighting func: fight start, Matyi 1000 100 vs. Greta 800 50
-fighting func: Matyi 950 100
-fighting func: Greta 700 50
-fighting func: Matyi 900 100
-fighting func: Greta 600 50
-fighting func: Matyi 850 100
-fighting func: Greta 500 50
-fighting func: Matyi 800 100
-fighting func: Greta 400 50
-fighting func: Matyi 750 100
-fighting func: Greta 300 50
-fighting func: Matyi 700 100
-fighting func: Greta 200 50
-fighting func: Matyi 650 100
-fighting func: Greta 100 50
-fighting func: Matyi 600 100
-fighting func: Greta 0 50
-fighting func: fight start, Matyi 600 100 vs. Nandi 800 50
-fighting func: Matyi 550 100
-fighting func: Nandi 700 50
-fighting func: Matyi 500 100
-fighting func: Nandi 600 50
-fighting func: Matyi 450 100
-fighting func: Nandi 500 50
-fighting func: Matyi 400 100
-fighting func: Nandi 400 50
-fighting func: Matyi 350 100
-fighting func: Nandi 300 50
-fighting func: Matyi 300 100
-fighting func: Nandi 200 50
-fighting func: Matyi 250 100
-fighting func: Nandi 100 50
-fighting func: Matyi 200 100
-fighting func: Nandi 0 50
-fighting func: fight start, Matyi 200 100 vs. Matyi 200 100
-fighting func: Matyi 0 100
-fighting func: Matyi 0 100
+<![CDATA[fight func: fight start, Matyi 1000 100 vs. Greta 800 50
+fight func: Matyi 950 100
+fight func: Greta 700 50
+fight func: Matyi 900 100
+fight func: Greta 600 50
+fight func: Matyi 850 100
+fight func: Greta 500 50
+fight func: Matyi 800 100
+fight func: Greta 400 50
+fight func: Matyi 750 100
+fight func: Greta 300 50
+fight func: Matyi 700 100
+fight func: Greta 200 50
+fight func: Matyi 650 100
+fight func: Greta 100 50
+fight func: Matyi 600 100
+fight func: Greta 0 50
+fight func: fight start, Matyi 600 100 vs. Nandi 800 50
+fight func: Matyi 550 100
+fight func: Nandi 700 50
+fight func: Matyi 500 100
+fight func: Nandi 600 50
+fight func: Matyi 450 100
+fight func: Nandi 500 50
+fight func: Matyi 400 100
+fight func: Nandi 400 50
+fight func: Matyi 350 100
+fight func: Nandi 300 50
+fight func: Matyi 300 100
+fight func: Nandi 200 50
+fight func: Matyi 250 100
+fight func: Nandi 100 50
+fight func: Matyi 200 100
+fight func: Nandi 0 50
+fight func: fight start, Matyi 200 100 vs. Matyi 200 100
+fight func: Matyi 0 100
+fight func: Matyi 0 100
 main func: Matyi 0 100]]>
                     </screen>                    
 
                     <para>
-                       But Matyi didn't want in the end that the <literal>Matyi</literal> name-attribute object to play on it's own... their next tries were about that the <literal>Matyi</literal> object should win in the end, but not to fight with itself. Attempt after attempt, but much to the delight of them, once the <literal>Gréta</literal>, once the <literal>Nándi</literal> object won, and of course few times the <literal>Matyi</literal>'s fight with itself came back till he realized that there are tasks which are impossible to solve within given borders. (Because if Matyi loses the first match then he won't go alive to the second one so he won't get into the finals. If this wouldn't happen, so he wins the first but fails the second then he would get to the finals but well... not alaive.)
+                       But Matyi didn't want in the end that the <literal>Matyi</literal> name-attribute object to play on it's own... their next tries were about that the <literal>Matyi</literal> object should win in the end, but not to fight with itself. Attempt after attempt, but much to the delight of them, once the <literal>Gréta</literal>, once the <literal>Nándi</literal> object won, and of course few times the <literal>Matyi</literal>'s fight with itself came back till he realized that there are tasks which are impossible to solve within given borders. (Because if Matyi loses the first match then he won't go alive to the second one so he won't get into the finals. If this wouldn't happen, so he wins the first but fails the second then he would get to the finals but well... not alive.)
                     </para>                                                                                   
                     
                     <programlisting language="C++">
