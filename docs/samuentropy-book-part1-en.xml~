@@ -1,0 +1,1627 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Programming of the present</title>
+    <partintro>
+        <para>
+          Programming and Linux are two good friends, begin with installing Linux on your PC, with the help of your mentor!
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Introduction</title>
+            <keywordset>
+                <keyword>GNU/Linux</keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Good beginning</title>
+            <para>
+              If you alreay have Linux on your PC then you can read further, if you don't then scroll back!
+            </para>
+            <section>
+                <title>The first day &#x2013; <literal>Hello, World!</literal></title>
+                <para>
+                    We begin with this <systemitem class="systemname">C++</systemitem> source code (which was for example given to Gréta in the
+                    <filename>greta1.cpp</filename> file).
+                </para>
+                <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+]]>
+                </programlisting>
+
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        It is true for the programmer, too, that generally he/she stands on the shoulders of giants <footnote>
+                            <para> The great scientist, Isaac Newton wrote this (in his letter written to Robert Hook) to express that he could also build upon the work of others:
+                                "If I have seen further it is by standing on the shoulders of Giants".
+                            </para>
+                        </footnote>, in other words, he or she reuses other programmers' programs.
+                        The <code>#include</code> command does exactly this, it pastes the
+                        <code>iostream</code> programs written by others. In this <code>iostream</code> there are programs that materialize the channels. For example your program will have a channel<footnote>
+                            <para>Where does this channel come from? On your machine (or for example on your phone or even on your tablet) there is a special program, called
+                                the operating system, the Linux kernel, which Linus Torvalds started to write when he was on a university in Finland.  The operating
+                                system is a good friend of the programmer, this program guarantees fro example these channels, too.
+                            </para>
+                        </footnote>, whereto your program sends the letters, and these letters will be displayed on the screen.
+                    </para>
+                    <para>
+                        The basic foundation of a <systemitem class="systemname">C++</systemitem> program is the function, this has a first line,
+                        which is now the <code>int main()</code> line. This is made of three parts: it tells what the function will calculate: this is now
+                        a number, the <type>int</type> keyword means this. The second part is the name of the function, this in our case is
+                        <code>main</code>. The third part is written between parentheses: the function receives what is here, it has to calculate from these
+                        . In our case this part is empty, in other words we didn't give the function anything as an input.
+                    </para>
+                    <para>
+                        The body of the function is the block, which is a list of commands written between curly braces. Every command ends with a semicolon.
+                        We have now two commands. The first one is the one called <varname>std::cout</varname> which prints the
+                        <literal>"Hello, Vilag!"</literal> text to output channel. The input part of this channel is in our program and the output part is opened to the screen.
+                        Then we print a special signal, which makes the cursor jump to a new line on the screen.
+                    </para>
+                    <para>
+                        The second command is the <code>return</code> which gives back the value calculated by the function to the caller of the function.
+                        We didn't calculate anything now, only printed to the screen, so we returned 0. This means by convention that everything was okay with the program,
+                        because the caller of your <function>main</function> function was the operating system itself,
+                        the kernel of the Linux, the program indicates that it didn't have any problems.
+                        With this, the <function>main</function> function ended and with that our program finished.
+                    </para>
+                    <para>
+                        Now let us try out the program!
+                    </para>
+                    <para>
+                        First, we translate the source code so that the processor of our machine understands it.
+                        We save this translation in the greta1 file with the <application>g++</application> compiler. Then by writing its name after the dot slash
+                        we run the compiled program. Running a program is the process when the processor reads the compiled program.
+                    </para>
+                    <para>
+                        What happened after pressing enter after typing dot slash and the filename? The main function was executed, which printed
+                        the Hello, World! text to the output channel, which was therefore displayed on the screen.
+                    </para>
+                    <screen>
+<![CDATA[$ g++ greta1.cpp -o greta1
+$ ./greta1
+Hello, World!
+$
+]]>
+                    </screen>
+                    <important>
+                        <title>The language of the processor</title>
+                        <para>
+                            The machines do not understand the various <systemitem class="systemname">C++</systemitem> source codes,
+                            but the <systemitem class="systemname">C++</systemitem> programmers do!
+                            The source code must be compiled to the processor's own language. This is executed by the <application>g++</application>compiler program
+                            <footnote>
+                                <para> The g++ compiler was written by a famous programmer who has a well-known hacker name: RMS, in other words Richard Matthew Stallman.
+                                  If in your dreams you found yourself in the world of The Lord of The Rings as Frodo, then he will be Gandalf. :)
+                                </para>
+                            </footnote>. You don't have to worry, the <application>g++</application> program is already on your computer, it has been helping the Linux since a very long time!
+                        </para>
+                        <para>
+                            Your mentor can show you what the language that your processor understands actually looks like: it is made of numbers. Here is for example the runnable code
+                            compiled from you first program:
+                        </para>
+                        <screen>
+<![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more
+7F 45 4C 46 02 01 01 00 00 00 00 00 00 00 00 00 02 00 3E 00 01 00 00 00 50 07 40 00 00 00 00 00 40 00 00 00 00 00 00 00 40 1C 00 00 00 00 00 00 00 00 00 00 40 00 38
+00 09 00 40 00 1F 00 1C 00 06 00 00 00 05 00 00 00 40 00 00 00 00 00 00 00 40 00 40 00 00 00 00 00 40 00 40 00 00 00 00 00 F8 01 00 00 00 00 00 00 F8 01 00 00 00 00
+00 00 08 00 00 00 00 00 00 00 03 00 00 00 04 00 00 00 38 02 00 00 00 00 00 00 38...]]>
+                        </screen>
+                        <para>
+                            ... because this continues on more displays! You can see that the language of your processor is not understandable for the <systemitem class="systemname">C++</systemitem> programmers.
+                        </para>
+                    </important>
+                    <important>
+                        <title>The programmer manual of Linux</title>
+                        <para>
+                            Previously we saw the contents of the <filename>greta1</filename> file with the <command>hexdump</command> command:
+                            <code><![CDATA[$ hexdump -v -e '/1 "%02X "'  greta1 | more]]></code> but don't think that I can write these things immediately!
+                            Simply I just check them in the manual.
+                        </para>
+                        <para>
+                            In the world of C programming, it is even more of a daily routine to check what you have to use in the manual and see how you can make it work!
+                            This is a written profession, it was not given to us by God, it was invented by engineers, this is the simple truth: you only have to read it.
+                            For example take a look at what the manual says about the <varname>std::cout</varname> object:
+                        </para>
+                        <screen>
+<![CDATA[std::cout(3)                   C++ Programmer's Manual                   std::cout(3)
+
+
+
+NAME
+       std::cout - Standard output stream
+
+TYPE
+       object
+
+SYNOPSIS
+       #include <iostream>
+
+       extern ostream cout;
+
+DESCRIPTION
+       Object of class ostream that represents the standard output stream oriented
+       to narrow characters (of type char). It corresponds to the C stream stdout.
+       ...
+]]>
+                        </screen>
+                    </important>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                        The processor counts numbers and prints the letters to the
+                        <varname>std::cout</varname> .
+                        The <application>g++</application> compiles
+                        the program. The iostream is a channel. The <code>#include</code> pastes others' code into yours. The 0 means that
+                        your program executed successfully.
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The <application>g++</application> translates to the processor's language.
+                        The <code>#include</code> is a command, which tells the computer to copy other's code into yours.
+                        The <varname>cout</varname> is a channel for letters to cross it.
+                        The <code><![CDATA[<<]]></code> means that push the letters in this direction. The 0 means that the main function was executed properly.
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The <code>#include</code> is the first command.
+                        With the <code>#include</code> we paste into other programs.
+                        The <varname>iostream</varname> is a channel.
+                        The <code>int main</code> is the main function.
+                        The main function is called by the operating system.
+                        The function means that it is a building block of the program.
+                        <code><![CDATA[std::cout << Hello World << std::endl]]></code>
+                        This means that we print the letters to the channel.
+                        The <constant>std::endl</constant> means that the cursor goes to the next line.
+                        The <code>return</code> returns a number to the caller of the function.
+                        The <code>return 0;</code> means that the program finished successfully.
+                    </para>
+                </section>
+            </section>
+            <section>
+                <title>Second day &#x2013; for loop</title>
+                <para>
+                    We improve our first program, so that we can get this second one:
+                </para>
+                <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; ++i)
+        std::cout << i << std::endl;
+    return 0;
+}
+]]>
+                </programlisting>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        With the <code>for</code> statement we can repeat things, in other words we can make iterations in our program. The iteration means that
+                        we execute something (the thing that we iterate) over an over again, multiple times (it can even be 0: 0 or infinite).
+                    </para>
+                    <para>
+                        Generally, a for loop looks like this <code>for(starting point; how many times; ending point) {we iterate what is here}</code>.
+                    </para>
+                    <para>
+                        In the second source we iterate a whole number <code>int i</code> starting from the value of <code>i=0</code> (initialising) and we continue until it is true that
+                        <code><![CDATA[i<3]]></code>, so the i variable takes on the values 0, 1 and 2, printing them in this order.
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                        The for is a loop. The for starts from i=0 and iterates while <code><![CDATA[i<3]]></code> is true.
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The for repeats the loop. The for is a loop. What does a loop mean? Do one push-up then 10 push-ups. The 10 push-ups are a loop from 1 to 10.
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The for is a loop. It is a loop because it executes the program multiple times.
+                        The ++i means that we increase the value of i by 1. For example if i equals 1 then
+                        <orderedlist numeration="arabic">
+                            <listitem>
+                                <para>
+                                    ++i=2
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    ++i=3
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    ++i=4.
+                                </para>
+                            </listitem>
+                        </orderedlist>
+                        If there was a curly brace next to the for statement then there would be more commands.
+                        The i=0 is where the iteration starts, the <code><![CDATA[i<3]]></code> shows how long it will iterate and the ++i shows by how many it increases on every iteration.
+                    </para>
+                </section>
+                <section>
+                    <title>Task</title>
+                    <para>
+                        Modify the second program to write the
+                         <literal>Hello, World!</literal> text to the screen 4 times! The children gave the following solutions in the following order.
+                    </para>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                            He took the first program as a starting point generally instead of the second one because he deleted the for loop from the second,
+                            then he place a  <literal>Hello, World!</literal> text, indenting it with tabulators.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+                  Hello World!
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            With this, he got the following error.
+                        </para>
+                        <screen>
+<![CDATA[$ g++ nandi2.cpp -o nandi2
+nandi2.cpp: In function ‘int main()’:
+nandi2.cpp:6:19: error: ‘Hello’ was not declared in this scope
+                   Hello World!]]>
+                        </screen>
+                        <para>
+                            The compiler tried to identify the text as a part of the code because it was not between apostrophes, but it did not succeed.
+                            Although on his next try his program compiled successfully,
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+                 "Hello World!";
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            his program didn't do anything. The next change was this:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!";
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            Then this, to print 4 <literal>Hello World!</literal>
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!";
+    std::cout << "Hello World!";
+    std::cout << "Hello World!";
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            and finally to start printing in new lines:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}]]>
+
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                            He started from program 2, first he modified the bound of the loop from 3 to 4 and he wrote <varname>i</varname> instead of <literal>Hello, World!</literal>.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<4; ++i)
+        std::cout << Hello World! << std::endl;;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            He got this error (earlier seen at Nándi already)
+                        </para>
+                        <screen>
+<![CDATA[$ g++ matyi2.cpp -o matyi2
+matyi2.cpp: In function ‘int main()’:
+matyi2.cpp:7:22: error: ‘Hello’ was not declared in this scope
+         std::cout << Hello World! << std::endl;
+]]>
+                        </screen>
+                        <para>
+                            He wrote back i into the printing and deleted the incrementation of the loop variable:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; )
+        std::cout << i << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+
+                        <para>
+                            So his program ran into an infinite loop at runtime... <literal>Hello, World!</literal> lines were just running in the terminal window<footnote>
+                                <para>After iteration of the core of the loop, deleting the incrementation of i, i will stay 0 and will never reach 3, so the iteration of the core of the loop will never end. This is certainly an infinite loop!
+                                </para>
+                            </footnote>, in the end only closing the window helped!
+
+                        </para>
+                        <note>
+                            <title>In the report of Matyi</title>
+                            <para>
+                                If from 1 to 4 ++i, then writes four times: Hello World. If we don't put <code>++i</code> there, things will happen just like with me, executing Hello World in an infinite loop.
+                            </para>
+                        </note>
+                        <para>
+                            After putting incrementation of loop variable back, he got a good solution:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=0; i<3; ++i)
+        std::cout << "Hello World!" << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+
+
+                    </section>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+                            First she started with program 2 too and incremented to 1 the beginning value of the loop variable
+                        </para>
+
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=1; i<3; ++i)
+        std::cout << i << std::endl;;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            then compiling and running essentially she returned back to hacking her program 1 in her puzzlement, since she deleted the loop and after the words Hello World she wrote a number 4:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!"4 << std::endl;
+
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <para>
+                            that she got this error to:<footnote>
+                                <para>The text of compilation error (after the "error:") often helps at finding the syntax error, however sometimes this is not the case... Now the letter one is the case. With time your routine will be formed and you will immediately see that that 4 has nothing to do there.
+                                </para>
+                            </footnote>
+                        </para>
+                        <screen>
+<![CDATA[$ g++ greta2.cpp -o greta2
+greta2.cpp: In function ‘int main()’:
+greta2.cpp:5:32: error: expected ‘;’ before numeric constant
+     std::cout << "Hello World!"4 << std::endl;]]>
+                        </screen>
+                        <para>
+                            correcting this, she was trying with this
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            that was already compiling and running, still wrong though:
+                        </para>
+                        <screen>
+<![CDATA[$ g++ greta2.cpp -o greta2
+$ ./greta2
+Hello World!
+
+nbatfai@robopsy:~$]]>
+                        </screen>
+                        <para>
+                            and that was followed by a good solution:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+]]>
+                        </programlisting>
+
+                    </section>
+
+
+                </section>
+
+
+
+            </section>
+
+            <section>
+                <title>Third day &#x2013; multiplication table</title>
+                <para>
+                    The children solved a task: let's modify the program 2 so that it prints the 7 times table, i.e. we must reach this output:
+                    <screen>
+<![CDATA[1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+.
+.
+.
+10 * 7 = 70
+]]>
+                    </screen>
+                </para>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                        On paper we discussed briefly that the first number changes just like the for loop variable i, the other number is always 7, in turn. We can define the latter one for example as <code>int m = 7;</code>. We talked over the printing separately, that the first number is always i, the second one is m, the third one is the multiplication of the two, i.e. later at the computer we can write something like this: <code><![CDATA[cout << i << "*" << m << i*m << endl;]]></code>.
+                    </para>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                        The task from yesterday started from Matyi's for-like solution, it was gone fast
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<4; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <para>
+                        it was only needed to modify the upper bound of the loop to the right solution.
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <screen>
+<![CDATA[$ ./nandi2
+Nandi multiplication table
+1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+4 * 7 = 28
+5 * 7 = 35
+6 * 7 = 42
+7 * 7 = 49
+8 * 7 = 56
+9 * 7 = 63
+10 * 7 = 70
+]]>
+                    </screen>
+                    <para>
+                        Nándi got an inkling of how stuff is going, he made the maximum of the task: he printed the times table to 10000, then he wanted to tweak the for loop as:
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    int m =7;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<0; ++i)
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>
+                    <screen>
+<![CDATA[$ g++ nandi2.cpp -o nandi2
+$ ./nandi2
+Nandi multiplication table
+$
+]]>
+                    </screen>
+
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        After the undermentioned unsuccessful attempt
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    for(int i=1;m=7  i<4; ++i)
+        std::cout << i <<"*"<<m<<"=" <<i*m<< std::endl;
+    return 0;
+}]]>
+                    </programlisting>
+                    <para>
+                        independently from Nándi (they were just programming in different rooms) he reached the right result through the same way.
+                    </para>
+
+                </section>
+
+
+                <section>
+                    <title>Task</title>
+                    <para>
+                        Let's modify the program so that instead of the multiplication table it produces the first 10 square numbers! I.e. it gives the undermentioned output:
+                        <screen>
+<![CDATA[1 * 1 = 1
+2 * 2 = 4
+3 * 3 = 9
+.
+.
+.
+10 * 10 = 100
+]]>
+                        </screen>
+                    </para>
+                    <section>
+                        <title>Gréta</title>
+                        <para>
+
+                        </para>
+                    </section>
+                    <section>
+                        <title>Nándi</title>
+                        <para>
+                            He started very well:
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+    long int m =i;
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+        std::cout <<i <<"*"<<m <<"=" <<i*m<< std::endl;
+    return 0;
+}
+]]>
+                        </programlisting>
+                        <screen>
+<![CDATA[nandi2.cpp:5:17: error: ‘i’ was not declared in this scope
+     long int m =i;  ]]>
+                        </screen>
+                        <para>
+                            after I warned him that at the place where he had written the statement <code>long int m =i;</code>, i is still not known because we only told later that it's a small number (int) which changes by the for loop, he came up with a solution.
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{
+
+    std::cout << "Nandi multiplication table" << std::endl;
+    for(long int i=1; i<11; ++i)
+    {
+        long int m =i;
+        std::cout <<i <<" * "<<m <<" = " <<i*m<< std::endl;
+    }
+    return 0;
+}
+]]>
+                        </programlisting>
+
+                    </section>
+                    <section>
+                        <title>Matyi</title>
+                        <para>
+                            The <code>i*i</code> is a great idea, but it was enough
+                        </para>
+                        <programlisting language="C++">
+<![CDATA[#include <iostream>
+
+int main()
+{  int i=1<i<11;
+    std::cout << "MATYI MULTIPLICATION TABLE" << std::endl;
+    for(int i=1<;  i<11 ; ++i)
+        std::cout << i <<" * "<<i<<"=" <<i*i<< std::endl;
+    return 0;
+}]]>
+                        </programlisting>
+                        <para>
+                            because this yields a syntactic error.
+                        </para>
+                        <screen>
+<![CDATA[matyi2.cpp:6:17: error: expected primary-expression before ‘;’ token
+     for(int i=1<;  i<11 ; ++i)
+]]>
+                        </screen>
+                        <para>
+                            There is an unnecessary character in the first part of the for loop declaration,
+                            furthermore the program cannot understand the
+                            <code><![CDATA[int i=1<i<11;]]></code> statement.
+                        </para>
+                        <para>
+                            After this, he solved the task in a way mentioned earlier regarding Nándi, and he maxed out too this loop with pushing the upper limits higher.
+                            Of course, after some time this lead to overflow, which they could notice from the negative numbers in the multiplications.
+                        </para>
+                        <screen>
+<![CDATA[.
+.
+.
+46338 * 46338=2147210244
+46339 * 46339=2147302921
+46340 * 46340=2147395600
+46341 * 46341=-2147479015
+46342 * 46342=-2147386332
+46343 * 46343=-2147293647
+.
+.
+.
+]]>
+                        </screen>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section>
+                <title>Fourth day &#x2013; class</title>
+                <para>
+
+                </para>
+                <programlisting language="C++" linenumbering="numbered">
+<![CDATA[#include <iostream>
+
+class Soldier
+{
+public:
+    std::string name;
+    int HP;
+    int damage;
+
+    Soldier(std::string name, int HP, int damage) {
+
+        this->name = name;
+        this->HP = HP;
+        this->damage = damage;
+    }
+
+    bool alive() {
+        return HP > 0;
+    }
+
+    friend std::ostream &operator<< (std::ostream &stream, Soldier &soldier) {
+        stream << soldier.name << " " << soldier.HP << " " << soldier.damage;
+        return stream;
+    }
+
+};
+
+
+Soldier &fight(Soldier &first, Soldier &second)
+{
+    for (; first.alive() && second.alive() ;) {
+        first.HP = first.HP - second.damage;
+        second.HP = second.HP - first.damage;
+    }
+
+    if (first.HP > second.HP)
+        return first;
+    else
+        return second;
+}
+
+
+int main()
+{
+    Soldier me {"Nandi", 100, 10};
+    Soldier enemy {"Barbarian", 80, 5};
+
+    std::cout << fight(me, enemy) << std::endl;
+
+    return 0;
+}]]>
+                </programlisting>
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+
+                    </para>
+                    <screen>
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4
+Nandi 60 10
+]]>
+                    </screen>
+                </section>
+                <section>
+                    <title>Gréta</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Nándi</title>
+                    <para>
+
+                    </para>
+                </section>
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                        The class is a class. The class is a group of data and functions.
+                        What does a soldier have? HP, damage and name.
+                    </para>
+                    <para>
+                        When does a soldier alive? When his/her HP is more than 0. The <function>alive</function> function gives information about this.
+                        The <function>alive</function> function tells whether the soldier alive or not to its caller.
+                    </para>
+                    <para>
+                        There are more channels. The name of one of these is: iostream and an other one is the ostream.
+                    </para>
+                    <para>
+                        How much HP and how much damage does a soldier have?
+                        Nándi's HP is 100 and his damage is 10.
+                        The Barbarian has 80 HP and 5 damage.
+                        We give these to the constructor.
+                        We talk about a constructor when the name of the function and the class is the same.
+                    </para>
+                    <para>
+                        Finally, we print the name of the winner soldier to the channel.
+                        The return returns a number to the operating system.
+                    </para>
+                </section>
+
+		                <section>
+                    <title>Tasks</title>
+                    <para>
+                        Here we gave more tasks and it happened in a way that the kids solved them together ( the first two tasks, the three of them on one computer, but the second task mostly done only by Matyi)
+                    </para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                Matyi reckoned in his head before the execution that it will give 60. We modified the programme according to the <function>fight</function> that the two soldiers will be shown on the screen in every step of the battle so to get the following result:
+                                <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4 
+Nandi 95 10
+Barbarian 70 5
+Nandi 90 10
+Barbarian 60 5
+Nandi 85 10
+Barbarian 50 5
+Nandi 80 10
+Barbarian 40 5
+Nandi 75 10
+Barbarian 30 5
+Nandi 70 10
+Barbarian 20 5
+Nandi 65 10
+Barbarian 10 5
+Nandi 60 10
+Barbarian 0 5
+Nandi 60 10
+]]>
+                                </screen>
+                                The solution was this addition to the function which defines the fight in the <function>fight</function>:
+                                <programlisting language="C++">
+<![CDATA[Soldier &fight(Soldier &first, Soldier &second)
+{
+    for (; first.alive() && second.alive() ;) {
+        first.HP = first.HP - second.damage;
+        second.HP = second.HP - first.damage;
+
+        std::cout << first << std::endl;
+        std::cout << second << std::endl;
+    }
+
+    if (first.HP > second.HP)
+        return first;
+    else
+        return second;
+}
+]]>
+                                </programlisting>                                
+                                                                                        
+                                                                                                                                                                                                        
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Modify the previous task's programme in a way of after the fight's winner let's create the third soldier object with this data <code><![CDATA[{"Giant", 180, 20}]]></code> and this new soldier fights against the winner, so we have to get the following result:
+                                <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+$ ./nandi4 
+Nandi 95 10
+Barbarian 70 5
+Nandi 90 10
+Barbarian 60 5
+Nandi 85 10
+Barbarian 50 5
+Nandi 80 10
+Barbarian 40 5
+Nandi 75 10
+Barbarian 30 5
+Nandi 70 10
+Barbarian 20 5
+Nandi 65 10
+Barbarian 10 5
+Nandi 60 10
+Barbarian 0 5
+Nandi 60 10
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+Giant 150 20
+]]>
+                                </screen>
+                            </para>
+                            <para>
+                                That was the first try on the computer for the solution, in the main function the following modification: 
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[int main()
+{
+    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+   
+    std::cout << fight(me, against ,me,giant) << std::endl;
+
+    return 0;
+}]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                which gave a really telling error, the compiler programme said correctly what is the problem with this one: too many arguments are given to the <function>fight</function> named function 
+			    </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:57:44: error: too many arguments to function ‘Soldier& fight(Soldier&, Soldier&)’
+     std::cout << fight(me, against ,me,giant) << std::endl;
+                                            ^
+nandi4.cpp:32:9: note: declared here
+ Soldier& fight(Soldier& first, Soldier& second)
+         ^]]>
+                            </screen>                        
+                            <para>
+                                and really, because now just check the <function>fight</function>'s head! <code><![CDATA[Soldier &fight(Soldier &first, Soldier &second)]]></code> This one waits for two soldiers and not four (and it gives back the winner one). According to this, there is the next try in the main function:
+                            </para>                            
+                            <programlisting language="C++">
+<![CDATA[    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+    Soldier winner =fight(me , against);
+    fight(winner,giant);
+   
+    std::cout << fight(me, against ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                That one finally compiles and runs:
+			    </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbarian 70 5
+Nandi 90 10
+Barbarian 60 5
+Nandi 85 10
+Barbarian 50 5
+Nandi 80 10
+Barbarian 40 5
+Nandi 75 10
+Barbarian 30 5
+Nandi 70 10
+Barbarian 20 5
+Nandi 65 10
+Barbarian 10 5
+Nandi 60 10
+Barbarian 0 5
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+Nandi 60 10
+]]>
+                            </screen>                        
+                            <para>
+                                But in this output Matyi, the eagle-eyed found out that something was not right. Well here it is better for the Reader if we sign the fights with <literal>-----------</literal> in it:
+			    </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbarian 70 5
+Nandi 90 10
+Barbarian 60 5
+Nandi 85 10
+Barbarian 50 5
+Nandi 80 10
+Barbarian 40 5
+Nandi 75 10
+Barbarian 30 5
+Nandi 70 10
+Barbarian 20 5
+Nandi 65 10
+Barbarian 10 5
+Nandi 60 10
+Barbarian 0 5
+-----------
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+-----------
+Nandi 60 10
+]]>
+                            </screen>                        
+                            <para>
+                                instead of 2 there were 3 battles... our solution for this was to delete the last one (to be right, we put it in a comment)
+                            </para>
+                            <note>
+                                <title>Copy constructor<indexterm>
+                                        <primary>copy constructor</primary>
+                                    </indexterm>
+                                </title>
+                                <para>
+                                    And something really interesting happened! Just take a look on the last output line: <literal>Nandi 60 10</literal>, so it could happen that the <literal>Nandi</literal> named Soldier's HP is 60 while the int the previous fight against the giant it already went down to zero...? Now it has to stay as a mystery but soon, on the 6th day we will give you the answer.
+                                </para>
+                            </note>
+
+                            <programlisting language="C++">
+<![CDATA[    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+    Soldier winner =fight(me , against);
+    fight(winner,giant);
+    
+   //std::cout << fight(me, against ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                to receive the wanted solution from the task's proposal, in this they pushed out the 2nd fight call to the channel then they were ready:
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+    Soldier winner =fight(me , against);
+    std::cout << fight(winner,giant ) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            
+                            <para>
+                                which now gives correctly what I asked for.
+	             </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                Try it out, then explain this source code:                     
+                                <programlisting language="C++">
+<![CDATA[int main()
+{
+    Soldier me {"Nandi", 100, 10};
+    Soldier against {"Barbarian", 80, 5};
+    Soldier third {"Giant", 180, 20};
+
+    std::cout << fight(fight(me, against), third) << std::endl;
+    
+    return 0; 
+}]]>
+                                </programlisting>                 
+                            </para>
+                            <para>
+                               They tried to answer it on paper, what Matyi phrased in a great way: TODO: when he said it in his own words that this is 
+the two battles' shortened description.  
+                            </para>
+                            <para>
+                               For a checkup task they have to take the current code part as a sample and make it happen on the computer that the four Soldier have to fight, the fourth one with the current winner!  There is their first try:
+                            </para>
+                            <programlisting language="C++">
+<![CDATA[int main()
+{
+    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+    Soldier fourth{"MATYI",500,300};
+      
+    std::cout << fight(fight(me,against, )third)fourth) << std::endl;
+}]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                which is obviously not able to compile because they have put the commas in totally wrong places:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+^[[Anandi4.cpp: In function ‘int main()’:
+nandi4.cpp:59:42: error: expected primary-expression before ‘)’ token
+     std::cout << fight(fight(me,against, )third)fourth) << std::endl;]]>
+                            </screen>                        
+                            <para>
+                                They were able to fix this error really fast
+                            </para>
+                            
+                            <programlisting language="C++">
+<![CDATA[
+    Soldier me{"Nandi", 100, 10};
+    Soldier against{"Barbarian", 80, 5};
+    Soldier giant{"Giant",180,20};
+    Soldier fourth{"MATYI",500,300};
+   
+    std::cout << fight(fight(me,against ),third),fourth) << std::endl;
+]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                with what they already got a telling error:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:59:50: error: ‘third’ was not declared in this scope
+     std::cout << fight(fight(fight(me,against ),third),fourth) << std::me]]>
+                            </screen>                        
+                            <para>
+                                as they have started from their code from yesterday where wasn't any <varname>third</varname> named reference but <varname>giant</varname> name was used instead of that so it was changed according to that: 
+                            </para>
+
+                            <programlisting language="C++">
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
+     std::cout << fight(fight(me,against ),third),fourth) << std::endl;
+]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                but it did not bring any success yet
+                            </para>
+                            <screen>                                 
+<![CDATA[$ g++ nandi4.cpp -o nandi4 -std=c++11
+nandi4.cpp: In function ‘int main()’:
+nandi4.cpp:74:61: error: expected ‘;’ before ‘)’ token
+     std::cout << fight(fight(me,against ),third),fourth) << std::endl;
+]]>
+                            </screen>                        
+                            <para>
+                                because there are three closing brackets and only two opening ones! The „How many fights do you want?” helping question worked because they wanted three, but there are only two fight function call, after discussing it's place they put the third one in:
+                            </para>
+                            
+                            <programlisting language="C++">
+<![CDATA[    std::cout << fight(fight(fight(me,against ),third),fourth) << std::endl;]]>
+                            </programlisting>                                                                                        
+                            <para>
+                                which already shows a good operation:
+                            </para>
+                            <screen>                                 
+<![CDATA[$ ./nandi4
+Nandi 95 10
+Barbarian 70 5
+Nandi 90 10
+Barbarian 60 5
+Nandi 85 10
+Barbarian 50 5
+Nandi 80 10
+Barbarian 40 5
+Nandi 75 10
+Barbarian 30 5
+Nandi 70 10
+Barbarian 20 5
+Nandi 65 10
+Barbarian 10 5
+Nandi 60 10
+Barbarian 0 5
+Nandi 40 10
+Giant 170 20
+Nandi 20 10
+Giant 160 20
+Nandi 0 10
+Giant 150 20
+Giant -150 20
+MATYI 480 300
+MATYI 480 300
+]]>
+                            </screen>                        
+                            <para>
+                            </para>
+                        </listitem>
+                    </itemizedlist>                                                                                
+                    <section>
+                        <title>Tasks written by the kids</title>
+                        <para>
+                        </para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>
+                                    Gréta: three soldier had a championship. One is Gréta, her HP is 400, damage is 300. 
+ Second one is Nándi, his HP is 100, damage is 10. Third one Matyi, his HP is 100, damage is 5. The task is to code this programme!
+                                </para>
+                                <para>
+                                    Other task is to create three soldiers and give them data, for example HP and damage. The reader could write any number when they are made. 
+                                </para>
+                                <para>
+                                    Other task is when the soldiers are fighting, if one won then it will receive it's HP again. 
+                                </para>                                
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    Nándi: the task is to create two soldiers then make a battle with them! Give proper data, it's HP, damage, name is up to you.
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>
+                                    Matyi: the task is to make a cup! In a way that Nándi and Barbarian, Giant and Matyi fight with each other. The winners will have two battles. The battle's winner vs. Exploder, the other's winner vs. Wizard. After this the two winner fights each other.
+                                </para>                                                                
+                                <itemizedlist>
+                                    <listitem>
+                                        <para>Nándi: {HP: 100, damage 10}
+                                        </para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Matyi: {HP: 500, damage 200}
+                                        </para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Giant: {HP: 180, damage 20}
+                                        </para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Barbarian: {HP: 80, damage 5}
+                                        </para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Exploder: {HP: 25, damage 25}
+                                        </para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Wizard: {HP: 60, damage 40}
+                                        </para>
+                                    </listitem>
+                                </itemizedlist>                                                                                                    
+                            </listitem>
+                        </itemizedlist>                    
+                    </section>                
+                                                                                
+                </section>                
+                                                                                                                                                
+            </section>
+            
+            <section>
+                <title>Fifth day&#x2013; on slippery ground</title>
+                <para>
+                    Let's transform a bit the <filename>nandi4.cpp</filename> source: put in some tracking, say outputs which will help to see on the screen what is happening in the programme.
+                </para>
+                <programlisting language="C++" linenumbering="numbered">
+<![CDATA[#include <iostream>
+
+class Soldier
+{
+public:
+    std::string name;
+    int HP;
+    int damage;
+
+    Soldier(std::string name, int HP, int damage) {
+
+        this->name = name;
+        this->HP = HP;
+        this->damage = damage;
+    }
+
+    bool alive() {
+        return HP > 0;
+    }
+
+    friend std::ostream &operator<< (std::ostream &stream, Soldier &Soldier) {
+        stream << Soldier.name << " " << Soldier.HP << " " << Soldier.damage;
+        return stream;
+    }
+
+};
+
+
+Soldier &fight(Soldier &first, Soldier &second)
+{
+    std::cout << "fight func: fight start, " << first << " vs. " << second << std::endl;
+
+    for (; first.alive() && second.alive() ;) {
+      
+        first.HP = first.HP - second.damage;
+        second.HP = second.HP - first.damage;
+
+        std::cout << "fight func: " << first << std::endl;
+        std::cout << "fight func: " << second << std::endl;
+
+    }
+
+    if (first.HP > second.HP)
+        return first;
+    else
+        return second;
+}
+
+
+int main()
+{
+
+    Soldier me {"Nandi", 100, 10};
+    Soldier against {"Barbarian", 80, 5};
+    Soldier third {"Giant", 180, 20};
+
+    std::cout << "main func: " << fight(fight(me, against), fight(me, third)) << std::endl;
+
+    return 0;
+}]]>
+                </programlisting>                                 
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    
+                    
+                    <para>
+                        What do we expect? The <literal>me</literal> Soldier object (<literal>Nandi</literal>) puts down the <literal>against</literal> Soldier object (the <literal>Barbarian</literal>). The <literal>third</literal> Soldier object (<literal>Giant</literal>) puts down the <literal>me</literal> object, then the two winner: <literal>me</literal> and <literal>third</literal> plays, where <literal>third</literal> wins.  
+                    </para>
+                    <screen>                                 
+<![CDATA[$ g++ nandi5.cpp -o nandi5 -std=c++11
+$ ./nandi5
+fight func: fight start, Nandi 100 10 vs. Giant 180 20
+fight func: Nandi 80 10
+fight func: Giant 170 20
+fight func: Nandi 60 10
+fight func: Giant 160 20
+fight func: Nandi 40 10
+fight func: Giant 150 20
+fight func: Nandi 20 10
+fight func: Giant 140 20
+fight func: Nandi 0 10
+fight func: Giant 130 20
+fight func: fight start, Nandi 0 10 vs. Barbarian 80 5
+fight func: fight start, Barbarian 80 5 vs. Giant 130 20
+fight func: Barbarian 60 5
+fight func: Giant 125 20
+fight func: Barbarian 40 5
+fight func: Giant 120 20
+fight func: Barbarian 20 5
+fight func: Giant 115 20
+fight func: Barbarian 0 5
+fight func: Giant 110 20
+main func: Giant 110 20
+]]>
+                    </screen>                        
+                    <para>
+                        On the other hand what are the tracking messages showing? What happened? The <literal>third</literal> Soldier object (<literal>Giant</literal>) put down the <literal>me</literal> (<literal>Nandi</literal>) object. Then the already weakened <literal>me</literal> Soldier object (<literal>Nandi</literal>) put down the <literal>against</literal> object the (<literal>Barbarian</literal>).
+ Then the two winners: <literal>against</literal> and <literal>third</literal> plays, where <literal>third</literal> wins. Well, we didn't really count on this, did we?
+                    </para>
+                    <para>
+                        The explanation: We thought when we played it through in our heads that first the <code>fight(me, against)</code> happens, then the <code>fight(me, third)</code> and in the end the two winners will play. There is a chance that a computer exists on which it will happen like this, but mine is not that computer! That's because the C++ language does not determine the order of the function call's ingoing parameters. In our case that the external fight function could start with either the right or the left side's fight call's execution. Because it is not determined that it will happen like this on the first computer and like that on the other one. That is the reason why we are on slipper ground. What can the programmer do? What does the programmer have to do? He has to avoid to write sources in which situations like this could appear. For this there are many opportunities, it's only questionable in style that which one will the programmer use. Right now it's enough to know that the C++ is not a playground (for example the Java or C# is) in the meaning of the programmer shouldn't only know properly what will the effect be of his programme on the objects in the memory will be, he HAS to know it perfectly! 
+                    </para>
+                    <para>
+                        The code will be much more readable if we remove the function calls from the function call, so we write this:
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[int main()
+{
+
+    Soldier me {"Nandi", 100, 10};
+    Soldier against {"Barbarian", 80, 5};
+    Soldier third {"Giant", 180, 20};
+
+    Soldier firstWinner = fight(me, against);
+    Soldier secondWinner = fight(me, third);
+        
+    std::cout << "main func: " << fight(firstWinner, secondWinner) << std::endl;
+
+    return 0;
+}]]>
+                    </programlisting>                       
+                    <para>
+                        Here it is already obvious in C++ language what does the programmer want, but sadly that's still not what is happening yet:
+                    </para>
+                    <screen>                                 
+<![CDATA[fight func: fight start, Nandi 100 10 vs. Barbarian 80 5
+fight func: Nandi 95 10
+fight func: Barbarian 70 5
+fight func: Nandi 90 10
+fight func: Barbarian 60 5
+fight func: Nandi 85 10
+fight func: Barbarian 50 5
+fight func: Nandi 80 10
+fight func: Barbarian 40 5
+fight func: Nandi 75 10
+fight func: Barbarian 30 5
+fight func: Nandi 70 10
+fight func: Barbarian 20 5
+fight func: Nandi 65 10
+fight func: Barbarian 10 5
+fight func: Nandi 60 10
+fight func: Barbarian 0 5
+fight func: fight start, Nandi 60 10 vs. Giant 180 20
+fight func: Nandi 40 10
+fight func: Giant 170 20
+fight func: Nandi 20 10
+fight func: Giant 160 20
+fight func: Nandi 0 10
+fight func: Giant 150 20
+fight func: fight start, Nandi 60 10 vs. Giant 150 20
+fight func: Nandi 40 10
+fight func: Giant 140 20
+fight func: Nandi 20 10
+fight func: Giant 130 20
+fight func: Nandi 0 10
+fight func: Giant 120 20
+main func: Giant 120 20
+]]>
+                    </screen>                        
+
+                    <para>
+                        Because it could happen that in the third battle the <literal>Nandi</literal>'s HP is 60 again when it went down to zero before! Let's see a great solution finally, just put one 'and' sign after the Soldier class:
+	       </para>
+                     
+                    <programlisting language="C++">
+<![CDATA[    Soldier& firstWinner = fight(me, against);
+    Soldier& secondWinner = fight(me, third);]]>
+                    </programlisting>                       
+                    <para>
+                        and let's see a miracle:
+                    </para>
+                    <screen>                                 
+<![CDATA[fight func: fight start, Nandi 100 10 vs. Barbarian 80 5
+fight func: Nandi 95 10
+fight func: Barbarian 70 5
+fight func: Nandi 90 10
+fight func: Barbarian 60 5
+fight func: Nandi 85 10
+fight func: Barbarian 50 5
+fight func: Nandi 80 10
+fight func: Barbarian 40 5
+fight func: Nandi 75 10
+fight func: Barbarian 30 5
+fight func: Nandi 70 10
+fight func: Barbarian 20 5
+fight func: Nandi 65 10
+fight func: Barbarian 10 5
+fight func: Nandi 60 10
+fight func: Barbarian 0 5
+fight func: fight start, Nandi 60 10 vs. Giant 180 20
+fight func: Nandi 40 10
+fight func: Giant 170 20
+fight func: Nandi 20 10
+fight func: Giant 160 20
+fight func: Nandi 0 10
+fight func: Giant 150 20
+fight func: fight start, Nandi 0 10 vs. Giant 150 20
+main func: Giant 150 20]]>
+                    </screen>                        
+                    <para>
+                        finally that is happening what the programmer imagined!
+                    </para>
+                    <para>
+                        With this version the kids started to play in freestyle (spontaneously):
+                    </para>
+                    <programlisting language="C++">
+<![CDATA[    Soldier me {"Matyi", 1000, 100};
+    Soldier against {"Greta", 800, 50};
+    Soldier third {"Nandi", 800, 50};
+
+    Soldier &firstWinner = fight(me, against);
+    Soldier &secondWinner = fight(me, third);
+
+    std::cout << "main func: " << fight(firstWinner, secondWinner) << std::endl;]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[fight func: fight start, Matyi 1000 100 vs. Greta 800 50
+fight func: Matyi 950 100
+fight func: Greta 700 50
+fight func: Matyi 900 100
+fight func: Greta 600 50
+fight func: Matyi 850 100
+fight func: Greta 500 50
+fight func: Matyi 800 100
+fight func: Greta 400 50
+fight func: Matyi 750 100
+fight func: Greta 300 50
+fight func: Matyi 700 100
+fight func: Greta 200 50
+fight func: Matyi 650 100
+fight func: Greta 100 50
+fight func: Matyi 600 100
+fight func: Greta 0 50
+fight func: fight start, Matyi 600 100 vs. Nandi 800 50
+fight func: Matyi 550 100
+fight func: Nandi 700 50
+fight func: Matyi 500 100
+fight func: Nandi 600 50
+fight func: Matyi 450 100
+fight func: Nandi 500 50
+fight func: Matyi 400 100
+fight func: Nandi 400 50
+fight func: Matyi 350 100
+fight func: Nandi 300 50
+fight func: Matyi 300 100
+fight func: Nandi 200 50
+fight func: Matyi 250 100
+fight func: Nandi 100 50
+fight func: Matyi 200 100
+fight func: Nandi 0 50
+fight func: fight start, Matyi 200 100 vs. Matyi 200 100
+fight func: Matyi 0 100
+fight func: Matyi 0 100
+main func: Matyi 0 100]]>
+                    </screen>                    
+
+                    <para>
+                       But Matyi didn't want in the end that the <literal>Matyi</literal> name-attribute object to play on it's own... their next tries were about that the <literal>Matyi</literal> object should win in the end, but not to fight with itself. Attempt after attempt, but much to the delight of them, once the <literal>Gréta</literal>, once the <literal>Nándi</literal> object won, and of course few times the <literal>Matyi</literal>'s fight with itself came back till he realized that there are tasks which are impossible to solve within given borders. (Because if Matyi loses the first match then he won't go alive to the second one so he won't get into the finals. If this wouldn't happen, so he wins the first but fails the second then he would get to the finals but well... not alive.)
+                    </para>                                                                                   
+                    
+                    <programlisting language="C++">
+<![CDATA[]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[]]>
+                    </screen>                    
+                                        
+                                                            
+
+                    <programlisting language="C++">
+<![CDATA[]]>
+                    </programlisting>                                                                                        
+                    
+                    <screen>                                 
+<![CDATA[]]>
+                    </screen>                    
+
+                                                                                                                                                                                                                                                                                                            
+                    <para>
+                        Let's brush up in the next point the first task that Gréta threw in!
+                    </para>                                                                                   
+                </section>                
+                <section>
+                    <title>Gréta, Nándi, Matyi</title>                    
+                    <blockquote>
+                        <attribution>Gréta</attribution>
+                        <para>
+                            &#x201E;Other task is when the soldiers are fighting, if one won then it will receive it's HP again. &#x201D;</para>
+                    </blockquote>                    
+                    <para>
+                    </para>
+                </section>                
+                
+            </section>            
+            
+            <section>
+                <title>Sixth day &#x2013; copy constructor</title>
+                <para>
+                
+                </para>
+                <programlisting language="C++" linenumbering="numbered">
+<![CDATA[]]>
+                </programlisting>                 
+                <section>
+                    <title>Dad &#x2013; mentor</title>
+                    <para>
+                
+                    </para>
+                    <screen>                                 
+<![CDATA[]]>
+                    </screen>                        
+                </section>                
+                
+                <section>
+                    <title>Gréta</title>
+                    <para>
+                
+                    </para>
+                </section>                
+                <section>
+                    <title>Nándi</title>
+                    <para>
+                
+                    </para>
+                </section>                
+                <section>
+                    <title>Matyi</title>
+                    <para>
+                    </para>
+                </section>                
+                                                                                                                                                                        
+            </section>            
+            
+        </section>
+
+    </chapter>        
+        
+</part>

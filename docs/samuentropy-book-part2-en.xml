@@ -1,0 +1,34 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The future's programming</title>
+    <partintro>
+        <para>
+            From Erwin Schrödinger's researches connected with life<footnote>
+                <para>See Erwin Schrődinger, What is life? : the physical aspect of the living cell, Cambridge University Press, 1944 also Roger Penrose, A ​császár új elméje Számítógépek, gondolkodás és a fizika törvényei, Akadémiai, Budapest, 1993.</para>
+            </footnote> we know that the secret of life is the ability to keep the entropy low. In light of that yet not only &#x2013; as everyone &#x2013; I like to eat but now I know this on a higher level of understanding too that I eat in order to support my life (and I breath). In many cases the original obvious feelings' uncontrolledness is behind of the overweight. 
+        </para>
+        <para>
+            We feel a similar mood for the activities as we find our happiness in it, could happen that it has an entropy based explanation? For example already in this article<footnote>
+                <para>http://www.bmj.com/content/bmj/349/bmj.g7257.full.pdf</para>
+            </footnote> the activity lifts the temperature but in the meantime it gives high level entropy heat, respectively with the faster breathing more high entropy carbon dioxide.
+        </para>
+        <para>
+            The entropy's non-increasing games conception is introduced in the ESAMU programmer handbook. Our current goal is it's elevation so in parallel with the &#x201E;Entropy non-increasing games for improvement of dataflow programming&#x201D; titled manuscript's creation, we also try to transplant the manuscript's results in practice through writing a concrete game, which will be also a neural based task-solving optimalization.
+        </para>        
+    </partintro>
+    <chapter>
+        <info>
+            <title>Introduction</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title></title>
+            <para>
+                
+            </para>
+        </section>
+    </chapter>
+</part>
