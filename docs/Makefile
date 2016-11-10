@@ -12,10 +12,13 @@ samuentropy-idea-en.pdf: samuentropy-idea-en.xml samuentropy-en.xls
 samuentropy-book-hu.pdf: samuentropy-book-hu.xml samuentropy-hu.xls
 	dblatex samuentropy-book-hu.xml -p samuentropy-hu.xls
 
+samuentropy-book-hu.epub: samuentropy-book-hu.xml 
+	dbtoepub -o samuentropy-book-hu.epub samuentropy-book-hu.xml
+
 samuentropy-book-en.pdf: samuentropy-book-en.xml samuentropy-en.xls
 			dblatex samuentropy-book-en.xml -p samuentropy-en.xls
 
-u12hu:	clean validate_xmllint_book_hu  samuentropy-book-hu.pdf
+u12hu:	clean validate_xmllint_book_hu  samuentropy-book-hu.pdf samuentropy-book-hu.epub
 
 pghu:	clean validate_xmllint_idea_hu samuentropy-idea-hu.pdf
 
@@ -67,4 +70,4 @@ validate_xmllint_book_en:
 
 .PHONY: clean
 clean:
-	rm -vf samuentropy-idea-hu.pdf samuentropy-idea-en.pdf samuentropy-book-hu.pdf samuentropy-book-en.pdf
+	rm -vf samuentropy-idea-hu.pdf samuentropy-idea-en.pdf samuentropy-book-hu.pdf samuentropy-book-en.pdf samuentropy-book-hu.epub
