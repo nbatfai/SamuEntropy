@@ -45,10 +45,19 @@ package batfai.samuentropy.brainboard7;
  */
 public class NeuronGameActivity extends android.app.Activity {
 
+	NorbironSurfaceView sv;
+
     @Override
     public void onCreate(android.os.Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        sv = (NorbironSurfaceView) findViewById(R.id.sv);
                 
+    }
+
+    @Override
+    protected void onPause(){
+    	super.onPause();
+    	sv.onPauseSave();
     }
 }

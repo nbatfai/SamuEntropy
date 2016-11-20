@@ -39,6 +39,12 @@
  */
 package batfai.samuentropy.brainboard7;
 
+import java.io.*;
+import android.content.*;
+import android.util.*;
+import android.app.*;
+
+
 class Nodes {
 
     private android.graphics.Bitmap boardPic;
@@ -127,11 +133,20 @@ class Nodes {
 
 }
 
+class NeuronBoxProxy{
+    int positionX;
+    int positionY;
+    int type;
+}
+
 /**
  *
  * @author nbatfai
  */
 public class NorbironSurfaceView extends android.view.SurfaceView implements Runnable {
+    private static final String TAG = NorbironSurfaceView.class.toString();
+
+    private static final String storageFileName = "nodes_store.txt";
 
     private float startsx = 0;
     private float startsy = 0;
@@ -209,9 +224,9 @@ public class NorbironSurfaceView extends android.view.SurfaceView implements Run
         this.context = context;
         nodes = new Nodes(this);
 
-        if (nodeBoxes.size() == 0) {
+       //if (nodeBoxes.size() == 0) {
             nodeBoxes.add((NeuronBox) nodes.get(6).clone());
-        }
+        //}
 
         android.content.Intent intent = ((NeuronGameActivity) context).getIntent();
         android.os.Bundle bundle = intent.getExtras();
@@ -224,6 +239,34 @@ public class NorbironSurfaceView extends android.view.SurfaceView implements Run
             nodeBoxes.add((NeuronBox) nodes.get(i).clone());
 
         }
+
+        try{
+
+        StringBuffer rawContent = new StringBuffer("");
+        FileInputStream fis = context.openFileInput(storageFileName);
+        InputStreamReader isr = new InputStreamReader(fis);
+        BufferedReader br = new BufferedReader(isr);
+
+        
+            String line;
+            while((line = br.readLine()) != null){
+                //berakjuk a megfelelő nodeot a listába
+                Log.d(TAG, line);
+                String[] tokens = line.split(",");
+                int type = Integer.parseInt(tokens[0]);
+                int x = Integer.parseInt(tokens[1]);
+                int y = Integer.parseInt(tokens[2]);
+
+
+                NeuronBox nb = (NeuronBox) nodes.get(type).clone();
+                nb.setXY(x, y);
+                nodeBoxes.add(nb);
+            }
+
+        }catch(Exception e){
+            e.getMessage();
+        }
+
 
         surfaceHolder = getHolder();
         surfaceHolder.addCallback(new SurfaceEvents(this));
@@ -362,6 +405,35 @@ public class NorbironSurfaceView extends android.view.SurfaceView implements Run
         }
 
         return true;
+    }
+
+    private Activity getActivity(){
+
+        Context context = getContext();
+        while (context instanceof ContextWrapper) {
+            if (context instanceof Activity) {
+                return (Activity)context;
+            }
+            context = ((ContextWrapper)context).getBaseContext();
+        }
+        return null;
+    }
+
+    public void onPauseSave(){
+
+        FileOutputStream fos;
+        try{
+
+            fos = getActivity().openFileOutput(storageFileName, Context.MODE_PRIVATE);
+        
+            for(int i = 0; i < nodeBoxes.size();i++){
+                fos.write(nodeBoxes.get(i).description().getBytes());
+            }
+            fos.close();
+        }catch(Exception e){
+            e.getMessage();
+        }
+
     }
 
     public void stop() {
