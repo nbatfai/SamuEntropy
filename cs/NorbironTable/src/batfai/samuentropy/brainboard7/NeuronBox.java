@@ -154,6 +154,10 @@ public class NeuronBox implements Cloneable {
         this.y = (int) y;
     }
 
+    public String description(){
+        return getType() + "," + getX() + "," + getY() + "\n";
+    }
+
     public void draw(float shiftx, float shifty, android.graphics.Canvas canvas) {
 
         for (int i = 0; i < neurons.length; ++i) {
