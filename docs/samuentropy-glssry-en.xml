@@ -17,25 +17,25 @@
             <glossdef>
                 <para><indexterm>
                             <primary>DevRob2Psy</primary>
-                        </indexterm>The DevRob2Psy is the abbreviation of the Developmental Robotics 2 Robopsychology facebook group.
-                    This is an informal group wich collects the students and professors who are interested in this topic.
-                    In this group you can write comments with your own ideas:
+                        </indexterm>The DevRob2Psy is the abbreviation of the Developmental Robotics 2 Robopsychology Facebook group.
+                    This is an informal group which collects students and professors who are interested in this topic.
+                    In this group, you are welcomed to write comments with your own ideas:
                     <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
             </glossdef>
         </glossentry>
         <glossentry xml:id="devrob">
-            <glossterm>Developmental robotics</glossterm>
+            <glossterm>Developmental Robotics</glossterm>
             <abbrev>DevRob</abbrev>
             <glossdef>
                 <para>
                     <indexterm>
                             <primary>DevRob</primary>
                         </indexterm>
-                     It  is a scientific field which aims at studying the developmental mechanisms, architectures and constraints that 
-                    allow lifelong and open-ended learning of new skills and new knowledge in embodied machines.
-		    Its basic thesis is that the robot has a body, the anti thesis of this could be a robot that only has software,
+                     Scientific field which aims at studying the developmental mechanisms, architectures and constraints that 
+                    allows lifelong and open-ended learning of new skills and new knowledge in embodied machines.
+		    Its basic thesis is that the robot has a body, the anti-thesis of this could be a robot that only has software,
 		    the synthesis of the two was given in the PSAMU manuscript.
                 </para>    
                 <glossseealso otherterm="robotpszicho">Robotpsychology</glossseealso> 
@@ -54,7 +54,7 @@
                         </indexterm>It is quite obvious that there is a close relation between esport and artificial intelligence.
                          This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way.
                           Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that 
-                          will be implemented by software on the family’s home desktop and mobile devices. <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+                          will be implemented in software on the family’s home desktop and mobile devices. <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
                 </para>    
                 <glossseealso otherterm="samu">Samu</glossseealso> 
             </glossdef>
@@ -98,9 +98,9 @@
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>robotpsihology</primary>
+                            <primary>robopsyhology</primary>
                         </indexterm>
-                    The <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimov robotpsyhology</link> in programing view
+                    The <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimovian robopsyhology</link> from the viewpoint of programming
                     <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
                 </para>
             </glossdef>
@@ -115,10 +115,9 @@
                     <indexterm>
                             <primary>Samu</primary>
                         </indexterm>
-                    Once the devedevelopment robotics family chatrobot, Samu Bátfai, on the other hand the collective name of our development robotics 
-                    research.
+                    On the one hand, a developmental robotics family chatbot, Samu Bátfai, on the other hand the collective name of our developmental robotics research.
                     
-                    Also <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
+                    See also <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
                     the presentation <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> and the PSAMU 
                     manual. 
                 </para>
@@ -142,11 +141,11 @@
                 <para>
                     <indexterm>
                             <primary>UDPROG</primary>
-                        </indexterm>The University of Debrecen <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">regular programing education</link> and,
-                    our group in Linkedin
+                        </indexterm>The University of Debrecen <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">regular programming education</link> and,
+                    our group in LinkedIn
                     <link xlink:href="https://www.linkedin.com/groups/Yearbook-Programmers-University-Debrecen-7446358?homeNewMember=&amp;gid=7446358&amp;fromEmail=&amp;ut=2mVSHNO5Dwwm41&amp;trk=eml-grp-sub"/>,
-                    which have two basis <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">once the softwares</link>,
-                    and the other is the 
+                    which have two directions <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">the pieces of software</link>,
+                    and the 
                     <link xlink:href="http://sourceforge.net/projects/udprog/files/?source=navbar">yearbook</link>.
                 </para>
             </glossdef>
