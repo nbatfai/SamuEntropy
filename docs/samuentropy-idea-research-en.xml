@@ -6,7 +6,7 @@
         <para>In this part we will create the research plan of the  <emphasis>Samu Entropy</emphasis>.
         </para>
         <para>
-           It is quite obvious that there is a close relation between esport and artificial intelligence. This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented by software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+           It is quite obvious that there is a close relation between esport and artificial intelligence. This relation is further enhanced by our research which tries to focus not only on using the artificial intelligence but on creating it in a new way. Our idea is to develop a new developmental robotics and robopsychology based game called Samu Entropy as a social robot that will be implemented in software on the family’s home desktop and mobile devices. See also: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
         </para>
         <para>The task of this part is to choose the development of the esport game, and then support of the <indexterm>
                 <primary>SRS</primary>
