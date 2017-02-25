@@ -1,0 +1,39 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_bevezetes_hu">
+    <title>Bevezetés</title>
+    <partintro>
+        <para> 
+            Játszani, játszani, játszani.<footnote xml:lang="ru">
+                <para>A lenini &#x201E;Tanulni, tanulni és tanulni&#x201D; mintájára.</para> 
+            </footnote>
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Bevezetés</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <para>
+            Korábban az intuitíven az &#x201E;eBudapest 2024&#x201D;-el címkézhető olimpiai e-sportos elképzelésünk szőtt egy átszövő
+            vonatkozást az elektronikus játékokkal kapcsolatos törekvéseinkbe (ennek részletei elolvashatóak a 
+            <link xlink:href="https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1">https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1</link> lapon a 
+            <filename>samuentropy-idea-hu.pdf</filename> nevű dokumentumban). 
+        </para>
+        <para>
+            Most kutatási, fejlesztési, oktatási és szervezési nézőpontból tekintjük át az elektronikus játékokkal kapcsolatos erőfeszítéseinket 
+            és elképzeléseinket. Ez egy esetleges felosztás, például az <citation>ESAMU</citation> munkában felvetett, az egyetemi közegben 
+            szervezendő e-sport orientált közösségépítésről szóló kérdésének vannak mind a négy kategóriába eső aspektusai, de praktikus okokból mi 
+            a szervezés alatt fókuszálunk majd leginkább rá, s ugyanezzel az átfogó megközelítéssel nyúlunk minden felmerülő kérdéshez.
+        </para>
+        <section>
+            <title>Az elektronikus játékok szerepe az informatikus pálya választásában</title>             
+            <para>
+                &lt;TODO: az UDPROG-ban futó hasonló kérdés bíztató, hogy szoros a kapcsolat.&gt;
+            </para>    
+        </section>
+    </chapter>
+</part>
+    

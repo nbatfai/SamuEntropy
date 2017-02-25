@@ -1,0 +1,125 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_kutatas_hu">
+    <title>Kutatás</title>
+    <partintro>
+        <para> 
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Kutatási területek</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>E-sport és gépi tanulás</title>             
+            <para>
+                A neurális (tipikusan mélytanulás, big data és CNN) architektúrák fejlesztése e-sport játékokkal.
+                A koncepció általános bemutatását és beágyazását úgy az e-sportba mint a kapcsolható egyéb tudományterületekbe (a nyelvészettől a gazdaságig)
+                lásd az <citation>ESAMU</citation> munkában. Már speciálisan a témára fókuszál a <citation>FABA</citation> kézirat.
+            </para>
+            <para>
+                <emphasis>Aktuális kérdés</emphasis>: hogyan lehet, ha egyáltalán egy Tensorflow számítási gráfot egy MMORTS játék építési felületére konvertálni és onnan visszaalakítani?
+            </para>
+            
+            <section>
+                <title>Neurális architektúra</title> 
+                <para>
+                    A fenti munkákból származtatva foglalkozunk a hálózatok entrópiájával a tervezett
+                    <citation>ENTER</citation> kutatási munkában.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: hogyan mérhetjük a súlyok entrópiáját?
+                </para>
+            </section>
+            
+        </section>
+                
+        <section>
+            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai összefüggései</title>
+            <para>                   
+                Az elektronikus játékok vizsgálata. 
+            </para>
+            <section>
+                <title>A gyerekek védelme</title>
+                <para>                   
+                    Gyakorló szülőként számos kérdést kapok, mint szakmabeli, hogy hogyan védem a gyerekeimet (8, 8, 11 évesek) a digitális eszközökön.
+                    Válaszom sajátos: a játékok szürésével és személyes részvétellel<footnote>
+                        <para>A CoC-ban a &#x201E;Bátfai clan&#x201D; klánban véltük már úgy, hogy adott felhasználók adathalászattal próbálkoznak a gyerekeknél
+                            a játékbeli csevegő csatornán.</para>
+                    </footnote>.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: milyen szervezési és milyen szoftveres védelmet (nem csupán a meglévő megoldások áttekintésével és 
+                    ajánlásával, hanem akár egy szülő-ágens kidolgozhatóságának megvizsgálásával) tudunk adni?
+                </para>                
+            </section>
+            <section>
+                <title>Közösségszervezés</title>
+                <para>             
+                    A folyamat elején az oktatással szimbiózisban felépíteni az iskolai, egyetemi és végeredményben
+                    (ennek a folyamatnak a végén)
+                    a profi e-sportot<footnote>
+                        <para>Minta lehet például az amerikai foci?</para>
+                    </footnote>. Lásd még a <link xlink:href="#samuentropy_portfolio_szervezes_hu.teruletek">szervezéssel foglalkozó fejezetet</link>!
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: adott szinteken milyen e-sport orientált szerveződéseket javasolt 
+                    létrehozni és mi a különböző szintek kapcsolata?
+                </para>                
+            </section>
+            <section>
+                <title>Tréning programok kifejleszthetőségének vizsgálata</title>
+                <para>
+                    Adott e-sport játékokhoz szükséges készségek feltárása.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: melyek ezek és mi lehet az alapvető osztályozásuk? Tudunk-e játéktípusonként készségcsokrokat meghatározni?
+                </para>
+                <para>
+                    Adott e-sport játékok játékmeneteinek elemzése.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: kialakíthatóak-e jó stratégiák?
+                </para>
+                <para>
+                    Licencelési kérdések az ismert játékoknál.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: ha ismert nem saját játékokat használunk, akkor mi a jogi mozgástér?
+                </para>            
+            </section>
+                        
+        </section>
+
+                                                                                                                  
+        <section>
+            <title>Az élő rendszerek alapkutatása</title>
+            <para>
+                Vajon lehet-e olyan a játék a léleknek, mint az anyagcsere a testnek? Abban az értelemben, hogy Schrödinger
+                munkája <citation>LIFE</citation> nyomán tudjuk, hogy az élő rendszerek az energia alacsony entrópiájú formáját veszik magukhoz 
+                és nagy entrópiájú formáját adják le, miközben megtartják saját belső rendezettségüket <citation>PENROSE</citation>.
+            </para>
+            <para>
+                A gondolkodásbeli paradigma váltást az 
+                <citation>ELET</citation> munka készíti elő.
+            </para>       
+            <para>
+                <emphasis>Aktuális kérdés</emphasis>: mi a tudatosság?
+            </para>
+
+            <section>
+                <title>Robotpszichológia</title>
+                <para>
+                    Az asimovi vízió programozói szempontból értelmezett megvalósítása <citation>ROBOPSY</citation>, <citation>PSAMU</citation>.
+                </para>
+            </section>
+            
+                                    
+        </section>
+        
+    </chapter>        
+        
+</part>

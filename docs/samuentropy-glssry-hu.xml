@@ -3,12 +3,51 @@
               xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Szójegyzék</title>
     <glossdiv>
+        <title>B</title>
+        <glossentry xml:id="bigdata">
+            <glossterm>big data</glossterm>
+            <glossdef>
+                <para>
+                    Napjainkra az nagy adatéhség jellemezte alkalmazásokhoz már tipikusan elérhetőek az adatok és ezzel párhuzamosan a
+                    feldolgozáshoz szükséges teljesítmény is, ezt az
+                    együttállást szoktuk a big data kifejezéssel illetni.                    
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>C</title>
+        <glossentry xml:id="coc">
+            <glossterm>Clash of Clans</glossterm>
+            <abbrev>CoC</abbrev>
+            <glossdef>
+                <para> 
+                    A finn Supercell mobil MMORTS játéka, <link xlink:href="http://supercell.com/en/games/clashofclans/">http://supercell.com/en/games/clashofclans/</link>.
+                    <indexterm>
+                        <primary>Supercell</primary>
+                        <secondary>Clash of Clans</secondary>                        
+                    </indexterm>                                        
+                </para>
+                <glossseealso otherterm="mmorts">MMORTS</glossseealso>                 
+            </glossdef>
+        </glossentry>        
+        <glossentry xml:id="cnn">
+            <glossterm>Convolutional Neural Networks</glossterm>
+            <acronym>Konvolúciós neurális hálózatok</acronym>            
+            <abbrev>CNN</abbrev>
+            <glossdef>
+                <para>A többrétegű neurális hálózatok rétegei között tipikus funkcionális szervezési elvet használó hálózati architektúra.                  
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
         <title>D</title>
         <glossentry xml:id="de">
             <glossterm>Debreceni Egyetem</glossterm>
             <abbrev>DE</abbrev>
             <glossdef>
-                <para>A DE a Debreceni Egyetem rövidítése.
+                <para>A DE a Debreceni Egyetem rövidítése, <link xlink:href="http://www.unideb.hu/">http://www.unideb.hu/</link>.
                 </para>
             </glossdef>
         </glossentry>
@@ -17,13 +56,30 @@
             <abbrev>DevRob2Psy</abbrev>
             <glossdef>
                 <para>A <indexterm>
-                            <primary>DevRob2Psy</primary>
-                        </indexterm>DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
+                        <primary>DevRob2Psy</primary>
+                    </indexterm>DevRob2Psy a Developmental Robotics 2 Robopsychology nevű Facebook csoport rövidítése.
                     Ez egy informális csoport, amely a címbeli témák iránt érdeklődőket tömöríti, tagjai főleg a DE hallgatói és oktatói. 
-                    Ebben a csoportban kommentelheti a kedves olvasó ezt a doksit is: 
+                    Ebben a csoportban kommentelheti on-line a kedves olvasó ezt a doksit is: 
                     <link xlink:href="https://www.facebook.com/groups/devrob2psy/">https://www.facebook.com/groups/devrob2psy/</link>.
                 </para>
                 <glossseealso otherterm="udprog">UDPROG</glossseealso> 
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="deepmind">
+            <glossterm>DeepMind</glossterm>
+            <glossdef>
+                <para>A gépi tanulás és az emberi szintű mesterséges intelligencia területén a Google <indexterm>
+                        <primary>Google</primary>
+                        <secondary>DeepMind</secondary>
+                    </indexterm> piacvezető és meghatározó (3 áttörés cikk az emberi szintű intelligenciával kapcsolatban a 
+                    Nature                    
+                    <indexterm>
+                        <primary>Nature folyóirat</primary>
+                    </indexterm>                    
+                    folyóiratban) cége, 
+                    <link xlink:href="https://deepmind.com/">https://deepmind.com/</link>.
+                </para>
+                <glossseealso otherterm="tf">Tensorflow</glossseealso> 
             </glossdef>
         </glossentry>
     </glossdiv>    
@@ -31,32 +87,71 @@
         <title>E</title>
         <glossentry xml:id="esamu">
             <glossterm>Entrópia Samu</glossterm>
+            <acronym>Samu Entropy, ESMU</acronym>            
             <abbrev>ESAMU</abbrev>
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>ESAMU</primary>
-                        </indexterm>Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
-                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
-                    Az aktuális elképzelés szerint ez egy szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
-                    feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz: az Entrópia Samu, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+                        <primary>ESAMU</primary>
+                    </indexterm>Az e-sport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
+                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő e-sporttól. 
+                    Az aktuális elképzelés szerint ESAMU egy követelmény specifikáció, amelynek egy referencia implementációja az Entrópia Samu játék: egy 
+                    szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
+                    feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
+                    Egy másik implementáció például az ArcCsata (FaBa).
                 </para>    
                 <glossseealso otherterm="samu">Samu</glossseealso> 
+                <glossseealso otherterm="faba">Faba</glossseealso> 
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="esport">
+            <glossterm>e-sport</glossterm>
+            <glossdef>
+                <para>
+                    <indexterm>
+                        <primary>e-sport</primary>
+                    </indexterm>
+                    Mára az elektronikus játékok játszása a mindennapi rutin szerves része. Ez nagy közösségszervező erőt képvisel, amelyre ipar és verseny épül, 
+                    összefoglaló névvel illetve ez a jelenségkör az e-sport <citation>ESAMU</citation>, <citation>FABA</citation>.                     
+                </para>    
             </glossdef>
         </glossentry>
     </glossdiv>
     <glossdiv>
         <title>F</title>
+        <glossentry xml:id="faba">
+            <glossterm>Face Battle</glossterm>
+            <acronym>ArcCsata</acronym>
+            <abbrev>FaBa</abbrev>
+            <glossdef>
+                <para>
+                    <indexterm>
+                        <primary>Face Battle</primary>
+                    </indexterm>
+                    Az ESAMU<indexterm>
+                        <primary>ESAMU</primary>
+                    </indexterm>
+                    <indexterm>
+                        <primary>Face Battle</primary>
+                        <secondary>ArcCsata</secondary>
+                    </indexterm>
+                    <indexterm>
+                        <primary>arcfelismerés</primary>
+                    </indexterm>                        játék-követelmény specifikációt megvalósító, arcfelismerésen alapuló játék terve. 
+                </para>    
+                <glossseealso otherterm="robotpszicho">ESAMU</glossseealso> 
+            </glossdef>
+        </glossentry>
         <glossentry xml:id="devrob">
             <glossterm>Fejlődésrobotika</glossterm>
             <abbrev>DevRob</abbrev>
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>DevRob</primary>
-                        </indexterm>
+                        <primary>DevRob</primary>
+                    </indexterm>
                     Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. Alaptézise, hogy a robot testtel
-                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a a PSAMU beküldött kéziratban adtuk meg. 
+                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a <citation>PSAMU</citation> beküldött kéziratban adtuk meg. 
                 </para>    
                 <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
             </glossdef>
@@ -69,9 +164,10 @@
             <acronym>SRS</acronym>
             <abbrev>IEEE Std 830-1998</abbrev>
             <glossdef>
-                <para><indexterm>
-                            <primary>SRS</primary>
-                        </indexterm>A szoftverkövetelmény dokumentum
+                <para>
+                    <indexterm>
+                        <primary>SRS</primary>
+                    </indexterm>A szoftverkövetelmény dokumentum
                     <link xlink:href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5841">IEEE szabványa</link>. Entrópia Samu szoftverkövetelmény
                     doksiját ennek a szabványnak megfelelően készítjük majd el.
                 </para>
@@ -85,8 +181,8 @@
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>JIBO</primary>
-                        </indexterm>
+                        <primary>JIBO</primary>
+                    </indexterm>
                     Cynthia Breazeal társasági robotja, lásd  
                     <link xlink:href="https://www.jibo.com/">https://www.jibo.com/</link>
                 </para>
@@ -94,14 +190,42 @@
         </glossentry>
     </glossdiv>
     <glossdiv>
+        <title>M</title>
+        <glossentry xml:id="mmorpg">
+            <glossterm>MMORPG</glossterm>
+            <acronym>Massively Multiplayer On-line Role-Playing Game</acronym>            
+            <glossdef>
+                <para>
+                    Egy tipikus játéktípus: tömeges felhasználói bázisú, online, szerepjátékok.
+                    <indexterm>
+                        <primary>MMORPG</primary>
+                    </indexterm>
+                </para>
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="mmorts">
+            <glossterm>MMORTS</glossterm>
+            <acronym>Massively Multiplayer On-line Real-Time Strategy Game</acronym>            
+            <glossdef>
+                <para>
+                    Egy tipikus játéktípus: tömeges felhasználói bázisú, online, valós idejű stratégiai játékok.
+                    <indexterm>
+                        <primary>MMORTS</primary>
+                    </indexterm>
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+
+    <glossdiv>
         <title>R</title>
         <glossentry xml:id="robotpszicho">
             <glossterm>Robotpszichológia</glossterm>
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>robotpszichológia</primary>
-                        </indexterm>
+                        <primary>robotpszichológia</primary>
+                    </indexterm>
                     Az <link xlink:href="https://en.wikipedia.org/wiki/Robopsychology">Asimovi robotpszichológia</link> programozói szemszögből értelmezett implementálása, lásd  
                     <link xlink:href="https://github.com/nbatfai/Robopsychology">https://github.com/nbatfai/Robopsychology</link>.
                 </para>
@@ -115,15 +239,34 @@
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>Samu</primary>
-                        </indexterm>
+                        <primary>Samu</primary>
+                    </indexterm>
                     Egyszer a fejlődésrobotikus családi csevegőrobottal, Bátfai Samuval, másrészt általában a mesterséges intelligencia 
                     fejlődésrobotikai megközelítésével kapcsolatos kutatásaink összefoglaló neve. 
                     Lásd még a <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
-                    prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a PSAMU 
-                    beküldött kéziratot. 
+                    prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a 
+                    <citation>PSAMU</citation> 
+                    beküldött kéziratot. Speciálisan az ESAMU specifikáció e-sport archetípusa, ezt a vonatkozást lásd a <citation>FABA</citation> 
+                    munkában.
                 </para>
                 <glossseealso otherterm="esamu">ESAMU</glossseealso>                 
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>T</title>
+        <glossentry xml:id="tf">
+            <glossterm>Tensorflow</glossterm>
+            <glossdef>
+                <para>
+                    <indexterm>
+                        <primary>DeepMind</primary>
+                        <secondary>Tensorflow</secondary> 
+                    </indexterm>                    
+                    A Google heterogén (multinyelves: például Python, C++, multiplatformos: például CPU, GPU, TPU, And, iOS), nyílt forráskódú gépi tanulási 
+                    <link xlink:href="https://www.tensorflow.org/">https://www.tensorflow.org/</link> megoldása.
+                </para>
+                <glossseealso otherterm="deepmind">DeepMind</glossseealso>                 
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -135,10 +278,12 @@
             <glossdef>
                 <para>
                     <indexterm>
-                            <primary>UDPROG</primary>
-                        </indexterm>A Debreceni Egyetem <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">reguláris programozás oktatásához</link> kapcsolódó,
-                    Linkedin-en szervezett
-                    <link xlink:href="https://www.linkedin.com/groups/Yearbook-Programmers-University-Debrecen-7446358?homeNewMember=&amp;gid=7446358&amp;fromEmail=&amp;ut=2mVSHNO5Dwwm41&amp;trk=eml-grp-sub">fejlesztői közösség</link>,
+                        <primary>UDPROG</primary>
+                    </indexterm>A Debreceni Egyetem <link xlink:href="http://progpater.blog.hu/2014/05/31/ez_a_prog1_mi_lesz_a">reguláris programozás oktatásához</link> 
+                    (2014-2017)
+                    kapcsolódó,
+                    Facebook-on szervezett
+                    <link xlink:href="https://www.facebook.com/groups/udprog/">fejlesztői közösség</link>,
                     melynek egyik gyújtópontjában <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">szoftverek</link>,
                     a másikban maga az
                     <link xlink:href="http://sourceforge.net/projects/udprog/files/?source=navbar">évkönyv</link> áll.

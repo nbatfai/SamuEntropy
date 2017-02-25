@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">    
+    <info>
+        <!--
+        <title>Magyar Nemzeti E-sport Portfólió és Stratégia</title>
+        <subtitle>E-SPORT ÉS MESTERSÉGES INTELLIGENCIA</subtitle>
+        -->
+        <title>MAGYAR NEMZETI E-SPORT PORTFÓLIÓ ÉS STRATÉGIA</title>
+        <subtitle>E-sport és mesterséges intelligencia</subtitle>
+        <titleabbrev>ESAMU Port</titleabbrev>
+        <authorgroup>
+            <author>
+                <personname>
+                    <honorific>Dr.</honorific>
+                    <surname>Bátfai</surname>
+                    <firstname>Norbert</firstname>        
+                </personname>    
+                <affiliation>
+                    <shortaffil>E. adjunktus, DE.</shortaffil>
+                    <jobtitle>Egyetemi adjunktus</jobtitle>
+                    <orgname>Debreceni Egyetem</orgname>
+                    <orgdiv>Információtechnológiai Tanszék</orgdiv>
+                    <address>
+                        <email>batfai.norbert@inf.unideb.hu</email>
+                        <email>nbatfai@gmail.com</email>
+                    </address>
+                </affiliation>
+                <address>
+                    <street>Kassai út 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Magyarország</country>
+                    <email>batfai.norbert@inf.unideb.hu</email>
+                    <otheraddr>
+                        <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
+                    </otheraddr>
+                </address>
+            </author>
+        </authorgroup>
+        <edition>ESAMU Esportfólió, Entrópia Samu, DEBRECEN, 2017. feb. 25, v. hu.0.0.23</edition>
+        <pubdate>2017</pubdate>
+        <copyright>
+            <year>2017</year>
+            <holder>Dr. Bátfai Norbert</holder>
+        </copyright>
+        <legalnotice>
+            <para>Entrópia Samu Portfólió
+            </para>
+            <para>                
+                Copyright (C) 2016, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com, 
+            </para>
+            <para>
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU General Public License as published by
+                the Free Software Foundation, either version 3 of the License, or
+                (at your option) any later version.
+            </para>
+            <para>
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU General Public License for more details.
+            </para>
+            <para>
+                You should have received a copy of the GNU General Public License
+                along with this program.  If not, see 
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>.
+            </para>
+            <para>
+                Ez a program szabad szoftver; terjeszthető illetve módosítható a 
+                Free Software Foundation által kiadott GNU General Public License
+                dokumentumában leírtak; akár a licenc 3-as, akár (tetszőleges) későbbi 
+                változata szerint.
+            </para>
+            <para>
+                Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz, 
+                de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA 
+                VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. 
+                További részleteket a GNU General Public License tartalmaz.
+            </para>
+            <para>
+                A felhasználónak a programmal együtt meg kell kapnia a GNU General 
+                Public License egy példányát; ha mégsem kapta meg, akkor
+                tekintse meg a
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>
+                oldalon.
+            </para>
+            <para>
+                <link xlink:href="http://gnu.hu/gplv3.html">http://gnu.hu/gplv3.html</link>                
+            </para>
+        </legalnotice>            
+        <revhistory>
+            <revision>
+                <revnumber>0.0.1</revnumber>
+                <date>2017-02-22</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>
+                    Iniciális dokumentum: a stratégia és a portfólió vázlatos kidolgozása és rögzítése a dokumentum szerkezetébe.                     
+                </revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.23</revnumber>
+                <date>2017-02-25</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>
+                    A dokumentum további fejlesztése innentől közösségben, az ESAMU központi tárolójában történik: 
+                    <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>,
+                    verziótörténet tekintetében lásd az ottani ChangeLog-ot.
+                </revremark>
+            </revision>
+        </revhistory>
+    </info>   
+    <dedication>
+        <para>
+            Én játszok, te játszol, ő játszik, mi játszunk, ti játszotok, ők játszanak.
+        </para>
+    </dedication>
+    <preface>
+        <title>Előszó</title>
+        <para>
+            A digitális infrastruktúrához való hozzáférés általánossá, sőt követelménnyé válása mélyreható változásokat hoz a 
+            mindennapi élet számos területén: az oktatásban, a szórakozásban, a gyereknevelésben és még sorolhatnánk. 
+        </para>            
+        <para>
+            A jelen dokumentum célja egyfajta de facto szervezés, hogy ezeknek a változásoknak &#8211; sem társadalmi, sem egyéni szinten &#8211; ne elszenvedői, hanem
+            haszonélvezői, akár alakítói lehessünk. 
+        </para>
+        <para>
+            Portfóliónk a következő, átfedő és kölcsönható területekre terjed ki: kutatás, fejlesztés, oktatás és szervezés. 
+            A portfólió áttekintését egy &#x201E;e-sport nézőpontból&#x201D; 
+            tesszük meg, mert hitünk szerint az e-sport lesz az a szervező erő, amely képes intergrálni
+            &#8211; stratégiává alakítani &#8211;
+            ezeket a területeket és speciálisan a mi törekvéseinket.
+        </para>        
+    </preface>    
+    <xi:include href="samuentropy-glssry-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-bevezetes-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-bevezetes-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-kutatas-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-kutatas-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-fejlesztes-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-fejlesztes-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-oktatas-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-oktatas-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-szervezes-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-szervezes-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-bib-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-bib-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <acknowledgements>
+        <para>
+            Köszönet illeti az UDPROG, a DevRob2Psy, a desport (illetve egyéb alkalmi szerveződésű szakmai csoportok) <link xlink:href=""></link>
+            tagjait inspiráló érdeklődésükért és hasznos észrevételeikért.
+        </para>          
+    </acknowledgements>
+</book>

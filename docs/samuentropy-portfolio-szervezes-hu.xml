@@ -1,0 +1,43 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_szervezes_hu">
+    <title>Szervezés</title>
+    <partintro>
+        <para> 
+        </para>
+    </partintro>
+    <chapter xml:id="samuentropy_portfolio_szervezes_hu.teruletek">
+        <info>
+            <title>Szervezési területek</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>E-sport torna általános iskolásoknak</title>
+            <para>
+                &lt;TODO&gt;
+            </para>
+        </section>
+        <section>
+            <title>E-sport csapatok a középiskolában</title>
+            <para>
+                &lt;TODO&gt;
+            </para>
+        </section>
+        <section>
+            <title>E-sport csapatok a felsőoktatásban</title>
+            <para>
+                &lt;TODO: kiindulásként lásd a <citation>ESAMU</citation> munkát!&gt;
+            </para>
+        </section>
+        <section>
+            <title>A kutatási, fejlesztési és oktatási eredmények és az e-sport jelenlét esetleges hasznosításai</title>
+            <para>
+                &lt;TODO: például az esetleges egyetemi startup alapítási elképzelések.&gt;                
+            </para>
+        </section>
+
+    </chapter>        
+        
+</part>

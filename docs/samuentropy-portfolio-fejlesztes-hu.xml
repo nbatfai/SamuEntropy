@@ -1,0 +1,101 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_fejlesztes_hu">
+    <title>Fejlesztés</title>
+    <partintro>
+        <para> 
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Fejlesztési területek</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Saját és nyílt forráskódú e-sport játékok</title>
+            <para>
+                
+            </para>
+
+            <section>
+                <title>Saját tervezett játékok</title>
+
+                <section>
+                    <title>Entrópia Samu</title>
+                    <para>
+                        Az aktuális elképzelés szerint ez egy szoftveresen implementált társasági robot, az ESAMU specifikáció egyik referencia játéka lesz.
+                    </para>
+                </section>
+
+                <section>
+                    <title>ArcCsata</title>
+                    <para>
+                        Az ESAMU specifikáció könnyen kommunikálható, arcfelismerésre alapozott referencia játéka, koncepcióban részletesen mutatja 
+                        be a <citation>FABA</citation> munka. 
+                    </para>
+                </section>
+
+                <section>
+                    <title>KanyarCsata</title>
+                    <para>
+                        Az ESAMU specifikáció további referencia játéka, koncepciója szerint a robotautó vezetésén alapul, a megerősítést a humán pilóta 
+                        kormánymozdulatainak és az út videójának az összevetésén alapszik. 
+                    </para>
+                </section>
+            </section>
+
+            <section>
+                <title>Ismert brandek</title>
+                <section>
+                    <title>0 A.D.</title>
+                    <para>
+                        A hálózati verzóban a játék mentésének megoldása aktuális alapfeladat, ide kapcsolódhat egy ESAMU/Samu implementáció is (ez az ESAMU
+                        specifikációnak az része, amely a játék e-sportként történő használatát támogatja, lásd a <citation>FABA</citation> munkát).
+                    </para>
+                </section>
+            </section>
+        
+
+        </section>
+
+        
+        <section>
+            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai hatások</title>
+        
+            <section>
+                <title>Ajánlások, szakértői vélemények, know-how</title>
+                <para>
+                    A szülők, a pedagógusok és a gyerekek személyre szabott tájékoztatása.
+                </para>
+            </section>
+
+            <section>
+                <title>Közösségszervezés</title>
+                <para> 
+                    Egy konkrét részfeladat: az <citation>ESAMU</citation> munka megjegyzi, hogy nem ismert nyílt forráskódú e-sport versenyek 
+                    lebonyolítását végző szoftver megoldás. Általában lásd még a 
+                    <link xlink:href="#samuentropy_portfolio_szervezes_hu.teruletek">szervezéssel foglalkozó fejezetet</link>!           
+                </para>
+            </section>
+
+
+            <section>
+                <title>Oktatási és védelmi szoftverek</title>
+                <para>
+                    Az autonóm tanulás támogatása.
+                </para>
+            </section>
+
+            <section>
+                <title>Tréning programok</title>
+                <para>
+                    Adott e-sport készségek fejlesztését közvetlenül támogató alkalmazások fejlesztése.
+                </para>
+            </section>
+
+        </section>
+    </chapter>        
+        
+</part>
