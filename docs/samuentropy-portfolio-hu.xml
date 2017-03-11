@@ -39,7 +39,7 @@
                 </address>
             </author>
         </authorgroup>
-        <edition>ESAMU Esportfólió, Entrópia Samu, DEBRECEN, 2017. márc. 2, v. hu.0.0.23.1</edition>
+        <edition>Esportfólió (NEMESPOR), Entrópia Samu, DEBRECEN, 2017. márc. 11, v. hu.0.0.24</edition>
         <pubdate>2017</pubdate>
         <copyright>
             <year>2017</year>
@@ -107,7 +107,8 @@
                 <revremark>
                     A dokumentum további fejlesztése innentől közösségben, az ESAMU központi tárolójában történik: 
                     <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>,
-                    verziótörténet tekintetében lásd az ottani ChangeLog-ot.
+                    verziótörténet tekintetében lásd az ottani ChangeLog-ot. Az érdeklődő kutatói közösség szervezése:
+                    <link xlink:href="https://groups.google.com/forum/#!forum/nemespor">https://groups.google.com/forum/#!forum/nemespor</link>, csatlakozz!
                 </revremark>
             </revision>
         </revhistory>

@@ -3,6 +3,31 @@
               xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_bib_hu">
     <title>Irodalomjegyzék</title>
     <bibliodiv>
+        <title>E-sport</title>
+        <biblioentry>
+            <abbrev>ESPADM</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>Egy nemzeti e-sport szervező és adminisztrációs felület kialakítása</title>
+            <biblioset relation="journal">
+                <volumenum></volumenum>
+                <pagenums></pagenums>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Készülő kézirat
+                </publishername>
+            </publisher>
+            <pubdate>2017</pubdate>
+        </biblioentry>        
+    </bibliodiv>    
+    <bibliodiv>
         <title>Entrópia Samu</title>
         <biblioentry>
             <abbrev>ESAMU</abbrev>
@@ -236,4 +261,143 @@
             <pubdate>2016</pubdate>
         </biblioentry>        
     </bibliodiv>  
+    <bibliodiv>
+        <title>Robotautó Világbajnokság</title>
+        <biblioentry>
+            <abbrev>OOCWC</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Renátó</firstname>
+                        <surname>Besenczi</surname>
+                    </personname>
+                </author>                 
+                <author>
+                    <personname>
+                        <firstname>András</firstname>
+                        <surname>Mamenyák</surname>
+                    </personname>
+                </author>                   
+                <author>
+                    <personname>
+                        <firstname>Márton</firstname>
+                        <surname>Ispány</surname>
+                    </personname>
+                </author>                   
+            </authorgroup>
+            <title>OOCWC: The robocar world championship initiative</title>
+            <biblioset relation="journal">
+                <volumenum>10.1109</volumenum>
+                <issuenum>ConTEL.2015.7231223</issuenum>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Telecommunications (ConTEL), 2015 IEEE 13th International Conference on
+                </publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>        
+        <biblioentry>
+            <abbrev>OOCWC2</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Renátó</firstname>
+                        <surname>Besenczi</surname>
+                    </personname>
+                </author>                 
+                <author>
+                    <personname>
+                        <firstname>András</firstname>
+                        <surname>Mamenyák</surname>
+                    </personname>
+                </author>                   
+                <author>
+                    <personname>
+                        <firstname>Márton</firstname>
+                        <surname>Ispány</surname>
+                    </personname>
+                </author>                   
+            </authorgroup>
+            <title>Traffic Simulation based on the Robocar World Championship Initiative</title>
+            <biblioset relation="journal">
+                <volumenum>7</volumenum>
+                <issuenum>3</issuenum>                
+                <pagenums>50-59</pagenums>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Infocommunications Journal
+                    <link xlink:href="http://www.infocommunications.hu/documents/169298/1598142/InfocomJ_2015_3_8_Batfai.pdf">http://www.infocommunications.hu/documents/169298/1598142/InfocomJ_2015_3_8_Batfai.pdf</link>
+                </publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>        
+        <biblioentry>
+            <abbrev>OOCWC3</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Renátó</firstname>
+                        <surname>Besenczi</surname>
+                    </personname>
+                </author>                 
+                <author>
+                    <personname>
+                        <firstname>Mihály</firstname>
+                        <surname>Szilágyi</surname>
+                    </personname>
+                </author>                 
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>András</firstname>
+                        <surname>Mamenyák</surname>
+                    </personname>
+                </author>                   
+                <author>
+                    <personname>
+                        <firstname>István</firstname>
+                        <surname>Oniga</surname>
+                    </personname>
+                </author>                   
+                <author>
+                    <personname>
+                        <firstname>Márton</firstname>
+                        <surname>Ispány</surname>
+                    </personname>
+                </author>                   
+            </authorgroup>
+            <title>Using crowdsensed information for traffic simulation in the Robocar World Championship framework</title>
+            <biblioset relation="journal">
+                <volumenum>Cognitive Infocommunications (CogInfoCom), 2015 6th IEEE International Conference on, 333-337</volumenum>
+                <issuenum>3</issuenum>                
+                <pagenums>333-337</pagenums>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Cognitive Infocommunications (CogInfoCom), 2015 6th IEEE International Conference on
+                </publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>        
+    </bibliodiv>    
+    
 </bibliography>

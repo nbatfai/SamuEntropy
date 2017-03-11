@@ -40,8 +40,24 @@
         <section>
             <title>A játékok társadalmi, gazdasági, élettani és pszichológiai összefüggései</title>
             <para>                   
-                Az elektronikus játékok vizsgálata. 
+                Az e-sport tudományos vizsgálata. 
             </para>
+            <section>
+                <title>Egy nemzeti e-sport szervező és adminisztrációs felület kialakítása</title>
+                <para>                                       
+                    Szoftveres felület kialakítása az e-sport szervezéséhez a tömegsporttól a versenysportig, különös tekintettel a klasszikus fizikai játékok
+                    integrálhatóságának megvizsgálására is. 
+                    Az integrálást támogatandó interfész koncepciójának kialakítása, majd további ráépülő munkaként egy gyors prototípus megvalósítása
+                    az OOCWC (rObOCar World Championship, Robotautó Világbajnokság) platformhoz 
+                    <citation>OOCWC</citation>, <citation>OOCWC2</citation>, <citation>OOCWC3</citation>.
+                    Részleteket lásd a tervezett <citation>ESPADM</citation> kutatási munkában.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: lehet-e tézis, hogy az e-sportot a klasszikus sportból kell megszervezni? (Azon analógia 
+                    mentén, hogy a magyar számítástechnika a matematikából lett &#x201E;nemesítve&#x201D;, szemben például az USA-val, ahol a számítástechnika
+                    igény szerint alakult ki.)
+                </para>                
+            </section>            
             <section>
                 <title>A gyerekek védelme</title>
                 <para>                   
