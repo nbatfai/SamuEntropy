@@ -293,8 +293,8 @@
             </authorgroup>
             <title>OOCWC: The robocar world championship initiative</title>
             <biblioset relation="journal">
-                <volumenum>10.1109</volumenum>
-                <issuenum>ConTEL.2015.7231223</issuenum>
+                <volumenum>10.1109/ConTEL.2015.7231223</volumenum>
+                <issuenum></issuenum>
             </biblioset>
             <publisher>
                 <publishername>
@@ -387,7 +387,7 @@
             </authorgroup>
             <title>Using crowdsensed information for traffic simulation in the Robocar World Championship framework</title>
             <biblioset relation="journal">
-                <volumenum>Cognitive Infocommunications (CogInfoCom), 2015 6th IEEE International Conference on, 333-337</volumenum>
+                <volumenum>Cognitive Infocommunications (CogInfoCom)</volumenum>
                 <issuenum>3</issuenum>                
                 <pagenums>333-337</pagenums>
             </biblioset>

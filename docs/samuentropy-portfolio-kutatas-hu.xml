@@ -127,6 +127,15 @@
             </para>
 
             <section>
+                <title>Gerontológia és morfogenezis</title>
+                <para>
+                    Számítási modellek vizsgálata, különös tekintettel az entrópiára és a Turing-féle morfogenezisre.
+                </para>
+                <para>
+                    <emphasis>Aktuális kérdés</emphasis>: milyen alapcikkek vannak a Turing-féle felütés óta? Irodalomkutatás, egy state of the art áttekintéshez a területről.
+                </para>
+            </section>
+            <section>
                 <title>Robotpszichológia</title>
                 <para>
                     Az asimovi vízió programozói szempontból értelmezett megvalósítása <citation>ROBOPSY</citation>, <citation>PSAMU</citation>.
