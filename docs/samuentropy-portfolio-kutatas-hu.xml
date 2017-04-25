@@ -140,6 +140,17 @@
                 <para>
                     Az asimovi vízió programozói szempontból értelmezett megvalósítása <citation>ROBOPSY</citation>, <citation>PSAMU</citation>.
                 </para>
+                <section>
+                    <title>A kognitív képességek mérése</title>
+                    <para>
+                        Becslő app-ok kifejlesztése.
+                    </para>
+                    <para>
+                        <emphasis>Aktuális kérdés</emphasis>: 
+                        ki tudunk fejleszteni a játékost jellemző, a mennyi infót tud feldolgozni a monitorról kérdésre bit/sec eredményt adó app-ot? 
+                        A kapcsolódó kutatást a <citation>BRAINBENCHMARKING</citation> tervezett kézirat mutatja be.
+                    </para>
+                </section>                
             </section>
             
                                     

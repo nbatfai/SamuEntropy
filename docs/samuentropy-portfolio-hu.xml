@@ -39,7 +39,7 @@
                 </address>
             </author>
         </authorgroup>
-        <edition>Esportfólió (NEMESPOR), Entrópia Samu, DEBRECEN, 2017. márc. 11, v. hu.0.0.24</edition>
+        <edition>Esportfólió (NEMESPOR), Entrópia Samu, DEBRECEN, 2017. ápr. 25, v. hu.0.0.26</edition>
         <pubdate>2017</pubdate>
         <copyright>
             <year>2017</year>
@@ -109,6 +109,14 @@
                     <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>,
                     verziótörténet tekintetében lásd az ottani ChangeLog-ot. Az érdeklődő kutatói közösség szervezése:
                     <link xlink:href="https://groups.google.com/forum/#!forum/nemespor">https://groups.google.com/forum/#!forum/nemespor</link>, csatlakozz!
+                </revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.26</revnumber>
+                <date>2017-04-25</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>
+                    A mindenkori aktuális változat tekintetében lásd az imént linkelt repó ChangeLog-ját!
                 </revremark>
             </revision>
         </revhistory>
@@ -187,7 +195,10 @@
     </xi:include>         
     <acknowledgements>
         <para>
-            Köszönet illeti az UDPROG, a DevRob2Psy, a desport (illetve egyéb alkalmi szerveződésű szakmai csoportok) <link xlink:href=""></link>
+            Köszönet illeti a
+            NEMESPOR, <link xlink:href="https://groups.google.com/forum/#!forum/nemespor">https://groups.google.com/forum/#!forum/nemespor</link>, 
+            az UDPROG, <link xlink:href=""></link>, a DevRob2Psy, <link xlink:href=""></link>, a desport, <link xlink:href=""></link> 
+            (illetve egyéb alkalmi szerveződésű szakmai csoportok) 
             tagjait inspiráló érdeklődésükért és hasznos észrevételeikért.
         </para>          
     </acknowledgements>

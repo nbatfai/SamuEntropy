@@ -260,6 +260,28 @@
             </publisher>
             <pubdate>2016</pubdate>
         </biblioentry>        
+        <biblioentry>
+            <abbrev>BRAINBENCHMARKING</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>Benchmarking Cognitive Abilities of the Brain with Computer Games</title>
+            <biblioset relation="journal">
+                <volumenum></volumenum>
+                <pagenums></pagenums>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Készülő kézirat
+                </publishername>
+            </publisher>
+            <pubdate>2017</pubdate>
+        </biblioentry>                
     </bibliodiv>  
     <bibliodiv>
         <title>Robotautó Világbajnokság</title>
