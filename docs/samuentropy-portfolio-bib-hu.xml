@@ -1,9 +1,174 @@
-<bibliography xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<bibliography xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_bib_hu">
     <title>Irodalomjegyzék</title>
     <bibliodiv>
-        <title>E-sport</title>
+        <title>Esport</title>
+        <biblioentry xml:lang="en">
+            <abbrev>Wagner 2006</abbrev>
+            <author>
+                <personname>
+                    <firstname>Michael G.</firstname>
+                    <surname>Wagner</surname>
+                </personname>
+            </author>
+            <title>On the Scientific Relevance of eSports</title>                        
+            <publisher>
+                <publishername>
+                    Proceedings of the 2006 International Conference on Internet Computing
+                </publishername>
+                <address>
+                    <link xlink:href="https://www.researchgate.net/publication/220968200_On_the_Scientific_Relevance_of_eSports">https://www.researchgate.net/publication/220968200_On_the_Scientific_Relevance_of_eSports</link>                
+                </address>
+            </publisher>
+            <pubdate>2006</pubdate>
+        </biblioentry>                        
+        <biblioentry>
+            <abbrev>BRAINB</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Gergő</firstname>
+                        <surname>Bogacsovics</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Roland</firstname>
+                        <surname>Paszerbovics</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Asztrik</firstname>
+                        <surname>Antal</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>István</firstname>
+                        <surname>Czevár</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Viktor</firstname>
+                        <surname>Kelemen</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Renátó</firstname>
+                        <surname>Besenczi</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>E-sportolók mérése</title>
+            <biblioset relation="journal">
+                <publishername>Információs Társadalom</publishername>                
+                <volumenum>18</volumenum>
+                <issuenum>1</issuenum>
+                <pagenums>147–155</pagenums>
+                <pubdate>2018</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Információs Társadalom
+                </publishername>
+                <address>
+                    <link xlink:href="http://real.mtak.hu/79216/1/it_2018_1_10_batfai_et_al.pdf">http://real.mtak.hu/79216/1/it_2018_1_10_batfai_et_al.pdf</link>                
+                </address>                
+            </publisher>
+            <pubdate>2018</pubdate>
+        </biblioentry>
+        <biblioentry>
+            <abbrev>HACKERS</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Norbert</firstname>
+                        <surname>Bátfai</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Renátó</firstname>
+                        <surname>Besenczi</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>József</firstname>
+                        <surname>Szabó</surname>
+                    </personname>
+                </author>                
+                <author>
+                    <personname>
+                        <firstname>Péter</firstname>
+                        <surname>Jeszenszky</surname>
+                    </personname>
+                </author>                
+                <author>
+                    <personname>
+                        <firstname>András</firstname>
+                        <surname>Buda</surname>
+                    </personname>
+                </author>                
+                <author>
+                    <personname>
+                        <firstname>László</firstname>
+                        <surname>Jármi</surname>
+                    </personname>
+                </author>                
+                <author>
+                    <personname>
+                        <firstname>Rita Barbara</firstname>
+                        <surname>Lovas</surname>
+                    </personname>
+                </author>                
+                <author>
+                    <personname>
+                        <firstname>Marcell Kristóf</firstname>
+                        <surname>Pál</surname>
+                    </personname>
+                </author>                                
+                <author>
+                    <personname>
+                        <firstname>Gergő</firstname>
+                        <surname>Bogacsovics</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Kovács Enikő</firstname>
+                        <surname>Tóthné</surname>
+                    </personname>
+                </author>                                
+            </authorgroup>
+            <title>DEAC-Hackers: játszó hackerek, hackelő játékosok</title>
+            <biblioset relation="journal">
+                <publishername>Információs Társadalom</publishername>                
+                <volumenum>18</volumenum>
+                <issuenum>1</issuenum>
+                <pagenums>132-146</pagenums>
+                <pubdate>2018</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Információs Társadalom
+                </publishername>
+                <address>
+                    <link xlink:href="http://real.mtak.hu/79218/1/it_2018_1_9_batfai_et_al.pdf">http://real.mtak.hu/79218/1/it_2018_1_9_batfai_et_al.pdf</link>                
+                </address>                
+            </publisher>
+            <pubdate>2018</pubdate>
+        </biblioentry>                        
         <biblioentry>
             <abbrev>ESPADM</abbrev>
             <authorgroup>
@@ -14,7 +179,7 @@
                     </personname>
                 </author>
             </authorgroup>
-            <title>Egy nemzeti e-sport szervező és adminisztrációs felület kialakítása</title>
+            <title>Egy nemzeti esport szervező és adminisztrációs felület kialakítása</title>
             <biblioset relation="journal">
                 <volumenum></volumenum>
                 <pagenums></pagenums>
@@ -71,17 +236,23 @@
             </authorgroup>
             <title>Az e-sport és a robotpszichológia közös jövője</title>
             <biblioset relation="journal">
-                <volumenum></volumenum>
-                <pagenums></pagenums>
+                <publishername>Információs Társadalom</publishername>                
+                <volumenum>16</volumenum>
+                <issuenum>4</issuenum>
+                <pagenums>26-39</pagenums>
+                <pubdate>2016</pubdate>
             </biblioset>
             <publisher>
                 <publishername>
-                    Közlésre elfogadott kézirat
+                    Információs Társadalom
                 </publishername>
+                <address>
+                    <link xlink:href="http://real.mtak.hu/53168/1/it_2016_4_2_batfai_bersenszki_lukacs_besenczi_bogacsovics_jeszenszky.pdf">http://real.mtak.hu/53168/1/it_2016_4_2_batfai_bersenszki_lukacs_besenczi_bogacsovics_jeszenszky.pdf</link>                
+                </address>                
             </publisher>
             <pubdate>2016</pubdate>
         </biblioentry>        
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>FABA</abbrev>
             <authorgroup>
                 <author>
@@ -121,9 +292,276 @@
             </publisher>
             <pubdate>2017</pubdate>
         </biblioentry>        
-    </bibliodiv>    
+    </bibliodiv>        
+    <bibliodiv>
+        <title>Mesterséges intelligencia</title>
+        <biblioentry>
+            <abbrev>ROBOCUP</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Hiroaki</firstname>
+                        <surname>Kitano</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Minoru</firstname>
+                        <surname>Asada</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Yasuo</firstname>
+                        <surname>Kuniyoshi</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Itsuki</firstname>
+                        <surname>Noda</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Eiichi</firstname>
+                        <surname>Osawa</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>RoboCup: The Robot World Cup Initiative</title>
+            <biblioset relation="journal">
+                <title>ACM, Proceedings of the first international conference on Autonomous agents</title>
+                <volumenum>AGENTS '97</volumenum>
+                <pagenums>340-347</pagenums>
+                <pubdate>1997</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    ACM, Proceedings of the first international conference on Autonomous agents
+                    <link xlink:href="http://dl.acm.org/citation.cfm?doid=267658.267738">http://dl.acm.org/citation.cfm?doid=267658.267738</link>
+                </publishername>
+            </publisher>
+            <pubdate>1997</pubdate>
+        </biblioentry>
+    </bibliodiv>
     <bibliodiv>
         <title>Gépi tanulás</title>
+        
+        <biblioentry xml:lang="en">
+            <abbrev>ATARI</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Volodymyr</firstname>
+                        <surname>Mnih</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Koray</firstname>
+                        <surname>Kavukcuoglu</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>David</firstname>
+                        <surname>Silver</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Alex</firstname>
+                        <surname>Graves</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Ioannis</firstname>
+                        <surname>Antonoglou</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Daan</firstname>
+                        <surname>Wierstra</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Martin A.</firstname>
+                        <surname>Riedmiller</surname>
+                    </personname>
+                </author>                 
+            </authorgroup>
+            <title>Playing Atari with Deep Reinforcement Learning</title>                        
+            <publisher>
+                <publishername>
+                    ArXiv
+                </publishername>
+                <address>
+                    <link xlink:href="http://arxiv.org/abs/1312.5602">http://arxiv.org/abs/1312.5602</link>                
+                </address>
+            </publisher>
+            <pubdate>2016</pubdate>
+        </biblioentry>
+                
+        <biblioentry xml:lang="en">
+            <abbrev>ATARI2</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Volodymyr</firstname>
+                        <surname>Mnih</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Koray</firstname>
+                        <surname>Kavukcuoglu</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>David</firstname>
+                        <surname>Silver</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Andrei A.</firstname>
+                        <surname>Rusu</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Joel</firstname>
+                        <surname>Veness</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Marc G.</firstname>
+                        <surname>Bellemare</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Alex</firstname>
+                        <surname>Graves</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Martin</firstname>
+                        <surname>Riedmiller</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Andreas K.</firstname>
+                        <surname>Fidjeland</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Georg</firstname>
+                        <surname>Ostrovski</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Stig</firstname>
+                        <surname>Petersen</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Charles</firstname>
+                        <surname>Beattie</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Amir</firstname>
+                        <surname>Sadik</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Ioannis</firstname>
+                        <surname>Antonoglou</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Helen</firstname>
+                        <surname>King</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Dharshan</firstname>
+                        <surname>Kumaran</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Daan</firstname>
+                        <surname>Wierstra</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Shane</firstname>
+                        <surname>Legg</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Demis</firstname>
+                        <surname>Hassabis</surname>
+                    </personname>
+                </author>                 
+            </authorgroup>
+            <title>Human&#45;level control through deep reinforcement learning</title>
+            <biblioset relation="journal">
+                <publishername>Nature</publishername>                
+                <volumenum>518</volumenum>
+                <issuenum>7540</issuenum>
+                <pagenums>529-533</pagenums>
+                <pubdate>2015</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Nature
+                    <link xlink:href="https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf">https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf</link>
+                </publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>
+        
+        <biblioentry xml:lang="en">
+            <abbrev>SAMUB</abbrev>
+            <author>
+                <personname>
+                    <firstname>Norbert</firstname>
+                    <surname>Bátfai</surname>
+                </personname>
+            </author>
+            <title>A disembodied developmental robotic agent called Samu Bátfai</title>
+            <biblioset relation="journal">
+                <volumenum></volumenum>
+                <pagenums></pagenums>
+            </biblioset>
+            <publisher>
+                <publishername>
+                    Önarxiv kézirat, <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link>
+                </publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>     
+        
         <biblioentry>
             <abbrev>ENTER</abbrev>
             <authorgroup>
@@ -149,7 +587,7 @@
     </bibliodiv>    
     <bibliodiv>
         <title>Az élő rendszerek alapkutatása</title>
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>LIFE</abbrev>
             <authorgroup>
                 <author>
@@ -167,8 +605,30 @@
             </publisher>
             <pubdate>1944</pubdate>
         </biblioentry>        
+        <biblioentry xml:lang="en">
+            <abbrev>ELETKODJA</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Jim</firstname>
+                        <surname>Al-Khalili</surname>
+                    </personname>                    
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Johnjoe</firstname>
+                        <surname>McFadden</surname>
+                    </personname>                    
+                </author>
+            </authorgroup>
+            <title>Az élet kódja</title>
+            <publisher>
+                <publishername>Libri</publishername>
+            </publisher>
+            <pubdate>2017</pubdate>
+        </biblioentry>                
         <biblioentry>
-            <abbrev>ELET</abbrev>
+            <abbrev>SUBJT</abbrev>
             <authorgroup>
                 <author>
                     <personname>
@@ -177,19 +637,19 @@
                     </personname>
                 </author>
             </authorgroup>
-            <title>A tudatosság élet alapú megközelítése</title>
+            <title>A szubjektivitás elmélete</title>
             <biblioset relation="journal">
                 <volumenum></volumenum>
                 <pagenums></pagenums>
             </biblioset>
             <publisher>
                 <publishername>
-                    Készülő kézirat
+                    Elfogadott kézirat
                 </publishername>
             </publisher>
             <pubdate>2017</pubdate>
         </biblioentry>        
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>PENROSE</abbrev>
             <authorgroup>
                 <author>
@@ -207,10 +667,39 @@
             </publisher>
             <pubdate>2002</pubdate>
         </biblioentry>        
+        <biblioentry xml:lang="en">
+            <abbrev>ORCHOR</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Stuart</firstname>
+                        <surname>Hameroff</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Roger</firstname>
+                        <surname>Penrose</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness</title>
+            <biblioset relation="journal">
+                <publishername>Mathematics and Computers in Simulation</publishername>                
+                <volumenum>40</volumenum>
+                <issuenum>3</issuenum>
+                <pagenums>453-480</pagenums>
+                <pubdate>1996</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>Mathematics and Computers in Simulation</publishername>
+            </publisher>
+            <pubdate>1996</pubdate>
+        </biblioentry>            
     </bibliodiv>    
     <bibliodiv>
         <title>Robotpszichológia</title>
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>ROBOPSY</abbrev>
             <authorgroup>
                 <author>
@@ -221,10 +710,6 @@
                 </author>
             </authorgroup>
             <title>Robopsychology</title>
-            <biblioset relation="journal">
-                <volumenum></volumenum>
-                <pagenums></pagenums>
-            </biblioset>
             <publisher>
                 <publishername>
                     <link xlink:href="https://github.com/nbatfai/Robopsychology/files/169195/robopsychology.pdf">https://github.com/nbatfai/Robopsychology/files/169195/robopsychology.pdf</link>
@@ -232,7 +717,7 @@
             </publisher>
             <pubdate>2016</pubdate>
         </biblioentry>        
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>PSAMU</abbrev>
             <authorgroup>
                 <author>
@@ -250,15 +735,21 @@
             </authorgroup>
             <title>Robopsychology manifesto: Samu in his prenatal development</title>
             <biblioset relation="journal">
-                <volumenum></volumenum>
-                <pagenums></pagenums>
+                <publishername>Carpathian Journal of Electronic and Computer Engineering</publishername>                
+                <volumenum>10</volumenum>
+                <issuenum>1</issuenum>
+                <pagenums>3-12</pagenums>
+                <pubdate>2017</pubdate>
             </biblioset>
             <publisher>
                 <publishername>
-                    Beküldött kézirat
+                    Carpathian Journal of Electronic and Computer Engineering
                 </publishername>
+                <address>
+                    <link xlink:href="http://cjece.ubm.ro/vol/10-2017/1705.02-10101.pdf">http://cjece.ubm.ro/vol/10-2017/1705.02-10101.pdf</link>                
+                </address>                
             </publisher>
-            <pubdate>2016</pubdate>
+            <pubdate>2017</pubdate>
         </biblioentry>        
         <biblioentry>
             <abbrev>BRAINBENCHMARKING</abbrev>
@@ -280,12 +771,12 @@
                     Készülő kézirat
                 </publishername>
             </publisher>
-            <pubdate>2017</pubdate>
+            <pubdate>2018</pubdate>
         </biblioentry>                
     </bibliodiv>  
     <bibliodiv>
         <title>Robotautó Világbajnokság</title>
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>OOCWC</abbrev>
             <authorgroup>
                 <author>
@@ -325,7 +816,7 @@
             </publisher>
             <pubdate>2015</pubdate>
         </biblioentry>        
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>OOCWC2</abbrev>
             <authorgroup>
                 <author>
@@ -367,7 +858,7 @@
             </publisher>
             <pubdate>2015</pubdate>
         </biblioentry>        
-        <biblioentry>
+        <biblioentry xml:lang="en">
             <abbrev>OOCWC3</abbrev>
             <authorgroup>
                 <author>

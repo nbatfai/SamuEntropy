@@ -1,4 +1,4 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_kutatas_hu">
     <title>Kutatás</title>
@@ -14,16 +14,29 @@
             </keywordset>
         </info>
         <section>
-            <title>E-sport és gépi tanulás</title>             
+            <title>Esport és gépi tanulás</title>             
             <para>
-                A neurális (tipikusan mélytanulás, big data és CNN) architektúrák fejlesztése e-sport játékokkal.
-                A koncepció általános bemutatását és beágyazását úgy az e-sportba mint a kapcsolható egyéb tudományterületekbe (a nyelvészettől a gazdaságig)
+                A neurális (tipikusan mélytanulás, big data és CNN) architektúrák fejlesztése esport játékokkal.
+                A koncepció általános bemutatását és beágyazását úgy az esportba mint a kapcsolható egyéb tudományterületekbe (a nyelvészettől a gazdaságig)
                 lásd az <citation>ESAMU</citation> munkában. Már speciálisan a témára fókuszál a <citation>FABA</citation> kézirat.
             </para>
             <para>
-                <emphasis>Aktuális kérdés</emphasis>: hogyan lehet, ha egyáltalán egy Tensorflow számítási gráfot egy MMORTS játék építési felületére konvertálni és onnan visszaalakítani?
+                <emphasis>Aktuális kérdés</emphasis>: hogyan lehet, ha egyáltalán egy Tensorflow számítási gráfot egy MMORTS játék építési felületére 
+                konvertálni és onnan visszaalakítani?
             </para>
-            
+            <para>
+                <emphasis>Értékelés</emphasis>: nem sikerült használható (játszható) játékká fejleszteni a 
+                <link xlink:href="https://github.com/nbatfai/SamuEntropy/tree/master/FACE_BATTLE/Greta">GretaTheBuilder</link> Android alkalmazást. 
+                Az <quote>alaplap építést</quote>, mint játékélményt megragadni próbáló erőfeszítéseinket a
+                <citation>FABA</citation> mutatja be (lásd a hivatkozott cikk 1., <quote>Motherboard Builder</quote> ábráját.) 
+                Ez a kutatási irány jelenleg fagyott. Alternatíva magának a TensorFlow TensorBoard vizualizációs felületének hasonló, 
+                gamification jellegű átalakítása jelenthetne. 
+            </para>
+            <para>                
+                A gépi tanulással és (ugyan nem szükségszerűen, de) az esporttal kapcsolatba hozható
+                aktuális irányunk a <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.future">JÖVŐ DEBRECEN</link> pontban 
+                bemutatott Magyar Nemzeti Mesterséges Intelligencia.
+            </para>            
             <section>
                 <title>Neurális architektúra</title> 
                 <para>
@@ -33,19 +46,21 @@
                 <para>
                     <emphasis>Aktuális kérdés</emphasis>: hogyan mérhetjük a súlyok entrópiáját?
                 </para>
-            </section>
-            
-        </section>
-                
+                <para>
+                    <emphasis>Értékelés</emphasis>: az intuitív fogalmi megalapozást a közlésre elfogadott 
+                    <citation>SUBJT</citation> ad majd. Ennek megfelelően ez az irány várakozó állapotban van.
+                </para>                
+            </section>            
+        </section>                
         <section>
             <title>A játékok társadalmi, gazdasági, élettani és pszichológiai összefüggései</title>
             <para>                   
-                Az e-sport tudományos vizsgálata. 
+                Az esport tudományos vizsgálata. 
             </para>
             <section>
-                <title>Egy nemzeti e-sport szervező és adminisztrációs felület kialakítása</title>
+                <title>Egy nemzeti esport szervező és adminisztrációs felület kialakítása</title>
                 <para>                                       
-                    Szoftveres felület kialakítása az e-sport szervezéséhez a tömegsporttól a versenysportig, különös tekintettel a klasszikus fizikai játékok
+                    Szoftveres felület kialakítása az esport szervezéséhez a tömegsporttól a versenysportig, különös tekintettel a klasszikus fizikai játékok
                     integrálhatóságának megvizsgálására is. 
                     Az integrálást támogatandó interfész koncepciójának kialakítása, majd további ráépülő munkaként egy gyors prototípus megvalósítása
                     az OOCWC (rObOCar World Championship, Robotautó Világbajnokság) platformhoz 
@@ -53,10 +68,67 @@
                     Részleteket lásd a tervezett <citation>ESPADM</citation> kutatási munkában.
                 </para>
                 <para>
-                    <emphasis>Aktuális kérdés</emphasis>: lehet-e tézis, hogy az e-sportot a klasszikus sportból kell megszervezni? (Azon analógia 
+                    <emphasis>Aktuális kérdés</emphasis>: lehet-e tézis, hogy az esportot a klasszikus sportból kell megszervezni? (Azon analógia 
                     mentén, hogy a magyar számítástechnika a matematikából lett &#x201E;nemesítve&#x201D;, szemben például az USA-val, ahol a számítástechnika
                     igény szerint alakult ki.)
                 </para>                
+                <para xml:id="samuentropy_portfolio_kutatas_hu.ertekeles.ESPADM">
+                    <emphasis>Értékelés</emphasis>: időközben a hazai esport szervezés nagy kezdőlépéseket tett: számos esport szakosztály alakult, például
+                    az 
+                    <itemizedlist>
+                        <listitem>
+                            <para>                    
+                                <link xlink:href="http://mtk.hu/szakosztalyok/esport">MTK</link>
+                            </para>
+                        </listitem>                    
+                        <listitem>
+                            <para>                    
+                                DEAC: <link xlink:href="http://deac.hu/szakosztalyok/esport">DEAC-Hackers</link>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>                    
+                                <link xlink:href="http://dvtk.eu/10-e_sport-sportag">DVTK</link>
+                            </para>
+                        </listitem>                    
+                        <listitem>
+                            <para>                    
+                                DVSC: <link xlink:href="https://www.facebook.com/DvscEsport/">DVSC Esport</link>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>                    
+                                Budapesti Honvéd: <link xlink:href="https://www.facebook.com/honvedesport/">Lenovo Legion Honvéd Esport Akadémia</link>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>                    
+                                <link xlink:href="http://tfse.sport.hu/szakosztalyok/e-sport/">TFSE</link>
+                            </para>
+                        </listitem>                    
+                        <listitem>
+                            <para>                    
+                                illetve számos helyen történnek előkészületek a helyi esport szakosztály létrehozására
+                            </para>
+                        </listitem>                    
+                    </itemizedlist>                            
+                    ahol a szakmai munkaként 
+                    természetes az esport megszervezése, ezért ez az irány átkerült a szervezés rész alá. Annyi érdemes itt előzetesen rögzíteni, hogy a szűken
+                    értelmezett szoftveres felület kialakításának versenyszervező és lebonyolító része iránti érdeklődésünk elveszett, ez az irány fagyottminek oka, 
+                    hogy a rendelkezésre álló szoftverek (például ESL) itt megítésélünk szerint teljesen kielégítőek.                
+                </para>                                
+                <para>
+                    Az ESPADM kutatási terv speciálisan a DEAC-Hackers adminisztrációra fókuszálva szakdolgozat és pályázati munka keretében 
+                    <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.belsoszervezes">folytatódik</link> a 
+                    jövőben. Nyílt forráskódú modellben és deklaráltan olyan céllal, hogy a kifejlesztendő szoftvereket más esport szakosztályok is fel 
+                    tudják használni a saját adminisztrációjukra és
+                    megszervezésükre (például tagság, verseny aktivitás, almanach). 
+                </para>                
+                <para>
+                    Az interfész kapcsán említett OOCWC, mint közlekedés szimulációs platform fejlesztése fagyott, sem játékká alakítása, sem az ESPADM felé 
+                    interfészének kialakítása sem kezdődött meg és az iménti eredmények tükrében ezek már nem is aktuálisak.
+                </para>                
+                
             </section>            
             <section>
                 <title>A gyerekek védelme</title>
@@ -70,42 +142,104 @@
                 <para>
                     <emphasis>Aktuális kérdés</emphasis>: milyen szervezési és milyen szoftveres védelmet (nem csupán a meglévő megoldások áttekintésével és 
                     ajánlásával, hanem akár egy szülő-ágens kidolgozhatóságának megvizsgálásával) tudunk adni?
+                </para>  
+                <para>
+                    <emphasis>Értékelés</emphasis>: ebben az irányban egy programozást tanító (mélytanulásos MI) ágens koncepciója formálódik, melyet a DEAC-Hackers
+                    utánpótlásában terjesztenénk virtualizált GNU/Linux image-re telepített vastag kliens formában, mely a programozás tanítása mellett 
+                    felügyeleti és a szülő
+                    felé riportoló funkciókkal is bírna.
                 </para>                
+                <tip>
+                    <title>Életkori ellentmondások</title>
+                    <para>
+                        Megfigyelhető, hogy a játékok életkori ajánlásai és a játszók életkora tipikusan nem összeegyeztethető. Mélyebben és határesetben előfordulhat,
+                        hogy mire az ajánlás engedné a játékot (s így a versenyek a versenyzést), addigra a játékos már kiöregedett...
+                    </para>
+                    <para>
+                        A DEAC-Hackers szakosztály tüneti kezelésként az amatőr sportolói sportszerződés mellett a 18 év alatti igazolásoknál kölön játékspecifikus
+                        szülői nyilatkozatot is kér (lásd a DEAC-Hackers 
+                        <link xlink:href="https://www.facebook.com/groups/DEACHackers/files/">előszoba</link> dokumentumai között). Fontos lenne ennek a kérdésnek a tudományos igényességű 
+                        vizsgálata!
+                    </para>
+                </tip>                               
             </section>
             <section>
                 <title>Közösségszervezés</title>
                 <para>             
                     A folyamat elején az oktatással szimbiózisban felépíteni az iskolai, egyetemi és végeredményben
                     (ennek a folyamatnak a végén)
-                    a profi e-sportot<footnote>
+                    a profi esportot<footnote>
                         <para>Minta lehet például az amerikai foci?</para>
                     </footnote>. Lásd még a <link xlink:href="#samuentropy_portfolio_szervezes_hu.teruletek">szervezéssel foglalkozó fejezetet</link>!
                 </para>
                 <para>
-                    <emphasis>Aktuális kérdés</emphasis>: adott szinteken milyen e-sport orientált szerveződéseket javasolt 
+                    <emphasis>Aktuális kérdés</emphasis>: adott szinteken milyen esport orientált szerveződéseket javasolt 
                     létrehozni és mi a különböző szintek kapcsolata?
                 </para>                
+                <para>
+                    <emphasis>Értékelés</emphasis>: az egyetemi szinten, azon belül két fő irányban sikerült előre haladnunk. Egyik a DEAC-Hackers megalapítása és
+                    üzemeltetése, a másik a DEIK-en tavasszal meghirdetésre kerülő 
+                    <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/NEMESPOR/ONK2017/ONK_esport_poster_BN.pdf">esport kurzus</link>. A DEAC-Hackers esport
+                    szakosztályt a <citation>HACKERS</citation> műhelymunka közleményben mutattuk be részletesen. 
+                    A továbbiakban mindkét irányt a szervezés részben bontjuk tovább.
+                </para>                
+                
             </section>
             <section>
                 <title>Tréning programok kifejleszthetőségének vizsgálata</title>
                 <para>
-                    Adott e-sport játékokhoz szükséges készségek feltárása.
+                    Adott esport játékokhoz szükséges készségek feltárása.
                 </para>
                 <para>
                     <emphasis>Aktuális kérdés</emphasis>: melyek ezek és mi lehet az alapvető osztályozásuk? Tudunk-e játéktípusonként készségcsokrokat meghatározni?
                 </para>
                 <para>
-                    Adott e-sport játékok játékmeneteinek elemzése.
+                    <emphasis>Értékelés</emphasis>: 
+                    a <link xlink:href="https://github.com/nbatfai/future">FUTURE projekt</link> tevékenység böngészőjének fejlesztése során elkezdődött a
+                    játékok és esport tevékenységek <link xlink:href="http://smartcity.inf.unideb.hu/~norbi/City/">tipikus tevékenységeinek</link> 
+                    és az azokkal kapcsolatba hozható tulajdonságok 
+                    <link xlink:href="http://smartcity.inf.unideb.hu/~norbi/FUTURE9.pdf">meghatározása és jellemzése</link>. Ám ez a kutatás-fejlesztés a 
+                    tréning programok kifejleszthetőségével nincs direkt kapcsolatban, ezért kibontása a 
+                    <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.future">JÖVŐ DEBRECEN</link> 
+                    pontban történik.
+                </para>                
+                <para>
+                    Adott esport játékok játékmeneteinek elemzése.
                 </para>
                 <para>
-                    <emphasis>Aktuális kérdés</emphasis>: kialakíthatóak-e jó stratégiák?
+                    <emphasis>Aktuális kérdés</emphasis>: kialakíthatóak-e jó stratégiák? Például a játék modellezésével és ezzel a modellel szimulációik végzésével, vagy 
+                    az <citation>ATARI</citation>, illetve az <citation>ATARI2</citation> Nature cikk mintájára játszó ágensek készítésével, azok játékának elemzésével?
+                    <warning>
+                        <title>Az emberi játékosnál jobb <quote>csaló ágensek</quote>?</title>
+                        <para>
+                            Az emberi játékosnál eredményesebb <citation>ATARI2</citation> játszó ágensek felvetik a kérdést, 
+                            hogy az ilyenek esetleges elterjedése hogyan fog hatni arra
+                            az esport rétegre, amikor a játékos otthonról, mondjuk ESL játékosként csatlakozik be adott esport tornákba.
+                            Konkrétan mekkora veszély az, hogy <quote>csaló programok</quote> alapját adhatják-e ezek az ágensek?
+                        </para>
+                    </warning>
                 </para>
                 <para>
                     Licencelési kérdések az ismert játékoknál.
                 </para>
                 <para>
-                    <emphasis>Aktuális kérdés</emphasis>: ha ismert nem saját játékokat használunk, akkor mi a jogi mozgástér?
+                    <emphasis>Aktuális kérdés</emphasis>: ha ismert, nem saját játékokat használunk, akkor mi a jogi mozgástér (például a játék API-jának felhasználása,
+                    a játékmenet elemzések készítése és megosztása tekintetében)?
                 </para>            
+                <tip>
+                    <title>Aktuális feladat (kódja: engedélyek.ONKtanulmány.tavasz.2018)</title>
+                    <para>
+                        Bemutatni a 0 A.D. licencelését, különös tekintettel a modok készítését is a fókuszban tartva. Felkutatni a játék esetleges 
+                        oktatásbeli felhasználását.
+                    </para>
+                    <para>                
+                        Bemutatni a LoL licencelését, különös tekintettel a Riot Games API-ra. Példákkal áttekinteni az API tipikus ismert alkalmazásait.
+                        Külön érdekes kérdés, hogy az API-val elérhetők adatokra kutatási céllal hogyan lehet analitikát építeni, ha lehet.
+                    </para>
+                    <para>                    
+                        Határidők: bemutatás az <quote>Új kutatások a neveléstudományban 2017</quote> tanulmánykötetbe beküldendő cikkben május 14.
+                    </para>
+                </tip>                 
             </section>
                         
         </section>
@@ -119,12 +253,20 @@
                 és nagy entrópiájú formáját adják le, miközben megtartják saját belső rendezettségüket <citation>PENROSE</citation>.
             </para>
             <para>
-                A gondolkodásbeli paradigma váltást az 
-                <citation>ELET</citation> munka készíti elő.
+                A gondolkodásbeli paradigmaváltást az 
+                <citation>SUBJT</citation> munka készíti elő.
             </para>       
             <para>
                 <emphasis>Aktuális kérdés</emphasis>: mi a tudatosság?
             </para>
+            <para>
+                <emphasis>Értékelés</emphasis>: Schrödinger éleslátása abban a felismerésében nyilvánult meg, hogy az öröklődés sokkal precízebb 
+                folyamat annál semmint, hogy termodinamikai törvények leírhassák <citation>LIFE</citation>.
+                Elképzelése mára a kvantum biológiában érik be, amely már a dedikált ismeretterjesztés szintjén is megjelenik <citation>ELETKODJA</citation>.
+                A <citation>SUBJT</citation> szellemében feltehetjük a kérdést, hogy eljuthatunk-e valamiféle kvantum pszichológiához abban az irányban, hogy
+                a mémek másolása is ugyancsak sokkal precízebb annál, mintha termodinamikai irányítás alatt állnának. Az Penrose-Hameroff OrchOR modell
+                (amit bár nem tarthatunk kvantum pszichológiának, mivel az ugye még nem is létezik) <citation>ORCHOR</citation> számaival spekulálva.
+            </para>                
 
             <section>
                 <title>Gerontológia és morfogenezis</title>
@@ -150,6 +292,17 @@
                         ki tudunk fejleszteni a játékost jellemző, a mennyi infót tud feldolgozni a monitorról kérdésre bit/sec eredményt adó app-ot? 
                         A kapcsolódó kutatást a <citation>BRAINBENCHMARKING</citation> tervezett kézirat mutatja be.
                     </para>
+                    <para>
+                        <emphasis>Értékelés</emphasis>: 
+                        időközben <link xlink:href="https://prezi.com/yiiemg0xjgso/tehetsegkutatas-az-esportban/">bemutattuk</link> az   
+                        <link xlink:href="https://github.com/nbatfai/esport-talent-search">esport-talent-search</link> projekt
+                        BrainB V-ös mérősorozatát, melyet a <citation>BRAINB</citation> műhelymunka cikkben részleteztünk előkészítendő a   
+                        <citation>BRAINBENCHMARKING</citation> készülő kéziratot. (A tesztet számos Twitch videó is bemutatja, lásd például 
+                        a korai 2-es sorozat
+                        <link xlink:href="https://www.twitch.tv/videos/139186614">bemutatását</link>, vagy egy 
+                        <link xlink:href="https://www.twitch.tv/videos/206478952">levezényelt mérést</link> már az 5-ös sorozattal.)
+                    </para>                
+
                 </section>                
             </section>
             

@@ -1,4 +1,4 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_oktatas_hu">
     <title>Oktatás</title>
@@ -53,6 +53,13 @@
                 <para>
                     &lt;TODO: részben épüljön az <link xlink:href="#samuentropy_portfolio_oktatas_hu.altalanos">általános iskolai</link> szintre.&gt;
                 </para>
+                <tip>
+                    <title>Aktuális feladat (kódja: fakultáció.ONKtanulmány.tavasz.2018)</title>
+                    <para>
+                        Szeptembertől indítható fakultációk tervezése speciálisan a 0 A.D. történelmi RTS játékra alapozva.
+                        Határidők: bemutatás az <quote>Új kutatások a neveléstudományban 2017</quote> tanulmánykötetbe beküldendő cikkben június 21.
+                    </para>
+                </tip>                   
             </section>            
         </section>        
         <section>
@@ -62,19 +69,19 @@
             <section>
                 <title>Tantárgy tervek, tematikák és kompetenciák</title>
                 <para>
-                    <emphasis>E-sportok</emphasis> című tárgy: a hallgató ismerje az alapvető e-sportként is játszott játékokat!
+                    <emphasis>E-sportok</emphasis> című tárgy: a hallgató ismerje az alapvető esportként is játszott játékokat!
                 </para>
                 <para>
-                    <emphasis>E-sport szervező</emphasis> című tárgy: a hallgató képes legyen megszervezni alapvető e-sport játékok tornáit, különös tekintettel a jogi aspektusokra! 
+                    <emphasis>E-sport szervező</emphasis> című tárgy: a hallgató képes legyen megszervezni alapvető esport játékok tornáit, különös tekintettel a jogi aspektusokra! 
                 </para>
                 <para>
-                    <emphasis>E-sport elemző</emphasis> című tárgy: a hallgató képes legyen e-sportolók adott játékokbeli szakmai támogatására! 
+                    <emphasis>E-sport elemző</emphasis> című tárgy: a hallgató képes legyen esportolók adott játékokbeli szakmai támogatására! 
                 </para>
             </section>
             <section>
                 <title>E-sport MSc vízió</title>
                 <para>
-                    Az <citation>ESAMU</citation> munka bevezette &#x201E;e-sport informatikus mérnök&#x201D; megközelítése a térítéses MSc szak bevezetésének kérdésében.
+                    Az <citation>ESAMU</citation> munka bevezette &#x201E;esport informatikus mérnök&#x201D; megközelítése a térítéses MSc szak bevezetésének kérdésében.
                 </para>
             </section>
         </section>

@@ -1,4 +1,4 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_bevezetes_hu">
     <title>Bevezetés</title>
@@ -16,23 +16,105 @@
                 <keyword></keyword>
             </keywordset>
         </info>
-        <para>
-            Korábban az intuitíven az &#x201E;eBudapest 2024&#x201D;-el címkézhető olimpiai e-sportos elképzelésünk szőtt egy átszövő
-            vonatkozást az elektronikus játékokkal kapcsolatos törekvéseinkbe (ennek részletei elolvashatóak a 
-            <link xlink:href="https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1">https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1</link> lapon a 
-            <filename>samuentropy-idea-hu.pdf</filename> nevű dokumentumban). 
-        </para>
-        <para>
-            Most kutatási, fejlesztési, oktatási és szervezési nézőpontból tekintjük át az elektronikus játékokkal kapcsolatos erőfeszítéseinket 
-            és elképzeléseinket. Ez egy esetleges felosztás, például az <citation>ESAMU</citation> munkában felvetett, az egyetemi közegben 
-            szervezendő e-sport orientált közösségépítésről szóló kérdésének vannak mind a négy kategóriába eső aspektusai, de praktikus okokból mi 
-            a szervezés alatt fókuszálunk majd leginkább rá, s ugyanezzel az átfogó megközelítéssel nyúlunk minden felmerülő kérdéshez.
-        </para>
+        
+        <section>
+            <title>Ne menjen a tanulás a játék rovására!<footnote>
+                    <para>Az <link xlink:href="http://progpater.blog.hu/2018/01/06/esport_kutatasi_kialtvany">ESPORT kutatási kiáltvány 2018</link> és az
+                        <link xlink:href="https://twitch.tv/nbatfai">https://twitch.tv/nbatfai</link> Twitch csatorna egyik mottója.</para>
+                </footnote>
+            </title>                    
+            <para>
+                Motivációnk, hogy adni kell egy, az egyénnek utópisztikus célt.
+                Például<footnote>
+                    <para> Ezeket a példákat ugyanilyen kontextusban a 
+                        <link xlink:href="https://www.tankonyvtar.hu/en/tartalom/tamop425/0046_mesterseges_intelligencia_gyakorlatban_robotfoci/ch01.html#robocup">Mesterséges intelligencia a gyakorlatban: bevezetés a robotfoci programozásba</link> 
+                    című könyvben vetettük fel korábban.</para>
+                </footnote> olyat, amelyet Kennedy elnök 1961-es kongresszusi 
+                <link xlink:href="https://youtu.be/GhgVZLrxiu0">beszédében<footnote>
+                    <para>Az idézett mondatok 2:26-tól láthatóak a linkelt videón.</para>
+                </footnote></link> intézett az amerikai néphez: 
+                <blockquote>
+                    <attribution>
+                        <link xlink:href="https://www.nasa.gov/vision/space/features/jfk_speech_text.html">John F. Kennedy</link>
+                    </attribution>
+                    <para>First, I believe that this nation should commit itself to achieving the goal, 
+                        before this decade is out, of landing a man on the moon and returning him safely to the earth.</para>
+                </blockquote>                
+                magyarul: hiszek abban, hogy ennek a nemzetnek el kell köteleződnie azon cél elérésére, hogy még az évtized vége előtt
+                embert juttassunk a holdra és biztonságban visszahozzunk a földre. Vagy amilyet 1997-ben japán kutatók
+                <citation>ROBOCUP</citation> kitűztek, hogy a 2050-re a futball világbajnok csapatot győzze le a robotfoci csapat!
+            </para>
+            <para>
+                Mi legyen hát a mi utópiánk? Mekkorát merjünk mi álmodni? Íme a Magyar Nemzeti Esport Portfólió és Stratégia legfőbb célja:
+                egy magyar fejlesztésű, azaz <quote>saját</quote>, nyílt forráskódú esport játék! Mely a maga nemében legyen killer alkalmazás s mint ilyen
+                akkor akár már az olimpiai esport tétele is lehet. 
+                <tip>
+                    <title>Aki á-t mond, mondjon b-t is</title>
+                    <para>
+                        Bár Lucifer szavai kísértenek a madáchi tragédia 15. színéből, hogy <quote>száz merész beléhullt, Te léssz a boldog, aki átugorja</quote>, de
+                        mégiscsak igaz, hogy bárki felmehet a pályára... magam ebben a fejlesztendő játékban hiszek: 
+                        <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.future">FUTURE DEBRECEN</link>.
+                    </para>
+                </tip>                            
+            </para>            
+        </section>        
+        <section>
+            <title>Háttér és szervezés</title>        
+            <para>
+                Korábban az intuitíven az &#x201E;eBudapest 2024&#x201D;-el címkézhető olimpiai esportos elképzelésünk szőtt egy átszövő
+                vonatkozást az elektronikus játékokkal kapcsolatos törekvéseinkbe (ennek részletei elolvashatóak a 
+                <link xlink:href="https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1">https://github.com/nbatfai/SamuEntropy/releases/tag/v0.0.1</link> lapon a 
+                <filename>samuentropy-idea-hu.pdf</filename> nevű dokumentumban). 
+            </para>
+            <para>
+                Most négy különválasztott: kutatási, fejlesztési, oktatási és szervezési nézőpontból tekintjük át az elektronikus játékokkal kapcsolatos erőfeszítéseinket 
+                és elképzeléseinket. Ez egy esetleges felosztás, például az <citation>ESAMU</citation> munkában felvetett, az egyetemi közegben 
+                szervezendő esport orientált közösségépítésről szóló kérdésének vannak mind a négy kategóriába eső aspektusai, de praktikus okokból mi 
+                itt a szervezés alatt fókuszálunk majd leginkább erre a kérdésre. Hasonló átfogó megközelítéssel nyúlunk minden felmerülő kutatási, fejlesztési, oktatási és 
+                szervezési kérdéshez a jelen anyagban.
+            </para>
+        </section>
         <section>
             <title>Az elektronikus játékok szerepe az informatikus pálya választásában</title>             
-            <para>
-                &lt;TODO: az UDPROG-ban futó hasonló kérdés bíztató, hogy szoros a kapcsolat.&gt;
+            <para>Az UDPROG (programozás) tanulócsoportban futó 
+                <link xlink:href="https://www.facebook.com/groups/udprog/permalink/623856994468860/">hasonló kérdésre adott válaszok</link> bíztatóak, 
+                hogy szoros a kapcsolat. Itt ezeket a kérdéseket tettük fel:
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            <quote>Igen, jelentős szerepük volt, mert én is akartam játékokat fejleszteni.</quote> (62 szavazat)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <quote>Részben volt szerepük.</quote> (42)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <quote>A játékok ismertettek meg az informatikával, de az alkotási vágy lett a fő ok.</quote> (24)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <quote>Egyáltalán nem volt szerepük.</quote> (22)
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <quote>Igen, de inkább a működési elvük megértése motivált.</quote> (5)
+                        </para>
+                    </listitem>
+                </itemizedlist>
             </para>    
+            <tip>
+                <title>Aktuális feladat (kódja: pályaválasztás.ONKtanulmány.tavasz.2018)</title>
+                <para>
+                    Fogalmazzunk meg pontos kérdést s tervezzünk kérdőívet annak
+                    megválaszolására, legalábbis a DE informatikus hallgatói körében! Határidők: kérdőív május 6, kitöltés menedzselése május 27, értékelés és 
+                    bemutatás az <quote>Új kutatások a neveléstudományban 2017</quote> tanulmánykötetbe beküldendő cikkben június 3.
+                </para>
+            </tip>            
         </section>
     </chapter>
 </part>

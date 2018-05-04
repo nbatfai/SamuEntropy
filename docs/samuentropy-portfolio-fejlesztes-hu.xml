@@ -1,4 +1,4 @@
-<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_fejlesztes_hu">
     <title>Fejlesztés</title>
@@ -14,7 +14,7 @@
             </keywordset>
         </info>
         <section>
-            <title>Saját és nyílt forráskódú e-sport játékok</title>
+            <title>Saját és nyílt forráskódú esport játékok</title>
             <para>
                 
             </para>
@@ -27,6 +27,14 @@
                     <para>
                         Az aktuális elképzelés szerint ez egy szoftveresen implementált társasági robot, az ESAMU specifikáció egyik referencia játéka lesz.
                     </para>
+                    
+                    <para>
+                        <emphasis>Értékelés</emphasis>: 
+                        bár a <link xlink:href="https://github.com/nbatfai/nahshon">Samu csevegő motor</link> (ez a linkelt Nahshon egy fejlettebb változat, de
+                        a korábbiak és a motor részletes bemutatása megtalálható a <citation>SAMUB</citation> kéziratban) izgalmas volt, de a modern csevegő
+                        alkalmazások (például a Facebook vagy Google wit.ai vagy api.ai megoldásai) meghaladták. Részben ezért, részben mivel a 
+                        fókusz a FUTURE projektre tolódott, ezért ez az irány fagyott. 
+                    </para>                            
                 </section>
 
                 <section>
@@ -44,7 +52,16 @@
                         kormánymozdulatainak és az út videójának az összevetésén alapszik. 
                     </para>
                 </section>
+
+                <section xml:id="samuentropy_portfolio_fejlesztes_hu.future">
+                    <title>JÖVŐ DEBRECEN</title>
+                    <para>
+                    </para>
+                </section>
+
             </section>
+            
+            
 
             <section>
                 <title>Ismert brandek</title>
@@ -52,7 +69,7 @@
                     <title>0 A.D.</title>
                     <para>
                         A hálózati verzóban a játék mentésének megoldása aktuális alapfeladat, ide kapcsolódhat egy ESAMU/Samu implementáció is (ez az ESAMU
-                        specifikációnak az része, amely a játék e-sportként történő használatát támogatja, lásd a <citation>FABA</citation> munkát).
+                        specifikációnak az része, amely a játék esportként történő használatát támogatja, lásd a <citation>FABA</citation> munkát).
                     </para>
                 </section>
             </section>
@@ -62,7 +79,7 @@
 
         
         <section>
-            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai hatások</title>
+            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai hatása</title>
         
             <section>
                 <title>Ajánlások, szakértői vélemények, know-how</title>
@@ -74,10 +91,42 @@
             <section>
                 <title>Közösségszervezés</title>
                 <para> 
-                    Egy konkrét részfeladat: az <citation>ESAMU</citation> munka megjegyzi, hogy nem ismert nyílt forráskódú e-sport versenyek 
+                    Egy konkrét részfeladat: az <citation>ESAMU</citation> munka megjegyzi, hogy nem ismert nyílt forráskódú esport versenyek 
                     lebonyolítását végző szoftver megoldás. Általában lásd még a 
                     <link xlink:href="#samuentropy_portfolio_szervezes_hu.teruletek">szervezéssel foglalkozó fejezetet</link>!           
                 </para>
+                <para>
+                    <emphasis>Értékelés</emphasis>: a téma <link xlink:href="#samuentropy_portfolio_kutatas_hu.ertekeles.ESPADM">kutatási vetületének</link> 
+                    értékelése itt is érvényes, melynek következtében a nyílt forráskódú esport versenyek 
+                    lebonyolítását végző szoftver háttérbe került, helyét igény szerint az esport szakosztályok működtetését támogató szoftver
+                    vette át.
+                </para>                   
+                <section xml:id="samuentropy_portfolio_fejlesztes_hu.belsoszervezes">
+                    <title>Esport szakosztályok működtetését támogató szoftverek</title>
+                    <para>
+                        A többrétegű (webes, üzleti és adatbázis logika) szoftveres felület legyen képes támogatni a következő használati eseteket:
+                        <itemizedlist>
+                            <listitem>
+                                <para>                                            
+                                    a tagok adatainak bevitele, kezelése
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>                                            
+                                    a verseny aktivitás rögzítése, monitorizása
+                                </para>
+                            </listitem>
+                            <listitem>
+                                <para>                                            
+                                    riportok, jelentések, például az almanach automatikus legenerálása.
+                                </para>
+                            </listitem>
+                        </itemizedlist>
+                    </para>
+                </section>
+                
+                
+                
             </section>
 
 
@@ -91,7 +140,7 @@
             <section>
                 <title>Tréning programok</title>
                 <para>
-                    Adott e-sport készségek fejlesztését közvetlenül támogató alkalmazások fejlesztése.
+                    Adott esport készségek fejlesztését közvetlenül támogató alkalmazások fejlesztése.
                 </para>
             </section>
 

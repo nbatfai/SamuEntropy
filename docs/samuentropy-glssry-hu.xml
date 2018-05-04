@@ -14,6 +14,18 @@
                 </para>
             </glossdef>
         </glossentry>
+        <glossentry xml:id="brainb">
+            <glossterm>BrainB Benchmark</glossterm>
+            <glossdef>
+                <para>
+                    Esportolók mérését, az esport tehetségkutatást megcélzó <link xlink:href="https://github.com/nbatfai/esport-talent-search">mérőprogram</link>. 
+                    Azt méri, hogy a játékos a képernyő
+                    növekvő komplexitása mellett mikor veszti el a karakterét és csökkenő komplexitás mellett mikor tudja visszaszerezni azt.
+                    Lásd a <link xlink:href="https://prezi.com/yiiemg0xjgso/tehetsegkutatas-az-esportban/">prezit</link>, illetve a 
+                    <citation>BRAINB</citation> műhelymunka cikket.
+                </para>
+            </glossdef>
+        </glossentry>
     </glossdiv>
     <glossdiv>
         <title>C</title>
@@ -43,6 +55,24 @@
     </glossdiv>
     <glossdiv>
         <title>D</title>
+        <glossentry xml:id="deh">
+            <glossterm>DEAC-Hackers</glossterm>
+            <abbrev>DEH</abbrev>
+            <glossdef>
+                <para>A Debreceni Egyetemi Atlétikai Club esport szakosztálya, <link xlink:href="http://www.deac.hu/szakosztalyok/esport">http://www.deac.hu/szakosztalyok/esport</link>.
+                Az érdeklődők a DEAC-Hackers előszobában, a <link xlink:href="http://www.deac.hu/szakosztalyok/esport">http://www.deac.hu/szakosztalyok/esport</link> Facebook
+                csoportban tömörülnek.
+                </para>
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="dvsc">
+            <glossterm>DVSC Esport</glossterm>
+            <glossdef>
+                <para>A DVSC <link xlink:href="https://www.facebook.com/pg/DvscEsport">esport csapata</link>.
+                </para>
+            </glossdef>
+        </glossentry>
+        
         <glossentry xml:id="de">
             <glossterm>Debreceni Egyetem</glossterm>
             <abbrev>DE</abbrev>
@@ -93,8 +123,8 @@
                 <para>
                     <indexterm>
                         <primary>ESAMU</primary>
-                    </indexterm>Az e-sport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
-                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő e-sporttól. 
+                    </indexterm>Az esport és a mesterséges intelligencia között nyilvánvaló a szoros kapcsolat, melyet a jelen kutatásunkban még tovább akarunk fokozni azzal, 
+                    hogy nem csupán a játékokbeli MI felhasználásra gondolunk, hanem magának az MI-nek a megteremtését várjuk az új, fejlesztendő esporttól. 
                     Az aktuális elképzelés szerint ESAMU egy követelmény specifikáció, amelynek egy referencia implementációja az Entrópia Samu játék: egy 
                     szoftveresen implementált, a családi PC-n futó, mobil eszköz érzékszervekkel ellátott 
                     feljődésrobotikai és robotpszichológiai Samu alkalmazás lesz, <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>.
@@ -105,14 +135,26 @@
             </glossdef>
         </glossentry>
         <glossentry xml:id="esport">
-            <glossterm>e-sport</glossterm>
+            <glossterm>esport</glossterm>
             <glossdef>
                 <para>
                     <indexterm>
-                        <primary>e-sport</primary>
+                        <primary>esport</primary>
                     </indexterm>
                     Mára az elektronikus játékok játszása a mindennapi rutin szerves része. Ez nagy közösségszervező erőt képvisel, amelyre ipar és verseny épül, 
-                    összefoglaló névvel illetve ez a jelenségkör az e-sport <citation>ESAMU</citation>, <citation>FABA</citation>.                     
+                    összefoglaló névvel illetve ez a jelenségkör az esport <citation>ESAMU</citation>, <citation>FABA</citation>. Tudományos meghatározását lásd
+                    a <citation>Wagner 2006</citation> közleményben.                    
+                </para>    
+            </glossdef>
+        </glossentry>
+        <glossentry xml:id="esportmilla">
+            <glossterm>Esportmilla</glossterm>
+            <glossdef>
+                <para>
+                    Egymillióan a hazai esportért: a hazai esport szervezését célul tűző <link xlink:href="https://esportmilla.hu/">szerveződés</link>.
+                    A magyar kormány 2017 év végi 2 milliárdos támogatási határozatának ez a szerveződés volt a kedvezményezettje. Ezzel a 
+                    támogatással szervezték meg a <link xlink:href="https://v4futuresports.eu/">V4 FUTURE SPORTS FESTIVAL</link> című nemzetközi 
+                    esport rendezvényt.  
                 </para>    
             </glossdef>
         </glossentry>
@@ -151,7 +193,7 @@
                         <primary>DevRob</primary>
                     </indexterm>
                     Olyan tudományos irányvonal, amely a testtel rendelkező robotok tanulását az emberi tanulás szemszögéből vizsgálja. Alaptézise, hogy a robot testtel
-                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a <citation>PSAMU</citation> beküldött kéziratban adtuk meg. 
+                    rendelkezik, ennek antézise lehet a csak szoftveres robot, a kettő szintézisét a <citation>PSAMU</citation> közleményben adtuk meg. 
                 </para>    
                 <glossseealso otherterm="robotpszicho">Robotpszichológia</glossseealso> 
             </glossdef>
@@ -246,7 +288,7 @@
                     Lásd még a <link xlink:href="https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/">https://prezi.com/utlu1bevq9j2/egy-testetlen-fejlodesrobotikai-agens/</link> 
                     prezit és a <link xlink:href="https://arxiv.org/abs/1511.02889">https://arxiv.org/abs/1511.02889</link> illetve a 
                     <citation>PSAMU</citation> 
-                    beküldött kéziratot. Speciálisan az ESAMU specifikáció e-sport archetípusa, ezt a vonatkozást lásd a <citation>FABA</citation> 
+                    közleményt. Speciálisan az ESAMU specifikáció esport archetípusa, ezt a vonatkozást lásd a <citation>FABA</citation> 
                     munkában.
                 </para>
                 <glossseealso otherterm="esamu">ESAMU</glossseealso>                 
@@ -255,6 +297,13 @@
     </glossdiv>
     <glossdiv>
         <title>T</title>
+        <glossentry xml:id="tfse">
+            <glossterm>TFSE sSport</glossterm>
+            <glossdef>
+                <para>A Magyar Testnevelési Egyetem Sportegyesület <link xlink:href="http://tfse.sport.hu/szakosztalyok/e-sport/">esport szakosztálya</link>.
+                </para>
+            </glossdef>
+        </glossentry>
         <glossentry xml:id="tf">
             <glossterm>Tensorflow</glossterm>
             <glossdef>
@@ -287,6 +336,23 @@
                     melynek egyik gyújtópontjában <link xlink:href="http://sourceforge.net/p/udprog/code/ci/master/tree/">szoftverek</link>,
                     a másikban maga az
                     <link xlink:href="http://sourceforge.net/projects/udprog/files/?source=navbar">évkönyv</link> áll.
+                    2018-tól az új képzési tematikák okán az UDPROG átalakul. A tematikát kiegészítendően az évkönyvet háttérbe szorítjuk, 
+                    miközben az esport és a mesterséges intelligencia kerül majd az előtérbe.
+                </para>
+            </glossdef>
+        </glossentry>
+    </glossdiv>
+    <glossdiv>
+        <title>W</title>
+        <glossentry xml:id="thevr">
+            <glossterm>WeAreTheVR</glossterm>
+            <glossdef>
+                <para>
+                    Az esporttal és játékokkal kapcsolatba hozható, igény szerint kialakult, 
+                    legnagyobb közösségformáló erővel bíró <link xlink:href="https://thevr.hu/">szerveződés</link>
+                    az országban. Jelen pillanatban legmeghatározóbb megjelenési formája a <link xlink:href="https://www.twitch.tv/wearethevr">Twitch csatorna</link>, 
+                    amely permanansen képes naponta több alkalommal többezres 
+                    nézőszám folyamatos fenntartására.                   
                 </para>
             </glossdef>
         </glossentry>

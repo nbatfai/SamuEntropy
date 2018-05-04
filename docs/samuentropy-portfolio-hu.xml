@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude">    
     <info>
@@ -7,8 +7,8 @@
         <title>Magyar Nemzeti E-sport Portfólió és Stratégia</title>
         <subtitle>E-SPORT ÉS MESTERSÉGES INTELLIGENCIA</subtitle>
         -->
-        <title>MAGYAR NEMZETI E-SPORT PORTFÓLIÓ ÉS STRATÉGIA</title>
-        <subtitle>E-sport és mesterséges intelligencia</subtitle>
+        <title>MAGYAR NEMZETI ESPORT PORTFÓLIÓ ÉS STRATÉGIA</title>
+        <subtitle>Esport és mesterséges intelligencia</subtitle>
         <titleabbrev>ESAMU Port</titleabbrev>
         <authorgroup>
             <author>
@@ -34,22 +34,22 @@
                     <country>Magyarország</country>
                     <email>batfai.norbert@inf.unideb.hu</email>
                     <otheraddr>
-                        <link xlink:href="http://www.inf.unideb.hu/~nbatfai">http://www.inf.unideb.hu/~nbatfai</link>
+                        <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/">https://arato.inf.unideb.hu/batfai.norbert/</link>
                     </otheraddr>
                 </address>
             </author>
         </authorgroup>
-        <edition>Esportfólió (NEMESPOR), Entrópia Samu, DEBRECEN, 2017. ápr. 25, v. hu.0.0.26</edition>
-        <pubdate>2017</pubdate>
+        <edition>Esportfólió (NEMESPOR), DEBRECEN, 2018. ápr. 28, v. hu.0.1.1</edition>
+        <pubdate>2018</pubdate>
         <copyright>
-            <year>2017</year>
+            <year>2017, 2018</year>
             <holder>Dr. Bátfai Norbert</holder>
         </copyright>
         <legalnotice>
-            <para>Entrópia Samu Portfólió
+            <para>Esportfólió (NEMESPOR)
             </para>
             <para>                
-                Copyright (C) 2017, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com, 
+                Copyright (C) 2017, 2018, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com, 
             </para>
             <para>
                 This program is free software: you can redistribute it and/or modify
@@ -119,6 +119,25 @@
                     A mindenkori aktuális változat tekintetében lásd az imént linkelt repó ChangeLog-ját!
                 </revremark>
             </revision>
+            <revision>
+                <revnumber>0.1.0</revnumber>
+                <date>2018-04-27</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>
+                    A dokumentum aktualizálásának megkezdése az indulás óta eltelt 14 hónap, illetve az utolsó kiadása óta eltelt 1 év eredményeivel. 
+                    Beleértve az aktuális kutatási feladatok integrálását is.
+                </revremark>
+            </revision>
+            <revision>
+                <revnumber>0.1.9</revnumber>
+                <date>2018-05-4</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>
+                    A dokumentum (forkja formájában) kiadva szakdolgozónak karbantartásra, különös tekintettel a nem szorosan hozzánk kapcsolódó 
+                    hazai esport esedmények áttekintő (survey cikk jellegű) említésére. Egy év elteltével a jelen dokumentum frissítésének egyik
+                    alapja már ez az említett fork lehet majd.
+                </revremark>
+            </revision>
         </revhistory>
     </info>   
     <dedication>
@@ -133,16 +152,25 @@
             mindennapi élet számos területén: az oktatásban, a szórakozásban, a gyereknevelésben és még sorolhatnánk. 
         </para>            
         <para>
-            A jelen dokumentum célja egyfajta de facto szervezés, hogy ezeknek a változásoknak &#8211; sem társadalmi, sem egyéni szinten &#8211; ne elszenvedői, hanem
+            A jelen dokumentum célja egyfajta de facto szervezés, hogy ezeknek a nyilvánvalóan elkerülhetetlen 
+            változásoknak &#8211; sem társadalmi, sem egyéni szinten &#8211; ne elszenvedői, hanem
             haszonélvezői, akár alakítói lehessünk. 
         </para>
         <para>
             Portfóliónk a következő, átfedő és kölcsönható területekre terjed ki: kutatás, fejlesztés, oktatás és szervezés. 
-            A portfólió áttekintését egy &#x201E;e-sport nézőpontból&#x201D; 
-            tesszük meg, mert hitünk szerint az e-sport lesz az a szervező erő, amely képes intergrálni
+            A portfólió áttekintését egy &#x201E;esport nézőpontból&#x201D; 
+            tesszük meg, mert hitünk szerint az esport lesz az a szervező erő, amely képes intergrálni
             &#8211; stratégiává alakítani &#8211;
             ezeket a területeket és speciálisan a mi törekvéseinket.
-        </para>        
+        </para>
+        <para>
+            Mert az esport hősöket teremt, pont ugyanúgy ahogyan korábban a lelki vagy fizikai közdelmek, a háborúk, ma a sport, a tudomány vagy a művészet. 
+            Mi pedig mindig is a hőseinket követtük és követjük.
+            Rajtunk is múlik, hogy ezek a hősök hová is vezetnek majd minket. Maradva az esportnál, azt szeretnénk, ha a fiataloknál a játék, a programozás, a            
+            tartalomfejlesztés egy tőről fakadó és elválaszthatatlul szoros fogalmak, tevékenységek lennének. S így a játékra fordított idő mindinkább kamatozni
+            tudjon annak is, aki soha nem lesz a játék hőse, de még csak nem is fog megélni belőle, vagy akár különösebben sikeres sem lesz benne - mert bizony a 
+            többség ilyen lesz - hiszen ez a dolgok logikája...
+        </para>                   
     </preface>    
     <xi:include href="samuentropy-glssry-hu.xml">
         <xi:fallback>
@@ -197,7 +225,8 @@
         <para>
             Köszönet illeti a
             NEMESPOR, <link xlink:href="https://groups.google.com/forum/#!forum/nemespor">https://groups.google.com/forum/#!forum/nemespor</link>, 
-            az UDPROG, <link xlink:href=""></link>, a DevRob2Psy, <link xlink:href=""></link>, a desport, <link xlink:href=""></link> 
+            az UDPROG tanulószoba, <link xlink:href="https://www.facebook.com/groups/udprog">https://www.facebook.com/groups/udprog</link>, 
+            a DEAC-Hackers előszoba, <link xlink:href="https://www.facebook.com/groups/DEACHackers">https://www.facebook.com/groups/DEACHackers</link> 
             (illetve egyéb alkalmi szerveződésű szakmai csoportok) 
             tagjait inspiráló érdeklődésükért és hasznos észrevételeikért.
         </para>          
