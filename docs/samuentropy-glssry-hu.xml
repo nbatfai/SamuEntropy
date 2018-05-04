@@ -18,6 +18,9 @@
             <glossterm>BrainB Benchmark</glossterm>
             <glossdef>
                 <para>
+                    <indexterm>
+                        <primary>BrainB</primary>
+                    </indexterm>
                     Esportolók mérését, az esport tehetségkutatást megcélzó <link xlink:href="https://github.com/nbatfai/esport-talent-search">mérőprogram</link>. 
                     Azt méri, hogy a játékos a képernyő
                     növekvő komplexitása mellett mikor veszti el a karakterét és csökkenő komplexitás mellett mikor tudja visszaszerezni azt.

@@ -696,6 +696,42 @@
             </publisher>
             <pubdate>1996</pubdate>
         </biblioentry>            
+        <biblioentry>
+            <abbrev>OLDER</abbrev>
+            <authorgroup>
+                <author>
+                    <personname>
+                        <firstname>Béla</firstname>
+                        <surname>Pataki</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Péter</firstname>
+                        <surname>Hanák</surname>
+                    </personname>
+                </author>
+                <author>
+                    <personname>
+                        <firstname>Gábor</firstname>
+                        <surname>Csukly</surname>
+                    </personname>
+                </author>
+            </authorgroup>
+            <title>Computer Games for Older Adults beyond Entertainment and Training: Possible Tools for Early Warnings - Concept and Proof of Concept</title>
+            <biblioset relation="journal">
+                <publishername></publishername>                
+                <volumenum>10</volumenum>
+                <issuenum></issuenum>
+                <pagenums>285-294</pagenums>
+                <pubdate>2015</pubdate>
+            </biblioset>
+            <publisher>
+                <publishername>Proceedings of the 1st International Conference on Information and Communication Technologies for Ageing Well and e-Health</publishername>
+            </publisher>
+            <pubdate>2015</pubdate>
+        </biblioentry>            
+
     </bibliodiv>    
     <bibliodiv>
         <title>Robotpszichológia</title>

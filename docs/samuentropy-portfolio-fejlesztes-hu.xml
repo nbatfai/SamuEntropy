@@ -30,9 +30,22 @@
                     
                     <para>
                         <emphasis>Értékelés</emphasis>: 
+                        <indexterm>
+                                    <primary>Samu</primary>
+                                </indexterm> 
                         bár a <link xlink:href="https://github.com/nbatfai/nahshon">Samu csevegő motor</link> (ez a linkelt Nahshon egy fejlettebb változat, de
                         a korábbiak és a motor részletes bemutatása megtalálható a <citation>SAMUB</citation> kéziratban) izgalmas volt, de a modern csevegő
-                        alkalmazások (például a Facebook vagy Google wit.ai vagy api.ai megoldásai) meghaladták. Részben ezért, részben mivel a 
+                        alkalmazások (például a Facebook vagy Google 
+                        <indexterm>
+                                    <primary>Facebook</primary>
+                                    <secondary>wit.ai</secondary>
+                                </indexterm> 
+                        wit.ai vagy 
+                        <indexterm>
+                                    <primary>Google</primary>
+                                    <secondary>api.ai</secondary>
+                                </indexterm>                                 
+                                api.ai megoldásai) meghaladták. Részben ezért, részben mivel a 
                         fókusz a FUTURE projektre tolódott, ezért ez az irány fagyott. 
                     </para>                            
                 </section>
@@ -56,6 +69,10 @@
                 <section xml:id="samuentropy_portfolio_fejlesztes_hu.future">
                     <title>JÖVŐ DEBRECEN</title>
                     <para>
+                                                <indexterm>
+                                    <primary>FUTURE</primary>
+                                </indexterm> 
+
                     </para>
                 </section>
 
@@ -68,6 +85,9 @@
                 <section>
                     <title>0 A.D.</title>
                     <para>
+                                                <indexterm>
+                                    <primary>0 A.D.</primary>
+                                </indexterm> 
                         A hálózati verzóban a játék mentésének megoldása aktuális alapfeladat, ide kapcsolódhat egy ESAMU/Samu implementáció is (ez az ESAMU
                         specifikációnak az része, amely a játék esportként történő használatát támogatja, lásd a <citation>FABA</citation> munkát).
                     </para>

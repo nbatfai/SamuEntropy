@@ -28,17 +28,23 @@
                 Például<footnote>
                     <para> Ezeket a példákat ugyanilyen kontextusban a 
                         <link xlink:href="https://www.tankonyvtar.hu/en/tartalom/tamop425/0046_mesterseges_intelligencia_gyakorlatban_robotfoci/ch01.html#robocup">Mesterséges intelligencia a gyakorlatban: bevezetés a robotfoci programozásba</link> 
-                    című könyvben vetettük fel korábban.</para>
+                        című könyvben vetettük fel korábban.</para>
                 </footnote> olyat, amelyet Kennedy elnök 1961-es kongresszusi 
                 <link xlink:href="https://youtu.be/GhgVZLrxiu0">beszédében<footnote>
-                    <para>Az idézett mondatok 2:26-tól láthatóak a linkelt videón.</para>
-                </footnote></link> intézett az amerikai néphez: 
+                        <para>Az idézett mondatok 2:26-tól láthatóak a linkelt videón.</para>
+                    </footnote>
+                </link> intézett az amerikai néphez: 
                 <blockquote>
                     <attribution>
-                        <link xlink:href="https://www.nasa.gov/vision/space/features/jfk_speech_text.html">John F. Kennedy</link>
+                        John F. Kennedy,
+                        <citetitle>
+                            <link xlink:href="https://www.nasa.gov/vision/space/features/jfk_speech_text.html">Special Message to the Congress on Urgent National Needs</link>
+                        </citetitle>
                     </attribution>
-                    <para>First, I believe that this nation should commit itself to achieving the goal, 
-                        before this decade is out, of landing a man on the moon and returning him safely to the earth.</para>
+                    <para>
+                        <quote>First, I believe that this nation should commit itself to achieving the goal, 
+                            before this decade is out, of landing a man on the moon and returning him safely to the earth.</quote>
+                    </para>
                 </blockquote>                
                 magyarul: hiszek abban, hogy ennek a nemzetnek el kell köteleződnie azon cél elérésére, hogy még az évtized vége előtt
                 embert juttassunk a holdra és biztonságban visszahozzunk a földre. Vagy amilyet 1997-ben japán kutatók

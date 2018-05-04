@@ -77,32 +77,49 @@
                     az 
                     <itemizedlist>
                         <listitem>
-                            <para>                    
+                            <para>   
+                                <indexterm>
+                                    <primary>MTK</primary>
+                                </indexterm>                 
                                 <link xlink:href="http://mtk.hu/szakosztalyok/esport">MTK</link>
                             </para>
                         </listitem>                    
                         <listitem>
                             <para>                    
+                                <indexterm>
+                                    <primary>DEAC-Hackers</primary>
+                                </indexterm>          
                                 DEAC: <link xlink:href="http://deac.hu/szakosztalyok/esport">DEAC-Hackers</link>
                             </para>
                         </listitem>
                         <listitem>
-                            <para>                    
+                            <para>          
+                                <indexterm>
+                                    <primary>DVTK</primary>
+                                </indexterm>          
                                 <link xlink:href="http://dvtk.eu/10-e_sport-sportag">DVTK</link>
                             </para>
                         </listitem>                    
                         <listitem>
                             <para>                    
-                                DVSC: <link xlink:href="https://www.facebook.com/DvscEsport/">DVSC Esport</link>
+                                <indexterm>
+                                    <primary>DVSC Esport</primary>
+                                </indexterm>DVSC: <link xlink:href="https://www.facebook.com/DvscEsport/">DVSC Esport</link>
                             </para>
                         </listitem>
                         <listitem>
-                            <para>                    
+                            <para>  
+                                <indexterm>
+                                    <primary>Lenovo Legion Honvéd Esport Akadémia</primary>
+                                </indexterm>                  
                                 Budapesti Honvéd: <link xlink:href="https://www.facebook.com/honvedesport/">Lenovo Legion Honvéd Esport Akadémia</link>
                             </para>
                         </listitem>
                         <listitem>
-                            <para>                    
+                            <para>
+                                <indexterm>
+                                    <primary>TFSE</primary>
+                                </indexterm>                    
                                 <link xlink:href="http://tfse.sport.hu/szakosztalyok/e-sport/">TFSE</link>
                             </para>
                         </listitem>                    
@@ -118,7 +135,9 @@
                     hogy a rendelkezésre álló szoftverek (például ESL) itt megítésélünk szerint teljesen kielégítőek.                
                 </para>                                
                 <para>
-                    Az ESPADM kutatási terv speciálisan a DEAC-Hackers adminisztrációra fókuszálva szakdolgozat és pályázati munka keretében 
+                    Az ESPADM kutatási terv speciálisan a <indexterm>
+                        <primary>DEAC-Hackers</primary>
+                    </indexterm>  DEAC-Hackers adminisztrációra fókuszálva szakdolgozat és pályázati munka keretében 
                     <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.belsoszervezes">folytatódik</link> a 
                     jövőben. Nyílt forráskódú modellben és deklaráltan olyan céllal, hogy a kifejlesztendő szoftvereket más esport szakosztályok is fel 
                     tudják használni a saját adminisztrációjukra és
@@ -156,7 +175,9 @@
                         hogy mire az ajánlás engedné a játékot (s így a versenyek a versenyzést), addigra a játékos már kiöregedett...
                     </para>
                     <para>
-                        A DEAC-Hackers szakosztály tüneti kezelésként az amatőr sportolói sportszerződés mellett a 18 év alatti igazolásoknál kölön játékspecifikus
+                        <indexterm>
+                            <primary>DEAC-Hackers</primary>
+                        </indexterm> A DEAC-Hackers szakosztály tüneti kezelésként az amatőr sportolói sportszerződés mellett a 18 év alatti igazolásoknál kölön játékspecifikus
                         szülői nyilatkozatot is kér (lásd a DEAC-Hackers 
                         <link xlink:href="https://www.facebook.com/groups/DEACHackers/files/">előszoba</link> dokumentumai között). Fontos lenne ennek a kérdésnek a tudományos igényességű 
                         vizsgálata!
@@ -177,7 +198,9 @@
                     létrehozni és mi a különböző szintek kapcsolata?
                 </para>                
                 <para>
-                    <emphasis>Értékelés</emphasis>: az egyetemi szinten, azon belül két fő irányban sikerült előre haladnunk. Egyik a DEAC-Hackers megalapítása és
+                    <emphasis>Értékelés</emphasis>: az egyetemi szinten, azon belül két fő irányban sikerült előre haladnunk. Egyik a <indexterm>
+                        <primary>DEAC-Hackers</primary>
+                    </indexterm>  DEAC-Hackers megalapítása és
                     üzemeltetése, a másik a DEIK-en tavasszal meghirdetésre kerülő 
                     <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/NEMESPOR/ONK2017/ONK_esport_poster_BN.pdf">esport kurzus</link>. A DEAC-Hackers esport
                     szakosztályt a <citation>HACKERS</citation> műhelymunka közleményben mutattuk be részletesen. 
@@ -276,6 +299,10 @@
                 <para>
                     <emphasis>Aktuális kérdés</emphasis>: milyen alapcikkek vannak a Turing-féle felütés óta? Irodalomkutatás, egy state of the art áttekintéshez a területről.
                 </para>
+                <para>
+                    <emphasis>Értékelés</emphasis>: érdemes lenne-e portolni például a BrainB teszteket az <citation>OLDER</citation> cikk jelezte 
+                    irányban, azaz az idősebb generáció mentális állapotának monitorozására előrejelzésére?
+                </para>
             </section>
             <section>
                 <title>Robotpszichológia</title>
@@ -296,7 +323,9 @@
                         <emphasis>Értékelés</emphasis>: 
                         időközben <link xlink:href="https://prezi.com/yiiemg0xjgso/tehetsegkutatas-az-esportban/">bemutattuk</link> az   
                         <link xlink:href="https://github.com/nbatfai/esport-talent-search">esport-talent-search</link> projekt
-                        BrainB V-ös mérősorozatát, melyet a <citation>BRAINB</citation> műhelymunka cikkben részleteztünk előkészítendő a   
+                        <indexterm>
+                            <primary>BrainB</primary>
+                        </indexterm> BrainB V-ös mérősorozatát, melyet a <citation>BRAINB</citation> műhelymunka cikkben részleteztünk előkészítendő a   
                         <citation>BRAINBENCHMARKING</citation> készülő kéziratot. (A tesztet számos Twitch videó is bemutatja, lásd például 
                         a korai 2-es sorozat
                         <link xlink:href="https://www.twitch.tv/videos/139186614">bemutatását</link>, vagy egy 
