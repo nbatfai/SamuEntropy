@@ -31,22 +31,22 @@
                     <para>
                         <emphasis>Értékelés</emphasis>: 
                         <indexterm>
-                                    <primary>Samu</primary>
-                                </indexterm> 
+                            <primary>Samu</primary>
+                        </indexterm> 
                         bár a <link xlink:href="https://github.com/nbatfai/nahshon">Samu csevegő motor</link> (ez a linkelt Nahshon egy fejlettebb változat, de
                         a korábbiak és a motor részletes bemutatása megtalálható a <citation>SAMUB</citation> kéziratban) izgalmas volt, de a modern csevegő
                         alkalmazások (például a Facebook vagy Google 
                         <indexterm>
-                                    <primary>Facebook</primary>
-                                    <secondary>wit.ai</secondary>
-                                </indexterm> 
+                            <primary>Facebook</primary>
+                            <secondary>wit.ai</secondary>
+                        </indexterm> 
                         wit.ai vagy 
                         <indexterm>
-                                    <primary>Google</primary>
-                                    <secondary>api.ai</secondary>
-                                </indexterm>                                 
-                                api.ai megoldásai) meghaladták. Részben ezért, részben mivel a 
-                        fókusz a FUTURE projektre tolódott, ezért ez az irány fagyott. 
+                            <primary>Google</primary>
+                            <secondary>api.ai</secondary>
+                        </indexterm>                                 
+                        api.ai megoldásai) meghaladták. Részben ezért, részben mivel a 
+                        fókusz a <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.future">FUTURE</link> projektre tolódott, ezért ez az irány fagyott. 
                     </para>                            
                 </section>
 
@@ -56,51 +56,67 @@
                         Az ESAMU specifikáció könnyen kommunikálható, arcfelismerésre alapozott referencia játéka, koncepcióban részletesen mutatja 
                         be a <citation>FABA</citation> munka. 
                     </para>
+                    <para>
+                        <emphasis>Értékelés</emphasis>: 
+                        A technikai felkészülés <link xlink:href="http://progpater.blog.hu/2016/12/18/hello_westworld_ford_bernard_es_en">megkezdődött</link>, 
+                        de az irány befagyasztva, mert a fókusz a <link xlink:href="#samuentropy_portfolio_fejlesztes_hu.future">FUTURE</link> projektre került.
+                    </para>                    
                 </section>
-
                 <section>
                     <title>KanyarCsata</title>
                     <para>
                         Az ESAMU specifikáció további referencia játéka, koncepciója szerint a robotautó vezetésén alapul, a megerősítést a humán pilóta 
                         kormánymozdulatainak és az út videójának az összevetésén alapszik. 
                     </para>
+                    <para>
+                        <emphasis>Értékelés</emphasis>: A téma forró, hiszen például az NVIDIA-nál a robotautó és az okos
+                        város is kiemelt. Viszont a közlekedés szimulációs (OOCWC) terület fejlesztése fagyott, így ezzel együtt ez a KanyarCsata() irány is fagyott.
+                    </para>
                 </section>
-
                 <section xml:id="samuentropy_portfolio_fejlesztes_hu.future">
                     <title>JÖVŐ DEBRECEN</title>
                     <para>
-                                                <indexterm>
-                                    <primary>FUTURE</primary>
-                                </indexterm> 
-
+                        <indexterm>
+                            <primary>FUTURE</primary>
+                        </indexterm> 
+                        A  FUTURE<footnote>
+                            <para>Részletes leírásként lásd a 
+                                <link xlink:href="http://smartcity.inf.unideb.hu/~norbi/FUTURE9.pdf">FUTURE9, <quote>Aki gémer, velünk tart!</quote></link> c. dokumentumot és 
+                                a Twitch stream <link xlink:href="https://www.twitch.tv/videos/238621734">videót</link>.</para>
+                        </footnote> projekt  célja  a  játékosok  egyéni,  család  és  város  szintű  alternatív  jövőképeinek legenerálása, a legenerált 
+                        <quote>virtuális valóságok</quote> kölcsönhatásainak biztosítása. Ez egy nyílt forráskódú (GNU GPL v3) projekt, amely a GitHub-on 
+                        érhető el: <link xlink:href="https://github.com/nbatfai/future">https://github.com/nbatfai/future</link>.
+                    </para>
+                    <para>A Magyar Nemzeti Mesterséges Intelligencia 
+                        <indexterm>
+                            <primary>Magyar Nemzeti Mesterséges Intelligencia</primary>
+                        </indexterm>                     
+                        az a fejlesztendő szoftver ágens, amely a FUTURE 
+                        magyar játékosai által megadott adatokon (lásd a 
+                        <indexterm>
+                            <primary>Tevékenység Böngésző</primary>
+                        </indexterm> 
+                        <link xlink:href="http://smartcity.inf.unideb.hu/~norbi/City/">Tevékenység Böngészőt</link>) tanított adatok alapján az 
+                        egyénnek életvezetési, a városnak szervezési tanácsokat, szimulációk alapján előrejelzéseket tud adni.
                     </para>
                 </section>
-
             </section>
-            
-            
-
             <section>
                 <title>Ismert brandek</title>
                 <section>
                     <title>0 A.D.</title>
                     <para>
-                                                <indexterm>
-                                    <primary>0 A.D.</primary>
-                                </indexterm> 
+                        <indexterm>
+                            <primary>0 A.D.</primary>
+                        </indexterm> 
                         A hálózati verzóban a játék mentésének megoldása aktuális alapfeladat, ide kapcsolódhat egy ESAMU/Samu implementáció is (ez az ESAMU
                         specifikációnak az része, amely a játék esportként történő használatát támogatja, lásd a <citation>FABA</citation> munkát).
                     </para>
                 </section>
             </section>
-        
-
         </section>
-
-        
         <section>
-            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai hatása</title>
-        
+            <title>A játékok társadalmi, gazdasági, élettani és pszichológiai hatása</title>        
             <section>
                 <title>Ajánlások, szakértői vélemények, know-how</title>
                 <para>
@@ -138,33 +154,54 @@
                             </listitem>
                             <listitem>
                                 <para>                                            
-                                    riportok, jelentések, például az almanach automatikus legenerálása.
+                                    riportok, jelentések, például az almanach<footnote>
+                                        <para>Konkrét cél a jelen pillanatban csak kis részében és az is csak részben automatizált
+                                            DEAC-Hackers Almanach 2017, 2018 - A Debreceni Egyetem Atlétikai Club e-sport szakosztályának évkönyve 
+                                            című DocBook XML 5.1 
+                                            <link xlink:href="https://shrek.unideb.hu/~nbatfai/DEAC-Hackers/DEAC-Hackers-Almanac-hu.pdf">dokumentum</link> 
+                                            legenerálásának támogatása.
+                                        </para>
+                                    </footnote> automatikus legenerálása.
                                 </para>
                             </listitem>
                         </itemizedlist>
                     </para>
                 </section>
-                
-                
-                
             </section>
-
-
             <section>
                 <title>Oktatási és védelmi szoftverek</title>
                 <para>
                     Az autonóm tanulás támogatása.
                 </para>
+                <para>
+                    <emphasis>Értékelés</emphasis>:
+                    Szervezési előkészületek történtek mélytanulásos tanító ágens iránnyal, az elképzelés szerint a DEAC-Hackers utánpótlásban virtuál Linux
+                    image-ként terjesztett gépre téve.                 
+                </para>
             </section>
-
             <section>
                 <title>Tréning programok</title>
                 <para>
                     Adott esport készségek fejlesztését közvetlenül támogató alkalmazások fejlesztése.
                 </para>
+                <para>
+                    <emphasis>Értékelés</emphasis>:
+                    A BrainB tesztek ilyen irányú fejlesztése felmerült és kézenfekvő is.                 
+                </para>
             </section>
-
         </section>
-    </chapter>        
-        
+        <section>
+            <title>Hazai fejlesztési index</title>
+            <para>
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>   
+                        [TODO: a kutatási részből kiindulva el lehet kezdeni a konkrét (de tőlünk tipikusan független, hiszen a saját fejlesztéseink
+                        alapértelmezésben szerepelnek majd itt is utalás szinten) fejlesztések rövid ismertetését.]
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>          
+    </chapter>                
 </part>

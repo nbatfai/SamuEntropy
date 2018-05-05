@@ -14,30 +14,128 @@
             </keywordset>
         </info>
         <section>
-            <title>Esport torna általános iskolásoknak</title>
+            <title>Esport tornák és csapatok általános iskolásoknak</title>
             <para>
-                &lt;TODO&gt;
+                [TODO]
             </para>
         </section>
         <section>
-            <title>Esport csapatok a középiskolában</title>
+            <title>Esport tornák és csapatok a középiskolában</title>
             <para>
-                &lt;TODO&gt;
+                [TODO]
             </para>
         </section>
         <section>
-            <title>Esport csapatok a felsőoktatásban</title>
+            <title>Esport tornák és csapatok a felsőoktatásban</title>
             <para>
-                &lt;TODO: kiindulásként lásd a <citation>ESAMU</citation> munkát!&gt;
+                [TODO: kiindulásként lásd a <citation>ESAMU</citation> munkát!]
+            </para>
+        </section>
+        <section>
+            <title>Az esport kapcsolása a reguláris kiegészítő oktatásokhoz</title>
+            <para>
+                [TODO: például a honvédelmi nevelés kapcsán a lövészethez.]
             </para>
         </section>
         <section>
             <title>A kutatási, fejlesztési és oktatási eredmények és az esport jelenlét esetleges hasznosításai</title>
             <para>
-                &lt;TODO: például az esetleges egyetemi startup alapítási elképzelések.&gt;                
+                [TODO: például az esetleges egyetemi startup alapítási elképzelések.]
             </para>
         </section>
-
-    </chapter>        
+        <section>
+            <title>Hazai szervezési index</title>
+            <para>
+            </para>
+            <section>
+                <title>Szervezetek</title>
+                <para>
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>                    
+                            WeAreTheVR
+                        </para>
+                    </listitem>       
+                    <listitem>
+                        <para>                    
+                            Esportmilla
+                        </para>
+                    </listitem>                                                         
+                    <listitem>
+                        <para>   
+                            <indexterm>
+                                <primary>MTK</primary>
+                            </indexterm>                 
+                            <link xlink:href="http://mtk.hu/szakosztalyok/esport">MTK</link>
+                        </para>
+                    </listitem>                    
+                    <listitem>
+                        <para>                    
+                            <indexterm>
+                                <primary>DEAC-Hackers</primary>
+                            </indexterm>          
+                            <link xlink:href="http://deac.hu/szakosztalyok/esport">DEAC-Hackers</link>, 2018. májusára 155 igazolt tag, X száz verseny eredmények, 
+                            lásd pl. a <citation>HACKERS</citation> cikkben forrásként.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>          
+                            <indexterm>
+                                <primary>DVTK</primary>
+                            </indexterm>          
+                            <link xlink:href="http://dvtk.eu/10-e_sport-sportag">DVTK</link>
+                        </para>
+                    </listitem>                    
+                    <listitem>
+                        <para>                    
+                            <indexterm>
+                                <primary>DVSC Esport</primary>
+                            </indexterm>
+                            <link xlink:href="https://www.facebook.com/DvscEsport/">DVSC Esport</link>
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>  
+                            <indexterm>
+                                <primary>Lenovo Legion Honvéd Esport Akadémia</primary>
+                            </indexterm>                  
+                            <link xlink:href="https://www.facebook.com/honvedesport/">Lenovo Legion Honvéd Esport Akadémia</link>
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <indexterm>
+                                <primary>TFSE</primary>
+                            </indexterm>                    
+                            <link xlink:href="http://tfse.sport.hu/szakosztalyok/e-sport/">TFSE</link>
+                        </para>
+                    </listitem>                    
+                    <listitem>
+                        <para>                    
+                            ...
+                        </para>
+                    </listitem>                          
+                </itemizedlist>                            
+            </section>
         
+            <section>
+                <title>Versenyek</title>
+                <para>
+                </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>   
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+        </section>
+        <section>
+            <title>Hazai hasznosítási index</title>
+            <para>
+            </para>
+        
+        </section>  
+    </chapter>                
 </part>

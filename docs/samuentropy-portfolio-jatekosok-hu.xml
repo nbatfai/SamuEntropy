@@ -1,0 +1,44 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy_portfolio_jatekosok_hu">
+    <title>Játékosok</title>
+    <partintro>
+        <para> 
+        </para>
+    </partintro>
+    <chapter>
+        <info>
+            <title>Kiemelkedő magyar játékosok</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+        <section>
+            <title>Nemzetközi szintű játékos index</title>
+            <para>[TODO: lásd pl. a <link xlink:href="https://www.esportsearnings.com/history/2017/countries/hu">https://www.esportsearnings.com/history/2017/countries/hu</link> portált, vannak hasonlóak?]
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>  
+                         [TODO: <link xlink:href="http://euw.op.gg/summoner/userName=s04vizicsacsi">S04 Vizicsacsi</link>, ...short bio-ja... ]
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>  
+        <section>
+            <title>Hazai játékos index</title>
+            <para>
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>DEAC-Hackers, játékos név, short bio, főbb eredmények.    
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>...   
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>  
+    </chapter>                
+</part>

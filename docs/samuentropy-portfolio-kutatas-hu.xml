@@ -265,9 +265,7 @@
                 </tip>                 
             </section>
                         
-        </section>
-
-                                                                                                                  
+        </section>                                                                                                        
         <section>
             <title>Az élő rendszerek alapkutatása</title>
             <para>
@@ -334,10 +332,21 @@
 
                 </section>                
             </section>
-            
-                                    
         </section>
-        
-    </chapter>        
-        
+        <section>
+            <title>Hazai kutatási index</title>
+            <para>
+                Szemelvények a hazai esporttal kapcsolatba hozható kutatásokból.
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>  
+                        [TODO: jó kiindulás lehet az Információs Társadalom című folyóirat 
+                        <link xlink:href="http://informaciostarsadalom.infonia.hu/index.php/inftars/issue/view/13/showToc">esport tematikus számából</link> kiindulni és minden 
+                        (nem közvetlenül velünk társszerző) szerzőcsapatot nevesíteni itt, a kutatási irányaik rövid összefoglalásával.] 
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>  
+    </chapter>                
 </part>

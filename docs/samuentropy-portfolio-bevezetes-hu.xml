@@ -23,7 +23,7 @@
                         <link xlink:href="https://twitch.tv/nbatfai">https://twitch.tv/nbatfai</link> Twitch csatorna egyik mottója.</para>
                 </footnote>
             </title>                    
-            <para>
+            <para xml:id="samuentropy_portfolio_bevezetes_hu.motivacio">
                 Motivációnk, hogy adni kell egy, az egyénnek utópisztikus célt.
                 Például<footnote>
                     <para> Ezeket a példákat ugyanilyen kontextusban a 

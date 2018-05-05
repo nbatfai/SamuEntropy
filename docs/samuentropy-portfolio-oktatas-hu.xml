@@ -51,12 +51,17 @@
             <section>
                 <title>Fakultációs tervek</title>
                 <para>
-                    &lt;TODO: részben épüljön az <link xlink:href="#samuentropy_portfolio_oktatas_hu.altalanos">általános iskolai</link> szintre.&gt;
+                    [TODO: részben épüljön az <link xlink:href="#samuentropy_portfolio_oktatas_hu.altalanos">általános iskolai</link> szintre.]
                 </para>
                 <tip>
                     <title>Aktuális feladat (kódja: fakultáció.ONKtanulmány.tavasz.2018)</title>
                     <para>
-                        Szeptembertől indítható fakultációk tervezése speciálisan a 0 A.D. történelmi RTS játékra alapozva.
+                        Szeptembertől indítható fakultációk tervezése speciálisan a 
+                        <indexterm>
+                            <primary>0 A.D.</primary>
+                        </indexterm> 0 A.D. történelmi <indexterm>
+                            <primary>RTS</primary>
+                        </indexterm> RTS játékra alapozva.
                         Határidők: bemutatás az <quote>Új kutatások a neveléstudományban 2017</quote> tanulmánykötetbe beküldendő cikkben június 21.
                     </para>
                 </tip>                   
@@ -77,14 +82,47 @@
                 <para>
                     <emphasis>E-sport elemző</emphasis> című tárgy: a hallgató képes legyen esportolók adott játékokbeli szakmai támogatására! 
                 </para>
-            </section>
-            <section>
-                <title>E-sport MSc vízió</title>
                 <para>
-                    Az <citation>ESAMU</citation> munka bevezette &#x201E;esport informatikus mérnök&#x201D; megközelítése a térítéses MSc szak bevezetésének kérdésében.
+                    <emphasis>Aktuális kérdés</emphasis>: mely tárgyakat milyen formában lehetne bevezetni?
+                </para>                
+                <para>
+                    <emphasis>Értékelés</emphasis>: egy <link xlink:href="https://esport1.hu/news/2017/09/25/esport-oroberto-oktatas-debrecen-tantargy-interju-dr-batfai-norbert">Esport</link> 
+                    nevű szabadon választható kurzus elfogadásra került a DEIK 
+                    Programtervező informatikus (BSc, <indexterm>
+                        <primary>BSc</primary>
+                    </indexterm>EU akkreditált képzés) szakán. 
+                    A kurzus tematikáját ez a poszter részletezi: 
+                    <link xlink:href="https://arato.inf.unideb.hu/batfai.norbert/NEMESPOR/ONK2017/ONK_esport_poster_BN.pdf">https://arato.inf.unideb.hu/batfai.norbert/NEMESPOR/ONK2017/ONK_esport_poster_BN.pdf</link>.
+                    A fenti három (játék, szervezés, elemzés) irány mellett egy negyedik, már direkt programozás irány is szerves része a tematikának
+                    (ez egy informatikai karon vállalható és <link xlink:href="#samuentropy_portfolio_bevezetes_hu.motivacio">motivációnkkal</link> is harmóniában van). 
+                </para>                
+                
+            </section>            
+            <section>
+                <title>Esport MSc vízió</title>
+                <para>
+                    <indexterm>
+                        <primary>MSc</primary>
+                    </indexterm>
+                    Az <citation>ESAMU</citation> munka bevezette 
+                    <indexterm>
+                        <primary>esport informatikus mérnök</primary>
+                    </indexterm> 
+&#x201E;esport informatikus mérnök&#x201D; megközelítése a térítéses MSc szak bevezetésének kérdésében.
                 </para>
             </section>
         </section>
-    </chapter>        
-        
+        <section>
+            <title>Hazai oktatási index</title>
+            <para>
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>   
+                        [TODO: számos jó gyakorlat ismert, pl. a Minecraft alapú oktatásra, ezeket felkutatni, megnevezni, röviden ismertetni.]
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>          
+    </chapter>                
 </part>

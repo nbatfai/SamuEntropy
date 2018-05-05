@@ -39,7 +39,7 @@
                 </address>
             </author>
         </authorgroup>
-        <edition>Esportfólió (NEMESPOR), DEBRECEN, 2018. ápr. 28, v. hu.0.1.10</edition>
+        <edition>Esportfólió (NEMESPOR), DEBRECEN, 2018. május 5, v. hu.0.1.15</edition>
         <pubdate>2018</pubdate>
         <copyright>
             <year>2017, 2018</year>
@@ -129,12 +129,14 @@
                 </revremark>
             </revision>
             <revision>
-                <revnumber>0.1.10</revnumber>
-                <date>2018-05-4</date>
+                <revnumber>0.1.15</revnumber>
+                <date>2018-05-5</date>
                 <authorinitials>nbatfai</authorinitials>
                 <revremark>
-                    A dokumentum (forkja formájában) kiadva szakdolgozónak karbantartásra, különös tekintettel a nem szorosan hozzánk kapcsolódó 
-                    hazai esport esedmények áttekintő (survey cikk jellegű) említésére. Egy év elteltével a jelen dokumentum frissítésének egyik
+                    A dokumentum (forkja formájában, a 0.1.15 verzió, pdf-ben 42 oldal) kiadva szakdolgozónak karbantartásra, különös tekintettel 
+                    a nem szorosan hozzánk kapcsolódó 
+                    hazai esport eredmények áttekintő (survey cikk jellegű) említésére, feldolgozására. Egy év elteltével, tehát 2019-ben 
+                    a jelen dokumentum frissítésének egyik
                     alapja már ez az említett fork lehet majd.
                 </revremark>
             </revision>
@@ -172,7 +174,7 @@
             többség ilyen lesz - hiszen ez a dolgok logikája...
         </para>                   
     </preface>    
-    <xi:include href="samuentropy-glssry-hu.xml">
+    <xi:include href="samuentropy-portfolio-glssry-hu.xml">
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
@@ -211,6 +213,13 @@
         <xi:fallback>
             <para>
                 <emphasis>XInclude: samuentropy-portfolio-szervezes-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>         
+    <xi:include href="samuentropy-portfolio-jatekosok-hu.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-portfolio-jatekosok-hu.xml file not found</emphasis>
             </para>
         </xi:fallback>
     </xi:include>         
